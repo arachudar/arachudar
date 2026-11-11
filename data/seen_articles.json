@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T10:27:22.494600+00:00",
-  "count": 78,
+  "last_updated": "2026-11-11T11:34:27.910532+00:00",
+  "count": 83,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -470,6 +470,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/edappadi-palanisamy-condemns-tvk-govt-over-law-and-order-issue",
       "title": "“தவெக 6 மாத காலமாக தந்தது துயரமான ஆட்சியே!” - பழனிசாமி விமர்சனம்",
       "source_id": "hindu_tamil"
+    },
+    "2b0e9a78ee1e63c3d270f6be0a75f27c438c3d50bcf035c998f944789b368523": {
+      "timestamp": "2026-11-11T11:34:27.903194+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/ar-rahmans-concert-postponed-fans-disappointed",
+      "title": "ஏ.ஆர்.ரகுமானின் இசை நிகழ்ச்சி ஒத்திவைப்பு... ரசிகர்கள் ஏமாற்றம்!",
+      "source_id": "daily_thanthi"
+    },
+    "4de9e4d801586cb1ea01caa908993cb3a4ea8bb2cd72e892bfabcb1de63777bd": {
+      "timestamp": "2026-11-11T11:34:27.905336+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/the-trouble-rajamouli-faced-for-casting-me-in-the-film-varanasi-prakash-raj-speaks-out",
+      "title": "'வாரணாசி' படத்தில் என்னை நடிக்க வைத்ததால் ராஜமவுலிக்கு வந்த சிக்கல்: பிரகாஷ் ராஜ் பேச்சு",
+      "source_id": "daily_thanthi"
+    },
+    "334a0d2987ffffa5bd116464ba38aae8ede355da9b70cefc16b1243d5d168b06": {
+      "timestamp": "2026-11-11T11:34:27.907017+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/what-is-the-law-and-order-situation-in-tamil-nadu-under-the-tvk-administration-central-government-directs-the-governor-to-submit-a-report",
+      "title": "தமிழகத்தில் த.வெ.க. ஆட்சியில் சட்டம் - ஒழுங்கு நிலைமை எப்படி? - அறிக்கை தாக்கல் செய்ய கவர்னருக்கு மத்திய அரசு உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "d558f3854bd281f21513f5e0638de9ea266e57c1114a92f55eb42257fc3d7519": {
+      "timestamp": "2026-11-11T11:34:27.908794+00:00",
+      "url": "https://www.hindutamil.in/news/india/sonia-gandhi-renounced-the-post-of-pm-but-acted-as-a-super-pm-says-bjp",
+      "title": "பிரதமர் பதவிக்கு பதிலாக சூப்பர் பிரதமராக சோனியா காந்தி செயல்பட்டார்: பாஜக விமர்சனம்",
+      "source_id": "hindu_tamil"
+    },
+    "744f80b7718200271b10cc7a162e6ee7bc34ff76300cbb783b8818ab3544545b": {
+      "timestamp": "2026-11-11T11:34:27.910522+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/11/4-special-trains-between-tirunelveli-and-tiruchendur",
+      "title": "கந்த சஷ்டி விழா: திருநெல்வேலி  - திருச்செந்தூர் இடையே 4 சிறப்பு ரயில்!",
+      "source_id": "dinamani"
     }
   }
 }

@@ -1105,6 +1105,12 @@
       font-weight: 700;
     }
 
+    .articles-grid-3col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
     .articles-grid-2col {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -1762,7 +1768,7 @@
       height: 100%;
       background: rgba(0, 0, 0, 0.7);
       backdrop-filter: blur(4px);
-      z-index: 200;
+      z-index: 9999;
       display: none;
       justify-content: center;
       align-items: center;
@@ -2098,6 +2104,13 @@
         letter-spacing: normal !important;
         word-spacing: normal !important;
       }
+      .articles-grid-3col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .articles-grid-3col { grid-template-columns: repeat(2, 1fr); }
       .articles-grid-2col { grid-template-columns: 1fr; }
       .mobile-menu-btn { display: block; }
       .nav-menu-list {
@@ -2447,7 +2460,7 @@
         </div>
 
         <!-- COLUMN 2: CENTRE - TRENDING UP NEWS -->
-                                <div class="speed-col-card" style="border-top:3px solid var(--brand-red);">
+                                                                <div class="speed-col-card" style="border-top:3px solid var(--brand-red);">
           <div class="speed-col-header">
             <div class="speed-col-title" style="color:var(--brand-red);">
               <span>டிரெண்டிங் &amp; ஹாட் செய்திகள் (Trending Up)</span>
@@ -2519,33 +2532,69 @@
   <div class='container'>
     <div class='main-content-layout'>
       <!-- LEFT: DYNAMIC VIEW OR BLOGGER POSTS -->
-      <main id='mainDynamicView'>
+                              <main id='mainDynamicView'>
         <b:section id='main' showaddelement='yes'>
           <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
             <b:includable id='main' var='top'>
-              <b:loop values='data:posts' var='post'>
-                <article class='news-grid-card' style='margin-bottom:20px; padding:18px;'>
-                  <h2 class='card-headline' style='font-size:1.3rem; margin-bottom:10px;'>
-                    <a expr:href='data:post.url'><data:post.title/></a>
-                  </h2>
-                  <div class='card-snippet' style='font-size:0.9rem; line-height:1.7;'>
-                    <data:post.body/>
-                  </div>
-                  <div class='card-footer-meta' style='margin-top:14px; font-size:0.75rem;'>
-                    <span>பதிவு: <data:post.timestamp/></span>
-                    <span>நிருபர்: <data:post.author/></span>
-                  </div>
-                </article>
-              </b:loop>
+              <b:if cond='data:blog.pageType == "item"'>
+                <!-- SINGLE POST VIEW (Blogger Individual Article Page) -->
+                <b:loop values='data:posts' var='post'>
+                  <article class='single-post-reader-card' style='background:var(--bg-card); border:1px solid var(--border-color); border-radius:8px; padding:28px 32px; box-shadow:var(--shadow-sm);'>
+                    <div style='display:flex; align-items:center; gap:8px; margin-bottom:12px;'>
+                      <span class='category-tag-badge' style='margin-bottom:0;'>செய்தி</span>
+                      <span style='font-size:0.78rem; color:var(--text-muted);'><data:post.timestamp/></span>
+                    </div>
+                    <h1 class='single-post-title' style='font-family:var(--font-display); font-size:1.75rem; font-weight:800; line-height:1.35; margin-bottom:16px; color:var(--text-main); text-align:left;'>
+                      <data:post.title/>
+                    </h1>
+                    <b:if cond='data:post.firstImageUrl'>
+                      <div style='margin-bottom:20px; border-radius:8px; overflow:hidden;'>
+                        <img expr:src='data:post.firstImageUrl' expr:alt='data:post.title' style='width:100%; max-height:450px; object-fit:cover; border-radius:8px;'/>
+                      </div>
+                    </b:if>
+                    <div class='single-post-body' style='font-size:1.12rem; line-height:2.0; color:var(--text-main); text-align:left;'>
+                      <data:post.body/>
+                    </div>
+                    <div class="share-buttons-row" style='margin-top:24px; padding-top:16px; border-top:1px solid var(--border-color);'>
+                      <span style="font-size:0.8rem; font-weight:700; color:var(--text-main);">செய்தியை பகிர:</span>
+                      <button class="share-btn share-wa" onclick="shareArticleOnWhatsApp()">WhatsApp</button>
+                      <button class="share-btn share-x" onclick="shareArticleOnX()">X (Twitter)</button>
+                      <button class="share-btn share-fb" onclick="shareArticleOnFB()">Facebook</button>
+                      <button class="share-btn share-copy" onclick="copyArticleLink()">🔗 Copy Link</button>
+                      <button class="share-btn" style="background:#1e293b; margin-left:auto;" onclick="window.print()">🖨️ அச்சிடுக</button>
+                    </div>
+                  </article>
+                </b:loop>
+              <b:else/>
+                <!-- HOMEPAGE STATIC POSTS VIEW (3-Column Clean Cards with Images) -->
+                <div class='articles-grid-3col' id='bloggerStaticPostsGrid'>
+                  <b:loop values='data:posts' var='post'>
+                    <article class='news-grid-card' expr:onclick='"openArticleModalById(" + data:post.id + ")"'>
+                      <b:if cond='data:post.firstImageUrl'>
+                        <div class='card-media-wrap'>
+                          <img expr:src='data:post.firstImageUrl' expr:alt='data:post.title' loading='lazy'/>
+                        </div>
+                      </b:if>
+                      <div class='card-content-area'>
+                        <span class='category-tag-badge' style='align-self:flex-start;'>செய்தி</span>
+                        <h3 class='card-headline'>
+                          <a expr:href='data:post.url'><data:post.title/></a>
+                        </h3>
+                        <p class='card-snippet'><data:post.snippet/></p>
+                        <div class='card-footer-meta'>
+                          <span><data:post.timestamp/></span>
+                        </div>
+                      </div>
+                    </article>
+                  </b:loop>
+                </div>
+              </b:if>
             </b:includable>
           </b:widget>
         </b:section>
       </main>
 
-                <!-- BROADSHEET CENTER FOLD GUIDELINE -->
-                <div class="broadsheet-fold-line">
-                  <span>⸻ நடுப்பக்க மடிப்புப் பகுதி • ARACHUDAR BROADSHEET CENTER FOLD ⸻</span>
-                </div>
+                
 
       <!-- RIGHT: SIDEBAR -->
       <aside class='sidebar-wrapper'>
@@ -2638,29 +2687,46 @@
     </div>
   </footer>
 
-  <!-- ========================================================
-       9. ARTICLE CLIPPING &amp; STORY READER MODAL
+      <!-- ========================================================
+       9. ARTICLE CLIPPING &amp; STORY READER MODAL (DINA THANTHI READABILITY)
        ======================================================== -->
   <div class="article-modal-backdrop" id="articleClippingModal" onclick="closeArticleModal(event)">
     <div class="article-modal-dialog" onclick="event.stopPropagation()">
       <div class="article-modal-header">
         <div style="display:flex; align-items:center; gap:8px;">
           <span class="category-tag-badge" id="modalCategoryBadge" style="margin-bottom:0;">செய்தி</span>
-          <span style="font-size:0.75rem; color:var(--text-muted);" id="modalDateBadge">10 நவம்பர் 2026</span>
+          <span style="font-size:0.75rem; color:var(--text-muted);" id="modalDateBadge">இன்றைய பதிப்பு</span>
         </div>
-        <button class="article-modal-close-btn" onclick="closeArticleModal()" aria-label="Close">✕</button>
+        <button class="article-modal-close-btn" onclick="closeArticleModal()" aria-label="Close" title="மூடுக">✕</button>
       </div>
       <div class="article-modal-body">
-        <h2 id="modalArticleTitle" style="font-family:var(--font-display); font-size:1.5rem; font-weight:800; line-height:1.35; margin-bottom:12px; color:var(--text-main);">
+        <h1 id="modalArticleTitle" style="font-family:var(--font-display); font-size:1.65rem; font-weight:800; line-height:1.35; margin-bottom:14px; color:var(--text-main); text-align:left;">
           செய்தி தலைப்பு
-        </h2>
+        </h1>
         <div style="display:none;" id="modalAuthorByline"></div>
+
+        <!-- FEATURED IMAGE -->
+        <div style="margin-bottom:20px; border-radius:8px; overflow:hidden;" id="modalImageWrap">
+          <img src="" id="modalArticleImage" alt="" style="width:100%; max-height:420px; object-fit:cover; border-radius:8px;" />
+        </div>
+
+        <!-- FULL ARTICLE BODY TEXT (DINA THANTHI BOLD LEAD + SPACIOUS PARAGRAPHS) -->
+        <div id="modalArticleContent" class="modal-article-content" style="font-size:1.12rem; line-height:2.0; color:var(--text-main); text-align:left;">
+          <!-- Injected via JS -->
+        </div>
+
+        <!-- SHARE BUTTONS WITH DIRECT LINKS -->
+        <div class="share-buttons-row">
+          <span style="font-size:0.8rem; font-weight:700; color:var(--text-main);">செய்தியை பகிர:</span>
+          <button class="share-btn share-wa" onclick="shareArticleOnWhatsApp()" title="வாட்ஸ்அப்பில் பகிர">WhatsApp</button>
+          <button class="share-btn share-x" onclick="shareArticleOnX()" title="X தளத்தில் பகிர">X (Twitter)</button>
+          <button class="share-btn share-fb" onclick="shareArticleOnFB()" title="பேஸ்புக்கில் பகிர">Facebook</button>
+          <button class="share-btn share-copy" onclick="copyArticleLink()" title="இணைப்பை பிரதி செய்க">🔗 Copy Link</button>
+          <button class="share-btn" style="background:#1e293b; margin-left:auto;" onclick="window.print()" title="அச்சிடுக">🖨️ அச்சிடுக</button>
+        </div>
+      </div>
     </div>
-  </div>
-
-
-
-  <!-- ========================================================
+  </div>\n\n<!-- ========================================================
        JAVASCRIPT: ALL ENGINES, ROUTER &amp; BROADSHEET LOGIC
        ======================================================== -->
   <script>//<![CDATA[
@@ -3596,7 +3662,7 @@
   }
 ];
 
-            const CATEGORY_TITLES = {
+                            const CATEGORY_TITLES = {
       home: 'தலைப்புச் செய்திகள்',
       tamilnadu: 'தமிழக செய்திகள் & மாவட்டங்கள்',
       national: 'தேசிய செய்திகள்',
@@ -3613,7 +3679,7 @@
       search: 'தேடல் முடிவுகள்'
     };
 
-            const CATEGORY_SUB_TABS = {
+                            const CATEGORY_SUB_TABS = {
       tamilnadu: [
         { label: 'அனைத்து செய்திகள்', filter: 'all' },
         { label: 'சென்னை', filter: 'chennai' },
@@ -4115,87 +4181,71 @@
     const EPAPER_PAGES_CONTENT = {
   "1": {
     "title": "முதன்மைப் பக்கம் (Front Page Headlines)",
-    "leadHeadline": "இன்றைய முதன்மைத் தலைமைச் செய்தி - அறச்சுடர் நாளிதழ்",
-    "leadSubhead": "இன்றைய முக்கிய நிகழ்வுகள் மற்றும் நேரலை செய்திகள் இங்கு உடனுக்குடன் தானாகப் பதிவேற்றப்படும்",
-    "leadByline": "அறச்சுடர் நிருபர் குழு • இன்றைய பதிப்பு",
+    "leadHeadline": "தமிழ்நாட்டில் ₹45,000 கோடி புதிய தொழில் முதலீடுகள்",
+    "leadSubhead": "1 லட்சம் இளைஞர்களுக்கு வேலைவாய்ப்புகள் உருவாகும் என அறிவிப்பு",
+    "leadByline": "அறச்சுடர் சிறப்பு நிருபர், சென்னை • 10 நவம்பர் 2026",
     "leadPhoto": "https://media.assettype.com/dailythanthi/2026-11-10/bb18cb3b/dollar.jpg?w=1200",
-    "leadCaption": "அறச்சுடர் நாளிதழ் - அன்றாட முக்கிய நிகழ்வுகள் நேரலைக் காட்சி",
-    "leadBody": "அறச்சுடர் தமிழ் நாளிதழின் இன்றைய முதன்மைத் தலைமைச் செய்தி இங்கு தானியங்கி முறையில் உடனுக்குடன் பதிவேற்றப்படும். உண்மைக்கு முன்னுரிமை தரும் நடுநிலையான செய்திகள், அரசியல், சமூகம் மற்றும் மக்கள் நலன் சார்ந்த முக்கியத் தகவல்களுடன் இந்தப் பகுதியில் விரிவாக வெளியாகும். வாசகர்கள் உடனுக்குடன் உண்மைத் தகவல்களை அறிந்துகொள்ள இந்த அரங்கம் உதவுகிறது.
-
-தமிழகம் மற்றும் சர்வதேச நிகழ்வுகள் நடுநிலையோடு ஆய்வு செய்யப்பட்டு செய்திகளாக வழங்கப்படுகின்றன. வாசகர்களின் நம்பிக்கையைப் பெற்ற முன்னணி டிஜிட்டல் நாளிதழாக அறச்சுடர் தொடர்ந்து மக்கள் சேவையில் இயங்குகிறது.
-
-அரசு நிர்வாக முடிவுகள், மக்கள் நலத் திட்டங்கள் மற்றும் சமூக விழிப்புணர்வு தொடர்பான விரிவான செய்திகள் ஒவ்வொரு நாளும் உரிய ஆதாரங்களுடன் வெளியிடப்படுகின்றன.",
-    "sideHeadline": "இன்றைய முக்கிய வணிகச் செய்தி அரங்கம்",
-    "sideSummary": "பொருளாதாரம், வணிகம் மற்றும் சந்தை நிலவரங்கள் தொடர்பான முக்கியத் தகவல்கள் இங்கு பதிவேற்றப்படும்.",
-    "metroHeadline": "சென்னை & மண்டலச் செய்திகள் அரங்கம்",
-    "metroSummary": "தலைநகர் சென்னை மற்றும் தமிழகத்தின் முக்கிய மண்டல நிகழ்வுகள் குறித்த செய்தித் தொகுப்பு.",
-    "waterHeadline": "விவசாயம் & நீர்வளக் களம்",
-    "waterSummary": "விவசாயிகள் நலன், நீர்ப்பாசனம் மற்றும் பருவமழை நிலவரம் குறித்த அண்மைத் தகவல்கள்.",
-    "editorialHeadline": "அறச்சுடர் நாளிதழ் தலையங்கம்",
-    "editorialSnippet": "நாட்டின் நடப்பு விவகாரங்கள் மற்றும் சமூகப் பிரச்சினைகள் குறித்த நடுநிலையான ஆசிரியரின் கண்ணோட்டம்."
+    "leadCaption": "சென்னையில் நடைபெற்ற உலகளாவிய முதலீட்டாளர்கள் மாநாட்டில் புரிந்துணர்வு ஒப்பந்தங்கள்.",
+    "leadBody": "சென்னையில் நடைபெற்ற உலகளாவிய முதலீட்டாளர்கள் மாநாட்டில் தமிழகத்தில் மின்னணுவியல், செமிகண்டக்டர் துறைகளில் ₹45,000 கோடி முதலீட்டு ஒப்பந்தங்கள் கையெழுத்தாகியுள்ளன...",
+    "sideHeadline": "ரிசர்வ் வங்கியின் முக்கிய நிதிக் கொள்கை முடிவு",
+    "sideSummary": "கடன் வட்டி விகிதங்களை குறைக்க நிதிக் கொள்கை குழு சாதகமான ஆலோசனை மேற்கொண்டுள்ளது.",
+    "metroHeadline": "சென்னை மெட்ரோ 2-ஆம் கட்ட பூந்தமல்லி - போரூர் சோதனை ஓட்டம்",
+    "metroSummary": "அதிநவீன மெட்ரோ ரயில்களின் சோதனை ஓட்டம் வெற்றிகரமாக நிறைவடைந்தது.",
+    "waterHeadline": "வங்கக்கடலில் காற்றழுத்த தாழ்வு நிலை: கடலோர மாவட்டங்களில் மழை",
+    "waterSummary": "மீனவர்கள் கடலுக்கு செல்ல வேண்டாம் என வானிலை ஆய்வு மையம் எச்சரிக்கை விடுத்துள்ளது.",
+    "editorialHeadline": "தொழில் வளர்ச்சியும் வேலைவாய்ப்பும்: தமிழகத்தின் அடுத்த பாய்ச்சல்",
+    "editorialSnippet": "புதிய முதலீடுகள் தென் மாவட்டங்களுக்கும் பரவலாக்கப்பட வேண்டும் என்பதே மக்களின் எதிர்பார்ப்பு."
   },
   "2": {
-    "title": "தமிழ்நாடு & மண்டலச் செய்திகள் (State & Regional)",
-    "leadHeadline": "இன்றைய தமிழ்நாடு முதன்மைச் செய்தி - மண்டலக் களம்",
-    "leadSubhead": "தமிழக அரசின் முக்கிய திட்டங்கள், மாவட்டச் செய்திகள் மற்றும் கள நிலவரங்கள்",
-    "leadByline": "தமிழகப் பிரிவு நிருபர்கள் • இன்றைய பதிப்பு",
-    "leadPhoto": "https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372635.jpg",
-    "leadCaption": "தமிழ்நாடு வளர்ச்சித் திட்டங்கள் மற்றும் மாவட்ட நிகழ்வுகள்",
-    "leadBody": "தமிழகத்தின் அனைத்து மாவட்டங்களின் முக்கிய நிகழ்வுகள், அரசின் நலத்திட்டங்கள் மற்றும் மக்கள் சார்ந்த வளர்ச்சிப் பணிகள் பற்றிய முழுமையான செய்திகள் இந்தப் பகுதியில் வெளியாகும். மாவட்டந்தோறும் உள்ள செய்தியாளர்கள் அனுப்பும் துல்லியமான கள அறிக்கைகள் உடனுக்குடன் பதிவேற்றப்படுகின்றன.
-
-மக்கள் நலத் திட்டங்கள், கல்வி, மருத்துவம், உள்கட்டமைப்பு மேம்பாடுகள் குறித்த அதிகாரப்பூர்வ அறிவிப்புகள் மற்றும் பொதுமக்கள் கருத்துக்கள் இங்கே தொகுத்து வழங்கப்படுகின்றன.
-
-கிராமப்புற மற்றும் நகர்ப்புற வளர்ச்சி நிலவரங்களை உடனுக்குடன் வாசகர்களுக்குக் கொண்டு சேர்ப்பதே இந்தப் பிரிவின் முதன்மை நோக்கமாகும்.",
-    "sideHeadline": "தென் மாவட்டங்கள் செய்திப் பார்வை",
-    "sideSummary": "மதுரை, நெல்லை, தூத்துக்குடி உள்ளிட்ட தென் மாவட்டங்களின் அன்றாட முக்கிய நிகழ்வுகள்.",
-    "metroHeadline": "கொங்கு மண்டலத் தொழில் களம்",
-    "metroSummary": "கோவை, திருப்பூர், ஈரோடு உள்ளிட்ட தொழில் நகரங்களின் முக்கிய அறிவிப்புகள்.",
-    "waterHeadline": "காவிரி டெல்டா பாசன நிலவரம்",
-    "waterSummary": "டெல்டா மாவட்டங்களில் பயிர் பாதுகாப்பு மற்றும் அணைகளின் நீர் இருப்பு நிலவரம்.",
-    "editorialHeadline": "மக்கள் மேடை - மாவட்டக் குரல்",
-    "editorialSnippet": "அடிப்படைத் தேவைகள் மற்றும் வளர்ச்சித் திட்டங்கள் குறித்த மாவட்ட மக்களின் கோரிக்கைகள்."
+    "title": "தமிழகம் & அரசியல் (Tamil Nadu & Politics)",
+    "leadHeadline": "சட்டமன்ற கூட்டத்தொடர் அடுத்த வாரம் துவக்கம்",
+    "leadSubhead": "மக்களுக்கான முக்கிய நலத்திட்ட மசோதாக்கள் விவாதத்திற்கு வருகின்றன",
+    "leadByline": "அரசியல் நிருபர் • 10 நவம்பர் 2026",
+    "leadPhoto": "https://cf-images.assettype.com/hindutamil-prod/2026-11-10/2d9ml1m9/appa-kutty.jpg?w=1200",
+    "leadCaption": "தலைமைச் செயலகத்தில் நடைபெற்ற அமைச்சரவை கூட்டம்.",
+    "leadBody": "தமிழக சட்டமன்ற கூட்டத்தொடர் அடுத்த வாரம் கூட உள்ள நிலையில், எதிர்க்கட்சிகள் பல்வேறு முக்கிய மக்கள் பிரச்சனைகளை எழுப்ப திட்டமிட்டுள்ளன...",
+    "sideHeadline": "உள்ளாட்சி அமைப்புகளுக்கு கூடுதல் நிதி ஒதுக்கீடு",
+    "sideSummary": "கிராமப்புற சாலை மேம்பாட்டிற்கு சிறப்பு நிதி விடுவிக்கப்பட்டுள்ளது.",
+    "metroHeadline": "சென்னையில் 100 புதிய மின்சார பேருந்துகள் இயக்கம்",
+    "metroSummary": "மாசுபாட்டை குறைக்கும் வகையில் அரசு விரைவுப் போக்குவரத்துக் கழகம் நடவடிக்கை.",
+    "waterHeadline": "மேட்டூர் அணை நீர்மட்டம் சீராக பராமரிப்பு",
+    "waterSummary": "டெல்டா பாசனத்திற்கு தொடர்ந்து தேவையான அளவு தண்ணீர் திறந்துவிடப்படுகிறது.",
+    "editorialHeadline": "மக்களாட்சி மாண்பும் சட்டமன்ற விவாதங்களும்",
+    "editorialSnippet": "ஆக்கப்பூர்வமான விவாதங்கள் மூலம் பொதுமக்களின் பிரச்சனைகளுக்கு தீர்வு காணப்பட வேண்டும்."
   },
   "3": {
     "title": "வணிகம் & தொழில்நுட்பம் (Business & Technology)",
-    "leadHeadline": "இன்றைய வணிகம் & முதலீட்டுச் செய்தி அரங்கம்",
-    "leadSubhead": "பங்குச்சந்தை, தங்கம் விலை, இந்தியப் பொருளாதாரம் மற்றும் புதிய தொழில் முதலீடுகள்",
-    "leadByline": "வணிகப் பிரிவு நிருபர்கள் • இன்றைய பதிப்பு",
+    "leadHeadline": "இந்திய பங்குச்சந்தைகள் புதிய வரலாற்று உச்சம்",
+    "leadSubhead": "சென்செக்ஸ் 85,000 புள்ளிகளை கடந்து வர்த்தகம் நிறைவு",
+    "leadByline": "வணிக நிருபர், மும்பை • 10 நவம்பர் 2026",
     "leadPhoto": "https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200",
-    "leadCaption": "இந்திய வணிகம் மற்றும் பொருளாதாரக் கள நிலவரம்",
-    "leadBody": "வணிகம், புத்தொழில் நிறுவனங்கள், தொழில்நுட்பப் புரட்சி, தகவல் தொழில்நுட்பத் துறை வேலைவாய்ப்புகள் மற்றும் தனிநபர் சேமிப்புத் திட்டங்கள் குறித்த சிறப்புச் செய்திகள் இங்கு பதிவேற்றப்படும். பொருளாதார வல்லுநர்களின் ஆலோசனைகள் மற்றும் முதலீட்டு வழிகாட்டல்கள் எளிய தமிழில் வழங்கப்படுகின்றன.
-
-இந்திய நிதிச் சந்தைகளின் ஏற்ற இறக்கங்கள், உலகளாவிய வர்த்தகத் தாக்கங்கள் மற்றும் பொதுமக்களின் சேமிப்பு வழிகள் குறித்த விரிவான ஆய்வுக் கட்டுரைகள் இதில் இடம்பெறுகின்றன.
-
-சிறு மற்றும் நடுத்தர தொழில் முனைவோருக்கான அரசு மானியங்கள் மற்றும் புதிய தொழிற்கொள்கைகள் பற்றிய தகவல்கள் உடனுக்குடன் அறிவிக்கப்படும்.",
-    "sideHeadline": "தகவல் தொழில்நுட்பம் & AI வளர்ச்சி",
-    "sideSummary": "செயற்கை நுண்ணறிவு மற்றும் புதிய மென்பொருள் தொழில்நுட்பங்களின் சமீபத்திய முன்னேற்றங்கள்.",
-    "metroHeadline": "இளைஞர்களுக்கான வேலைவாய்ப்பு அரங்கம்",
-    "metroSummary": "அரசு மற்றும் தனியார் துறைகளின் புதிய வேலைவாய்ப்பு அறிவிப்புகள் மற்றும் வழிகாட்டுதல்கள்.",
-    "waterHeadline": "சிறு & குறுந்தொழில் நிறுவனங்கள் அரங்கம்",
-    "waterSummary": "தமிழக குறுந்தொழில் முனைவோருக்கான நிதி உதவிகள் மற்றும் வங்கிக் கடன் திட்டங்கள்.",
-    "editorialHeadline": "பொருளாதாரப் பார்வை",
-    "editorialSnippet": "இந்திய மற்றும் சர்வதேச நிதிச் சந்தைகளின் தற்போதைய போக்கு குறித்த அலசல்."
+    "leadCaption": "மும்பை பங்குச்சந்தையில் உற்சாகமடைந்த முதலீட்டாளர்கள்.",
+    "leadBody": "வெளிநாட்டு முதலீடுகள் தொடர்ந்து அதிகரித்து வருவதால் இந்திய பங்குச்சந்தைகள் புதிய வரலாற்று உச்சத்தை எட்டியுள்ளன...",
+    "sideHeadline": "தங்கத்தின் விலை சற்று குறைவு: நகைப்பிரியர்கள் மகிழ்ச்சி",
+    "sideSummary": "சர்வதேச சந்தையில் ஏற்பட்ட மாற்றத்தால் தங்கத்தின் விலை சவரனுக்கு ₹400 குறைந்துள்ளது.",
+    "metroHeadline": "சென்னையில் புதிய தகவல் தொழில்நுட்ப பூங்கா திறப்பு",
+    "metroSummary": "தரமணியில் அதிநவீன வசதிகளுடன் அமைக்கப்பட்ட புதிய ஐடி வளாகம்.",
+    "waterHeadline": "குறைந்த மின்சாரத்தில் இயங்கும் நவீன விவசாய பம்புகள்",
+    "waterSummary": "சூரிய ஒளியில் இயங்கும் பம்புசெட்டுகளுக்கு மத்திய அரசு மானியம் வழங்குகிறது.",
+    "editorialHeadline": "டிஜிட்டல் இந்தியாவின் அடுத்த கட்டப் பயணம்",
+    "editorialSnippet": "செயற்கை நுண்ணறிவு தொழில்நுட்பத்தை கிராமப்புற மக்களும் பயன்படுத்தும் சூழல் உருவாக வேண்டும்."
   },
   "4": {
-    "title": "தேசியம், உலகம் & விளையாட்டு (National, World & Sports)",
-    "leadHeadline": "இன்றைய தேசியம் & உலகச் செய்தி அரங்கம்",
-    "leadSubhead": "இந்திய நாடாளுமன்ற நிகழ்வுகள், சர்வதேச உறவுகள் மற்றும் உலகத் தலைவர்களின் முக்கிய முடிவுகள்",
-    "leadByline": "சர்வதேச செய்தியாளர் பிரிவு • இன்றைய பதிப்பு",
-    "leadPhoto": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/3a8b/live/da8fa680-dcfd-11f1-93e1-3b657b665bcf.jpg",
-    "leadCaption": "சர்வதேச விவகாரங்கள் மற்றும் விளையாட்டு அரங்கம்",
-    "leadBody": "இந்தியாவின் தேசிய அரசியல் நிகழ்வுகள், உலக நாடுகளின் முக்கிய மாற்றங்கள் மற்றும் கிரிக்கெட், தடகளம் உள்ளிட்ட சர்வதேச விளையாட்டுப் போட்டிகளின் அண்மைச் செய்திகள் இங்கு வெளியாகும். நாடாளுமன்ற நடவடிக்கைகள் மற்றும் சர்வதேச அமைப்புகளின் முக்கிய முடிவுகள் உடனுக்குடன் தொகுக்கப்படுகின்றன.
-
-விளையாட்டுத் துறையில் சாதனை படைக்கும் வீரர்கள், ஒலிம்பிக், கிரிக்கெட் போட்டிகளின் நேரலை தகவல்கள் மற்றும் விரிவான புள்ளிவிவரங்களுடன் விளையாட்டு அரங்கம் செழுமை பெறுகிறது.
-
-உலக அரங்கில் இந்தியாவின் வெளியுறவுக் கொள்கை மற்றும் சர்வதேச வர்த்தக உடன்பாடுகள் பற்றிய செய்திகள் எளிய முறையில் வாசகர்களுக்கு வழங்கப்படுகின்றன.",
-    "sideHeadline": "சர்வதேச விளையாட்டு அரங்கம்",
-    "sideSummary": "கிரிக்கெட், கால்பந்து, செஸ் மற்றும் ஒலிம்பிக் போட்டிகளின் சமீபத்திய முடிவுகள்.",
-    "metroHeadline": "அண்டை நாடுகள் & புவிசார் அரசியல்",
-    "metroSummary": "தெற்காசிய மற்றும் உலகளாவிய அமைதி, வர்த்தக ஒப்பந்தங்கள் பற்றிய பார்வைகள்.",
-    "waterHeadline": "சுற்றுச்சூழல் & பருவநிலை மாநாடு",
-    "waterSummary": "பூமி வெப்பமயமாதல் தடுப்பு மற்றும் பசுமை எரிசக்தி திட்டங்களின் உலகளாவிய முன்னெடுப்புகள்.",
-    "editorialHeadline": "உலகப் பார்வை",
-    "editorialSnippet": "சர்வதேச நிகழ்வுகள் இந்தியாவின் பொருளாதாரத்திலும் மனிதவளத்திலும் ஏற்படுத்தும் தாக்கம்."
+    "title": "விளையாட்டு & சினிமா (Sports & Cinema)",
+    "leadHeadline": "மெல்போர்ன் டெஸ்டில் இந்திய அணி வரலாற்று வெற்றி",
+    "leadSubhead": "ஆஸ்திரேலியாவை 150 ரன்கள் வித்தியாசத்தில் வீழ்த்தி அபாரம்",
+    "leadByline": "விளையாட்டு நிருபர் • 10 நவம்பர் 2026",
+    "leadPhoto": "https://imagesvs.oneindia.com/webp/ta/img/2026/11/sheikhhasina-30211794324120.jpg",
+    "leadCaption": "வெற்றி கோப்பையுடன் இந்திய கிரிக்கெட் வீரர்கள் மகிழ்ச்சி.",
+    "leadBody": "ஆஸ்திரேலியாவுக்கு எதிரான மெல்போர்ன் டெஸ்ட் போட்டியில் இந்திய அணி அபார பந்துவீச்சு மற்றும் பேட்டிங் மூலம் வரலாற்று வெற்றியை பதிவு செய்தது...",
+    "sideHeadline": "சர்வதேச செஸ் போட்டியில் தமிழக வீரர் பிரக்ஞானந்தா சாம்பியன்",
+    "sideSummary": "இறுதிச்சுற்றில் உலக சாம்பியனை வீழ்த்தி தமிழகத்திற்கு பெருமை சேர்த்துள்ளார்.",
+    "metroHeadline": "நேரு உள்விளையாட்டு அரங்கில் மாநில அளவிலான தடகளப் போட்டி",
+    "metroSummary": "ஆயிரத்திற்கும் மேற்பட்ட இளம் வீரர் வீராங்கனைகள் உற்சாகத்துடன் பங்கேற்பு.",
+    "waterHeadline": "விளையாட்டு வீரர்களுக்கு நவீன சத்துணவு திட்டம் அறிமுகம்",
+    "waterSummary": "கிராமப்புற விளையாட்டு திறமைகளை ஊக்குவிக்க சிறப்பு பயிற்சி மையங்கள்.",
+    "editorialHeadline": "இந்திய விளையாட்டின் பொற்காலம் துவங்குகிறது",
+    "editorialSnippet": "தொடர்ச்சியான சர்வதேச வெற்றிகள் இளைஞர்களிடையே விளையாட்டின் மீது பெரும் ஈர்ப்பை ஏற்படுத்தியுள்ளது."
   }
 };
 
@@ -4524,7 +4574,7 @@
     }
     window.addEventListener('hashchange', checkUrlForArticle);
 
-    function openArticleModalById(id) {
+                    function openArticleModalById(id) {
       const item = NEWS_DATABASE.find(n => n.id === id) || NEWS_DATABASE[0];
       if (!item) return;
 
@@ -4536,19 +4586,25 @@
         history.pushState({ articleId: item.id }, '', articleHash);
       }
 
-      document.getElementById('modalArticleTitle').textContent = item.title;
-      document.getElementById('modalCategoryBadge').textContent = item.category.toUpperCase();
-      document.getElementById('modalDateBadge').textContent = item.date;
+      const titleEl = document.getElementById('modalArticleTitle');
+      if (titleEl) titleEl.textContent = item.title;
+
+      const catBadge = document.getElementById('modalCategoryBadge');
+      if (catBadge) catBadge.textContent = (CATEGORY_TITLES[item.category] || item.category).toUpperCase();
+
+      const dateBadge = document.getElementById('modalDateBadge');
+      if (dateBadge) dateBadge.textContent = item.date || 'இன்றைய பதிப்பு';
+
       const bylineEl = document.getElementById('modalAuthorByline');
       if (bylineEl) { bylineEl.textContent = ''; bylineEl.style.display = 'none'; }
 
       const imgEl = document.getElementById('modalArticleImage');
       const imgWrap = document.getElementById('modalImageWrap');
       if (item.image) {
-        imgEl.src = item.image;
-        imgWrap.style.display = 'block';
+        if (imgEl) imgEl.src = item.image;
+        if (imgWrap) imgWrap.style.display = 'block';
       } else {
-        imgWrap.style.display = 'none';
+        if (imgWrap) imgWrap.style.display = 'none';
       }
 
       // Dina Thanthi style: bold lead box + airy paragraphs with zero scattered words
@@ -4568,7 +4624,6 @@
 
       contentHTML += '<div class="modal-body-paragraphs">';
       pList.forEach((p, idx) => {
-        // Skip duplicate if first paragraph is identical to summary
         if (idx === 0 && item.summary && (p === item.summary || item.summary.startsWith(p.substring(0, 50)))) {
           return;
         }
@@ -4576,7 +4631,8 @@
       });
       contentHTML += '</div>';
 
-      document.getElementById('modalArticleContent').innerHTML = contentHTML;
+      const contentEl = document.getElementById('modalArticleContent');
+      if (contentEl) contentEl.innerHTML = contentHTML;
 
       const modal = document.getElementById('articleClippingModal');
       if (modal) {
@@ -4588,17 +4644,119 @@
     }
 
     function closeArticleModal(e) {
-      if (e && e.target !== e.currentTarget && !e.target.classList.contains('article-modal-close-btn')) {
+      if (e && e.target && e.target !== e.currentTarget && !e.target.classList.contains('article-modal-close-btn')) {
         return;
       }
       const modal = document.getElementById('articleClippingModal');
       if (modal) modal.style.display = 'none';
-
-      // Reset address bar when closing modal
       if (window.location.hash.startsWith('#article-')) {
         history.pushState(null, '', window.location.pathname + window.location.search);
       }
     }
+
+    function checkUrlForArticle() {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith('#article-')) {
+        const id = parseInt(hash.replace('#article-', ''), 10);
+        if (!isNaN(id)) {
+          openArticleModalById(id);
+        }
+      }
+    }
+    window.addEventListener('hashchange', checkUrlForArticle);
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' || e.keyCode === 27) {
+        closeArticleModal();
+      }
+    });
+
+    window.openArticleModalById = openArticleModalById;
+    window.closeArticleModal = closeArticleModal;
+    window.navigateToArticle = navigateToArticle;
+    window.navigateToCategory = navigateToCategory;
+    window.shareArticleOnWhatsApp = shareArticleOnWhatsApp;
+    window.shareArticleOnX = shareArticleOnX;
+    window.shareArticleOnFB = shareArticleOnFB;
+    window.copyArticleLink = copyArticleLink;
+
+    function checkUrlForArticle() {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith('#article-')) {
+        const id = parseInt(hash.replace('#article-', ''), 10);
+        if (!isNaN(id)) {
+          openArticleModalById(id);
+        }
+      }
+    }
+    window.addEventListener('hashchange', checkUrlForArticle);
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' || e.keyCode === 27) {
+        closeArticleModal();
+      }
+    });
+
+    window.openArticleModalById = openArticleModalById;
+    window.closeArticleModal = closeArticleModal;
+    window.navigateToArticle = navigateToArticle;
+    window.navigateToCategory = navigateToCategory;
+    window.shareArticleOnWhatsApp = shareArticleOnWhatsApp;
+    window.shareArticleOnX = shareArticleOnX;
+    window.shareArticleOnFB = shareArticleOnFB;
+    window.copyArticleLink = copyArticleLink;
+
+    function checkUrlForArticle() {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith('#article-')) {
+        const id = parseInt(hash.replace('#article-', ''), 10);
+        if (!isNaN(id)) {
+          openArticleModalById(id);
+        }
+      }
+    }
+    window.addEventListener('hashchange', checkUrlForArticle);
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' || e.keyCode === 27) {
+        closeArticleModal();
+      }
+    });
+
+    window.openArticleModalById = openArticleModalById;
+    window.closeArticleModal = closeArticleModal;
+    window.navigateToArticle = navigateToArticle;
+    window.navigateToCategory = navigateToCategory;
+    window.shareArticleOnWhatsApp = shareArticleOnWhatsApp;
+    window.shareArticleOnX = shareArticleOnX;
+    window.shareArticleOnFB = shareArticleOnFB;
+    window.copyArticleLink = copyArticleLink;
+
+    function checkUrlForArticle() {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith('#article-')) {
+        const id = parseInt(hash.replace('#article-', ''), 10);
+        if (!isNaN(id)) {
+          openArticleModalById(id);
+        }
+      }
+    }
+    window.addEventListener('hashchange', checkUrlForArticle);
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' || e.keyCode === 27) {
+        closeArticleModal();
+      }
+    });
+
+    window.openArticleModalById = openArticleModalById;
+    window.closeArticleModal = closeArticleModal;
+    window.navigateToArticle = navigateToArticle;
+    window.navigateToCategory = navigateToCategory;
+    window.shareArticleOnWhatsApp = shareArticleOnWhatsApp;
+    window.shareArticleOnX = shareArticleOnX;
+    window.shareArticleOnFB = shareArticleOnFB;
+    window.copyArticleLink = copyArticleLink;
 
     function toggleAudioReadAloud() {
       const btn = document.getElementById('audioReadAloudBtn');
@@ -4758,19 +4916,41 @@
       renderCategoryFeed(cat, sub);
     }
 
-                function updateHomepageSlotsFromDatabase() {
+                                function updateHomepageSlotsFromDatabase() {
       if (!NEWS_DATABASE || NEWS_DATABASE.length === 0) return;
+
+      // 1. Lead card
       const leadCard = document.querySelector('.lead-news-card');
       const p1 = NEWS_DATABASE[0];
-      if (leadCard && p1 && p1.title) {
+      if (leadCard && p1) {
+        leadCard.setAttribute('onclick', `openArticleModalById(${p1.id})`);
         const h1 = leadCard.querySelector('.lead-headline');
         const p = leadCard.querySelector('.lead-summary');
         const img = leadCard.querySelector('img');
+        const cat = leadCard.querySelector('.category-tag-badge');
         if (h1 && p1.title) h1.textContent = p1.title;
         if (p && p1.summary) p.textContent = p1.summary;
         if (img && p1.image) img.src = p1.image;
+        if (cat && p1.category) cat.textContent = (CATEGORY_TITLES[p1.category] || p1.category) + ' • தலைமைச் செய்தி';
       }
-      // Dynamically populate ticker with all flash headlines
+
+      // 2. Side cards
+      const sideCards = document.querySelectorAll('.side-card-item');
+      const sideCandidates = NEWS_DATABASE.slice(1, 4);
+      sideCards.forEach((card, idx) => {
+        const item = sideCandidates[idx];
+        if (item) {
+          card.setAttribute('onclick', `openArticleModalById(${item.id})`);
+          const img = card.querySelector('img');
+          const title = card.querySelector('.side-card-title');
+          const cat = card.querySelector('.category-tag-badge');
+          if (img && item.image) img.src = item.image;
+          if (title && item.title) title.textContent = item.title;
+          if (cat && item.category) cat.textContent = CATEGORY_TITLES[item.category] || item.category;
+        }
+      });
+
+      // 3. Dynamically populate ticker with all flash headlines
       const flashItems = NEWS_DATABASE.filter(n => n.isFlash);
       if (flashItems.length > 0) {
         tickerItems = flashItems.slice(0, 15);
@@ -4778,37 +4958,120 @@
       }
     }
 
-    function renderHomeFeed() {
+                    function renderHomeFeed() {
       const main = document.getElementById('mainDynamicView');
       if (!main) return;
 
-      const latestArticles = NEWS_DATABASE.slice(0, 4);
-      const stateArticles = NEWS_DATABASE.slice(4, 8);
+      const topHeadlines = NEWS_DATABASE.slice(0, 6);
+      const tamilnaduNews = NEWS_DATABASE.filter(n => n.category === 'tamilnadu' || n.category === 'chennai').slice(0, 6);
+      const politicsNational = NEWS_DATABASE.filter(n => n.category === 'politics' || n.category === 'national').slice(0, 6);
+      const businessTech = NEWS_DATABASE.filter(n => n.category === 'business' || n.category === 'tech').slice(0, 6);
+      const cinemaSports = NEWS_DATABASE.filter(n => n.category === 'cinema' || n.category === 'sports').slice(0, 6);
+      const worldSpiritual = NEWS_DATABASE.filter(n => n.category === 'world' || n.category === 'spiritual').slice(0, 6);
+
+      const displayedIds = new Set([
+        ...topHeadlines.map(n => n.id),
+        ...tamilnaduNews.map(n => n.id),
+        ...politicsNational.map(n => n.id),
+        ...businessTech.map(n => n.id),
+        ...cinemaSports.map(n => n.id),
+        ...worldSpiritual.map(n => n.id)
+      ]);
+      const remainingNews = NEWS_DATABASE.filter(n => !displayedIds.has(n.id));
 
       main.innerHTML = `
+        <!-- 1. TOP BREAKING NEWS -->
         <section style="margin-bottom: 28px;">
           <div class="section-header-row">
-            <h3 class="section-heading">முக்கியச் செய்திகள்</h3>
+            <h3 class="section-heading">முக்கியத் தலைப்புச் செய்திகள்</h3>
             <span style="font-size:0.78rem; color:var(--text-muted);">இன்றைய முக்கிய நிகழ்வுகள்</span>
           </div>
-          <div class="articles-grid-2col">
-            ${latestArticles.map(createGridCardHTML).join('')}
+          <div class="articles-grid-3col">
+            ${topHeadlines.map(createGridCardHTML).join('')}
           </div>
         </section>
 
+        <!-- 2. TAMIL NADU & DISTRICT GROUND NEWS -->
+        ${tamilnaduNews.length > 0 ? `
         <section style="margin-bottom: 28px;">
           <div class="section-header-row">
-            <h3 class="section-heading">அரசியல் & சமூகம்</h3>
-            <a onclick="navigateToCategory('politics')" class="view-all-link">மேலும் படிக்க →</a>
+            <h3 class="section-heading">தமிழக செய்திகள் &amp; மாவட்டக் களம்</h3>
+            <a onclick="navigateToCategory('tamilnadu')" class="view-all-link">மேலும் படிக்க →</a>
           </div>
-          <div class="news-list-block">
-            ${stateArticles.map(createHorizontalItemHTML).join('')}
+          <div class="articles-grid-3col">
+            ${tamilnaduNews.map(createGridCardHTML).join('')}
           </div>
         </section>
+        ` : ''}
+
+        <!-- 3. POLITICS & NATIONAL -->
+        ${politicsNational.length > 0 ? `
+        <section style="margin-bottom: 28px;">
+          <div class="section-header-row">
+            <h3 class="section-heading">அரசியல் &amp; தேசிய நிகழ்வுகள்</h3>
+            <a onclick="navigateToCategory('politics')" class="view-all-link">மேலும் படிக்க →</a>
+          </div>
+          <div class="articles-grid-3col">
+            ${politicsNational.map(createGridCardHTML).join('')}
+          </div>
+        </section>
+        ` : ''}
+
+        <!-- 4. BUSINESS & TECHNOLOGY -->
+        ${businessTech.length > 0 ? `
+        <section style="margin-bottom: 28px;">
+          <div class="section-header-row">
+            <h3 class="section-heading">வணிகம் &amp; தொழில்நுட்ப அரங்கம்</h3>
+            <a onclick="navigateToCategory('business')" class="view-all-link">மேலும் படிக்க →</a>
+          </div>
+          <div class="articles-grid-3col">
+            ${businessTech.map(createGridCardHTML).join('')}
+          </div>
+        </section>
+        ` : ''}
+
+        <!-- 5. CINEMA & SPORTS -->
+        ${cinemaSports.length > 0 ? `
+        <section style="margin-bottom: 28px;">
+          <div class="section-header-row">
+            <h3 class="section-heading">சினிமா &amp; விளையாட்டு அரங்கம்</h3>
+            <a onclick="navigateToCategory('cinema')" class="view-all-link">மேலும் படிக்க →</a>
+          </div>
+          <div class="articles-grid-3col">
+            ${cinemaSports.map(createGridCardHTML).join('')}
+          </div>
+        </section>
+        ` : ''}
+
+        <!-- 6. WORLD & SPIRITUAL -->
+        ${worldSpiritual.length > 0 ? `
+        <section style="margin-bottom: 28px;">
+          <div class="section-header-row">
+            <h3 class="section-heading">உலகச் செய்திகள் &amp; ஆன்மிக தரிசனம்</h3>
+            <a onclick="navigateToCategory('world')" class="view-all-link">மேலும் படிக்க →</a>
+          </div>
+          <div class="articles-grid-3col">
+            ${worldSpiritual.map(createGridCardHTML).join('')}
+          </div>
+        </section>
+        ` : ''}
+
+        <!-- 7. ALL NEWS FEED -->
+        ${remainingNews.length > 0 ? `
+        <section style="margin-bottom: 28px;">
+          <div class="section-header-row">
+            <h3 class="section-heading">அனைத்து செய்திகள் அரங்கம்</h3>
+            <span style="font-size:0.78rem; color:var(--text-muted);">${remainingNews.length} செய்திகள்</span>
+          </div>
+          <div class="articles-grid-3col">
+            ${remainingNews.map(createGridCardHTML).join('')}
+          </div>
+        </section>
+        ` : ''}
       `;
     }
 
-            function renderCategoryFeed(cat, sub) {
+                            function renderCategoryFeed(cat, sub) {
       const main = document.getElementById('mainDynamicView');
       if (!main) return;
 
@@ -4826,7 +5089,7 @@
       }
 
       if (filtered.length === 0) {
-        filtered = NEWS_DATABASE.slice(0, 4);
+        filtered = NEWS_DATABASE.slice(0, 6);
       }
 
       const categoryTitle = CATEGORY_TITLES[cat] || 'செய்திகள்';
@@ -4857,7 +5120,7 @@
           </article>
         ` : ''}
 
-        <div class="articles-grid-2col">
+        <div class="articles-grid-3col">
           ${filtered.slice(1).map(createGridCardHTML).join('')}
         </div>
       `;
@@ -4888,18 +5151,21 @@
       `;
     }
 
-    function createGridCardHTML(item) {
+                    function createGridCardHTML(item) {
+      const catLabel = CATEGORY_TITLES[item.category] || item.category || 'செய்தி';
+      const img = item.image || 'https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200';
+      const summary = item.summary || '';
       return `
         <article class="news-grid-card" onclick="openArticleModalById(${item.id})">
           <div class="card-media-wrap">
-            <img src="${item.image}" alt="${item.title}" loading="lazy">
+            <img src="${img}" alt="${item.title}" loading="lazy" onerror="this.src='https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200';">
           </div>
           <div class="card-content-area">
-            <span class="category-tag-badge" style="align-self:flex-start;">${item.category}</span>
+            <span class="category-tag-badge" style="align-self:flex-start;">${catLabel}</span>
             <h4 class="card-headline">${item.title}</h4>
-            <p class="card-snippet">${item.summary}</p>
+            <p class="card-snippet">${summary}</p>
             <div class="card-footer-meta">
-              <span>${item.date}</span>
+              <span>${item.date || 'இன்றைய பதிப்பு'}</span>
             </div>
           </div>
         </article>
@@ -4987,17 +5253,33 @@
     }
 
     // Startup
+        // Startup
+        // Startup
+        // Startup
+        // Startup
     window.addEventListener('DOMContentLoaded', () => {
       initTamilDateAndClock();
       fetchChennaiWeather();
       initSidebarAndTicker();
-      renderHomeFeed();
+      updateHomepageSlotsFromDatabase();
+
+      const isSinglePostPage = window.location.pathname.endsWith('.html') && window.location.pathname !== '/';
+      if (!isSinglePostPage) {
+        renderHomeFeed();
+      } else {
+        const heroSection = document.getElementById('heroNewsShowcaseSection');
+        if (heroSection) heroSection.style.display = 'none';
+        const wireSection = document.getElementById('speedHotTopicsSection');
+        if (wireSection) wireSection.style.display = 'none';
+        const bar = document.getElementById('categoryFilterBar');
+        if (bar) bar.style.display = 'none';
+      }
+
       if (window.innerWidth < 768) {
         setTimeout(fitEpaperWidth, 120);
       }
       BloggerFeedEngine.fetchFeed().then(() => checkUrlForArticle());
 
-      // Check URL query parameters (e.g. ?q=... or #epaper)
       checkUrlForArticle();
       const urlParams = new URLSearchParams(window.location.search);
       const queryParam = urlParams.get('q');

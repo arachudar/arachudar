@@ -47,6 +47,9 @@ IMAGE_BLOCKLIST_PATTERNS = [
     r"header[-_]?bg",
     r"subscribe[-_]?banner",
     r"newsletter[-_]?box",
+    r"screenshot|screen[-_]?shot|screengrab",
+    r"epaper|e[-_]?paper",
+    r"thinaboomi\.com/uploads",
     # Ad servers, dimensions, and directories
     r"doubleclick",
     r"adserver",

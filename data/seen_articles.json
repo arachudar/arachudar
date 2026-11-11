@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T05:29:59.159757+00:00",
-  "count": 48,
+  "last_updated": "2026-11-11T05:50:59.429433+00:00",
+  "count": 53,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -290,6 +290,36 @@
       "url": "https://www.maalaimalar.com/sports/cricket/first-time-ever-in-test-cricket-pakistan-script-history-with-rare-record",
       "title": "இலங்கைக்கு எதிரான முதல் டெஸ்டில் அரிதான சாதனைப் படைத்த பாகிஸ்தான்",
       "source_id": "maalai_malar"
+    },
+    "00309ff90f34faba75c7762d928aca6aa711514807d4e08aad0a6e786609d90f": {
+      "timestamp": "2026-11-11T05:50:59.424154+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/indian-railways-earns-628-crore-from-scrap-auction",
+      "title": "பழைய இரும்பு பொருட்களை ஏலம் விட்டதில் ரெயில்வேக்கு ரூ.628 கோடி வருவாய்..!",
+      "source_id": "daily_thanthi"
+    },
+    "448ec7bbfe36c37af2036f14ddedbc259f5fdc620f5294206aebb66cd436edc5": {
+      "timestamp": "2026-11-11T05:50:59.425856+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/car-crashes-into-barrier-on-ecr-road-6-college-students-injured",
+      "title": "ஈ.சி.ஆர் சாலையில் கார் தடுப்பில் மோதி விபத்து: 6 கல்லூரி மாணவர்கள் காயம்",
+      "source_id": "daily_thanthi"
+    },
+    "eee5ceed3744c552bcbb7dff578412bad21495ca4160004989027b6e9b21e726": {
+      "timestamp": "2026-11-11T05:50:59.427153+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/senchi-girl-missing-case-cbcid-dig-investigation-today",
+      "title": "செஞ்சி சிறுமி மாயமான வழக்கு: சி.பி.சி.ஐ.டி. டி.ஐ.ஜி. இன்று விசாரணை",
+      "source_id": "daily_thanthi"
+    },
+    "45676be37faff05b9d3b58795eec6d1532c31765439d64f3166bc5b4ac1d6feb": {
+      "timestamp": "2026-11-11T05:50:59.428359+00:00",
+      "url": "https://www.hindutamil.in/news/world/outrage-over-non-payment-of-compensation-man-arrested-for-vandalizing-chinese-government-office-via-excavator",
+      "title": "இழப்பீட்டு தொகை தராததால் ஆத்திரம்: சீன அரசு அலுவலகத்தை பொக்லைன் மூலம் இடித்தவர் கைது",
+      "source_id": "hindu_tamil"
+    },
+    "d1d15420a5ba36ee37f61fd88ff8792c52eae9a371d6a59bdf30cd11e4e7f4f5": {
+      "timestamp": "2026-11-11T05:50:59.429424+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/political-gossips-333",
+      "title": "ஹார்ஸ் பேர புகாரும், தூங்கா நகரத்து அரசியலும் | உள்குத்து உளவாளி",
+      "source_id": "hindu_tamil"
     }
   }
 }

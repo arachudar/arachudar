@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T22:28:14.679987+00:00",
-  "count": 133,
+  "last_updated": "2026-11-11T23:21:59.161881+00:00",
+  "count": 138,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -799,6 +799,36 @@
       "timestamp": "2026-11-11T22:28:14.679981+00:00",
       "url": "https://www.dinamani.com/all-editions/edition-coimbatore/erode/2026/Nov/11/%E0%AE%A8%E0%AE%B5%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AF%8D-21-%E0%AE%87%E0%AE%B2%E0%AF%8D-%E0%AE%8A%E0%AE%B0%E0%AE%95-%E0%AE%A4%E0%AE%BF%E0%AE%B1%E0%AE%A9%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%AE%B5%E0%AF%81%E0%AE%A4%E0%AF%8D-%E0%AE%A4%E0%AF%8B%E0%AF%8D%E0%AE%B5%E0%AF%81-3586-%E0%AE%AA%E0%AF%8B%E0%AF%8D-%E0%AE%8E%E0%AE%B4%E0%AF%81%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AE%A9%E0%AE%BE%E0%AF%8D",
       "title": "நவம்பா் 21-இல் ஊரக திறனாய்வுத் தோ்வு: 3,586 போ் எழுதுகின்றனா்",
+      "source_id": "dinamani"
+    },
+    "5791672f79b71f42f821ef30d88fb21b7a6cf48e19d0ff506ef4a16f75399fca": {
+      "timestamp": "2026-11-11T23:21:59.155361+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/amidst-controversy-kallakurichi-collector-skips-public-outreach-program-camp",
+      "title": "சர்ச்சைக்கு மத்தியில் மக்கள் தொடர்பு திட்ட முகாமில் பங்கேற்காத கள்ளக்குறிச்சி கலெக்டர்",
+      "source_id": "daily_thanthi"
+    },
+    "bc3a81218a7387638d250e3032f8df2e4b3efc37da0e5bd0011c50f5f78ffc4b": {
+      "timestamp": "2026-11-11T23:21:59.157521+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/draft-voter-list-to-be-released-in-tamil-nadu-today",
+      "title": "தமிழகத்தில் வரைவு வாக்காளர் பட்டியல் இன்று வெளியீடு",
+      "source_id": "daily_thanthi"
+    },
+    "939eba1c8c4aebefa76669157c0ca9034e603579390f7a0df6c08eb45f899622": {
+      "timestamp": "2026-11-11T23:21:59.159081+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/will-anbil-mahesh-get-bail-hearing-in-the-madras-high-court-today",
+      "title": "அன்பில் மகேஷுக்கு ஜாமின் கிடைக்குமா? - சென்னை ஐகோர்ட்டில் இன்று விசாரணை",
+      "source_id": "daily_thanthi"
+    },
+    "daccee594bc91df8c9624fe27b3cc6129742a5fdf7d1b513f7de1cb27c993315": {
+      "timestamp": "2026-11-11T23:21:59.160547+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-chennai/thirupattur/2026/Nov/11/best-teacher-award-in-urdu-for-ambur-school-teacher",
+      "title": "ஆம்பூா் பள்ளி ஆசிரியருக்கு உருது நல்லாசிரியா் விருது",
+      "source_id": "dinamani"
+    },
+    "d21c1d7ed92ea40c9a19a9e5cdbea1ebcc5259881f108d7c8604c646540c644c": {
+      "timestamp": "2026-11-11T23:21:59.161875+00:00",
+      "url": "https://www.dinamani.com/india/2026/Nov/11/price-ceiling-for-laptops-for-officials-raised-to-rs-18-lakh-central-government-takes-action",
+      "title": "அதிகாரிகளுக்கான லேப்டாப் விலை உச்சவரம்பு ரூ. 1.8 லட்சமாக உயா்வு: மத்திய அரசு நடவடிக்கை",
       "source_id": "dinamani"
     }
   }

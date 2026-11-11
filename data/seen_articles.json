@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T01:36:43.732288+00:00",
-  "count": 8,
+  "last_updated": "2026-11-11T01:41:53.042428+00:00",
+  "count": 13,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -50,6 +50,36 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/how-to-prevent-digital-arrested-fraud-supreme-court-asks-whatsapp-to-respond/4372774",
       "title": "'டிஜிட்டல்' கைது மோசடியை தடுக்க என்ன வழி? பதிலளிக்க 'வாட்ஸாப்'க்கு உச்ச நீதிமன்றம் உத்தரவு",
       "source_id": "dinamalar"
+    },
+    "622cc74c253451898326447f06a6b69fe3d5571c8304696fb6f86773a18facd1": {
+      "timestamp": "2026-11-11T01:41:53.027105+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/muslim-womans-darshan-of-swami-controversy-at-tiruchendur-temple/4372748",
+      "title": "முஸ்லிம் பெண் சாமி தரிசனம்: திருச்செந்துார் கோவிலில் சர்ச்சை",
+      "source_id": "dinamalar"
+    },
+    "3bcfa56f16d7fe61f79e5d0079776f055a4ee3e6d216f73690b585fb997b222b": {
+      "timestamp": "2026-11-11T01:41:53.028400+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/assembly-speaker-jcd-prabhakar-conducts-an-inquiry-with-the-4-aiadmk-mlas-who-resigned",
+      "title": "பதவி விலகிய 4 அதிமுக எம்எல்ஏக்களிடம் பேரவைத் தலைவர் ஜேசிடி பிரபாகர் விசாரணை",
+      "source_id": "hindu_tamil"
+    },
+    "6316cf99cda8884ee21cd7f34f312ac18f8f10badb8845396940f2406ef09f7a": {
+      "timestamp": "2026-11-11T01:41:53.029418+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/bribe-complaint-facitily-in-cbi",
+      "title": "லஞ்சப் புகாரளிக்க சிபிஐ புதிய வசதி",
+      "source_id": "hindu_tamil"
+    },
+    "e096869ff26b6907e615ea2abad5ada6b950bcc62ae8c2ab441cb2a22293cbbf": {
+      "timestamp": "2026-11-11T01:41:53.041439+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/transfer-counselling-for-tasmac-employees",
+      "title": "டாஸ்மாக் பணியாளர்களுக்கு இடமாற்ற கலந்தாய்வு",
+      "source_id": "hindu_tamil"
+    },
+    "176476d9eb4e8b228113340cad900f28149b3f3afb0b711d71d18dac6705897f": {
+      "timestamp": "2026-11-11T01:41:53.042419+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/11/tirucci-maavtttt-maiy-nuulkttiliruntu-aklvillkku-piinnniks-ptippkngkllinnn-1-510-nuulkll-akrrrrm",
+      "title": "திருச்சி மாவட்ட மைய நூலகத்திலிருந்து அகல்விளக்கு, பீனிக்ஸ் பதிப்பகங்களின் 1,510 நூல்கள் அகற்றம்",
+      "source_id": "dinamani"
     }
   }
 }

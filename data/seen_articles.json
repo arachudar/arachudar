@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T08:58:54.499650+00:00",
-  "count": 68,
+  "last_updated": "2026-11-11T09:28:48.724807+00:00",
+  "count": 73,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -410,6 +410,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/ttv-dhinakaran-slams-tvk-govt-over-law-and-order-issue",
       "title": "“தவெகவின் 6 மாத கால ஆட்சியின் ஒரே சாதனை இதுதான்...” - தினகரன் விமர்சனம்",
       "source_id": "hindu_tamil"
+    },
+    "93fa70ee69b6edeee4159cd8750a1fff5b7815f0fd2b960db0fce1491815d086": {
+      "timestamp": "2026-11-11T09:28:48.718126+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/it-is-distressing-that-fishermen-go-missing-at-sea-and-are-later-recovered-as-corpses-mp-kanimozhi",
+      "title": "மீனவர்கள் கடலில் காணாமல் போவதும், பின்னர் சடலமாக மீட்கப்படுவதும் வேதனையளிக்கிறது - கனிமொழி எம்.பி.",
+      "source_id": "daily_thanthi"
+    },
+    "0c24ead3df0f0f019c464a85c254c884ee5c7bbeb5206216013bacdc746c96cb": {
+      "timestamp": "2026-11-11T09:28:48.720207+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/australian-cricketer-lance-morris-injured-engagement-ceremony",
+      "title": "நிச்சயதார்த்த விழாவில் எதிர்பாராத விபத்து... ஆஸ்திரேலிய வீரருக்கு அறுவை சிகிச்சை",
+      "source_id": "daily_thanthi"
+    },
+    "fe7c468ab748a145582811ca14d970a50ff7351ed8f5fb9d2de5210b934cf6c5": {
+      "timestamp": "2026-11-11T09:28:48.721694+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/work-by-the-late-cinematographer-chezhiyan-receives-recognition-in-japan",
+      "title": "மறைந்த ஒளிப்பதிவாளர் செழியனின் படைப்புக்கு ஜப்பானில் கவுரவம்!",
+      "source_id": "daily_thanthi"
+    },
+    "7aba3c8a6e0d65775305801a093872f80baa97a46216f2acc8ac998b410db502": {
+      "timestamp": "2026-11-11T09:28:48.723226+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/government-explains-rural-poll-delay-in-court",
+      "title": "உள்ளாட்சி தேர்தல் தாமதம் ஏன்? - உயர் நீதிமன்றத்தில் தமிழக அரசு விளக்கம்",
+      "source_id": "hindu_tamil"
+    },
+    "3599431e6e7c1d4dd742c917228b3efa5fe04aacbfce11058ffef661e3a26e94": {
+      "timestamp": "2026-11-11T09:28:48.724796+00:00",
+      "url": "https://www.dinamani.com/employment/2026/Nov/11/tn-post-office-recruitment-2026-for-24-staff-car-driver-posts",
+      "title": "தமிழ்நாடு அஞ்சல் வட்டத்தில் 'அலுவலக வாகன ஓட்டுநர் பணி': விண்ணப்பிப்பது எப்படி..?",
+      "source_id": "dinamani"
     }
   }
 }

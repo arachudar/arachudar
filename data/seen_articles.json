@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T06:57:42.814151+00:00",
-  "count": 58,
+  "last_updated": "2026-11-11T08:14:42.580766+00:00",
+  "count": 63,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -349,6 +349,36 @@
       "timestamp": "2026-11-11T06:57:42.814141+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/vaiko-announces-protest-against-hindi-in-national-highway-milestone",
       "title": "“தஞ்சை - சேலம் தேசிய நெடுஞ்சாலை மைல் கற்களில் உள்ள இந்தி எழுத்துக்களை தார் பூசி அழிப்போம்” - வைகோ அறிவிப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "c7d3cdabe6a6b6d3c24d9cbb743ee96fb2e298e909cd8eda20a4e63fa0d98633": {
+      "timestamp": "2026-11-11T08:14:42.573435+00:00",
+      "url": "https://www.dailythanthi.com/news/world/raccoon-found-unconscious-in-liquor-store-rs-234-crore-raised-for-animal-shelter",
+      "title": "மதுபானக் கடையில் மயங்கிய ரக்கூன்: விலங்குகள் காப்பகத்திற்கு ரூ 2.34 கோடி நிதி குவிந்தது!",
+      "source_id": "daily_thanthi"
+    },
+    "b9ba43f555b16d5326da781ab8145b37a6fc577417b2beb68e52f20e465961f7": {
+      "timestamp": "2026-11-11T08:14:42.575662+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/buffalo-dies-after-being-electrocuted-in-nilgiri-tea-estate",
+      "title": "நீலகிரி தேயிலை தோட்டத்தில் மின்சாரம் தாக்கி காட்டெருமை உயிரிழப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "bff72257eaf0e4735094a48c50163a3fd1224ff47de056eb7d3c44c5ed0e0b04": {
+      "timestamp": "2026-11-11T08:14:42.577601+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chennai-corporation-intensifies-measures-to-prevent-dengue-fever",
+      "title": "சென்னை மாநகராட்சியில் டெங்கு உள்ளிட்ட காய்ச்சல் தடுப்பு நடவடிக்கைகள் தீவிரம்",
+      "source_id": "daily_thanthi"
+    },
+    "06cf91d93e4fde87653902333719fc8b67e3a553f896bb002af8aea927dda216": {
+      "timestamp": "2026-11-11T08:14:42.579260+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tvk-is-running-cancellation-govt-in-tamil-nadu-rb-udhayakumars-accusation",
+      "title": "“தமிழகத்தில் ‘ரத்து’ அரசு நடத்தும் தவெக” - ஆர்.பி.உதயகுமார் விமர்சனம்",
+      "source_id": "hindu_tamil"
+    },
+    "8722120ea23a07b0de5cac8c45e01fcfa4bced5b612e06c9469ee56066a466d5": {
+      "timestamp": "2026-11-11T08:14:42.580754+00:00",
+      "url": "https://www.hindutamil.in/news/supplements/maya-bazar/scotland-folk-tales-explained",
+      "title": "ப்ரெளனி செய்த உதவி! | ஸ்காட்லாந்து நாட்டுப்புறக் கதை",
       "source_id": "hindu_tamil"
     }
   }

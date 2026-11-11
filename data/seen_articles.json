@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T09:28:48.724807+00:00",
-  "count": 73,
+  "last_updated": "2026-11-11T10:27:22.494600+00:00",
+  "count": 78,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -440,6 +440,36 @@
       "url": "https://www.dinamani.com/employment/2026/Nov/11/tn-post-office-recruitment-2026-for-24-staff-car-driver-posts",
       "title": "தமிழ்நாடு அஞ்சல் வட்டத்தில் 'அலுவலக வாகன ஓட்டுநர் பணி': விண்ணப்பிப்பது எப்படி..?",
       "source_id": "dinamani"
+    },
+    "040853fa9c45443d1e65de5980c5cf249ed7be10c5e6e6d5da137cfc6e2db221": {
+      "timestamp": "2026-11-11T10:27:22.488247+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/heavy-rain-in-southern-districts-papanasam-dam-water-level-rises-by-another-2-feet",
+      "title": "தென் மாவட்டங்களில் கனமழை:  பாபநாசம் அணை நீர்மட்டம் மேலும் 2 அடி உயர்வு",
+      "source_id": "daily_thanthi"
+    },
+    "6802df91ed34ee4c3ce80b8df45dc3598fb24042044f68b13a3a439c35ddc8e9": {
+      "timestamp": "2026-11-11T10:27:22.490072+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/the-trailer-for-the-film-matrubhumi-starring-salman-khan-has-been-released",
+      "title": "சல்மான் கான் நடித்த 'மாத்ருபூமி' படத்தின் டிரெய்லர் வெளியானது",
+      "source_id": "daily_thanthi"
+    },
+    "99fc22fb3b884e65a00d7120d5caf940be33a9dd9b283971575a23c237ed7566": {
+      "timestamp": "2026-11-11T10:27:22.491529+00:00",
+      "url": "https://www.dailythanthi.com/news/india/first-diwali-gift-after-11-years-of-hard-work-truck-driver-in-resilience",
+      "title": "11 ஆண்டுகால உழைப்பிற்குப் பிறகு முதல் தீபாவளிப் பரிசு: நெகிழ்ச்சியில் லாரி ஓட்டுநர்!",
+      "source_id": "daily_thanthi"
+    },
+    "0f93efdfa39829c9a13214db33c0db8514b25ffe65bd85de8543b6195cdf9d8b": {
+      "timestamp": "2026-11-11T10:27:22.493257+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/low-pressure-area-in-bay-of-bengal-tomorrow-may-become-depression-by-nov-15",
+      "title": "வங்கக் கடலில் உருவாகும் காற்றழுத்த தாழ்வுப் பகுதி நவ.15-ல் வலுப்பெற வாய்ப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "86a925120e6be596b4e211a9893db6e8790b5807120a3fa07e736b9af89eb01b": {
+      "timestamp": "2026-11-11T10:27:22.494591+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/edappadi-palanisamy-condemns-tvk-govt-over-law-and-order-issue",
+      "title": "“தவெக 6 மாத காலமாக தந்தது துயரமான ஆட்சியே!” - பழனிசாமி விமர்சனம்",
+      "source_id": "hindu_tamil"
     }
   }
 }

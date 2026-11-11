@@ -43,6 +43,15 @@ SLOT_MAPPING = [
 ]
 
 
+def clean_tamil_text(text: str) -> str:
+    """Removes Latin/English characters and normalizes whitespace."""
+    if not text:
+        return ""
+    cleaned = re.sub(r"[a-zA-Z]+", "", text)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned
+
+
 def is_valid_real_image(url: str) -> bool:
     """Rejects placeholder, dummy, logo, and unsplash URLs."""
     if not url or not url.startswith("https://"):
@@ -115,6 +124,10 @@ def run_topic_synthesis(publish_blogger: bool = True):
         logger.info(f"செய்தி தொகுப்பு [{slot_id}/12 - {cat}]: {raw.original_title[:45]}...")
         try:
             processed = synthesizer.synthesize(raw, article_id=slot_id)
+            processed.title = clean_tamil_text(processed.title)
+            processed.summary = clean_tamil_text(processed.summary)
+            processed.body = clean_tamil_text(processed.body)
+            processed.tags = [clean_tamil_text(t) for t in getattr(processed, "tags", []) if clean_tamil_text(t)]
             processed.category = cat
             processed.sub_category = sub
             processed_articles.append(processed)

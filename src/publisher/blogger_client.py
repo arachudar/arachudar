@@ -6,6 +6,7 @@ Tamil news articles to Blogger (https://arachudar.blogspot.com/).
 
 import json
 import os
+import re
 import time
 from pathlib import Path
 from typing import List, Dict, Any, Optional
@@ -27,6 +28,16 @@ TAMIL_CATEGORY_LABELS: Dict[str, str] = {
     "chennai": "சென்னை",
     "epaper": "இ-பேப்பர்"
 }
+
+
+def clean_tamil_text(text: str) -> str:
+    """Removes Latin/English characters and normalizes whitespace."""
+    if not text:
+        return ""
+    # Strip any Latin letters [a-zA-Z]
+    cleaned = re.sub(r"[a-zA-Z]+", "", text)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned
 
 
 class BloggerClient:
@@ -119,31 +130,48 @@ class BloggerClient:
     def format_post_html(self, article: ProcessedArticle) -> str:
         """
         Formats article into publication-ready Tamil Blogger HTML post.
+        Strictly pure Tamil text, spacious line-height, elegant mood indent (&emsp;&emsp;),
+        and zero byline/source attribution footers.
         """
         body_text = getattr(article, "body", "")
-        paragraphs = "".join(f"<p>{p.strip()}</p>" for p in body_text.split("\n\n") if p.strip())
+        clean_summary = clean_tamil_text(getattr(article, "summary", ""))
+        clean_title = clean_tamil_text(getattr(article, "title", ""))
+
+        indent = "&emsp;&emsp;"
+        paragraphs = "".join(f"<p>{indent}{clean_tamil_text(p)}</p>\n" for p in body_text.split("\n\n") if clean_tamil_text(p))
         return (
-            f'<div class="arachudar-post" style="font-family: \'Mukta Malar\', sans-serif;">\n'
-            f'<div class="post-media"><img src="{article.image}" alt="{article.title}" style="max-width:100%; height:auto; border-radius:8px;" /></div>\n'
-            f'<p class="post-lead"><strong>{article.summary}</strong></p>\n'
-            f'<div class="post-body">{paragraphs}</div>\n'
-            f'<div class="post-meta"><span>ஆசிரியர்: {article.author}</span> • <span>வழங்குபவர்: {article.source_name}</span></div>\n'
+            f'<div class="arachudar-post" style="font-family: \'Mukta Malar\', sans-serif; max-width: 800px; margin: 0 auto; padding: 10px 0;">\n'
+            f'<style>\n'
+            f'  .arachudar-post {{ font-family: \'Mukta Malar\', sans-serif; max-width: 800px; margin: 0 auto; }}\n'
+            f'  .arachudar-post .post-body p {{ font-size: 1.05rem; line-height: 2.0; color: #222; margin-bottom: 20px; text-align: justify; text-indent: 1.5rem; }}\n'
+            f'  .arachudar-post .post-lead {{ font-size: 1.15rem; line-height: 1.9; color: #1a1a1a; margin-top: 16px; margin-bottom: 24px; padding: 14px 20px; background-color: #faf8f8; border-left: 4px solid #b71c1c; border-radius: 4px; font-weight: 600; text-indent: 1.5rem; }}\n'
+            f'</style>\n'
+            f'<div class="post-media" style="margin-top: 10px; margin-bottom: 24px; text-align: center;">\n'
+            f'  <img src="{article.image}" alt="{clean_title}" style="max-width:100%; height:auto; border-radius:8px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);" />\n'
+            f'</div>\n'
+            f'<p class="post-lead">\n'
+            f'  <strong>{indent}{clean_summary}</strong>\n'
+            f'</p>\n'
+            f'<div class="post-body">\n{paragraphs}</div>\n'
             f'</div>'
         )
 
     def publish_article(self, article: ProcessedArticle, dry_run: bool = False) -> Dict[str, Any]:
         """
         Publishes article to Blogger, returning API response dict or dry-run report.
+        Strictly enforces pure Tamil tags and labels.
         """
+        clean_title = clean_tamil_text(article.title)
         label = TAMIL_CATEGORY_LABELS.get(article.category, article.category)
-        tags = [t for t in getattr(article, "tags", []) if t != label]
-        labels = [label] + tags
+        raw_tags = [t for t in getattr(article, "tags", []) if t != label]
+        cleaned_tags = [clean_tamil_text(t) for t in raw_tags if clean_tamil_text(t)]
+        labels = [label] + [t for t in cleaned_tags if t != label]
         if getattr(article, "is_flash", False) and "மின்னல்" not in labels:
             labels.append("மின்னல்")
 
         payload = {
             "kind": "blogger#post",
-            "title": article.title,
+            "title": clean_title,
             "content": self.format_post_html(article),
             "labels": labels
         }
@@ -152,7 +180,7 @@ class BloggerClient:
             return {
                 "status": "DRY_RUN",
                 "published": False,
-                "title": article.title,
+                "title": clean_title,
                 "payload": payload
             }
 

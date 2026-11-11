@@ -1490,21 +1490,18 @@
     }
 
     .epaper-viewport {
-      background: #94a3b8;
-      border: 1px solid #cbd5e1;
+      background: #475569;
+      border: 1px solid #334155;
       border-top: none;
       border-radius: 0 0 8px 8px;
-      padding: 24px 16px;
-      overflow: auto;
-      max-height: 85vh;
+      padding: 30px 16px;
+      overflow-y: auto;
+      overflow-x: auto;
+      max-height: 88vh;
       display: flex;
       justify-content: center;
-      box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
-      cursor: grab;
-    }
-
-    .epaper-viewport:active {
-      cursor: grabbing;
+      scroll-behavior: smooth;
+      box-shadow: inset 0 3px 12px rgba(0, 0, 0, 0.3);
     }
 
     .epaper-canvas-wrapper {
@@ -1515,15 +1512,15 @@
       justify-content: center;
     }
 
-    /* REAL NEWSPAPER BROADSHEET SHEET (A3 / FULL BROADSHEET SCALE) */
+    /* REAL NEWSPAPER BROADSHEET SHEET (FULL BROADSHEET SCALE - NOT A4) */
     .epaper-sheet {
-      width: 1040px;
-      min-height: 1470px;
+      width: 1220px;
+      min-height: 1720px;
       background: #ffffff;
       color: #0f172a;
-      padding: 28px 34px;
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
-      border: 1px solid #cbd5e1;
+      padding: 32px 42px;
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
+      border: 2px solid #000000;
       font-family: var(--font-display);
       position: relative;
       user-select: text;
@@ -1621,12 +1618,13 @@
     .col-span-4 { grid-column: span 4; }
     .col-span-3 { grid-column: span 3; }
 
-    /* CLIPPING INTERACTIVE ARTICLES */
+    /* BROADSHEET NEWSPAPER ARTICLES */
     .broadsheet-article-block {
       position: relative;
-      padding-right: 12px;
+      padding-right: 14px;
       border-right: 1px solid #cbd5e1;
       transition: all 0.15s ease;
+      cursor: pointer;
     }
 
     .broadsheet-article-block.no-border-right {
@@ -1635,26 +1633,19 @@
     }
 
     .broadsheet-article-block:hover {
-      outline: 2px dashed var(--brand-red);
-      outline-offset: 4px;
       background: rgba(153, 0, 0, 0.02);
-      cursor: pointer;
     }
 
-    .broadsheet-article-block:hover::after {
-      content: '✂️ வாசிக்க கிளிக் செய்க';
-      position: absolute;
-      top: -10px;
-      right: 6px;
-      background: var(--brand-red);
-      color: #ffffff;
+    .broadsheet-fold-line {
+      grid-column: span 12;
+      text-align: center;
+      border-top: 1px dashed #94a3b8;
+      margin: 16px 0;
+      padding-top: 4px;
       font-size: 0.65rem;
-      font-weight: 800;
-      padding: 2px 8px;
-      border-radius: 3px;
-      z-index: 10;
-      font-family: var(--font-body);
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      color: #94a3b8;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
     }
 
     .bs-headline-banner {
@@ -2283,7 +2274,6 @@
       </div>
       <div class="ticker-controls">
         <button class="ticker-ctrl-btn" id="tickerPrevBtn" onclick="prevTickerItem()" title="முந்தைய செய்தி">◀</button>
-        <button class="ticker-ctrl-btn" id="tickerPauseBtn" onclick="toggleTickerPause()" title="இடைநிறுத்தம்">❚❚</button>
         <button class="ticker-ctrl-btn" id="tickerNextBtn" onclick="nextTickerItem()" title="அடுத்த செய்தி">▶</button>
         <span class="ticker-counter-pill" id="tickerCounter">[1/8]</span>
       </div>
@@ -2324,18 +2314,18 @@
         <!-- Lead Headline Card -->
         <article class="lead-news-card" onclick="navigateToArticle(1)">
           <div class="lead-news-image-wrap">
-            <img src="https://media.assettype.com/dailythanthi/2026-11-11/b2p0yyb3/CHENNAI-12.jpg?w=1200&auto=format%2Ccompress&fit=max" alt="தமிழ்நாடு தொழில் முதலீடு" />
+            <img src="https://media.assettype.com/dailythanthi/2026-11-10/bb18cb3b/dollar.jpg?w=1200" alt="இன்றைய தலைமைச் செய்தி" />
           </div>
           <div class="lead-content-overlay">
-            <span class="category-tag-badge" style="background:var(--brand-red); font-size:0.72rem; padding:3px 9px; font-weight:800; letter-spacing:0.04em;">தலைமைச் செய்தி • TOP-NOTCH</span>
-            <h1 class="lead-headline">துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை</h1>
-            <p class="lead-summary">தமிழகத்தில் துவரம் பருப்பு மற்றும் உளுந்து இருப்பு நிலவரத்தை நிர்வகிக்க மத்திய அரசு புதிய கட்டுப்பாடுகளை ஒப்புதல் அளித்துள்ளது.</p>
+            <span class="category-tag-badge" style="background:var(--brand-red); font-size:0.72rem; padding:3px 9px; font-weight:800; letter-spacing:0.04em;">தலைமைச் செய்தி • LEAD STORY</span>
+            <h1 class="lead-headline">இன்றைய தலைமைச் செய்தி - தானியங்கி செய்திப் பதிவேற்ற அரங்கம்</h1>
+            <p class="lead-summary">இன்றைய முக்கியத் தலைமைச் செய்தி இங்கு தானாகப் பதிவேற்றப்படும். புதிய நேரலை செய்திகள் உடனுக்குடன் தோன்றும்.</p>
             <div class="meta-byline-strip">
-              <span>அரசியல் பிரிவு நிருபர்</span>
+              <span>அறச்சுடர் நிருபர் குழு</span>
               <span class="meta-separator">•</span>
-              <span>25 நிமிடங்கள் முன்</span>
+              <span>இன்றைய பதிப்பு</span>
               <span class="meta-separator">•</span>
-              <span>வாசிப்பு நேரம்: 3 நிமிடம்</span>
+              <span>நேரலை</span>
             </div>
           </div>
         </article>
@@ -2344,34 +2334,34 @@
         <div class="hero-side-stack">
           <article class="side-card-item" onclick="navigateToArticle(4)">
             <div class="side-card-thumb">
-              <img src="https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m56w9jzy805aexdd6p2k6sva,imgname-post-office-vs-bank-fd-where-will-1-lakh-earn-more-interest-1792306105342.png" alt="பங்குச்சந்தை" />
+              <img src="https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200" alt="வணிகம்" />
             </div>
             <div class="side-card-body">
               <span class="category-tag-badge" style="align-self:flex-start; font-size:0.65rem;">வணிகம்</span>
-              <h2 class="side-card-title">அஞ்சலக கால வைப்புத் திட்டம்: பாதுகாப்பான முதலீட்டில் லாபக் கணக்கீடு</h2>
-              <div class="side-card-meta">45 நிமிடங்கள் முன் • 2 நிமிடம்</div>
+              <h2 class="side-card-title">இன்றைய வணிகச் செய்தி அரங்கம் (Business News Slot)</h2>
+              <div class="side-card-meta">இன்றைய பதிப்பு • வணிகப் பிரிவு</div>
             </div>
           </article>
 
           <article class="side-card-item" onclick="navigateToArticle(7)">
             <div class="side-card-thumb">
-              <img src="https://images.news18.com/tamil/uploads/2026/11/feature-image-59-2026-11-cf1a422b403ac1ce4600399f35989a2b-1200x800.jpg" alt="கிரிக்கெட்" />
+              <img src="https://imagesvs.oneindia.com/webp/ta/img/2026/11/sheikhhasina-30211794324120.jpg" alt="விளையாட்டு" />
             </div>
             <div class="side-card-body">
               <span class="category-tag-badge" style="align-self:flex-start; font-size:0.65rem;">விளையாட்டு</span>
-              <h2 class="side-card-title">தந்தையின் வழியில் ஜோசப்; அர்னால்ட் வாரிசு சாதனை டாப் 5-ல்</h2>
-              <div class="side-card-meta">1 மணி நேரம் முன் • 3 நிமிடம்</div>
+              <h2 class="side-card-title">இன்றைய விளையாட்டுச் செய்தி அரங்கம் (Sports News Slot)</h2>
+              <div class="side-card-meta">இன்றைய பதிப்பு • விளையாட்டு அரங்கம்</div>
             </div>
           </article>
 
           <article class="side-card-item" onclick="navigateToArticle(6)">
             <div class="side-card-thumb">
-              <img src="https://imagesvs.oneindia.com/webp/ta/img/2026/09/amalashajit-67211788278157.jpg" alt="சினிமா" />
+              <img src="https://images.news18.com/tamil/uploads/2026/11/sonia-gandhi-2026-11-bfbe3a4e73a1c1c1200255934925ba2d-1200x800.jpg" alt="சினிமா" />
             </div>
             <div class="side-card-body">
               <span class="category-tag-badge" style="align-self:flex-start; font-size:0.65rem;">சினிமா</span>
-              <h2 class="side-card-title">இன்ஸ்டாகிராம் புகழ் அமலா ஷாஜி; விக்ரம் பிரபுவுடன் நடிக்கும் புதிய திரைப்படம்</h2>
-              <div class="side-card-meta">2 மணி நேரம் முன் • 2 நிமிடம்</div>
+              <h2 class="side-card-title">இன்றைய சினிமா &amp; கலைச் செய்தி அரங்கம் (Cinema News Slot)</h2>
+              <div class="side-card-meta">இன்றைய பதிப்பு • திரை உலகம்</div>
             </div>
           </article>
         </div>
@@ -2380,15 +2370,14 @@
   </section>
 
   <!-- ========================================================
-       6. UPFRONT 3-COLUMN WIRE &amp; TRENDING HUB
+       6. UPFRONT 3-COLUMN WIRE & TRENDING HUB
        COLUMN 1: உடனுக்குடன் விரைவுச் செய்திகள் (Fast News Stream)
-       COLUMN 2: டிரெண்டிங் &amp; ஹாட் செய்திகள் (Trending Up News)
-       COLUMN 3: முக்கியச் செய்திகள் அரங்கம் (Main Headline Wire - PURGED)
+       COLUMN 2: டிரெண்டிங் & ஹாட் செய்திகள் (Trending Up News)
+       COLUMN 3: முக்கியச் செய்திகள் அரங்கம் (Main Headline Wire)
        ======================================================== -->
   <section class="speed-and-hot-topics-section" id="speedHotTopicsSection">
     <div class="container">
       <div class="speed-hot-grid-3col">
-
         <!-- COLUMN 1: LEFT - FAST NEWS STREAM -->
         <div class="speed-col-card">
           <div class="speed-col-header">
@@ -2400,24 +2389,24 @@
           </div>
           <ul class="fast-news-stream-list">
             <li class="fast-news-item" onclick="navigateToArticle(2)">
-              <div class="fast-news-time-tag">3 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">சென்னை மெட்ரோ 2-ஆம் கட்ட சுரங்கப் பணிகள் கூடுதல் இயந்திரங்களுடன் தீவிரம்</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய விரைவுச் செய்தி: மாவட்டச் செய்திகள் அரங்கம் (Slot 2)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(8)">
-              <div class="fast-news-time-tag">11 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">காவிரி நீர்ப்பிடிப்பு பகுதிகளில் தொடர் மழை: மேட்டூர் அணைக்கு நீர்வரத்து அதிகரிப்பு</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய விரைவுச் செய்தி: மண்டலச் செய்திகள் அரங்கம் (Slot 8)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(4)">
-              <div class="fast-news-time-tag">19 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">இந்திய பங்குச்சந்தையில் வெளிநாட்டு முதலீடு ₹3,200 கோடி குவிந்தது</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய விரைவுச் செய்தி: வணிகம் &amp; சந்தை நிலவரம் (Slot 4)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(5)">
-              <div class="fast-news-time-tag">28 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">பள்ளி மாணவர்களுக்கான புதிய ரோபோடிக்ஸ் பயிலரங்கு அறிவிப்பு வெளியீடு</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய விரைவுச் செய்தி: அறிவியல் &amp; தொழில்நுட்பம் (Slot 5)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(10)">
-              <div class="fast-news-time-tag">40 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">தமிழக தேர்தல் ஆணையம் வாக்காளர் பட்டியல் திருத்தப் பணிகளை முடுக்கியது</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய விரைவுச் செய்தி: அரசியல் களச் செய்திகள் (Slot 10)</div>
             </li>
           </ul>
         </div>
@@ -2433,28 +2422,28 @@
 
           <div class="hot-topic-feature-card" onclick="navigateToArticle(10)">
             <div class="hot-topic-thumb">
-              <img src="https://media.assettype.com/dailythanthi/2026-11-11/b2p0yyb3/CHENNAI-12.jpg?w=1200&auto=format%2Ccompress&fit=max" alt="தேர்தல் களம்" />
-              <span class="hot-topic-badge">HOT TOPIC</span>
+              <img src="https://media.assettype.com/dailythanthi/2026-11-10/bb18cb3b/dollar.jpg?w=1200" alt="டிரெண்டிங் களம்" />
+              <span class="hot-topic-badge">TRENDING TOPIC</span>
             </div>
             <div class="hot-topic-body">
-              <h4 class="hot-topic-title">தமிழக சட்டமன்ற தேர்தல்: கூட்டணிகள், வாக்கு வங்கி மற்றும் தேர்தல் வியூகங்கள்</h4>
-              <p class="hot-topic-snippet">அரசியல் கட்சிகளின் தீவிர களப்பணிகள் மற்றும் தேர்தல் அறிக்கையில் எதிர்பார்க்கப்படும் நலத்திட்டங்கள் பற்றிய பிரத்யேக அலசல்.</p>
+              <h4 class="hot-topic-title">இன்றைய டிரெண்டிங் செய்தி அரங்கம் (Trending Topic Slot)</h4>
+              <p class="hot-topic-snippet">இன்றைய முக்கிய சமூக மற்றும் அரசியல் டிரெண்டிங் செய்திகள் இங்கு தானாகப் பதிவேற்றப்படும்.</p>
             </div>
           </div>
 
           <div class="hot-topic-feature-card" onclick="navigateToArticle(4)">
             <div class="hot-topic-thumb">
-              <img src="https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m56w9jzy805aexdd6p2k6sva,imgname-post-office-vs-bank-fd-where-will-1-lakh-earn-more-interest-1792306105342.png" alt="பொருளாதாரம்" />
-              <span class="hot-topic-badge">TRENDING</span>
+              <img src="https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200" alt="ஹாட் டாபிக்" />
+              <span class="hot-topic-badge">HOT TOPIC</span>
             </div>
             <div class="hot-topic-body">
-              <h4 class="hot-topic-title">தங்கம் விலை புதிய உச்சம் மற்றும் நடுத்தர மக்களின் முதலீட்டு திட்டங்கள்</h4>
-              <p class="hot-topic-snippet">சர்வதேச பொருளாதார மாற்றங்கள் மற்றும் ரிசர்வ் வங்கி கொள்கைகள் காரணமாக தங்கம் விலையில் ஏற்பட்டுள்ள தாக்கம் பற்றிய விரிவான பார்வை.</p>
+              <h4 class="hot-topic-title">இன்றைய ஹாட் டாபிக் செய்தி அரங்கம் (Hot Topic Slot)</h4>
+              <p class="hot-topic-snippet">இன்றைய சிறப்புப் பார்வை மற்றும் முக்கிய நிகழ்வுகளின் அலசல் இங்கு இடம்பெறும்.</p>
             </div>
           </div>
         </div>
 
-        <!-- COLUMN 3: RIGHT - MAIN HEADLINE WIRE (PURGED) -->
+        <!-- COLUMN 3: RIGHT - MAIN HEADLINE WIRE -->
         <div class="speed-col-card">
           <div class="speed-col-header">
             <div class="speed-col-title">
@@ -2465,28 +2454,27 @@
           </div>
           <ul class="fast-news-stream-list">
             <li class="fast-news-item" onclick="navigateToArticle(7)">
-              <div class="fast-news-time-tag">6 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">மெல்போர்ன் டெஸ்ட்: ஆஸ்திரேலியாவின் விக்கெட்டுகளை வீழ்த்தி இந்திய பந்துவீச்சாளர்கள் அசத்தல்</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய முக்கிய நிகழ்வு: விளையாட்டுச் செய்தி அரங்கம் (Slot 7)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(6)">
-              <div class="fast-news-time-tag">15 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">புதிய சரித்திர திரைப்படத்தின் டீசர் 1 கோடி பார்வைகளைக் கடந்து சாதனை</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய முக்கிய நிகழ்வு: திரைப்படம் &amp; கலை அரங்கம் (Slot 6)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(3)">
-              <div class="fast-news-time-tag">24 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">நாடாளுமன்றத்தில் நுகர்வோர் பாதுகாப்பு புதிய ஒழுங்குமுறை விதிகள் தாக்கல்</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய முக்கிய நிகழ்வு: தேசிய அரசியல் அரங்கம் (Slot 3)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(9)">
-              <div class="fast-news-time-tag">35 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">உலக பருவநிலை மாநாட்டில் சர்வதேச சூரியசக்தி கூட்டமைப்பு புதிய திட்டங்கள் அறிமுகம்</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய முக்கிய நிகழ்வு: சர்வதேச உலகச் செய்திகள் (Slot 9)</div>
             </li>
             <li class="fast-news-item" onclick="navigateToArticle(1)">
-              <div class="fast-news-time-tag">52 நிமிடங்களுக்கு முன்</div>
-              <div class="fast-news-title">கோவையில் புதிய எலக்ட்ரானிக்ஸ் உற்பத்தி ஆலைக்கான நிலம் ஒதுக்கீடு நிறைவு</div>
+              <div class="fast-news-time-tag">நேரலை செய்தி</div>
+              <div class="fast-news-title">இன்றைய முக்கிய நிகழ்வு: தமிழகத் தலைமைச் செய்தி (Slot 1)</div>
             </li>
           </ul>
         </div>
-
       </div>
     </div>
   </section>
@@ -2518,6 +2506,11 @@
           </b:widget>
         </b:section>
       </main>
+
+                <!-- BROADSHEET CENTER FOLD GUIDELINE -->
+                <div class="broadsheet-fold-line">
+                  <span>⸻ நடுப்பக்க மடிப்புப் பகுதி • ARACHUDAR BROADSHEET CENTER FOLD ⸻</span>
+                </div>
 
       <!-- RIGHT: SIDEBAR -->
       <aside class='sidebar-wrapper'>
@@ -2680,328 +2673,265 @@
     "id": 1,
     "category": "tamilnadu",
     "subCategory": "chennai",
-    "title": "துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை",
-    "summary": "தமிழகத்தில் துவரம் பருப்பு மற்றும் உளுந்து இருப்பு நிலவரத்தை நிர்வகிக்க மத்திய அரசு புதிய கட்டுப்பாடுகளை ஒப்புதல் அளித்துள்ளது.",
-    "body": "இந்தியாவில் உணவுப் பொருட்களின் விநியோகச் சங்கிலியை உறுதி செய்வதற்காக, மத்திய அரசு துவரம் பருப்பு மற்றும் உளுந்து போன்ற முக்கிய பருப்பு வகைகளின் இருப்பு நிலவரத்தை கண்காணிக்க புதிய விதிமுறைகளை வகுத்துள்ளது. இந்த கட்டுப்பாடுகள் தமிழகம் உட்பட நாடு முழுவதும் நடைமுறைக்கு வரும் நிலையில், சந்தையில் ஏற்படும் திடீர் பற்றாக்குறைகள் தவிர்க்கப்படும் என எதிர்பார்க்கப்படுகிறது. உணவுப் பாதுகாப்பு மற்றும் விலைக் கட்டுப்பாட்டை உறுதி செய்வதே இந்த நடவடிக்கையின் முதன்மை நோக்கம் ஆகும்.
-
-உணவுப் பொருட்களின் விலை ஏற்ற இறக்கங்கள் பொதுமக்களின் அன்றாட வாழ்க்கையில் பெரும் தாக்கத்தை ஏற்படுத்துவதால், அரசு தலையீடு அவசியமாகிறது. புதிய கட்டுப்பாடுகளின் கீழ், குறிப்பிட்ட கால இடைவெளியில் மாநில அரசுகள் இருப்பு அறிக்கைகளை மத்திய உணவுப் பாதுகாப்பு ஆணையத்திடம் சமர்ப்பிக்க வேண்டும். இதன் மூலம், தேவை மற்றும் விநியோகத்திற்கு இடையே சமநிலையை பராமரிக்க முடியும்.
-
-தமிழக அரசின் உணவுத் துறை அதிகாரிகள் இந்த புதிய வழிகாட்டுதல்களை உள்வாங்கி, உள்ளூர் சந்தைகள் மற்றும் மொத்த விற்பனை மையங்களில் கண்காணிப்பை தீவிரப்படுத்துவார்கள் என்று எதிர்பார்க்கப்படுகிறது. நுகர்வோர் தங்கள் தேவைகளைத் திட்டமிட்டு வாங்குவதுடன், அரசு அறிவிக்கும் விலைக் கட்டுப்பாடுகளைப் பின்பற்றுவது அவசியம்.",
-    "image": "https://media.assettype.com/dailythanthi/2026-11-11/b2p0yyb3/CHENNAI-12.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "32 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 7076,
+    "title": "இன்றைய தலைமைச் செய்தி - தானியங்கி செய்திப் பதிவேற்ற அரங்கம்",
+    "summary": "இன்றைய முக்கியத் தலைமைச் செய்தி இங்கு தானாகப் பதிவேற்றப்படும். புதிய நேரலை செய்திகள் உடனுக்குடன் தோன்றும்.",
+    "body": "அறச்சுடர் தமிழ் நாளிதழின் இன்றைய முதன்மைத் தலைமைச் செய்தி இங்கு தானியங்கி முறையில் உடனுக்குடன் பதிவேற்றப்படும். உண்மைக்கு முன்னுரிமை தரும் நடுநிலையான செய்திகள், அரசியல், சமூகம் மற்றும் மக்கள் நலன் சார்ந்த முக்கியத் தகவல்களுடன் இந்தப் பகுதியில் விரிவாக வெளியாகும்.",
+    "image": "https://media.assettype.com/dailythanthi/2026-11-10/bb18cb3b/dollar.jpg?w=1200",
+    "author": "அறச்சுடர் ஆசிரியர் குழு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "3 நிமிடம்",
+    "views": 2500,
     "isFlash": true,
     "tags": [
-      "துவரம் பருப்பு",
-      "உளுந்து",
-      "மத்திய அரசு",
-      "உணவுப் பாதுகாப்பு"
+      "தலைமைச் செய்தி",
+      "தமிழ்நாடு",
+      "நேரலை"
     ],
-    "sourceUrl": "https://www.dailythanthi.com/news/tamilnadu/new-restrictions-on-availability-of-dal-and-urad-dal-in-tamil-nadu-central-government-approves",
-    "sourceName": "தினத்தந்தி"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 2,
     "category": "tamilnadu",
     "subCategory": "districts",
-    "title": "டாஸ்மாக் ஊழியர்களுக்கு மூன்று ஆண்டு சுழற்சி கட்டாய பணியிட மாற்றம் அறிவிப்பு",
-    "summary": "டாஸ்மாக் ஊழியர்களுக்கான புதிய விதிமுறைகளின்படி, மூன்று ஆண்டுகளுக்கு ஒருமுறை கட்டாய பணியிட மாற்றம் செய்யப்பட உள்ளது.",
-    "body": "தமிழ்நாடு மாநில மதுபான விற்பனை வாரியமான டாஸ்மாக் ஊழியர்களுக்கான பணியிட மாற்றங்கள் குறித்த புதிய விதிமுறைகள் வெளியிடப்பட்டுள்ளன. இந்த புதிய நடைமுறைகளின்படி, ஒவ்வொரு ஊழியரும் மூன்று ஆண்டுகளுக்கு ஒருமுறை கட்டாயமாக வேறு பணியிடத்திற்கு மாற்றப்படுவார்கள். இது பணியிடங்களில் ஏற்படும் தேக்கத்தைக் குறைக்கவும், ஊழியர்களின் திறன்களைப் பரவலாக்கவும் நோக்கமாகக் கொண்டுள்ளது. நிர்வாகம் இந்த மாற்றங்களை சீராக செயல்படுத்தத் திட்டமிட்டுள்ளது. ஊழியர்கள் மற்றும் தொழிற்சங்கங்கள் இந்த புதிய விதிமுறைகள் குறித்து தங்கள் கருத்துக்களைத் தெரிவிக்க வேண்டிய நிலையில் உள்ளன. சம்பந்தப்பட்ட துறைகள் விரைவில் முழுமையான வழிகாட்டுதல்களை வெளியிட expected ஆகும்.
-
-இந்த மாற்றம், நிறுவனத்தின் செயல்பாட்டுத் திறனை மேம்படுத்துவதோடு, ஊழியர்களுக்குப் புதிய அனுபவங்களையும், பல்வேறு துறைகளில் பணியாற்றும் வாய்ப்புகளையும் வழங்கும் என்று நிர்வாகம் தெரிவித்துள்ளது. பணியிட மாற்றங்கள் ஊழியர்களின் பணிச் சுமையைப் பாதிக்காதவாறு, உரிய கால அவகாசத்துடன் திட்டமிடப்படும் என்றும் உறுதி அளிக்கப்பட்டுள்ளது. ஊழியர்கள் தங்கள் துறைத் தலைவர்களுடன் இணைந்து இந்த மாற்றங்களுக்கான திட்டமிடலில் பங்கேற்கலாம்.
-
-தொழிற்சங்கங்களின் பிரதிநிதிகள், இந்த மாற்றங்கள் ஊழியர்களின் நலன்களைப் பாதிக்காமல், நியாயமான முறையில் செயல்படுத்தப்படுவதை உறுதி செய்ய நிர்வாகத்துடன் பேச்சுவார்த்தை நடத்த உள்ளனர். பணியிட மாற்றம் என்பது நிர்வாகத் தேவை சார்ந்தது என்றாலும், ஊழியர்களின் மனநலன் மற்றும் தொழில் வளர்ச்சிக்கு இது எவ்வாறு துணைபுரிகிறது என்பதில் தெளிவான வழிகாட்டுதல்கள் தேவைப்படுகின்றன. இந்த புதிய விதிமுறைகள் டாஸ்மாக் நிறுவனத்தின் எதிர்கால நிர்வாக உத்தியில் ஒரு முக்கிய திருப்புமுனையாக அமையும் என்பதில் ஐயமில்லை.",
-    "image": "https://media.assettype.com/dailythanthi/2026-11-10/0p8dqg6u/CHENNAI-10.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "10 நவம்பர் 2026",
-    "timeAgo": "2 மணி நேரம் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 9634,
+    "title": "இன்றைய மாவட்டச் செய்திகள் - தமிழகக் கள நிலவரங்கள்",
+    "summary": "தமிழகத்தின் அனைத்து மாவட்டங்களின் முக்கிய நிகழ்வுகள் மற்றும் கள நிலவரங்கள் குறித்த செய்திகள் இங்கு பதிவேற்றப்படும்.",
+    "body": "தமிழகத்தின் பல்வேறு மாவட்டங்களில் நடைபெறும் முக்கிய நிகழ்வுகள், வளர்ச்சித் திட்டங்கள் மற்றும் மக்கள் நலன் சார்ந்த அறிவிப்புகள் குறித்த விரிவான தகவல்கள் இந்தப் பகுதியில் இடம்பெறும்.",
+    "image": "https://media.assettype.com/dailythanthi/2026-11-10/0p8dqg6u/CHENNAI-10.jpg?w=1200",
+    "author": "மாவட்ட நிருபர் குழு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 1800,
     "isFlash": true,
     "tags": [
-      "டாஸ்மாக்",
-      "பணியிட மாற்றம்",
-      "தமிழ்நாடு அரசு",
-      "ஊழியர் நலன்"
+      "மாவட்டங்கள்",
+      "தமிழ்நாடு",
+      "நிர்வாகம்"
     ],
-    "sourceUrl": "https://www.dailythanthi.com/news/tamilnadu/mandatory-job-transfers-for-tasmac-employees-every-3-years-new-rules",
-    "sourceName": "தினத்தந்தி"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 3,
     "category": "national",
     "subCategory": "delhi",
-    "title": "புற்றுநோய் போராட்டம்: சோனியா காந்தி உறுதிப்படுத்திய முக்கிய தகவல்",
-    "summary": "சோனியா காந்தி தனது புற்றுநோயுடனான போராட்டத்தை முதன்முறையாக உறுதிப்படுத்தியுள்ளார்.",
-    "body": "இந்தியாவின் முக்கிய அரசியல் மற்றும் சமூகத் தலைவர்களில் ஒருவரான சோனியா காந்தி, தனது உடல்நலப் போராட்டத்தைப் பற்றி பொதுவெளியில் முதன்முறையாக வெளிப்படையாக அறிவித்துள்ளார். இந்த அறிவிப்பு, அவரது தனிப்பட்ட சவால்களையும், அதற்கான மருத்துவப் பயணத்தையும் வெளிச்சத்திற்குக் கொண்டு வந்துள்ளது. புற்றுநோயுடன் போராடுவது என்பது ஒரு தனிப்பட்ட மற்றும் கடினமான செயல் என்றாலும், அவரது வெளிப்படைத்தன்மை சமூகத்தில் விழிப்புணர்வை ஏற்படுத்தியுள்ளது.
-
-இந்த அறிவிப்பு வெளியானதைத் தொடர்ந்து, அவரது ஆதரவாளர்கள் மற்றும் பொது மக்கள் அவருக்கு மனமார்ந்த வாழ்த்துக்களைத் தெரிவித்துள்ளனர். மேலும், புற்றுநோய் குறித்த விழிப்புணர்வு மற்றும் ஆரம்பகால கண்டறிதலின் முக்கியத்துவம் குறித்து இந்த நிகழ்வு உரக்கச் சொல்லுகிறது. மருத்துவத் துறையினர், நோயாளிகளுக்குத் தேவையான ஆதரவு மற்றும் சிகிச்சைகள் குறித்த தகவல்களைப் பகிர்ந்து கொள்ள வேண்டியதன் அவசியத்தையும் வலியுறுத்தியுள்ளனர்.
-
-சோனியா காந்தி எதிர்கொள்ளும் இந்த சவாலை அவர் எவ்வாறு எதிர்கொள்கிறார் என்பது கவனிக்கத்தக்கது. அவரது இந்த வெளிப்படையான அணுகுமுறை, பல நோயாளிகளுக்கு நம்பிக்கையூட்டும் ஒரு உதாரணமாகத் திகழ்கிறது. சுகாதாரத் துறையில் மேலும் மேம்பட்ட அணுகுமுறைகள் தேவை என்றும், அரசு மற்றும் தனியார் நிறுவனங்கள் இணைந்து புற்றுநோய் தடுப்பு மற்றும் சிகிச்சையில் கவனம் செலுத்த வேண்டும் என்றும் நிபுணர்கள் கருத்து தெரிவித்துள்ளனர். இந்த நிகழ்வு, பொது சுகாதார விழிப்புணர்வுக்கு ஒரு திருப்புமுனையாக அமையும் என எதிர்பார்க்கப்படுகிறது.",
-    "image": "https://cf-images.assettype.com/maalai-malar/2026-11-11/ll8tbwqp/sonia-gandhi.png?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "53 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 8489,
+    "title": "இன்றைய தேசியச் செய்தி - இந்திய அரசியல் நடப்புகள்",
+    "summary": "நாடாளுமன்ற நிகழ்வுகள், மத்திய அரசின் முக்கிய கொள்கை முடிவுகள் மற்றும் தேசிய அரசியல் தகவல்கள்.",
+    "body": "இந்தியாவின் தலைநகர் டெல்லி மற்றும் பல்வேறு மாநிலங்களின் முக்கிய தேசிய நிகழ்வுகள், நாடாளுமன்ற நடவடிக்கைகள், மத்திய அமைச்சரவை முடிவுகள் குறித்த விரிவான பார்வை.",
+    "image": "https://cf-images.assettype.com/maalai-malar/2026-11-11/ll8tbwqp/sonia-gandhi.png?w=1200",
+    "author": "தேசியப் பிரிவு நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 2100,
     "isFlash": true,
     "tags": [
-      "சோனியா காந்தி",
-      "புற்றுநோய்",
-      "சுகாதார விழிப்புணர்வு",
-      "தமிழ்நாடு"
+      "தேசியம்",
+      "டெல்லி",
+      "இந்தியா"
     ],
-    "sourceUrl": "https://www.maalaimalar.com/news/national/sonia-gandhi-confirms-battle-with-cancer-for-the-first-time-in-memoirs",
-    "sourceName": "மாலை மலர்"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 4,
     "category": "business",
     "subCategory": "market",
-    "title": "அஞ்சலக கால வைப்புத் திட்டம்: பாதுகாப்பான முதலீட்டில் லாபக் கணக்கீடு",
-    "summary": "அஞ்சலக கால வைப்புத் திட்டத்தில் ரூ.1 லட்சம் முதலீடு செய்தால், கணிசமான வட்டி லாபத்தை அபாயமின்றி பெறலாம்.",
-    "body": "நிதிச் சந்தைகளில் நிலையான மற்றும் பாதுகாப்பான வருமானத்தை நாடும் முதலீட்டாளர்களுக்கு அஞ்சலக கால வைப்புத் திட்டம் (Post Office Time Deposit) ஒரு நம்பகமான தேர்வாக உள்ளது. இந்தத் திட்டத்தின் கீழ், குறிப்பிட்ட தொகையை முதலீடு செய்வதன் மூலம், சந்தை ஏற்ற இறக்கங்களால் பாதிக்கப்படாமல் நிலையான வட்டி வருமானத்தை உறுதி செய்யலாம்.
-
-தற்போதைய திட்ட விவரங்களின்படி, ரூ.1 லட்சம் முதலீட்டில் எதிர்பார்க்கக்கூடிய வட்டி லாபம் சுமார் ரூ.45,000 வரை கணக்கிடப்பட்டுள்ளது. இருப்பினும், இந்தத் தொகை திட்டத்தின் கால அளவு, பொருந்தக்கூடிய வட்டி விகிதம் மற்றும் முதலீட்டின் சரியான கணக்கீட்டைப் பொறுத்து மாறுபடலாம் என்பதை முதலீட்டாளர்கள் கவனத்தில் கொள்ள வேண்டும்.
-
-அஞ்சல் శాఖ வழங்கும் இந்தத் திட்டம், அரசாங்கத்தின் உத்தரவாதத்தின் கீழ் இயங்குவதால், முதலீட்டுப் பாதுகாப்பு மிக உயர்ந்த அளவில் உள்ளது. இது, ரிஸ்க் எடுக்க விரும்பாத, ஆனால் நிலையான வருமானம் தேடும் நடுத்தர மற்றும் ஓய்வூதியதாரர்களுக்கு மிகவும் பொருத்தமான சேமிப்புத் தீர்வாகும்.
-
-முதலீடு செய்வதற்கு முன், தற்போதைய அதிகாரப்பூர்வ வட்டி விகிதங்கள், திட்டத்தின் விதிமுறைகள் மற்றும் காலக்கெடுவைப் பற்றி அஞ்சல் அலுவலகத்தில் நேரடியாக விசாரிப்பது அல்லது அதிகாரப்பூர்வ இணையதளத்தைப் பார்ப்பது அவசியம். இது, துல்லியமான நிதி முடிவுகளை எடுக்க உதவும்.",
-    "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m56w9jzy805aexdd6p2k6sva,imgname-post-office-vs-bank-fd-where-will-1-lakh-earn-more-interest-1792306105342.png",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "10 நவம்பர் 2026",
-    "timeAgo": "12 மணி நேரம் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 13230,
-    "isFlash": true,
+    "title": "இன்றைய வணிகச் செய்தி - நிதி & முதலீட்டு களம்",
+    "summary": "பங்குச்சந்தை, தங்கம் மற்றும் வெள்ளி விலை நிலவரம், வணிக முதலீட்டு வழிகாட்டல்கள்.",
+    "body": "இந்திய மற்றும் சர்வதேச நிதிச் சந்தைகளின் தற்போதைய போக்கு, ரிசர்வ் வங்கி கொள்கைகள், நடுத்தர மக்களுக்கான சிறந்த சேமிப்புத் திட்டங்கள் பற்றிய சிறப்புத் தகவல்கள்.",
+    "image": "https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200",
+    "author": "வணிக நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 3200,
+    "isFlash": false,
     "tags": [
-      "அஞ்சலகத் திட்டம்",
-      "பாதுகாப்பான முதலீடு",
-      "கால வைப்புத் திட்டம்"
+      "வணிகம்",
+      "முதலீடு",
+      "பங்குச்சந்தை"
     ],
-    "sourceUrl": "https://tamil.asianetnews.com/gallery/business/post-office-time-deposit-invest-rs-1-lakh-and-earn-up-to-rs-45000-return-full-details-090rivq",
-    "sourceName": "ஏசியாநெட் நியூஸ் தமிழ்"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 5,
     "category": "tech",
     "subCategory": "science",
-    "title": "ககன்யான் திட்டத்திற்கு கோவை பாதுகாப்பு சாதனம்; இஸ்ரேலுக்கு எல்&டி சமர்ப்பிப்பு",
-    "summary": "இந்தியாவின் ககன்யான் திட்டத்திற்காக கோவையில் உருவாக்கப்பட்ட பாதுகாப்பு சாதனம் இஸ்ரேலுக்கு தொழில்நுட்ப அறிக்கையாக (L&D) சமர்ப்பிக்கப்பட்டுள்ளது.",
-    "body": "இந்திய விண்வெளி ஆய்வு மையத்தின் ககன்யான் திட்டத்தின் தேவைகளைப் பூர்த்தி செய்யும் வகையில், கோவையில் உள்ள பாதுகாப்பு நிறுவனங்கள் ஒரு அதிநவீன பாதுகாப்பு சாதனத்தை உருவாக்கியுள்ளன. இந்தத் தொழில்நுட்பத்தின் விவரங்கள் மற்றும் சாத்தியக்கூறுகள் குறித்த விரிவான தொழில்நுட்ப அறிக்கை (L&D) இஸ்ரேல் தரப்புக்கு முறையாக சமர்ப்பிக்கப்பட்டுள்ளது. இந்த முயற்சி, இந்திய பாதுகாப்பு மற்றும் விண்வெளித் துறைகளின் தொழில்நுட்பத் திறனை சர்வதேச அரங்கில் நிலைநிறுத்துகிறது.
-
-இந்தச் சாதனம், விண்வெளிப் பயணங்களின்போது ஏற்படக்கூடிய பாதுகாப்பு அச்சுறுத்தல்களை எதிர்கொள்ளும் வகையில் வடிவமைக்கப்பட்டுள்ளது. கோவையில் உள்ள பாதுகாப்பு ஆராய்ச்சி மற்றும் மேம்பாட்டு மையங்களின் கூட்டு முயற்சியால் இது உருவாக்கப்பட்டுள்ளது. இஸ்ரேல், உலகளாவிய பாதுகாப்புத் தொழில்நுட்பங்களில் முன்னோடியாக இருப்பதால், இந்தத் தொழில்நுட்பத்தை பரிசீலிப்பது இரு நாடுகளுக்கும் இடையே ஒத்துழைப்புக்கான புதிய தளத்தை உருவாக்கும் என எதிர்பார்க்கப்படுகிறது.
-
-அதிகாரபதில்கள் கூறுகையில், இந்தச் சமர்ப்பிப்பு வெறும் விற்பனை நோக்கம் அல்ல; மாறாக, தொழில்நுட்பப் பரிமாற்றம் மற்றும் கூட்டு ஆராய்ச்சி மூலம் இந்தியத் திறனை உலகிற்கு எடுத்துச் செல்வதே இதன் முதன்மை நோக்கம் என்று தெளிவுபடுத்தினர். ககன்யான் திட்டத்தின் வெற்றிக்கு இது ஒரு முக்கிய தொழில்நுட்ப ஆதரவாக அமையும் என்பது உறுதி.",
-    "image": "https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372866.jpg",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "59 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 10529,
-    "isFlash": true,
+    "title": "இன்றைய அறிவியல் & தொழில்நுட்பச் செய்தி அரங்கம்",
+    "summary": "இஸ்ரோவின் விண்வெளி சாதனைகள், நவீன மென்பொருள் மற்றும் செயற்கை நுண்ணறிவு முன்னேற்றங்கள்.",
+    "body": "இந்தியாவின் அறிவியல் ஆய்வுகள், செயற்கைக்கோள் ஏவுதல் திட்டங்கள் மற்றும் அன்றாட வாழ்க்கையை எளிதாக்கும் நவீன தொழில்நுட்பக் கண்டுபிடிப்புகள் பற்றிய அலசல்.",
+    "image": "https://thinaboomi.com/uploads/images/202603/image_870x580_69c273307cfa5.jpg",
+    "author": "தொழில்நுட்பப் பிரிவு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 1950,
+    "isFlash": false,
     "tags": [
-      "ககன்யான்",
-      "கோவை",
-      "பாதுகாப்புத் தொழில்நுட்பம்",
-      "இஸ்ரேல்"
+      "தொழில்நுட்பம்",
+      "அறிவியல்",
+      "இஸ்ரோ"
     ],
-    "sourceUrl": "https://www.dinamalar.com/news/latest-tamil-news/protective-equipment-for-gaganyaan-project-ready-in-coimbatore/4372866",
-    "sourceName": "தினமலர்"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 6,
     "category": "cinema",
     "subCategory": "kollywood",
-    "title": "இன்ஸ்டாகிராம் புகழ் அமலா ஷாஜி; விக்ரம் பிரபுவுடன் நடிக்கும் புதிய திரைப்படம்",
-    "summary": "சமூக வலைதளங்களில் பிரபலமடைந்த அமலா ஷாஜி, தற்போது விக்ரம் பிரபுவுடன் இணைந்து நடிக்கும் திரைப்படத்தில் கதாநாயகியாகத் தேர்வு செய்யப்பட்டுள்ளார்.",
-    "body": "சமூக ஊடக தளங்களான இன்ஸ்டாகிராமில் தனது தனித்துவமான தோற்றத்தால் பெரும் வரவேற்பைப் பெற்ற அமலா ஷாஜி, தற்போது திரையுலகில் தனது பயணத்தைத் தொடங்கியுள்ளார். அவரது திறமை மற்றும் கவர்ச்சி காரணமாக, முன்னணி நடிகர்களுடன் இணைந்து நடிக்கும் வாய்ப்புகள் அவருக்குக் கிடைத்துள்ளன. சமீபத்தில், விக்ரம் பிரபு இயக்கத்தில் உருவாகும் புதிய திரைப்படத்தில் கதாநாயகியாக அமலா ஷாஜி தேர்வு செய்யப்பட்டுள்ளார் என்பது திரையுலக வட்டாரங்களில் பேசப்படுகிறது.
-
-இந்தத் திரைப்படம் குறித்த அதிகாரப்பூர்வ அறிவிப்புகள் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது. அமலா ஷாஜி, சமூக வலைதளங்களில் பெற்ற ரசிகர் ஆதரவை திரையுலகில் வெற்றிகரமாக மாற்றும் திறன் கொண்டவரா என்பதை இந்த புதிய கூட்டணி நிரூபிக்கும். சினிமா துறையில் புதிய முகங்கள் வெளிப்படுவது ரசிகர்களுக்கு உற்சாகமளிக்கிறது. ரசிகர்கள் இவருடைய நடிப்புத் திறனை ஆவலுடன் எதிர்பார்த்துக் காத்திருக்கின்றனர்.
-
-திரைப்படத்தின் கதைக்களம், தயாரிப்பு விவரங்கள் மற்றும் வெளியீட்டுத் தேதி குறித்த கூடுதல் தகவல்கள் அதிகாரப்பூர்வ அறிவிப்புகளின் மூலம் மட்டுமே உறுதிப்படுத்தப்படும். சினிமா உலகில் புதிய பரிமாணங்களை நோக்கி நகரும் அமலா ஷாஜியின் பயணம் கவனிக்கத்தக்கது.",
-    "image": "https://imagesvs.oneindia.com/webp/ta/img/2026/09/amalashajit-67211788278157.jpg",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "1 செப்டம்பர் 2026",
-    "timeAgo": "70 நாட்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 12697,
-    "isFlash": true,
+    "title": "இன்றைய திரை உலகம் - தமிழ் சினிமா அண்மைச் செய்திகள்",
+    "summary": "புதிய திரைப்படங்களின் வெளியீடு, டீசர், டிரெய்லர் மற்றும் திரையுலக பிரபலங்களின் சிறப்புப் பேட்டிகள்.",
+    "body": "தமிழ் மற்றும் இந்திய திரையுலகின் சமீபத்திய சினிமா செய்திகள், படப்பிடிப்புத் தகவல்கள் மற்றும் பாக்ஸ் ஆபிஸ் நிலவரங்கள் குறித்த சுவாரசியமான பார்வை.",
+    "image": "https://images.news18.com/tamil/uploads/2026/11/sonia-gandhi-2026-11-bfbe3a4e73a1c1c1200255934925ba2d-1200x800.jpg",
+    "author": "சினிமா நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 4100,
+    "isFlash": false,
     "tags": [
-      "அமலாஷாஜி",
-      "விக்ரம்பிரபு",
-      "தமிழ்சினிமா",
-      "புதியதிரைப்படம்"
+      "சினிமா",
+      "திரைப்படம்",
+      "கோலிவுட்"
     ],
-    "sourceUrl": "https://tamil.oneindia.com/cinema/amala-shaji-rose-to-fame-on-instagram-now-she-s-a-heroine-paired-with-vikram-prabhu-guess-which-827939.html",
-    "sourceName": "ஒன்இந்தியா தமிழ்"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 7,
     "category": "sports",
     "subCategory": "cricket",
-    "title": "தந்தையின் வழியில் ஜோசப்; அர்னால்ட் வாரிசு சாதனை டாப் 5-ல்",
-    "summary": "சிறுவயதிலேயே உடற்பயிற்சி ஆர்வம் கொண்ட ஜோசப், தந்தையின் வழிகாட்டுதலால் அர்னால்ட் ஸ்வாஸ்னேகரின் சாதனையைத் தொடர்கிறார்.",
-    "body": "உடற்பயிற்சி உலகில் குறிப்பிடத்தக்க சாதனைகளை நிகழ்த்தி வரும் ஜோசப், தனது வெற்றிக்குத் தந்தை அளித்த ஊக்கமே முக்கிய காரணம் என்று கூறியுள்ளார். அர்னால்ட் ஸ்வாஸ்னேகர் போன்ற உலகப் புகழ்பெற்ற உடற்பயிற்சி நிபுணரின் வாரிசாகத் திகழும் ஜோசப், சமீபத்திய போட்டிகளில் டாப் 5 இடங்களுக்குள் நுழைந்து தனது திறமையை நிரூபித்துள்ளார்.
-
-ஜோசப் அளித்த பேட்டியில், சிறு வயதிலேயே உடற்பயிற்சியின் மீது ஆர்வம் வரத் தூண்டியது அவரது தந்தைதான் என்று குறிப்பிட்டுள்ளார். மேலும், அர்னால்ட் ஸ்வாஸ்னேகர் எழுதிய பாடிபில்டிங் தொடர்பான புத்தகங்களைப் படித்து, அதிலிருந்து பெற்ற அறிவின் அடிப்படையிலேயே தனது பயிற்சிகளைத் தொடங்கினார் என்றும் அவர் தெரிவித்துள்ளார்.
-
-இந்தச் சாதனை, இளம் விளையாட்டு வீரர்களுக்குத் தங்கள் குடும்பத்தின் ஆதரவும், சரியான வழிகாட்டுதலும் எவ்வளவு முக்கியம் என்பதை எடுத்துக்காட்டுகிறது. ஜோசப்பின் இந்த வெற்றி, தமிழ்நாட்டு விளையாட்டுத் துறைக்கு மேலும் பெருமை சேர்க்கிறது. தொடர்ச்சியான கடின உழைப்பு மற்றும் சரியான வழிகாட்டுதல் ஆகியவை வெற்றிக்கான திறவுகோல் என்பதை அவர் தனது செயல்பாடுகளாலும் நிரூபித்துள்ளார்.
-
-அடுத்தடுத்த போட்டிகளிலும் ஜோசப் இதேபோன்ற வெற்றிகளைப் பெற்று, உடற்பயிற்சி உலகில் மேலும் உயரங்களைத் தொட வேண்டும் என்று எதிர்பார்க்கப்படுகிறது. அவரது பயணம், பல இளைஞர்களுக்கு உத்வேகமாக அமையும் என்பதில் ஐயமில்லை.",
-    "image": "https://images.news18.com/tamil/uploads/2026/11/feature-image-59-2026-11-cf1a422b403ac1ce4600399f35989a2b-1200x800.jpg",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "10 நவம்பர் 2026",
-    "timeAgo": "10 மணி நேரம் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 9606,
-    "isFlash": true,
+    "title": "இன்றைய விளையாட்டு அரங்கம் - சர்வதேச & தேசிய போட்டிகள்",
+    "summary": "கிரிக்கெட், கால்பந்து மற்றும் சர்வதேச தடகளப் போட்டிகளின் முடிவுகள் மற்றும் சாதனைகள்.",
+    "body": "சர்வதேச மற்றும் உள்ளூர் விளையாட்டுப் போட்டிகளின் நேரலை நிலவரங்கள், இந்திய வீரர் வீராங்கனைகளின் சாதனைகள் மற்றும் விளையாட்டுத்துறை வழிகாட்டல்கள்.",
+    "image": "https://imagesvs.oneindia.com/webp/ta/img/2026/11/sheikhhasina-30211794324120.jpg",
+    "author": "விளையாட்டு நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 3800,
+    "isFlash": false,
     "tags": [
-      "ஜோசப்",
-      "உடற்பயிற்சி",
-      "அர்னால்ட் ஸ்வாஸ்னேகர்"
+      "விளையாட்டு",
+      "கிரிக்கெட்",
+      "போட்டிகள்"
     ],
-    "sourceUrl": "https://tamil.news18.com/sports/other-sports-following-in-arnolds-footsteps-joseph-baena-places-5th-in-pro-natural-bodybuilding-debut-abm-ws-l-2249932.html",
-    "sourceName": "நியூஸ்18 தமிழ்நாடு"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 8,
     "category": "tamilnadu",
     "subCategory": "trichy",
-    "title": "தீபாவளி கொலைகள்: முதல்வர் விஜய் அதிகாரிகளுடன் அவசர ஆலோசனை",
-    "summary": "தீபாவளி பண்டிகையின் போது நடந்த கொலைகள் குறித்து முதல்வர் விஜய் உயர் அதிகாரிகளுடன் அவசர ஆலோசனை நடத்தினார்.",
-    "body": "தீபாவளி பண்டிகையின் போது மாநிலம் முழுவதும் பதிவான கொலை வழக்குகள் குறித்து முதல்வர் விஜய் இன்று உயர் அதிகாரிகளுடன் அவசர ஆலோசனை நடத்தினார். இந்தச் சம்பவங்கள் பொதுமக்களிடையே பெரும் அச்சத்தை ஏற்படுத்தியுள்ள நிலையில், விரைந்து நடவடிக்கை எடுக்குமாறு முதல்வர் வலியுறுத்தினார். காவல்துறை தரப்பில், இதுவரை பதிவான கொலை வழக்குகளின் விவரங்கள் மற்றும் தடுப்பு நடவடிக்கைகள் குறித்து விரிவான அறிக்கை சமர்ப்பிக்கப்பட்டது. முதல்வர், பாதிக்கப்பட்ட குடும்பங்களுக்கு உரிய நிவாரணமும், குற்றவாளிகள் மீது விரைவான சட்ட நடவடிக்கை எடுப்பதும் அவசியம் என்று திட்டவட்டமாகத் தெரிவித்தார்.
-
-இந்தச் சம்பவங்கள் பண்டிகை கால அமைதியைக் குலைத்துள்ளது. எனவே, குற்றங்களைத் தடுப்பதற்கும், பொதுமக்களின் பாதுகாப்பை உறுதி செய்வதற்கும் காவல்துறை கூடுதல் கண்காணிப்பு நடவடிக்கைகளை மேற்கொள்ள உத்தரவிடப்பட்டுள்ளது. குறிப்பாக, பண்டிகை காலங்களில் ஏற்படும் வன்முறைகளைத் தடுக்க சிறப்புப் படைகள் মোতায়েন செய்யப்படலாம் என்றும் தகவல் வெளியாகியுள்ளது. அரசு நிர்வாகம், இந்தச் சூழலை தீவிரமாகக் கருதி, அனைத்துத் துறைகளிலும் ஒருங்கிணைந்த செயல்பாடுகளை உறுதி செய்து வருகிறது. மேலும், பொதுமக்கள் அச்சமின்றி பண்டிகையைக் கொண்டாட வழிவகை செய்ய அரசு உறுதியளித்துள்ளது.",
-    "image": "https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372862.jpg",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "2 மணி நேரம் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 14267,
-    "isFlash": true,
+    "title": "இன்றைய மண்டலச் செய்திகள் - நடுவண் தமிழகம்",
+    "summary": "திருச்சி, தஞ்சை, சேலம் உள்ளிட்ட முக்கிய நகரங்களின் வளர்ச்சித் திட்டங்கள் மற்றும் செய்திகள்.",
+    "body": "தமிழகத்தின் மத்திய மற்றும் மேற்கு மண்டல நகரங்களின் அன்றாட முக்கிய நிகழ்வுகள் மற்றும் மக்கள் சார்ந்த செய்திகளின் முழுமையான தொகுப்பு.",
+    "image": "https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372635.jpg",
+    "author": "மண்டல நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 1600,
+    "isFlash": false,
     "tags": [
-      "தீபாவளி",
-      "முதல்வர் விஜய்",
-      "கொலைகள்",
-      "தமிழ்நாடு"
+      "மண்டலம்",
+      "தமிழகம்",
+      "நகரங்கள்"
     ],
-    "sourceUrl": "https://www.dinamalar.com/news/latest-tamil-news/diwali-killings-cm-vijay-holds-emergency-meeting-with-officials/4372862",
-    "sourceName": "தினமலர்"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 9,
     "category": "world",
     "subCategory": "global",
-    "title": "ரஷ்யா உளவு தொடர்பு: அமெரிக்க ராணுவ வீரர் லண்டனில் கைது",
-    "summary": "ரஷ்யாவுடன் தொடர்பு இருப்பதாக சந்தேகிக்கப்பட்ட அமெரிக்க ராணுவ வீரர் லண்டனில் கைது செய்யப்பட்டுள்ளார்.",
-    "body": "சர்வதேச உளவு நடவடிக்கைகளில் ஈடுபட்டுள்ளதாக சந்தேகிக்கப்பட்ட அமெரிக்க ராணுவ வீரர், இங்கிலாந்தின் தலைநகர் லண்டனில் கைது செய்யப்பட்டுள்ளார். இந்த கைது நடவடிக்கை, ரஷ்யாவுடன் தொடர்புடைய உளவுத் தகவல்களைச் சேகரித்ததற்கான சாத்தியமான ஆதாரங்களின் அடிப்படையில் மேற்கொள்ளப்பட்டுள்ளது. இங்கிலாந்துப் பொலிஸார் நடத்திய விசாரணையில், வீரரின் நடவடிக்கைகள் மற்றும் தகவல் பரிமாற்ற முறைகள் குறித்து தீவிரமாக ஆய்வு செய்யப்படுகிறது.
-
-இந்த சம்பவம் சர்வதேச உறவுகளில் ஒரு முக்கியமான திருப்புமுனையாகக் கருதப்படுகிறது. அமெரிக்கா மற்றும் ரஷ்யா இடையேயான அரசியல் மற்றும் உளவுத்துறை சார்ந்த பதட்டங்கள் இந்த கைது மூலம் மேலும் வலுப்பெற்றுள்ளன. கைது செய்யப்பட்ட வீரர் மீது எந்தெந்த குற்றச்சாட்டுகள் சுமத்தப்பட்டுள்ளன என்பது குறித்த அதிகாரப்பூர்வ விவரங்கள் இன்னும் வெளியிடப்படவில்லை. இருப்பினும், உளவுத் தொடர்பு குறித்த சந்தேகமே கைதுக்கான முக்கிய காரணமாகத் தெரிகிறது.
-
-அமெரிக்க அரசாங்கம் இந்த கைது குறித்து இதுவரை அதிகாரப்பூர்வ கருத்து தெரிவிக்கவில்லை என்றாலும், சர்வதேச சட்டங்களின்படி இந்த நடவடிக்கை மேற்கொள்ளப்பட்டதாக இங்கிலாந்து அதிகாரிகள் உறுதிப்படுத்தியுள்ளனர். இந்த வழக்கில் மேலும் விவரங்கள் வெளிவரும் வரை, ஊகங்களைத் தவிர்த்து, அதிகாரப்பூர்வ தகவல்களை மட்டுமே நம்புவது அவசியம். சர்வதேச சமூகத்தின் கவனத்தை ஈர்த்துள்ள இந்த வழக்கு, உலகளாவிய பாதுகாப்பு மற்றும் உளவுத்துறை ஒத்துழைப்பு குறித்த விவாதங்களைத் தூண்டியுள்ளது.",
-    "image": "https://cf-images.assettype.com/maalai-malar/2026-11-10/yi6nq6ni/arrest-4.png?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "10 நவம்பர் 2026",
-    "timeAgo": "2 மணி நேரம் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 11004,
-    "isFlash": true,
+    "title": "இன்றைய உலகச் செய்தி - சர்வதேச விவகாரங்கள்",
+    "summary": "அமெரிக்கா, ஐரோப்பிய நாடுகள் மற்றும் ஆசிய நாடுகளின் புவிசார் அரசியல் நிகழ்வுகள்.",
+    "body": "சர்வதேச நாடுகளின் முக்கிய கொள்கை மாற்றங்கள், உலகத் தலைவர்களின் சந்திப்புகள் மற்றும் உலகப் பொருளாதார தாக்கங்கள் பற்றிய விரிவான சர்வதேசப் பார்வை.",
+    "image": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/3a8b/live/da8fa680-dcfd-11f1-93e1-3b657b665bcf.jpg",
+    "author": "சர்வதேசப் பிரிவு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 2200,
+    "isFlash": false,
     "tags": [
-      "அமெரிக்கா",
-      "ரஷ்யா",
-      "உளவுத்துறை",
-      "லண்டன்",
-      "சர்வதேச_சம்பவம்"
+      "உலகம்",
+      "சர்வதேசம்",
+      "புவிசார் அரசியல்"
     ],
-    "sourceUrl": "https://www.maalaimalar.com/news/world/us-soldier-arrested-in-london-on-suspicion-of-espionage-linked-to-russia",
-    "sourceName": "மாலை மலர்"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 10,
     "category": "politics",
     "subCategory": "karnataka",
-    "title": "கா்நாடகா விளம்பரச் செலவு: மூன்றாண்டுகளில் ரூ. 473 கோடி பாஜக தகவல்",
-    "summary": "கா்நாடகா அரசு கடந்த மூன்று ஆண்டுகளில் விளம்பர நடவடிக்கைகளுக்காக ரூ. 473 கோடி செலவிட்டுள்ளது என்று பாஜக தரப்பில் தகவல் வெளியாகியுள்ளது.",
-    "body": "கா்நாடகா மாநில அரசின் நிதி ஒதுக்கீடுகள் மற்றும் செலவினங்கள் குறித்து பாஜக தரப்பில் ஒரு அறிக்கை சமர்ப்பிக்கப்பட்டுள்ளது. இந்த அறிக்கையின்படி, கடந்த மூன்று நிதியாண்டுகளில் மாநில அரசின் பல்வேறு விளம்பரத் திட்டங்களுக்காக மொத்தமாக ரூ. 473 கோடி செலவிடப்பட்டுள்ளது. இந்தத் தகவல் மாநில அரசின் வெளிப்படைத்தன்மை மற்றும் நிதி நிர்வாகம் குறித்த விவாதங்களைத் தூண்டியுள்ளது.
-
-பாஜக தரப்பு இந்தத் தகவலை வெளியிட்டுள்ளதன் நோக்கம், அரசின் நிதிப் பயன்பாட்டில் வெளிப்படைத்தன்மை தேவை என்றும், இந்தச் செலவினங்கள் மக்களின் நலனுக்காகச் செலவிடப்பட வேண்டுமே தவிர, விளம்பரங்களுக்காகச் செலவிடப்படக் கூடாது என்றும் வலியுறுத்துவதே ஆகும். அரசு நிர்வாகத்தின் ஒவ்வொரு செலவினமும் மக்கள் பார்வைக்குத் திறந்திருக்க வேண்டும் என்று அவர்கள் கோரிக்கை விடுத்துள்ளனர்.
-
-இதற்குப் பதிலளித்த கா்நாடகா அரசு நிர்வாகம் இதுவரை விரிவான விளக்கமளிக்கவில்லை. அரசு நிதி அறிக்கைகள் மற்றும் செலவின விவரங்கள் பொதுமக்களுக்குக் கிடைக்கச் செய்வதற்கான வழிமுறைகள் குறித்து அரசு விரைவில் தெளிவுபடுத்தும் என்று எதிர்பார்க்கப்படுகிறது. இந்தச் செலவினங்கள் எதன் அடிப்படையில், எந்தெந்தத் திட்டங்களுக்காக மேற்கொள்ளப்பட்டன என்பது குறித்த ஆவணங்கள் ஆய்வு செய்யப்பட வேண்டியது அவசியமாகிறது.
-
-மாநிலத்தின் நிதிப் பொறுப்புக்கூறல் (Accountability) குறித்த இந்த விவாதம், அரசியல் களத்தில் முக்கியத்துவம் பெற்றுள்ளது. நிதி ஒதுக்கீடுகள் குறித்த தெளிவான தரவுகள் வெளியிடப்பட்டால் மட்டுமே, இந்தச் செலவினங்களின் நியாயத்தை மக்கள் ஏற்றுக்கொள்ள முடியும்.",
-    "image": "https://cf-images.assettype.com/dinamani/2026-07-02/ay6f8t58/P_4846775818.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "54 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 11445,
-    "isFlash": true,
+    "title": "இன்றைய அரசியல் களம் - தேர்தல் & கூட்டணிகள்",
+    "summary": "தமிழகம் மற்றும் இந்திய அரசியலின் முக்கிய களம், தேர்தல் அறிக்கைகள் மற்றும் கட்சிகளின் நிலைப்பாடுகள்.",
+    "body": "அரசியல் கட்சிகளின் தீவிர களப்பணிகள், கூட்டணிக் கணக்குகள் மற்றும் சட்டமன்ற நாடாளுமன்ற விவாதங்கள் குறித்த பிரத்யேக அரசியல் அலசல்.",
+    "image": "https://cf-images.assettype.com/hindutamil-prod/2026-11-10/2d9ml1m9/appa-kutty.jpg?w=1200",
+    "author": "அரசியல் நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 3500,
+    "isFlash": false,
     "tags": [
-      "கா்நாடகா",
-      "அரசுநிதி",
-      "பாஜக",
-      "நிதிசெலவு"
+      "அரசியல்",
+      "தேர்தல்",
+      "கூட்டணி"
     ],
-    "sourceUrl": "https://www.dinamani.com/all-editions/edition-bangalore/2026/Nov/11/the-karnataka-government-has-spent-rs-473-crore-on-advertisements-over-three-years",
-    "sourceName": "தினமணி"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 11,
     "category": "spiritual",
     "subCategory": "astrology",
-    "title": "புதிய சிந்தனைகள் வாழ்வில் மாற்றத்தை உருவாக்கும்: இன்றைய ராசிபலன்",
-    "summary": "நவம்பர் 11, 2026 அன்று, புதிய அணுகுமுறைகள் மற்றும் சிந்தனைகள் தனிப்பட்ட வாழ்க்கையில் நேர்மறையான மாற்றங்களை ஏற்படுத்தும் என ராசிபலன் தெரிவிக்கின்றது.",
-    "body": "வானியல் மற்றும் ஜோதிடக் கணிப்புகளின் அடிப்படையில், நவம்பர் 11, 2026 அன்று அனைத்து ராசிகளுக்கும் சாதகமான ஆற்றல் நிலவுகிறது. வாழ்க்கையில் தேக்கமடைந்திருக்கும் சூழல்களில், புதிய சிந்தனைகளை உள்வாங்குவதும், பழக்கவழக்கங்களில் சிறு மாற்றங்களை மேற்கொள்வதும் குறிப்பிடத்தக்க முன்னேற்றங்களுக்கு வழிவகுக்கும். தொழில், குடும்பம் மற்றும் ஆரோக்கியம் என அனைத்துத் தளங்களிலும் நேர்மறை அதிர்வுகள் உணரப்படும்.
-
-குறிப்பாக, இந்த நாளில் எடுக்கும் முடிவுகள் நீண்ட காலப் பலனைத் தரக்கூடியதாக இருக்கும். உணர்ச்சிவசப்படாமல், பகுத்தறிவுடன் செயல்படுவது வெற்றியை உறுதி செய்யும். ராசிபலன் என்பது வழிகாட்டுதலுக்காக மட்டுமே; தனிநபரின் முயற்சி மற்றும் நேர்மறை மனப்பான்மையே உண்மையான மாற்றத்திற்கான திறவுகோல் ஆகும். எனவே, நம்பிக்கையுடனும், திறந்த மனதுடனும் இந்த நாளை அணுகுவது அவசியம்.
-
-அனைத்து ராசிகளும் தங்கள் இலக்குகளை நோக்கி உறுதியுடன் பயணிக்கும் பட்சத்தில், தடைகள் நீங்கி, திருப்திகரமான முடிவுகளை அடைய முடியும். இந்த நாள், சுய முன்னேற்றத்திற்கான ஒரு பொன்னான வாய்ப்பாக அமைகிறது.",
-    "image": "https://media.assettype.com/dailythanthi/2026-11-11/n2rkbhjy/Daily-Rasipalan-new.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "27 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 10198,
+    "title": "இன்றைய ஆன்மிக தரிசனம் & தினசரி ராசிபலன்",
+    "summary": "12 ராசிகளுக்கான இன்றைய பலன்கள், நட்சத்திர பலன்கள் மற்றும் ஆன்மிகத் திருத்தல தகவல்கள்.",
+    "body": "அன்றாட வாழ்க்கைக்கு வழிகாட்டும் 12 ராசிகளுக்கான தினசரி ஜோதிடப் பலன்கள் மற்றும் புகழ்பெற்ற தமிழகத் திருக்கோயில்களின் திருவிழாக்கள் குறித்த ஆன்மிகத் தொகுப்பு.",
+    "image": "https://gumlet.vikatan.com/vikatan/2026-11-10/1xu4rr9j/WhatsApp-Image-2026-11-07-at-10.09.28.jpeg?w=1200&fit=max",
+    "author": "ஆன்மிகப் பிரிவு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 4500,
     "isFlash": false,
     "tags": [
+      "ஆன்மிகம்",
       "ராசிபலன்",
-      "நவம்பர்11",
-      "சுயமுன்னேற்றம்"
+      "ஜோதிடம்"
     ],
-    "sourceUrl": "https://www.dailythanthi.com/astrology/today-rasi-palan/today-rasi-palan-in-tamil-november-11-2026",
-    "sourceName": "தினத்தந்தி"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 12,
     "category": "chennai",
     "subCategory": "transport",
-    "title": "பொங்கல் ரயில் டிக்கெட் முன்பதிவு இன்று முதல் தொடங்குகிறது பயணிகள் கவனத்திற்கு",
-    "summary": "பொங்கல் பண்டிகையை முன்னிட்டு ரயில் டிக்கெட் முன்பதிவு 14-ஆம் தேதி தொடங்குகிறது; பயண ஆர்வலர்கள் திட்டமிட்டு முன்பதிவு செய்ய அறிவுறுத்தப்படுகின்றனர்.",
-    "body": "தமிழ்நாடு முழுவதும் பொங்கல் பண்டிகையை முன்னிட்டு ரயில் பயணிகளின் தேவை அதிகரித்துள்ள நிலையில், ரயில் டிக்கெட் முன்பதிவு இன்று (14-ஆம் தேதி) தொடங்குகிறது. பண்டிகை காலப் பயணங்களுக்காக முன்பதிவு செய்ய விரும்புபவர்கள், இந்தியன் ரயில்வே அதிகாரப்பூர்வ இணையதளம் அல்லது ரயில் நிலையங்கள் மூலம் முன்பதிவு செய்யலாம்.
-
-பொங்கல் விடுமுறை நாட்கள் காரணமாக ரயில் பயணிகளின் கூட்டம் அதிகமாக இருக்கும் என ரயில்வே நிர்வாகம் தெரிவித்துள்ளது. எனவே, பயணத் திட்டங்களை முன்கூட்டியே வகுத்து, விரைவாக டிக்கெட் முன்பதிவு செய்வது அவசியமாகும். கடைசி நேரத்தில் டிக்கெட் கிடைப்பது கடினமாக இருக்கலாம்.
-
-பயணிகள், முன்பதிவு செய்யும் போதே பயணத் திட்டங்கள், பயண நேரம் மற்றும் ரயில் விவரங்களை உறுதி செய்து கொள்வது நல்லது. ரயில்வே சார்பில் பயணிகளுக்கு இடையூறு ஏற்படாமல் இருக்க உரிய நேரத்தில் முன்பதிவு செய்யுமாறு அறிவுறுத்தப்பட்டுள்ளது. மேலும், முன்பதிவு தொடர்பான கூடுதல் தகவல்களுக்கு ரயில்வே அதிகாரப்பூர்வ அறிவிப்புகளைப் பின்தொடரலாம்.
-
-இந்த பொங்கல் திருநாள் பயணிகளுக்கு மகிழ்ச்சியான பயண அனுபவத்தை அளிக்கும் என எதிர்பார்க்கப்படுகிறது. சரியான திட்டமிடல் மூலம் பயணச் சிக்கல்களைத் தவிர்க்கலாம்.",
-    "image": "https://media.assettype.com/dailythanthi/2026-11-10/14av39mj/CHENNAI-07.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "10 நவம்பர் 2026",
-    "timeAgo": "2 மணி நேரம் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 9955,
-    "isFlash": true,
+    "title": "இன்றைய சென்னை & போக்குவரத்து நிலவரம்",
+    "summary": "சென்னை பெருநகர போக்குவரத்து, மெட்ரோ ரயில் பணிகள் மற்றும் மாநகர முக்கிய அறிவிப்புகள்.",
+    "body": "சென்னையின் முக்கிய போக்குவரத்து மாற்றங்கள், புறநகர் மற்றும் மெட்ரோ ரயில் சேவை நிலவரங்கள் மற்றும் மாநகராட்சி நலத்திட்டங்கள் குறித்த செய்திகள்.",
+    "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m72wtzdx77fh2sck4n5wpkr4,imgname-walking-shoes-vs-running-shoes--2--1794319941053.jpg",
+    "author": "சென்னை நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 2700,
+    "isFlash": false,
     "tags": [
-      "பொங்கல்",
-      "ரயில் டிக்கெட்",
-      "தமிழ்நாடு"
+      "சென்னை",
+      "போக்குவரத்து",
+      "மெட்ரோ"
     ],
-    "sourceUrl": "https://www.dailythanthi.com/news/tamilnadu/attention-passengers-pongal-train-ticket-bookings-begin-on-the-14th",
-    "sourceName": "தினத்தந்தி"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   }
 ];
 
@@ -3199,6 +3129,7 @@
         if (parsed.length > 0) {
           NEWS_DATABASE = [...parsed, ...NEWS_DATABASE];
           initSidebarAndTicker();
+          updateHomepageSlotsFromDatabase();
           if (currentCategory === 'home') renderHomeFeed();
         }
       }
@@ -3450,83 +3381,87 @@
     const EPAPER_PAGES_CONTENT = {
   "1": {
     "title": "முதன்மைப் பக்கம் (Front Page Headlines)",
-    "leadHeadline": "துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை",
-    "leadSubhead": "தமிழகத்தில் துவரம் பருப்பு மற்றும் உளுந்து இருப்பு நிலவரத்தை நிர்வகிக்க மத்திய அரசு புதிய கட்டுப்பாடுகளை ஒப்புதல் அளித்துள்ளது.",
-    "leadByline": "அறச்சுடர் சிறப்பு நிருபர் • 11 நவம்பர் 2026",
-    "leadPhoto": "https://media.assettype.com/dailythanthi/2026-11-11/b2p0yyb3/CHENNAI-12.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "leadCaption": "துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை - கள நிலவரப் படம்.",
-    "leadBody": "இந்தியாவில் உணவுப் பொருட்களின் விநியோகச் சங்கிலியை உறுதி செய்வதற்காக, மத்திய அரசு துவரம் பருப்பு மற்றும் உளுந்து போன்ற முக்கிய பருப்பு வகைகளின் இருப்பு நிலவரத்தை கண்காணிக்க புதிய விதிமுறைகளை வகுத்துள்ளது. இந்த கட்டுப்பாடுகள் தமிழகம் உட்பட நாடு முழுவதும் நடைமுறைக்கு வரும் நிலையில், சந்தையில் ஏற்படும் திடீர் பற்றாக்குறைகள் தவிர்க்கப்படும் என எதிர்பார்க்கப்படுகிறது. உணவுப் பாதுகாப்பு மற்றும் விலைக் கட்டுப்பாட்டை உறுதி செய்வதே இந்த நடவடிக்கையின் முதன்மை நோக்கம் ஆகும்.
+    "leadHeadline": "இன்றைய முதன்மைத் தலைமைச் செய்தி - அறச்சுடர் நாளிதழ்",
+    "leadSubhead": "இன்றைய முக்கிய நிகழ்வுகள் மற்றும் நேரலை செய்திகள் இங்கு உடனுக்குடன் தானாகப் பதிவேற்றப்படும்",
+    "leadByline": "அறச்சுடர் நிருபர் குழு • இன்றைய பதிப்பு",
+    "leadPhoto": "https://media.assettype.com/dailythanthi/2026-11-10/bb18cb3b/dollar.jpg?w=1200",
+    "leadCaption": "அறச்சுடர் நாளிதழ் - அன்றாட முக்கிய நிகழ்வுகள் நேரலைக் காட்சி",
+    "leadBody": "அறச்சுடர் தமிழ் நாளிதழின் இன்றைய முதன்மைத் தலைமைச் செய்தி இங்கு தானியங்கி முறையில் உடனுக்குடன் பதிவேற்றப்படும். உண்மைக்கு முன்னுரிமை தரும் நடுநிலையான செய்திகள், அரசியல், சமூகம் மற்றும் மக்கள் நலன் சார்ந்த முக்கியத் தகவல்களுடன் இந்தப் பகுதியில் விரிவாக வெளியாகும். வாசகர்கள் உடனுக்குடன் உண்மைத் தகவல்களை அறிந்துகொள்ள இந்த அரங்கம் உதவுகிறது.
 
-உணவுப் பொருட்களின் விலை ஏற்ற இறக்கங்கள் பொதுமக்களின் அன்றாட வாழ்க்கையில் பெரும் தாக்கத்தை ஏற்படுத்துவதால், அரசு தலையீடு அவசியமாகிறது. புதிய கட்டுப்பாடுகளின் கீழ், குறிப்பிட்ட கால இடைவெளியில் மாநில அரசுகள் இருப்பு அறிக்கைகளை மத்திய உணவுப் பாதுகாப்பு ஆணையத்திடம் சமர்ப்பிக்க வேண்டும். இதன் மூலம், தேவை மற்றும் விநியோகத்திற்கு இடையே சமநிலையை பராமரிக்க முடியும்.
+தமிழகம் மற்றும் சர்வதேச நிகழ்வுகள் நடுநிலையோடு ஆய்வு செய்யப்பட்டு செய்திகளாக வழங்கப்படுகின்றன. வாசகர்களின் நம்பிக்கையைப் பெற்ற முன்னணி டிஜிட்டல் நாளிதழாக அறச்சுடர் தொடர்ந்து மக்கள் சேவையில் இயங்குகிறது.
 
-தமிழக அரசின் உணவுத் துறை அதிகாரிகள் இந்த புதிய வழிகாட்டுதல்களை உள்வாங்கி, உள்ளூர் சந்தைகள் மற்றும் மொத்த விற்பனை மையங்களில் கண்காணிப்பை தீவிரப்படுத்துவார்கள் என்று எதிர்பார்க்கப்படுகிறது. நுகர்வோர் தங்கள் தேவைகளைத் திட்டமிட்டு வாங்குவதுடன், அரசு அறிவிக்கும் விலைக் கட்டுப்பாடுகளைப் பின்பற்றுவது அவசியம்.",
-    "sideHeadline": "அஞ்சலக கால வைப்புத் திட்டம்: பாதுகாப்பான முதலீட்டில் லாபக் கணக்கீடு",
-    "sideSummary": "அஞ்சலக கால வைப்புத் திட்டத்தில் ரூ.1 லட்சம் முதலீடு செய்தால், கணிசமான வட்டி லாபத்தை அபாயமின்றி பெறலாம்.",
-    "metroHeadline": "டாஸ்மாக் ஊழியர்களுக்கு மூன்று ஆண்டு சுழற்சி கட்டாய பணியிட மாற்றம் அறிவிப்பு",
-    "metroSummary": "டாஸ்மாக் ஊழியர்களுக்கான புதிய விதிமுறைகளின்படி, மூன்று ஆண்டுகளுக்கு ஒருமுறை கட்டாய பணியிட மாற்றம் செய்யப்பட உள்ளது.",
-    "waterHeadline": "தீபாவளி கொலைகள்: முதல்வர் விஜய் அதிகாரிகளுடன் அவசர ஆலோசனை",
-    "waterSummary": "தீபாவளி பண்டிகையின் போது நடந்த கொலைகள் குறித்து முதல்வர் விஜய் உயர் அதிகாரிகளுடன் அவசர ஆலோசனை நடத்தினார்."
+அரசு நிர்வாக முடிவுகள், மக்கள் நலத் திட்டங்கள் மற்றும் சமூக விழிப்புணர்வு தொடர்பான விரிவான செய்திகள் ஒவ்வொரு நாளும் உரிய ஆதாரங்களுடன் வெளியிடப்படுகின்றன.",
+    "sideHeadline": "இன்றைய முக்கிய வணிகச் செய்தி அரங்கம்",
+    "sideSummary": "பொருளாதாரம், வணிகம் மற்றும் சந்தை நிலவரங்கள் தொடர்பான முக்கியத் தகவல்கள் இங்கு பதிவேற்றப்படும்.",
+    "metroHeadline": "சென்னை & மண்டலச் செய்திகள் அரங்கம்",
+    "metroSummary": "தலைநகர் சென்னை மற்றும் தமிழகத்தின் முக்கிய மண்டல நிகழ்வுகள் குறித்த செய்தித் தொகுப்பு.",
+    "waterHeadline": "விவசாயம் & நீர்வளக் களம்",
+    "waterSummary": "விவசாயிகள் நலன், நீர்ப்பாசனம் மற்றும் பருவமழை நிலவரம் குறித்த அண்மைத் தகவல்கள்.",
+    "editorialHeadline": "அறச்சுடர் நாளிதழ் தலையங்கம்",
+    "editorialSnippet": "நாட்டின் நடப்பு விவகாரங்கள் மற்றும் சமூகப் பிரச்சினைகள் குறித்த நடுநிலையான ஆசிரியரின் கண்ணோட்டம்."
   },
   "2": {
     "title": "தமிழ்நாடு & மண்டலச் செய்திகள் (State & Regional)",
-    "leadHeadline": "டாஸ்மாக் ஊழியர்களுக்கு மூன்று ஆண்டு சுழற்சி கட்டாய பணியிட மாற்றம் அறிவிப்பு",
-    "leadSubhead": "டாஸ்மாக் ஊழியர்களுக்கான புதிய விதிமுறைகளின்படி, மூன்று ஆண்டுகளுக்கு ஒருமுறை கட்டாய பணியிட மாற்றம் செய்யப்பட உள்ளது.",
-    "leadByline": "மண்டல நிருபர் குழு • 11 நவம்பர் 2026",
-    "leadPhoto": "https://media.assettype.com/dailythanthi/2026-11-10/0p8dqg6u/CHENNAI-10.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "leadCaption": "தமிழக அரசு நிர்வாக நடவடிக்கைகள் தொடர்பான காட்சி.",
-    "leadBody": "தமிழ்நாடு மாநில மதுபான விற்பனை வாரியமான டாஸ்மாக் ஊழியர்களுக்கான பணியிட மாற்றங்கள் குறித்த புதிய விதிமுறைகள் வெளியிடப்பட்டுள்ளன. இந்த புதிய நடைமுறைகளின்படி, ஒவ்வொரு ஊழியரும் மூன்று ஆண்டுகளுக்கு ஒருமுறை கட்டாயமாக வேறு பணியிடத்திற்கு மாற்றப்படுவார்கள். இது பணியிடங்களில் ஏற்படும் தேக்கத்தைக் குறைக்கவும், ஊழியர்களின் திறன்களைப் பரவலாக்கவும் நோக்கமாகக் கொண்டுள்ளது. நிர்வாகம் இந்த மாற்றங்களை சீராக செயல்படுத்தத் திட்டமிட்டுள்ளது. ஊழியர்கள் மற்றும் தொழிற்சங்கங்கள் இந்த புதிய விதிமுறைகள் குறித்து தங்கள் கருத்துக்களைத் தெரிவிக்க வேண்டிய நிலையில் உள்ளன. சம்பந்தப்பட்ட துறைகள் விரைவில் முழுமையான வழிகாட்டுதல்களை வெளியிட expected ஆகும்.
+    "leadHeadline": "இன்றைய தமிழ்நாடு முதன்மைச் செய்தி - மண்டலக் களம்",
+    "leadSubhead": "தமிழக அரசின் முக்கிய திட்டங்கள், மாவட்டச் செய்திகள் மற்றும் கள நிலவரங்கள்",
+    "leadByline": "தமிழகப் பிரிவு நிருபர்கள் • இன்றைய பதிப்பு",
+    "leadPhoto": "https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372635.jpg",
+    "leadCaption": "தமிழ்நாடு வளர்ச்சித் திட்டங்கள் மற்றும் மாவட்ட நிகழ்வுகள்",
+    "leadBody": "தமிழகத்தின் அனைத்து மாவட்டங்களின் முக்கிய நிகழ்வுகள், அரசின் நலத்திட்டங்கள் மற்றும் மக்கள் சார்ந்த வளர்ச்சிப் பணிகள் பற்றிய முழுமையான செய்திகள் இந்தப் பகுதியில் வெளியாகும். மாவட்டந்தோறும் உள்ள செய்தியாளர்கள் அனுப்பும் துல்லியமான கள அறிக்கைகள் உடனுக்குடன் பதிவேற்றப்படுகின்றன.
 
-இந்த மாற்றம், நிறுவனத்தின் செயல்பாட்டுத் திறனை மேம்படுத்துவதோடு, ஊழியர்களுக்குப் புதிய அனுபவங்களையும், பல்வேறு துறைகளில் பணியாற்றும் வாய்ப்புகளையும் வழங்கும் என்று நிர்வாகம் தெரிவித்துள்ளது. பணியிட மாற்றங்கள் ஊழியர்களின் பணிச் சுமையைப் பாதிக்காதவாறு, உரிய கால அவகாசத்துடன் திட்டமிடப்படும் என்றும் உறுதி அளிக்கப்பட்டுள்ளது. ஊழியர்கள் தங்கள் துறைத் தலைவர்களுடன் இணைந்து இந்த மாற்றங்களுக்கான திட்டமிடலில் பங்கேற்கலாம்.
+மக்கள் நலத் திட்டங்கள், கல்வி, மருத்துவம், உள்கட்டமைப்பு மேம்பாடுகள் குறித்த அதிகாரப்பூர்வ அறிவிப்புகள் மற்றும் பொதுமக்கள் கருத்துக்கள் இங்கே தொகுத்து வழங்கப்படுகின்றன.
 
-தொழிற்சங்கங்களின் பிரதிநிதிகள், இந்த மாற்றங்கள் ஊழியர்களின் நலன்களைப் பாதிக்காமல், நியாயமான முறையில் செயல்படுத்தப்படுவதை உறுதி செய்ய நிர்வாகத்துடன் பேச்சுவார்த்தை நடத்த உள்ளனர். பணியிட மாற்றம் என்பது நிர்வாகத் தேவை சார்ந்தது என்றாலும், ஊழியர்களின் மனநலன் மற்றும் தொழில் வளர்ச்சிக்கு இது எவ்வாறு துணைபுரிகிறது என்பதில் தெளிவான வழிகாட்டுதல்கள் தேவைப்படுகின்றன. இந்த புதிய விதிமுறைகள் டாஸ்மாக் நிறுவனத்தின் எதிர்கால நிர்வாக உத்தியில் ஒரு முக்கிய திருப்புமுனையாக அமையும் என்பதில் ஐயமில்லை.",
-    "sideHeadline": "தீபாவளி கொலைகள்: முதல்வர் விஜய் அதிகாரிகளுடன் அவசர ஆலோசனை",
-    "sideSummary": "தீபாவளி பண்டிகையின் போது நடந்த கொலைகள் குறித்து முதல்வர் விஜய் உயர் அதிகாரிகளுடன் அவசர ஆலோசனை நடத்தினார்.",
-    "metroHeadline": "பொங்கல் ரயில் டிக்கெட் முன்பதிவு இன்று முதல் தொடங்குகிறது பயணிகள் கவனத்திற்கு",
-    "metroSummary": "பொங்கல் பண்டிகையை முன்னிட்டு ரயில் டிக்கெட் முன்பதிவு 14-ஆம் தேதி தொடங்குகிறது; பயண ஆர்வலர்கள் திட்டமிட்டு முன்பதிவு செய்ய அறிவுறுத்தப்படுகின்றனர்.",
-    "waterHeadline": "துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை",
-    "waterSummary": "தமிழகத்தில் துவரம் பருப்பு மற்றும் உளுந்து இருப்பு நிலவரத்தை நிர்வகிக்க மத்திய அரசு புதிய கட்டுப்பாடுகளை ஒப்புதல் அளித்துள்ளது."
+கிராமப்புற மற்றும் நகர்ப்புற வளர்ச்சி நிலவரங்களை உடனுக்குடன் வாசகர்களுக்குக் கொண்டு சேர்ப்பதே இந்தப் பிரிவின் முதன்மை நோக்கமாகும்.",
+    "sideHeadline": "தென் மாவட்டங்கள் செய்திப் பார்வை",
+    "sideSummary": "மதுரை, நெல்லை, தூத்துக்குடி உள்ளிட்ட தென் மாவட்டங்களின் அன்றாட முக்கிய நிகழ்வுகள்.",
+    "metroHeadline": "கொங்கு மண்டலத் தொழில் களம்",
+    "metroSummary": "கோவை, திருப்பூர், ஈரோடு உள்ளிட்ட தொழில் நகரங்களின் முக்கிய அறிவிப்புகள்.",
+    "waterHeadline": "காவிரி டெல்டா பாசன நிலவரம்",
+    "waterSummary": "டெல்டா மாவட்டங்களில் பயிர் பாதுகாப்பு மற்றும் அணைகளின் நீர் இருப்பு நிலவரம்.",
+    "editorialHeadline": "மக்கள் மேடை - மாவட்டக் குரல்",
+    "editorialSnippet": "அடிப்படைத் தேவைகள் மற்றும் வளர்ச்சித் திட்டங்கள் குறித்த மாவட்ட மக்களின் கோரிக்கைகள்."
   },
   "3": {
     "title": "வணிகம் & தொழில்நுட்பம் (Business & Technology)",
-    "leadHeadline": "அஞ்சலக கால வைப்புத் திட்டம்: பாதுகாப்பான முதலீட்டில் லாபக் கணக்கீடு",
-    "leadSubhead": "அஞ்சலக கால வைப்புத் திட்டத்தில் ரூ.1 லட்சம் முதலீடு செய்தால், கணிசமான வட்டி லாபத்தை அபாயமின்றி பெறலாம்.",
-    "leadByline": "பொருளாதாரப் பிரிவு • 11 நவம்பர் 2026",
-    "leadPhoto": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m56w9jzy805aexdd6p2k6sva,imgname-post-office-vs-bank-fd-where-will-1-lakh-earn-more-interest-1792306105342.png",
-    "leadCaption": "இந்திய நிதி மற்றும் சேமிப்பு திட்ட நிலவரங்கள்.",
-    "leadBody": "நிதிச் சந்தைகளில் நிலையான மற்றும் பாதுகாப்பான வருமானத்தை நாடும் முதலீட்டாளர்களுக்கு அஞ்சலக கால வைப்புத் திட்டம் (Post Office Time Deposit) ஒரு நம்பகமான தேர்வாக உள்ளது. இந்தத் திட்டத்தின் கீழ், குறிப்பிட்ட தொகையை முதலீடு செய்வதன் மூலம், சந்தை ஏற்ற இறக்கங்களால் பாதிக்கப்படாமல் நிலையான வட்டி வருமானத்தை உறுதி செய்யலாம்.
+    "leadHeadline": "இன்றைய வணிகம் & முதலீட்டுச் செய்தி அரங்கம்",
+    "leadSubhead": "பங்குச்சந்தை, தங்கம் விலை, இந்தியப் பொருளாதாரம் மற்றும் புதிய தொழில் முதலீடுகள்",
+    "leadByline": "வணிகப் பிரிவு நிருபர்கள் • இன்றைய பதிப்பு",
+    "leadPhoto": "https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200",
+    "leadCaption": "இந்திய வணிகம் மற்றும் பொருளாதாரக் கள நிலவரம்",
+    "leadBody": "வணிகம், புத்தொழில் நிறுவனங்கள், தொழில்நுட்பப் புரட்சி, தகவல் தொழில்நுட்பத் துறை வேலைவாய்ப்புகள் மற்றும் தனிநபர் சேமிப்புத் திட்டங்கள் குறித்த சிறப்புச் செய்திகள் இங்கு பதிவேற்றப்படும். பொருளாதார வல்லுநர்களின் ஆலோசனைகள் மற்றும் முதலீட்டு வழிகாட்டல்கள் எளிய தமிழில் வழங்கப்படுகின்றன.
 
-தற்போதைய திட்ட விவரங்களின்படி, ரூ.1 லட்சம் முதலீட்டில் எதிர்பார்க்கக்கூடிய வட்டி லாபம் சுமார் ரூ.45,000 வரை கணக்கிடப்பட்டுள்ளது. இருப்பினும், இந்தத் தொகை திட்டத்தின் கால அளவு, பொருந்தக்கூடிய வட்டி விகிதம் மற்றும் முதலீட்டின் சரியான கணக்கீட்டைப் பொறுத்து மாறுபடலாம் என்பதை முதலீட்டாளர்கள் கவனத்தில் கொள்ள வேண்டும்.
+இந்திய நிதிச் சந்தைகளின் ஏற்ற இறக்கங்கள், உலகளாவிய வர்த்தகத் தாக்கங்கள் மற்றும் பொதுமக்களின் சேமிப்பு வழிகள் குறித்த விரிவான ஆய்வுக் கட்டுரைகள் இதில் இடம்பெறுகின்றன.
 
-அஞ்சல் శాఖ வழங்கும் இந்தத் திட்டம், அரசாங்கத்தின் உத்தரவாதத்தின் கீழ் இயங்குவதால், முதலீட்டுப் பாதுகாப்பு மிக உயர்ந்த அளவில் உள்ளது. இது, ரிஸ்க் எடுக்க விரும்பாத, ஆனால் நிலையான வருமானம் தேடும் நடுத்தர மற்றும் ஓய்வூதியதாரர்களுக்கு மிகவும் பொருத்தமான சேமிப்புத் தீர்வாகும்.
-
-முதலீடு செய்வதற்கு முன், தற்போதைய அதிகாரப்பூர்வ வட்டி விகிதங்கள், திட்டத்தின் விதிமுறைகள் மற்றும் காலக்கெடுவைப் பற்றி அஞ்சல் அலுவலகத்தில் நேரடியாக விசாரிப்பது அல்லது அதிகாரப்பூர்வ இணையதளத்தைப் பார்ப்பது அவசியம். இது, துல்லியமான நிதி முடிவுகளை எடுக்க உதவும்.",
-    "sideHeadline": "ககன்யான் திட்டத்திற்கு கோவை பாதுகாப்பு சாதனம்; இஸ்ரேலுக்கு எல்&டி சமர்ப்பிப்பு",
-    "sideSummary": "இந்தியாவின் ககன்யான் திட்டத்திற்காக கோவையில் உருவாக்கப்பட்ட பாதுகாப்பு சாதனம் இஸ்ரேலுக்கு தொழில்நுட்ப அறிக்கையாக (L&D) சமர்ப்பிக்கப்பட்டுள்ளது.",
-    "metroHeadline": "கா்நாடகா விளம்பரச் செலவு: மூன்றாண்டுகளில் ரூ. 473 கோடி பாஜக தகவல்",
-    "metroSummary": "கா்நாடகா அரசு கடந்த மூன்று ஆண்டுகளில் விளம்பர நடவடிக்கைகளுக்காக ரூ. 473 கோடி செலவிட்டுள்ளது என்று பாஜக தரப்பில் தகவல் வெளியாகியுள்ளது.",
-    "waterHeadline": "புற்றுநோய் போராட்டம்: சோனியா காந்தி உறுதிப்படுத்திய முக்கிய தகவல்",
-    "waterSummary": "சோனியா காந்தி தனது புற்றுநோயுடனான போராட்டத்தை முதன்முறையாக உறுதிப்படுத்தியுள்ளார்."
+சிறு மற்றும் நடுத்தர தொழில் முனைவோருக்கான அரசு மானியங்கள் மற்றும் புதிய தொழிற்கொள்கைகள் பற்றிய தகவல்கள் உடனுக்குடன் அறிவிக்கப்படும்.",
+    "sideHeadline": "தகவல் தொழில்நுட்பம் & AI வளர்ச்சி",
+    "sideSummary": "செயற்கை நுண்ணறிவு மற்றும் புதிய மென்பொருள் தொழில்நுட்பங்களின் சமீபத்திய முன்னேற்றங்கள்.",
+    "metroHeadline": "இளைஞர்களுக்கான வேலைவாய்ப்பு அரங்கம்",
+    "metroSummary": "அரசு மற்றும் தனியார் துறைகளின் புதிய வேலைவாய்ப்பு அறிவிப்புகள் மற்றும் வழிகாட்டுதல்கள்.",
+    "waterHeadline": "சிறு & குறுந்தொழில் நிறுவனங்கள் அரங்கம்",
+    "waterSummary": "தமிழக குறுந்தொழில் முனைவோருக்கான நிதி உதவிகள் மற்றும் வங்கிக் கடன் திட்டங்கள்.",
+    "editorialHeadline": "பொருளாதாரப் பார்வை",
+    "editorialSnippet": "இந்திய மற்றும் சர்வதேச நிதிச் சந்தைகளின் தற்போதைய போக்கு குறித்த அலசல்."
   },
   "4": {
     "title": "தேசியம், உலகம் & விளையாட்டு (National, World & Sports)",
-    "leadHeadline": "தந்தையின் வழியில் ஜோசப்; அர்னால்ட் வாரிசு சாதனை டாப் 5-ல்",
-    "leadSubhead": "சிறுவயதிலேயே உடற்பயிற்சி ஆர்வம் கொண்ட ஜோசப், தந்தையின் வழிகாட்டுதலால் அர்னால்ட் ஸ்வாஸ்னேகரின் சாதனையைத் தொடர்கிறார்.",
-    "leadByline": "விளையாட்டு நிருபர் • 11 நவம்பர் 2026",
-    "leadPhoto": "https://images.news18.com/tamil/uploads/2026/11/feature-image-59-2026-11-cf1a422b403ac1ce4600399f35989a2b-1200x800.jpg",
-    "leadCaption": "சர்வதேச விளையாட்டு அரங்கம் மற்றும் உலக நிகழ்வுகள்.",
-    "leadBody": "உடற்பயிற்சி உலகில் குறிப்பிடத்தக்க சாதனைகளை நிகழ்த்தி வரும் ஜோசப், தனது வெற்றிக்குத் தந்தை அளித்த ஊக்கமே முக்கிய காரணம் என்று கூறியுள்ளார். அர்னால்ட் ஸ்வாஸ்னேகர் போன்ற உலகப் புகழ்பெற்ற உடற்பயிற்சி நிபுணரின் வாரிசாகத் திகழும் ஜோசப், சமீபத்திய போட்டிகளில் டாப் 5 இடங்களுக்குள் நுழைந்து தனது திறமையை நிரூபித்துள்ளார்.
+    "leadHeadline": "இன்றைய தேசியம் & உலகச் செய்தி அரங்கம்",
+    "leadSubhead": "இந்திய நாடாளுமன்ற நிகழ்வுகள், சர்வதேச உறவுகள் மற்றும் உலகத் தலைவர்களின் முக்கிய முடிவுகள்",
+    "leadByline": "சர்வதேச செய்தியாளர் பிரிவு • இன்றைய பதிப்பு",
+    "leadPhoto": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/3a8b/live/da8fa680-dcfd-11f1-93e1-3b657b665bcf.jpg",
+    "leadCaption": "சர்வதேச விவகாரங்கள் மற்றும் விளையாட்டு அரங்கம்",
+    "leadBody": "இந்தியாவின் தேசிய அரசியல் நிகழ்வுகள், உலக நாடுகளின் முக்கிய மாற்றங்கள் மற்றும் கிரிக்கெட், தடகளம் உள்ளிட்ட சர்வதேச விளையாட்டுப் போட்டிகளின் அண்மைச் செய்திகள் இங்கு வெளியாகும். நாடாளுமன்ற நடவடிக்கைகள் மற்றும் சர்வதேச அமைப்புகளின் முக்கிய முடிவுகள் உடனுக்குடன் தொகுக்கப்படுகின்றன.
 
-ஜோசப் அளித்த பேட்டியில், சிறு வயதிலேயே உடற்பயிற்சியின் மீது ஆர்வம் வரத் தூண்டியது அவரது தந்தைதான் என்று குறிப்பிட்டுள்ளார். மேலும், அர்னால்ட் ஸ்வாஸ்னேகர் எழுதிய பாடிபில்டிங் தொடர்பான புத்தகங்களைப் படித்து, அதிலிருந்து பெற்ற அறிவின் அடிப்படையிலேயே தனது பயிற்சிகளைத் தொடங்கினார் என்றும் அவர் தெரிவித்துள்ளார்.
+விளையாட்டுத் துறையில் சாதனை படைக்கும் வீரர்கள், ஒலிம்பிக், கிரிக்கெட் போட்டிகளின் நேரலை தகவல்கள் மற்றும் விரிவான புள்ளிவிவரங்களுடன் விளையாட்டு அரங்கம் செழுமை பெறுகிறது.
 
-இந்தச் சாதனை, இளம் விளையாட்டு வீரர்களுக்குத் தங்கள் குடும்பத்தின் ஆதரவும், சரியான வழிகாட்டுதலும் எவ்வளவு முக்கியம் என்பதை எடுத்துக்காட்டுகிறது. ஜோசப்பின் இந்த வெற்றி, தமிழ்நாட்டு விளையாட்டுத் துறைக்கு மேலும் பெருமை சேர்க்கிறது. தொடர்ச்சியான கடின உழைப்பு மற்றும் சரியான வழிகாட்டுதல் ஆகியவை வெற்றிக்கான திறவுகோல் என்பதை அவர் தனது செயல்பாடுகளாலும் நிரூபித்துள்ளார்.
-
-அடுத்தடுத்த போட்டிகளிலும் ஜோசப் இதேபோன்ற வெற்றிகளைப் பெற்று, உடற்பயிற்சி உலகில் மேலும் உயரங்களைத் தொட வேண்டும் என்று எதிர்பார்க்கப்படுகிறது. அவரது பயணம், பல இளைஞர்களுக்கு உத்வேகமாக அமையும் என்பதில் ஐயமில்லை.",
-    "sideHeadline": "ரஷ்யா உளவு தொடர்பு: அமெரிக்க ராணுவ வீரர் லண்டனில் கைது",
-    "sideSummary": "ரஷ்யாவுடன் தொடர்பு இருப்பதாக சந்தேகிக்கப்பட்ட அமெரிக்க ராணுவ வீரர் லண்டனில் கைது செய்யப்பட்டுள்ளார்.",
-    "metroHeadline": "புற்றுநோய் போராட்டம்: சோனியா காந்தி உறுதிப்படுத்திய முக்கிய தகவல்",
-    "metroSummary": "சோனியா காந்தி தனது புற்றுநோயுடனான போராட்டத்தை முதன்முறையாக உறுதிப்படுத்தியுள்ளார்.",
-    "waterHeadline": "இன்ஸ்டாகிராம் புகழ் அமலா ஷாஜி; விக்ரம் பிரபுவுடன் நடிக்கும் புதிய திரைப்படம்",
-    "waterSummary": "சமூக வலைதளங்களில் பிரபலமடைந்த அமலா ஷாஜி, தற்போது விக்ரம் பிரபுவுடன் இணைந்து நடிக்கும் திரைப்படத்தில் கதாநாயகியாகத் தேர்வு செய்யப்பட்டுள்ளார்."
+உலக அரங்கில் இந்தியாவின் வெளியுறவுக் கொள்கை மற்றும் சர்வதேச வர்த்தக உடன்பாடுகள் பற்றிய செய்திகள் எளிய முறையில் வாசகர்களுக்கு வழங்கப்படுகின்றன.",
+    "sideHeadline": "சர்வதேச விளையாட்டு அரங்கம்",
+    "sideSummary": "கிரிக்கெட், கால்பந்து, செஸ் மற்றும் ஒலிம்பிக் போட்டிகளின் சமீபத்திய முடிவுகள்.",
+    "metroHeadline": "அண்டை நாடுகள் & புவிசார் அரசியல்",
+    "metroSummary": "தெற்காசிய மற்றும் உலகளாவிய அமைதி, வர்த்தக ஒப்பந்தங்கள் பற்றிய பார்வைகள்.",
+    "waterHeadline": "சுற்றுச்சூழல் & பருவநிலை மாநாடு",
+    "waterSummary": "பூமி வெப்பமயமாதல் தடுப்பு மற்றும் பசுமை எரிசக்தி திட்டங்களின் உலகளாவிய முன்னெடுப்புகள்.",
+    "editorialHeadline": "உலகப் பார்வை",
+    "editorialSnippet": "சர்வதேச நிகழ்வுகள் இந்தியாவின் பொருளாதாரத்திலும் மனிதவளத்திலும் ஏற்படுத்தும் தாக்கம்."
   }
 };
 
@@ -3672,7 +3607,7 @@
                     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
                       <div style="font-size:0.75rem; background:var(--brand-red); color:#fff; font-weight:800; padding:2px 7px; border-radius:3px;">சிறப்புத் திட்டம் • FOCUS</div>
                       <h3 style="font-size:1.15rem; font-weight:800; color:#000; margin:0; flex-grow:1; padding:0 10px;">தமிழகத்தில் ₹12,000 கோடியில் பசுமை ஹைட்ரஜன் &amp; எரிசக்தி பூங்காக்கள்: தென் மாவட்டங்களில் புதிய தொழில் புரட்சி!</h3>
-                      <span style="font-size:0.72rem; color:#64748b; font-weight:700;">விவரம் படிக்க கிளிக் செய்க →</span>
+                      
                     </div>
                   </div>
                 </section>
@@ -3797,38 +3732,14 @@
       const viewport = document.getElementById('epaperViewport');
       if (!viewport) return;
 
-      let isDown = false;
-      let startX, startY, scrollLeft, scrollTop;
-
-      viewport.addEventListener('mousedown', (e) => {
-        isDown = true;
-        viewport.style.cursor = 'grabbing';
-        startX = e.pageX - viewport.offsetLeft;
-        startY = e.pageY - viewport.offsetTop;
-        scrollLeft = viewport.scrollLeft;
-        scrollTop = viewport.scrollTop;
-      });
-
-      viewport.addEventListener('mouseleave', () => {
-        isDown = false;
-        viewport.style.cursor = 'grab';
-      });
-
-      viewport.addEventListener('mouseup', () => {
-        isDown = false;
-        viewport.style.cursor = 'grab';
-      });
-
-      viewport.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - viewport.offsetLeft;
-        const y = e.pageY - viewport.offsetTop;
-        const walkX = (x - startX) * 1.5;
-        const walkY = (y - startY) * 1.5;
-        viewport.scrollLeft = scrollLeft - walkX;
-        viewport.scrollTop = scrollTop - walkY;
-      });
+      // Natural vertical and horizontal scrolling is supported natively.
+      // Smooth mouse-wheel zoom when Ctrl or Meta key is pressed:
+      viewport.addEventListener('wheel', (e) => {
+        if (e.ctrlKey || e.metaKey) {
+          e.preventDefault();
+          zoomEpaper(e.deltaY < 0 ? 0.15 : -0.15);
+        }
+      }, { passive: false });
     }
 
     function openBroadsheetArticleModal(title, byline, image, body) {
@@ -4042,6 +3953,20 @@
       currentSubFilter = sub;
       renderSubTabsBar(cat, sub);
       renderCategoryFeed(cat, sub);
+    }
+
+    function updateHomepageSlotsFromDatabase() {
+      if (!NEWS_DATABASE || NEWS_DATABASE.length === 0) return;
+      const leadCard = document.querySelector('.lead-news-card');
+      const p1 = NEWS_DATABASE[0];
+      if (leadCard && p1 && p1.title) {
+        const h1 = leadCard.querySelector('.lead-headline');
+        const p = leadCard.querySelector('.lead-summary');
+        const img = leadCard.querySelector('img');
+        if (h1 && p1.title) h1.textContent = p1.title;
+        if (p && p1.summary) p.textContent = p1.summary;
+        if (img && p1.image) img.src = p1.image;
+      }
     }
 
     function renderHomeFeed() {

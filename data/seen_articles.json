@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T19:51:46.723838+00:00",
-  "count": 123,
+  "last_updated": "2026-11-11T21:26:17.331318+00:00",
+  "count": 128,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -739,6 +739,36 @@
       "timestamp": "2026-11-11T19:51:46.723827+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/union-government-sought-report-from-tn-governor-regarding-law-and-order-situation",
       "title": "சட்டம் ஒழுங்கு நிலவரம் குறித்து தமிழக ஆளுநர் அர்லேகரிடம் அறிக்கை கேட்டது மத்திய அரசு",
+      "source_id": "hindu_tamil"
+    },
+    "277efa8d12f630d5e7f1263796f5b146ecb92e8a1b00d3fc151a8e945a75c1d5": {
+      "timestamp": "2026-11-11T21:26:17.322048+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/411-mbbs-seats-vacant-in-the-current-year-under-the-all-india-quota",
+      "title": "அகில இந்திய ஒதுக்கீட்டில் நடப்பாண்டில் 411 எம்.பி.பி.எஸ். இடங்கள் காலி",
+      "source_id": "daily_thanthi"
+    },
+    "dad67974fa8b9ac1abc56dadc0e90e35fa0b2fb03d627ebbd9520a7ea3c16adc": {
+      "timestamp": "2026-11-11T21:26:17.324713+00:00",
+      "url": "https://www.dailythanthi.com/news/world/opposition-parties-in-israel-push-to-change-netanyahus-policies",
+      "title": "இஸ்ரேலில் நெதன்யாகுவின் கொள்கைகளை மாற்றியமைக்க எதிர்க்கட்சிகள் தீவிரம்",
+      "source_id": "daily_thanthi"
+    },
+    "1aa938df13499cd8c6f1a204abe1441186011c051de865e0318b9f0db96c0e5b": {
+      "timestamp": "2026-11-11T21:26:17.327046+00:00",
+      "url": "https://www.dailythanthi.com/news/india/physiotherapy-treatment-for-actor-darshan-in-prison",
+      "title": "நடிகர் தர்ஷனுக்கு சிறையில் பிசியோதெரபி சிகிச்சை",
+      "source_id": "daily_thanthi"
+    },
+    "63674151fb730007dd174a9016e571efd4baf106e5d9ffe723702aa6d910876f": {
+      "timestamp": "2026-11-11T21:26:17.329183+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/south-korean-companies-to-invest-rs-1370-crore-in-tn-says-minister-keerthana",
+      "title": "தென் கொரிய நிறுவனங்கள் தமிழகத்தில் ரூ.1,370 கோடி முதலீடு: அமைச்சர் கீர்த்தனா தகவல்",
+      "source_id": "hindu_tamil"
+    },
+    "f1ad3ee9f175c0c6878a1089b807facd5150846a6f6c000a8c566649e772f937": {
+      "timestamp": "2026-11-11T21:26:17.331307+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/railway-ticket-booking-for-pongal-festival-begins-on-november-14",
+      "title": "பொங்கல் பண்டிகைக்கு நவ.14-ம் தேதி ரயில்வே டிக்கெட் முன்பதிவு தொடக்கம்",
       "source_id": "hindu_tamil"
     }
   }

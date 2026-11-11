@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T03:46:41.723757+00:00",
-  "count": 33,
+  "last_updated": "2026-11-11T04:51:07.115005+00:00",
+  "count": 38,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -199,6 +199,36 @@
       "timestamp": "2026-11-11T03:46:41.723746+00:00",
       "url": "https://www.hindutamil.in/news/india/congress-partys-2nd-bharat-summit-to-be-held-in-hyderabad-from-tomorrow-to-the-14th",
       "title": "காங்கிரஸ் கட்சியின் 2-வது பாரத் மாநாடு: நாளை முதல் 14-ம் தேதி வரை ஹைதராபாத்தில் நடைபெறுகிறது",
+      "source_id": "hindu_tamil"
+    },
+    "b4abb721cb11b5797ffe843911216cc5ebf4ffb8ec3e66128a7c5059dfba5744": {
+      "timestamp": "2026-11-11T04:51:07.109698+00:00",
+      "url": "https://www.dailythanthi.com/business/gold-rate-chennai/gold-price-drops-in-chennai-todays-update-4",
+      "title": "அதிரடியாக குறைந்த தங்கம் விலை... இன்றைய நிலவரம் என்ன..?",
+      "source_id": "daily_thanthi"
+    },
+    "89fbe1e44940d434de5570499f5781f3b4268512958aba91af9c07c509182746": {
+      "timestamp": "2026-11-11T04:51:07.111349+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/hardik-pandya-arshdeep-singh-new-teams",
+      "title": "இருவருக்கும் ரூ.18 கோடி....புதிய அணிகளுக்கு மாறும் ஹர்திக் பாண்டியா, அர்ஷ்தீப் சிங்",
+      "source_id": "daily_thanthi"
+    },
+    "84d78e8192a3686bcd821e5eac7fcb21f4629fcbf8cde6dafc3b346dd0b71670": {
+      "timestamp": "2026-11-11T04:51:07.112522+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/today-is-the-last-day-to-make-corrections-in-group-4-exam-application",
+      "title": "குரூப் 4 தேர்வு விண்ணப்பத்தில் திருத்தங்கள் செய்ய இன்று கடைசி நாள்",
+      "source_id": "daily_thanthi"
+    },
+    "cf9637e0884e7abcf8e578f9a9e34546fa600d88a088ac7610189b8dbe02ac9b": {
+      "timestamp": "2026-11-11T04:51:07.113805+00:00",
+      "url": "https://www.hindutamil.in/news/sports/gayathri-and-treesa-jolly-pair-up-in-the-2nd-round",
+      "title": "2-வது சுற்றில் காயத்ரி, ட்ரீசா ஜோலி ஜோடி",
+      "source_id": "hindu_tamil"
+    },
+    "96293d227e1b4ebd97601a49fac1ede009da30829c74f25e27c4074cb101ca73": {
+      "timestamp": "2026-11-11T04:51:07.114994+00:00",
+      "url": "https://www.hindutamil.in/news/sports/india-wins-gold-in-shooting-4",
+      "title": "துப்பாக்கி சுடுதலில் இந்தியாவுக்கு தங்கம்",
       "source_id": "hindu_tamil"
     }
   }

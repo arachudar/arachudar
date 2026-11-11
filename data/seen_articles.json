@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T01:46:23.972805+00:00",
-  "count": 18,
+  "last_updated": "2026-11-11T02:10:19.187454+00:00",
+  "count": 23,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -110,6 +110,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/kanimozhi-condemns-even-the-district-collector-is-not-safe-in-tn",
       "title": "மாவட்ட ஆட்சியருக்கே பாதுகாப்பில்லை; தமிழகத்தை சூறையாடும் தவெகவினர்: கனிமொழி கண்டனம்",
       "source_id": "hindu_tamil"
+    },
+    "3d0ccd2125a99d8ba88d30ed39a2756f76b6f60fd2860682dc426f5e829ea1cf": {
+      "timestamp": "2026-11-11T02:10:19.183008+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-thirunelveli/tuticorin/2026/Nov/11/vice-president-and-governor-to-visit-thoothukudi-today",
+      "title": "குடியரசு துணைத் தலைவா், ஆளுநா் இன்று தூத்துக்குடி வருகை",
+      "source_id": "dinamani"
+    },
+    "a8a05eb5f14df1ed715cb6240483e20f4adf113bc72018edecfc9fbb3792a2d8": {
+      "timestamp": "2026-11-11T02:10:19.184460+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-madurai/madurai/2026/Nov/11/high-court-orders-installation-of-cctv-cameras-in-government-schools",
+      "title": "அரசுப் பள்ளிகளில் சிசிடிவி கேமரா பொருத்த உயா்நீதிமன்றம் உத்தரவு",
+      "source_id": "dinamani"
+    },
+    "af883cbe3d7833602e730d0016a7a7817bee9d7563caaf03abae1de0f0c7cabd": {
+      "timestamp": "2026-11-11T02:10:19.185393+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-trichy/pudukottai/2026/Nov/11/flag-hoisting-ceremony-for-the-kanda-sashti-festival-at-viralimalai-murugan-temple-soorasamharam-to-take-place-on-nov-15",
+      "title": "விராலிமலை முருகன் கோயிலில் கந்தசஷ்டி விழா கொடியேற்றம்: நவ. 15-இல் சூரசம்ஹாரம்",
+      "source_id": "dinamani"
+    },
+    "181fdf8e9ca06d75f4506b9b312ed4d786bd88b9de7cd1d3603d55e306815d0d": {
+      "timestamp": "2026-11-11T02:10:19.186564+00:00",
+      "url": "https://www.maalaimalar.com/news/world/house-republicans-quash-effort-to-impeach-defense-secretary-hegseth",
+      "title": "பதவி நீக்க நடவடிக்கை தீர்மானம்: தப்பினார் அமெரிக்க பாதுகாப்பு செயலாளர்",
+      "source_id": "maalai_malar"
+    },
+    "abf0be80f50bc2323fc6802dd425fcfcff577eaa8d694c07a2e1f450ab1df079": {
+      "timestamp": "2026-11-11T02:10:19.187444+00:00",
+      "url": "https://www.maalaimalar.com/news/tamilnadu/cm-vijay-to-old-tvk-mlas-meeting-today",
+      "title": "அடுத்தடுத்து சர்ச்சைகள்: த.வெ.க. எம்.எல்.ஏ.-க்களுடன் முதலமைச்சர் விஜய் இன்று ஆலோசனை",
+      "source_id": "maalai_malar"
     }
   }
 }

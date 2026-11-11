@@ -2,7 +2,13 @@ name: Arachudar Tamil News Automation Pipeline
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '*/30 * * * *'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**.md'
+      - 'tests/**'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -52,7 +58,11 @@ jobs:
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             EXTRA_ARGS="--dry-run"
           fi
-          python -m src.pipeline --limit=${{ inputs.limit || 5 }} $EXTRA_ARGS
+          LIMIT="${{ inputs.limit }}"
+          if [ -z "$LIMIT" ]; then
+            LIMIT=5
+          fi
+          python -m src.pipeline --limit="$LIMIT" $EXTRA_ARGS
 
       - name: Commit Updated Newspaper HTML
         run: |

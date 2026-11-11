@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T02:42:57.240664+00:00",
-  "count": 28,
+  "last_updated": "2026-11-11T03:46:41.723757+00:00",
+  "count": 33,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -169,6 +169,36 @@
       "timestamp": "2026-11-11T02:42:57.240654+00:00",
       "url": "https://www.hindutamil.in/news/india/ucc-will-be-implemented-across-the-country-union-minister-arjun-ram-meghwal-confirms",
       "title": "பொது சிவில் சட்டம் நாடு முழுவதும் அமலுக்கு வரும்: மத்திய அமைச்சர் அர்ஜுன் ராம் மேக்வால் உறுதி",
+      "source_id": "hindu_tamil"
+    },
+    "f7281c63e4a7f56590bc11a27ddc737d7a2af487c3164d72326fa5c7f5f5890d": {
+      "timestamp": "2026-11-11T03:46:41.719112+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/gaganyaan-crew-escape-system-coimbatore",
+      "title": "ககன்யான் திட்டம்: விண்வெளி வீரர்களின் உயிர்காக்கும் பாதுகாப்பு அமைப்பு... கோவையில் தயாரிப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "4491b0db4092a38c5543128840ccf4df62f0090299a7493cf7acd2e8a866dc83": {
+      "timestamp": "2026-11-11T03:46:41.720839+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/rs-75-crore-fraud-using-students-aadhaar",
+      "title": "மாணவர்களின் ஆதாரை பயன்படுத்தி ரூ.75 கோடி மோசடி",
+      "source_id": "daily_thanthi"
+    },
+    "d33489f4dac0811871ac63797461d5a1acb1bdabfa27858c3fde2d3043f2b68f": {
+      "timestamp": "2026-11-11T03:46:41.721933+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/fertilizer-sales-in-tamil-nadu-drop-by-40-percent",
+      "title": "தமிழகத்தில் உர விற்பனை 40 சதவீதம் சரிவு",
+      "source_id": "daily_thanthi"
+    },
+    "0bc3fe2b3a58eaeba660812dd5d3d921e4e0943784f90777e0d99fe64dfa454b": {
+      "timestamp": "2026-11-11T03:46:41.722881+00:00",
+      "url": "https://www.hindutamil.in/news/crime/rowdy-murdered-in-kasimedu-after-being-called-for-peace-talks",
+      "title": "சமாதானம் பேச அழைத்து காசிமேட்டில் ரவுடி படுகொலை",
+      "source_id": "hindu_tamil"
+    },
+    "3c029919b59f98c6e373969a432fc8c69d2951085dc1a988981152613073449b": {
+      "timestamp": "2026-11-11T03:46:41.723746+00:00",
+      "url": "https://www.hindutamil.in/news/india/congress-partys-2nd-bharat-summit-to-be-held-in-hyderabad-from-tomorrow-to-the-14th",
+      "title": "காங்கிரஸ் கட்சியின் 2-வது பாரத் மாநாடு: நாளை முதல் 14-ம் தேதி வரை ஹைதராபாத்தில் நடைபெறுகிறது",
       "source_id": "hindu_tamil"
     }
   }

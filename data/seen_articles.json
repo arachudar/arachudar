@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T11:34:27.910532+00:00",
-  "count": 83,
+  "last_updated": "2026-11-11T12:23:21.096189+00:00",
+  "count": 88,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -500,6 +500,36 @@
       "url": "https://www.dinamani.com/tamilnadu/2026/Nov/11/4-special-trains-between-tirunelveli-and-tiruchendur",
       "title": "கந்த சஷ்டி விழா: திருநெல்வேலி  - திருச்செந்தூர் இடையே 4 சிறப்பு ரயில்!",
       "source_id": "dinamani"
+    },
+    "2bc20c9a25cfb2f1eff9657e51fd2a248f2bc3872b8b125febad1240df626fb2": {
+      "timestamp": "2026-11-11T12:23:21.088534+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/corporation-commissioner-gs-sameeran-inspects-schools-amma-canteens-and-ration-shops-in-thiruvk-nagar",
+      "title": "திரு.வி.க. நகரில் பள்ளி, அம்மா உணவகம், ரேஷன் கடைகளில் மாநகராட்சி ஆணையர் ஜி.எஸ். சமீரன் ஆய்வு",
+      "source_id": "daily_thanthi"
+    },
+    "4ddb7c91663db80c9ede4bea9dc44c16d9e76a05a90d426dae676cb1c7c98215": {
+      "timestamp": "2026-11-11T12:23:21.090872+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/akash-ambani-praises-hardik-contribution",
+      "title": "“ஹர்திக்கின் பங்களிப்பு மறக்க முடியாதது” - ஆகாஷ் அம்பானி",
+      "source_id": "daily_thanthi"
+    },
+    "f864b0d18ea55dea84d6d74eaf40d4a66c8bb37623eadfc0837645327592dd6b": {
+      "timestamp": "2026-11-11T12:23:21.092675+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/nationalism-will-never-disappear-from-tamil-nadu-speech-by-vice-president-cp-radhakrishnan",
+      "title": "தமிழ்நாட்டில் இருந்து தேசியம் ஒருபோதும் மறையாது - துணை ஜனாதிபதி சி.பி.ராதாகிருஷ்ணன் பேச்சு",
+      "source_id": "daily_thanthi"
+    },
+    "a2f711a7415ee74f5e52d4a797ee0178cdf560298428ac2d3a4c2d84d56f8e88": {
+      "timestamp": "2026-11-11T12:23:21.094471+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/one-more-publishing-house-fake-books-in-periyar-arivulagam-library",
+      "title": "பெரியார் அறிவுலகத்தில் மேலும் ஒரு பதிப்பகம் பெயரில் போலி புத்தகங்கள்: ஆய்வு மாணவர்கள் குற்றச்சாட்டு",
+      "source_id": "hindu_tamil"
+    },
+    "d6b67a6a378ba3bd1250154732577ab19df9cfc743b3136ee9b042f176a6a3a3": {
+      "timestamp": "2026-11-11T12:23:21.096179+00:00",
+      "url": "https://www.hindutamil.in/news/india/threat-to-hijack-air-india-flight-tension-at-kolkata-airport",
+      "title": "கடத்தல் மிரட்டல் எதிரொலி: கொல்கத்தாவில் புறப்பட தயாராக இருந்த விமானத்தின் சேவை ரத்து",
+      "source_id": "hindu_tamil"
     }
   }
 }

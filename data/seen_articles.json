@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T17:50:12.513154+00:00",
-  "count": 113,
+  "last_updated": "2026-11-11T18:47:03.992928+00:00",
+  "count": 118,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -679,6 +679,36 @@
       "timestamp": "2026-11-11T17:50:12.513143+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/additional-financial-assistance-of-rs-25-lakh-each-for-families-of-those-who-died-in-sterlite-protests",
       "title": "ஸ்டெர்லைட் போராட்டத்தில் உயிரிழந்தோர் குடும்பங்களுக்கு தலா ரூ.25 லட்சம் கூடுதல் நிதியுதவி",
+      "source_id": "hindu_tamil"
+    },
+    "b67e11ddbf9eb0cc5873e684b3ee3eb81c334f079ea996b8428a2ad281d51eeb": {
+      "timestamp": "2026-11-11T18:47:03.985763+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/family-relationships-ruined-by-fake-instagram-accounts-police-advise-caution",
+      "title": "போலி இன்ஸ்டாகிராம் கணக்குகளால் சீரழியும் குடும்ப உறவுகள்: உஷாராக இருக்க போலீசார் அறிவுறுத்தல்",
+      "source_id": "daily_thanthi"
+    },
+    "e04af0085b6533c16e7d70833a3532484d6405eaaa3dbeec70fd6497b1c9e02e": {
+      "timestamp": "2026-11-11T18:47:03.987946+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/240-lakh-chips-smuggled-from-the-us-to-china-spy-woman-who-was-in-a-relationship-with-nvidia-founder-helps/4373692",
+      "title": "அமெரிக்காவில் இருந்து சீனாவுக்கு 2.40 லட்சம் 'சிப்'கள் கடத்தல்!: 'என்விடியா' நிறுவனருடன் உறவில் இருந்த உளவாளி பெண் உதவி",
+      "source_id": "dinamalar"
+    },
+    "7b19ac994c3a94452b0404e62360699eb0494568482f8dfec550afe7cfd36db3": {
+      "timestamp": "2026-11-11T18:47:03.989631+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/dmk-mla-markandeyan-stirs-controversy-again-about-cm-vijay/4373689",
+      "title": "முதல்வர் விஜய் பற்றி மீண்டும் திமுக எம்எல்ஏ மார்க்கண்டேயன் சர்ச்சை பேச்சு!",
+      "source_id": "dinamalar"
+    },
+    "d62b3e0ea81e90b90a5ce5a1b6c28c1162f5f9c134fac4d5b4645b67a2ea0aed": {
+      "timestamp": "2026-11-11T18:47:03.991289+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/tamil-nadu-should-not-become-an-exception-when-the-country-is-united-by-patriotism-vice-president/4373623",
+      "title": "தேசபக்தியால் நாடு ஒன்றுபட்டு இருக்கும்போது தமிழகம் விதிவிலக்காக மாறிவிடக் கூடாது;  துணை ஜனாதிபதி",
+      "source_id": "dinamalar"
+    },
+    "0c4ebe9919b9d02141964b6ecfdad112e85d7d975ad4bbd044d953a2663c7e94": {
+      "timestamp": "2026-11-11T18:47:03.992920+00:00",
+      "url": "https://www.hindutamil.in/news/india/god-belongs-to-everyone-akhilesh-yadav-regarding-his-ayodhya-visit",
+      "title": "“இறைவன் அனைவருக்கும் உரியவர்” - அயோத்தி பயணம் குறித்து அகிலேஷ் யாதவ் கருத்து",
       "source_id": "hindu_tamil"
     }
   }

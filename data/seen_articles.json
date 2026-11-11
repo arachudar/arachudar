@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T02:10:19.187454+00:00",
-  "count": 23,
+  "last_updated": "2026-11-11T02:42:57.240664+00:00",
+  "count": 28,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -140,6 +140,36 @@
       "url": "https://www.maalaimalar.com/news/tamilnadu/cm-vijay-to-old-tvk-mlas-meeting-today",
       "title": "அடுத்தடுத்து சர்ச்சைகள்: த.வெ.க. எம்.எல்.ஏ.-க்களுடன் முதலமைச்சர் விஜய் இன்று ஆலோசனை",
       "source_id": "maalai_malar"
+    },
+    "e063ccb585b466b6070973c72086d57510077882fffaed6c1b3cff5ebbdd70f9": {
+      "timestamp": "2026-11-11T02:42:57.235352+00:00",
+      "url": "https://www.dailythanthi.com/sports/othersports/world-shooting-championships-disappointment-for-manu-bhaker",
+      "title": "உலக துப்பாக்கி சுடுதல்: மனு பாக்கர் ஏமாற்றம்",
+      "source_id": "daily_thanthi"
+    },
+    "fde79e3ee55e126752f17cd6a342b4d0d69289a5c0e721b8897266ecc714f83e": {
+      "timestamp": "2026-11-11T02:42:57.237257+00:00",
+      "url": "https://www.dailythanthi.com/news/india/presidents-bodyguard-jawan-shot-in-head-over-firecracker-dispute-in-up",
+      "title": "துப்பாக்கி சூட்டில் ஜனாதிபதியின் பாதுகாவலர் கவலைக்கிடம்: என்ன நடந்தது..?",
+      "source_id": "daily_thanthi"
+    },
+    "53ed8ebf1e306fb802c64e3693d77172a1f9e4834161ea544b67fd34a8fd91ce": {
+      "timestamp": "2026-11-11T02:42:57.238475+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/thiruvaiyaru-dmk-mla-durai-chandrasekar-booked-hearing-today",
+      "title": "திருவையாறு தி.மு.க. எம்.எல்.ஏ. துரை சந்திரசேகர் மீது வழக்குப்பதிவு - இன்று விசாரணை",
+      "source_id": "daily_thanthi"
+    },
+    "0ffd94bb42dfc867a57a7fc0dc1d9293e16a10ec0c3faff087d78a2801cd52a2": {
+      "timestamp": "2026-11-11T02:42:57.239562+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/school-buildings-and-primary-health-centre-built-at-cost-of-1480-crore-inaugurated-by-minister-rajmohan",
+      "title": "ரூ.14.80 கோடியில் பள்ளி கட்டிடங்கள், ஆரம்ப சுகாதார நிலையம்: அமைச்சர் ராஜ்மோகன் திறந்து வைத்தார்",
+      "source_id": "hindu_tamil"
+    },
+    "5a25fa21c23b48103fdc619b7a59be22193c5f395e8d7cc2d825daf9a6038e70": {
+      "timestamp": "2026-11-11T02:42:57.240654+00:00",
+      "url": "https://www.hindutamil.in/news/india/ucc-will-be-implemented-across-the-country-union-minister-arjun-ram-meghwal-confirms",
+      "title": "பொது சிவில் சட்டம் நாடு முழுவதும் அமலுக்கு வரும்: மத்திய அமைச்சர் அர்ஜுன் ராம் மேக்வால் உறுதி",
+      "source_id": "hindu_tamil"
     }
   }
 }

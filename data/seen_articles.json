@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T04:58:08.127480+00:00",
-  "count": 43,
+  "last_updated": "2026-11-11T05:29:59.159757+00:00",
+  "count": 48,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -260,6 +260,36 @@
       "url": "https://www.hindutamil.in/news/sports/pak-team-declared-after-scoring-434-runs",
       "title": "பாகிஸ்தான் அணி 434 ரன்கள் குவித்து டிக்ளேர்",
       "source_id": "hindu_tamil"
+    },
+    "00a6397ffb94ba1607490af0b543d1596a2cb273472c6d923f1e150efbbfecfc": {
+      "timestamp": "2026-11-11T05:29:59.155531+00:00",
+      "url": "https://www.dailythanthi.com/devotional/laksha-bilvarchana-at-srikalahasti-shiva-temple",
+      "title": "ஸ்ரீகாளஹஸ்தி சிவன் கோவிலில் லட்ச வில்வார்ச்சனை தொடங்கியது",
+      "source_id": "daily_thanthi"
+    },
+    "21cc9383430904360245d7cd54aa61e7a8e71d80f31a4f7449c7da9e9b4342e1": {
+      "timestamp": "2026-11-11T05:29:59.156975+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/11/fishermen-are-advised-not-to-venture-out-to-sea-tn-govt",
+      "title": "மீனவர்கள் கடலுக்குச் செல்ல வேண்டாம்! நாளை (நவ. 12) இரவுக்குள் கரை திரும்ப அறிவுறுத்தல்!",
+      "source_id": "dinamani"
+    },
+    "3247f875d380f3b007a10c6bd085e28d55001d2150f3e34421373f2f851e7ef6": {
+      "timestamp": "2026-11-11T05:29:59.158007+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/11/four-held-for-murder-of-auto-driver-in-chennai",
+      "title": "சென்னையில் ஆட்டோ ஓட்டுநா் குத்திக்கொலை: 4 போ் கைது",
+      "source_id": "dinamani"
+    },
+    "36967f9ca10fdc04b5740c171d3e3ec23029ebfb4e7e0474b4bc047ca5c2c359": {
+      "timestamp": "2026-11-11T05:29:59.158893+00:00",
+      "url": "https://www.dinamani.com/visual-stories/2026/Nov/11/derailed-passenger-train-passengers-who-survived-successfully-assam",
+      "title": "தடம்புரண்ட பயணிகள் ரயில்! நல்வாய்ப்பாக உயிர்தப்பிய பயணிகள்! | ASSAM",
+      "source_id": "dinamani"
+    },
+    "c6f016a583e1e2be4ba99ea0c087fb69d797cf89edfc76084a1b6ec839bbba25": {
+      "timestamp": "2026-11-11T05:29:59.159751+00:00",
+      "url": "https://www.maalaimalar.com/sports/cricket/first-time-ever-in-test-cricket-pakistan-script-history-with-rare-record",
+      "title": "இலங்கைக்கு எதிரான முதல் டெஸ்டில் அரிதான சாதனைப் படைத்த பாகிஸ்தான்",
+      "source_id": "maalai_malar"
     }
   }
 }

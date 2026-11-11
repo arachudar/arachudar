@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T16:47:14.756069+00:00",
-  "count": 108,
+  "last_updated": "2026-11-11T17:50:12.513154+00:00",
+  "count": 113,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -649,6 +649,36 @@
       "timestamp": "2026-11-11T16:47:14.756060+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/record-breaking-4700-individuals-register-as-advocates-with-the-bar-council-in-a-single-day",
       "title": "பார் கவுன்சிலில் ஒரே நாளில் 4,700 பேர் வழக்கறிஞர்களாக பதிவு செய்து சாதனை",
+      "source_id": "hindu_tamil"
+    },
+    "9432815cc2d9a926898400ee733a787a2513daaaf78b51772def67d2a0471e79": {
+      "timestamp": "2026-11-11T17:50:12.504958+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/will-a-four-lane-highway-be-constructed-between-dindigul-and-kumily-expectations-of-motorists",
+      "title": "திண்டுக்கல் -குமுளி இடையே 4 வழிச்சாலை அமைக்கப்படுமா? - வாகன ஓட்டிகள் எதிர்பார்ப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "b558f78ab94d3feeb8dd0ffbd4866f193c800ba9d54fc2385fad7c4d9573f05c": {
+      "timestamp": "2026-11-11T17:50:12.507412+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/farmers-association-demands-that-certificates-be-issued-to-farmers-without-conditions-for-the-purpose-of-crop-insurance",
+      "title": "பயிர்க்காப்பீடு செய்ய விவசாயிகளுக்கு நிபந்தனையின்றி சான்றிதழ் வழங்க வேண்டும்: விவசாயிகள் சங்கம் கோரிக்கை",
+      "source_id": "daily_thanthi"
+    },
+    "453b520d9d3067a057d2d3336ec9bcb43972eb6034fb3a4737a7847f8f5b18bf": {
+      "timestamp": "2026-11-11T17:50:12.509352+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/unknown-individuals-dump-tonnes-of-medical-waste-from-kerala-in-tamil-nadu",
+      "title": "தமிழகத்தில் டன் கணக்கில் கேரள மருத்துவ கழிவுகளை கொட்டிச்சென்ற மர்ம நபர்கள்",
+      "source_id": "daily_thanthi"
+    },
+    "f85bff3b40aab8144cde9ae6e202b938729d7812e54189ef35e1460cf67ff826": {
+      "timestamp": "2026-11-11T17:50:12.511180+00:00",
+      "url": "https://www.hindutamil.in/news/world/iran-refuses-to-remove-enriched-nuclear-material",
+      "title": "செறிவூட்டப்பட்ட அணுசக்தி துகளை வெளியேற்ற ஈரான் மறுப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "8baa567799a0a9a3ca867c25ac728cc8f4659ac72a12245dd1e06aaeb8ff1db4": {
+      "timestamp": "2026-11-11T17:50:12.513143+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/additional-financial-assistance-of-rs-25-lakh-each-for-families-of-those-who-died-in-sterlite-protests",
+      "title": "ஸ்டெர்லைட் போராட்டத்தில் உயிரிழந்தோர் குடும்பங்களுக்கு தலா ரூ.25 லட்சம் கூடுதல் நிதியுதவி",
       "source_id": "hindu_tamil"
     }
   }

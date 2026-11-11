@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T04:51:07.115005+00:00",
-  "count": 38,
+  "last_updated": "2026-11-11T04:58:08.127480+00:00",
+  "count": 43,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -229,6 +229,36 @@
       "timestamp": "2026-11-11T04:51:07.114994+00:00",
       "url": "https://www.hindutamil.in/news/sports/india-wins-gold-in-shooting-4",
       "title": "துப்பாக்கி சுடுதலில் இந்தியாவுக்கு தங்கம்",
+      "source_id": "hindu_tamil"
+    },
+    "89733f20a92d6058e274eb4a4bb87266f965b744bafc321b625a67a249fafd0f": {
+      "timestamp": "2026-11-11T04:58:08.121875+00:00",
+      "url": "https://www.dailythanthi.com/devotional/good-news-for-sabarimala-devotees-new-app-in-6-languages-to-book-darshan",
+      "title": "சபரிமலை பக்தர்களுக்கு குட் நியூஸ்.. தரிசனத்துக்கு முன்பதிவு செய்ய 6 மொழிகளில் புதிய செயலி",
+      "source_id": "daily_thanthi"
+    },
+    "7ebf8363fe143f9cd9606a06c3b68d0dae4ad9e34e7ea0991ff2888ed6149573": {
+      "timestamp": "2026-11-11T04:58:08.123774+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/aryaveer-160-runs-promise-to-father-virender-sehwag",
+      "title": "தந்தை வீரேந்திர சேவாக்கிற்கு கொடுத்த வாக்குறுதி... 160 ரன்கள் விளாசி அசத்திய மகன் ஆர்யவீர்!",
+      "source_id": "daily_thanthi"
+    },
+    "70b3ebc94111cf5ad80cbbeaaf68164a42ce260578eb9a769b1ccaae25d8df46": {
+      "timestamp": "2026-11-11T04:58:08.125168+00:00",
+      "url": "https://www.hindutamil.in/news/india/next-goal-is-to-eradicate-naxals-kiren-rijiju-hits-back-at-rahul",
+      "title": "​திமாகி நக்சல்களை ஒழிப்பதுதான் அடுத்த இலக்கு: ராகுலுக்கு கிரண் ரிஜிஜு பதிலடி",
+      "source_id": "hindu_tamil"
+    },
+    "1e3ccf8994275ce519f0a9ae445da67fe7bc743be1ad79cf971b7323e7bff054": {
+      "timestamp": "2026-11-11T04:58:08.126309+00:00",
+      "url": "https://www.hindutamil.in/news/sports/india-new-zealand-3rd-odi-abandoned-due-to-rain",
+      "title": "இந்தியா - நியூஸிலாந்து இடையிலான 3-வது ஒருநாள் போட்டி மழையால் ரத்து",
+      "source_id": "hindu_tamil"
+    },
+    "425c81c424f181793b6f08e317ed92726f6b3c4b476a6d85af1c6b171dcdc8ee": {
+      "timestamp": "2026-11-11T04:58:08.127468+00:00",
+      "url": "https://www.hindutamil.in/news/sports/pak-team-declared-after-scoring-434-runs",
+      "title": "பாகிஸ்தான் அணி 434 ரன்கள் குவித்து டிக்ளேர்",
       "source_id": "hindu_tamil"
     }
   }

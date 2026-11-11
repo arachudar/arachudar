@@ -1,12 +1,24 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T00:20:27.894308+00:00",
-  "count": 1,
+  "last_updated": "2026-11-11T00:43:28.076395+00:00",
+  "count": 3,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/mandatory-job-transfers-for-tasmac-employees-every-3-years-new-rules",
       "title": "டாஸ்மாக் ஊழியர்களுக்கு 3 ஆண்டுகளுக்கு ஒருமுறை கட்டாய பணியிட மாற்றம்: புதிய விதிகள் வெளியீடு",
+      "source_id": "daily_thanthi"
+    },
+    "bc63b25246a551d5ceadfecc7a7af49ca5b60a1108b58c7a579cb3b053f76fb2": {
+      "timestamp": "2026-11-11T00:43:28.067581+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/document-writers-oppose-the-e-hub-project-being-implemented-in-the-registration-department",
+      "title": "பத்திரப்பதிவு துறையில் அமலாகும் இ-ஹப் திட்டத்துக்கு பத்திர எழுத்தர்கள் எதிர்ப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "e012026a8835a417390d7b70aee017f56365da20606f0828f4a262b5ec8d7e0e": {
+      "timestamp": "2026-11-11T00:43:28.076383+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/attention-passengers-pongal-train-ticket-bookings-begin-on-the-14th",
+      "title": "பயணிகள் கவனத்திற்கு... பொங்கல் ரெயில் டிக்கெட் முன்பதிவு 14-ந்தேதி தொடங்குகிறது",
       "source_id": "daily_thanthi"
     }
   }

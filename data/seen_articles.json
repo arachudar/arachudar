@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T14:47:04.996898+00:00",
-  "count": 98,
+  "last_updated": "2026-11-11T15:42:48.018672+00:00",
+  "count": 103,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -590,6 +590,36 @@
       "url": "https://www.dinamani.com/cinema/cinema-news/2026/Nov/11/anirudh-shares-a-photo-with-his-wife-kavya",
       "title": "அனிருத் - காவ்யா திருமண புகைப்படம்! இணையத்தில் வைரல்!",
       "source_id": "dinamani"
+    },
+    "2d76807ae3d7ff64718c8ee0a1dbdc6e697dfb33790a1bd0d46b8d3f6c8eb28f": {
+      "timestamp": "2026-11-11T15:42:48.010256+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/rs1370-crore-new-investments-in-tamilnadu-company-leaders-met-industries-minister",
+      "title": "தமிழ்நாட்டில் ரூ. 1,370 கோடி புதிய முதலீடுகள்; தொழில் துறை அமைச்சருடன் நிறுவன தலைவர்கள் சந்திப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "7ee0ba024f597ee8bbb668352b32c0f0b2026fe036d70311c3344ea0d7554ee4": {
+      "timestamp": "2026-11-11T15:42:48.012838+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/seemans-post-thanks-to-chief-minister-vijay-for-sending-a-birthday-greeting-letter",
+      "title": "பிறந்தநாளுக்கு வாழ்த்து கடிதம் அனுப்பிய முதல் அமைச்சர் விஜய்க்கு நன்றி: சீமான் பதிவு",
+      "source_id": "daily_thanthi"
+    },
+    "9e5d86072496c7ef82b3247202cecd95988386b0c909788d5400d98a2f3ebaa1": {
+      "timestamp": "2026-11-11T15:42:48.014863+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/anirudh-kavya-maran-wedding-photos-go-viral",
+      "title": "அனிருத் - காவ்யா மாறன் திருமணம்... வைரலாகும் புகைப்படங்கள்",
+      "source_id": "daily_thanthi"
+    },
+    "1e61509b95748efe73c8e330cfea3643f64ff2761071dac9de3202e10740107c": {
+      "timestamp": "2026-11-11T15:42:48.016768+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/consultation-meeting-between-cm-vijay-and-tvk-mlas-concludes-what-was-discussed",
+      "title": "‘எந்த ட்ராப்பிலும் சிக்காமல்...’ - தவெக எம்எல்ஏக்களிடம் முதல்வர் விஜய் பேசியது என்ன?",
+      "source_id": "hindu_tamil"
+    },
+    "71efb7ae1016c4beda411dcd87d122052f12f2e964af1998c48e56b2bdb2efaf": {
+      "timestamp": "2026-11-11T15:42:48.018661+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/krishnasamy-petitions-the-government-seeking-a-ban-on-the-title-of-kamals-film-sandiyar",
+      "title": "கமலின் ‘சண்டியர்’ படத் தலைப்புக்கு தடை கோரி அரசிடம் கிருஷ்ணசாமி மனு",
+      "source_id": "hindu_tamil"
     }
   }
 }

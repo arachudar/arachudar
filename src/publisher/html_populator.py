@@ -93,7 +93,7 @@ class HtmlPopulator:
                 new_entries.append(a)
 
         existing_match = re.search(r'let\s+NEWS_DATABASE\s*=\s*(\[[\s\S]*?\]);', html)
-        if existing_match:
+        if existing_match and len(new_entries) < 10:
             try:
                 existing_entries = json.loads(existing_match.group(1))
                 merged_dict = {item.get("id"): item for item in existing_entries if "id" in item}
@@ -109,7 +109,7 @@ class HtmlPopulator:
         db_json = json.dumps(db_entries, ensure_ascii=False, indent=2)
         html = re.sub(
             r'(let\s+NEWS_DATABASE\s*=\s*)\[[\s\S]*?\];',
-            rf'\g<1>{db_json};',
+            lambda m: m.group(1) + db_json + ";",
             html,
             count=1
         )
@@ -119,7 +119,7 @@ class HtmlPopulator:
             epaper_json = json.dumps(epaper_pages, ensure_ascii=False, indent=2)
             html = re.sub(
                 r'(const\s+EPAPER_PAGES_CONTENT\s*=\s*)\{.*?\};',
-                rf'\g<1>{epaper_json};',
+                lambda m: m.group(1) + epaper_json + ";",
                 html,
                 count=1,
                 flags=re.DOTALL

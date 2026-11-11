@@ -52,3 +52,4 @@ if __name__ == "__main__":
     interval = int(os.environ.get("AUTO_DAEMON_INTERVAL", "600"))
     article_limit = int(os.environ.get("AUTO_DAEMON_LIMIT", "5"))
     run_daemon_loop(interval_seconds=interval, limit=article_limit)
+

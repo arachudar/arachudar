@@ -48,7 +48,11 @@ jobs:
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
         run: |
-          python -m src.pipeline --limit=${{ inputs.limit || 5 }}
+          EXTRA_ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            EXTRA_ARGS="--dry-run"
+          fi
+          python -m src.pipeline --limit=${{ inputs.limit || 5 }} $EXTRA_ARGS
 
       - name: Commit Updated Newspaper HTML
         run: |

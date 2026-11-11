@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T05:50:59.429433+00:00",
-  "count": 53,
+  "last_updated": "2026-11-11T06:57:42.814151+00:00",
+  "count": 58,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -319,6 +319,36 @@
       "timestamp": "2026-11-11T05:50:59.429424+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/political-gossips-333",
       "title": "ஹார்ஸ் பேர புகாரும், தூங்கா நகரத்து அரசியலும் | உள்குத்து உளவாளி",
+      "source_id": "hindu_tamil"
+    },
+    "0cb1eb15d8c706f4d0e72b3fb03651feb100f972f8ec426a5982ce32608c4379": {
+      "timestamp": "2026-11-11T06:57:42.807572+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/two-people-seriously-injured-after-bike-crashes-into-roadblock-due-to-fog-near-ulundurpet",
+      "title": "உளுந்தூர்பேட்டை அருகே பனிமூட்டத்தால் சாலைத் தடுப்பில் பைக் மோதி 2 பேர் படுகாயம்",
+      "source_id": "daily_thanthi"
+    },
+    "565e0a36b709260baaee567bff7c863599239c3dccd525d1e61aea663e55b53b": {
+      "timestamp": "2026-11-11T06:57:42.809827+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/manappadu-beach-sardines-wash-ashore",
+      "title": "மணப்பாடு கடற்கரையில் உயிருடன் ஒதுங்கிய சாளை மீன்கள் - அள்ளிச் சென்ற பொதுமக்கள்",
+      "source_id": "daily_thanthi"
+    },
+    "b7c3d5496f5b7bb0a92b36297301d932afa479133e4e9e56fd92ba385e1c38c9": {
+      "timestamp": "2026-11-11T06:57:42.811317+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/intensive-raids-on-rowdies-continue-for-2nd-consecutive-day-in-chennai-147-people-arrested",
+      "title": "சென்னையில் தொடர்ந்து 2வது நாளாக தீவிர ரவுடிகள் வேட்டை: 147 பேர் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "4b7a8ff9082aba65e0ce81e0adec4793ccee1a485f98309af304dc8fc58d814e": {
+      "timestamp": "2026-11-11T06:57:42.812886+00:00",
+      "url": "https://www.hindutamil.in/news/india/congress-doesnt-have-a-single-councilor-in-andhra-pradesh",
+      "title": "ஆந்திராவில் காங்கிரஸுக்கு ஒரு கவுன்சிலர்கூட இல்லை",
+      "source_id": "hindu_tamil"
+    },
+    "0d308bdf573597623626ec6515ac8ffc1b650a42a1a09a351aa709b8da6473c3": {
+      "timestamp": "2026-11-11T06:57:42.814141+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/vaiko-announces-protest-against-hindi-in-national-highway-milestone",
+      "title": "“தஞ்சை - சேலம் தேசிய நெடுஞ்சாலை மைல் கற்களில் உள்ள இந்தி எழுத்துக்களை தார் பூசி அழிப்போம்” - வைகோ அறிவிப்பு",
       "source_id": "hindu_tamil"
     }
   }

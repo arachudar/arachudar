@@ -158,6 +158,8 @@ def run_pipeline(
                 logger.info(f"[DRY-RUN] Would publish: {proc.title}")
             else:
                 logger.info(f"Published to Blogger: {proc.title} -> {result.get('url')}")
+                import time
+                time.sleep(3)
         except Exception as exc:
             logger.error(f"Error publishing article '{proc.title}' to Blogger: {exc}")
 

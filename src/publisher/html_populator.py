@@ -85,20 +85,33 @@ class HtmlPopulator:
             )
 
         # 3. Update NEWS_DATABASE JavaScript array
-        db_entries = []
+        new_entries = []
         for a in articles:
             if hasattr(a, "to_template_dict"):
-                db_entries.append(a.to_template_dict())
+                new_entries.append(a.to_template_dict())
             elif isinstance(a, dict):
-                db_entries.append(a)
+                new_entries.append(a)
+
+        existing_match = re.search(r'let\s+NEWS_DATABASE\s*=\s*(\[[\s\S]*?\]);', html)
+        if existing_match:
+            try:
+                existing_entries = json.loads(existing_match.group(1))
+                merged_dict = {item.get("id"): item for item in existing_entries if "id" in item}
+                for itm in new_entries:
+                    if "id" in itm:
+                        merged_dict[itm["id"]] = itm
+                db_entries = list(merged_dict.values())
+            except Exception:
+                db_entries = new_entries
+        else:
+            db_entries = new_entries
 
         db_json = json.dumps(db_entries, ensure_ascii=False, indent=2)
         html = re.sub(
-            r'(let\s+NEWS_DATABASE\s*=\s*)\[.*?\];',
+            r'(let\s+NEWS_DATABASE\s*=\s*)\[[\s\S]*?\];',
             rf'\g<1>{db_json};',
             html,
-            count=1,
-            flags=re.DOTALL
+            count=1
         )
 
         # 4. Update EPAPER_PAGES_CONTENT if provided

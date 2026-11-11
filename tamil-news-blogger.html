@@ -2067,42 +2067,7 @@
       .nav-search-input:focus { width: 170px; }
     }
 
-        @media (max-width: 768px) {
-      .article-modal-backdrop {
-        padding: 0 !important;
-      }
-      .article-modal-dialog {
-        max-width: 100% !important;
-        width: 100% !important;
-        height: 100% !important;
-        max-height: 100vh !important;
-        border-radius: 0 !important;
-        border: none !important;
-      }
-      .article-modal-body {
-        padding: 20px 16px !important;
-      }
-      #modalArticleTitle {
-        font-size: 1.35rem !important;
-        line-height: 1.38 !important;
-      }
-      .modal-lead-box {
-        padding: 12px 14px !important;
-        margin-bottom: 18px !important;
-      }
-      .modal-lead-text {
-        font-size: 1.08rem !important;
-        line-height: 1.8 !important;
-        text-align: left !important;
-      }
-      .modal-p {
-        font-size: 1.08rem !important;
-        line-height: 1.95 !important;
-        margin-bottom: 18px !important;
-        text-align: left !important;
-        letter-spacing: normal !important;
-        word-spacing: normal !important;
-      }
+    @media (max-width: 768px) {
       .articles-grid-2col { grid-template-columns: 1fr; }
       .mobile-menu-btn { display: block; }
       .nav-menu-list {
@@ -2362,12 +2327,12 @@
         <!-- Lead Headline Card -->
         <article class="lead-news-card" onclick="navigateToArticle(1)">
           <div class="lead-news-image-wrap">
-            <img src="https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372748.jpg" alt="இன்றைய தலைமைச் செய்தி" />
+            <img src="https://media.assettype.com/dailythanthi/2026-11-10/bb18cb3b/dollar.jpg?w=1200" alt="இன்றைய தலைமைச் செய்தி" />
           </div>
           <div class="lead-content-overlay">
             <span class="category-tag-badge" style="background:var(--brand-red); font-size:0.72rem; padding:3px 9px; font-weight:800; letter-spacing:0.04em;">தலைமைச் செய்தி • LEAD STORY</span>
-            <h1 class="lead-headline">திருச்செந்தூர் திருக்கோயிலில் சாமி தரிசனம் குறித்த விவாதம் எழுந்ததற்கான காரணங்கள்</h1>
-            <p class="lead-summary">திருச்செந்தூர் முருகன் திருக்கோயிலில் ஒரு முஸ்லிம் பெண் சாமி தரிசனம் செய்த நிகழ்வு சமூக மற்றும் மத ரீதியான விவாதங்களை எழுப்பியுள்ளது. இது வழிபாட்டு மரபுகளின் எல்லைகள் குறித்து கவனத்தை ஈர்த்துள்ளது.</p>
+            <h1 class="lead-headline">இன்றைய தலைமைச் செய்தி - தானியங்கி செய்திப் பதிவேற்ற அரங்கம்</h1>
+            <p class="lead-summary">இன்றைய முக்கியத் தலைமைச் செய்தி இங்கு தானாகப் பதிவேற்றப்படும். புதிய நேரலை செய்திகள் உடனுக்குடன் தோன்றும்.</p>
             <div class="meta-byline-strip">
               <span>அறச்சுடர் நிருபர் குழு</span>
               <span class="meta-separator">•</span>
@@ -2713,6 +2678,38 @@
           செய்தி தலைப்பு
         </h2>
         <div style="display:none;" id="modalAuthorByline"></div>
+
+        <!-- AUDIO LISTEN BOX -->
+        <div class="article-listen-box">
+          <div style="display:flex; align-items:center; gap:8px; font-size:0.8rem; font-weight:600;">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="var(--brand-red)"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+            <span>செய்தியை ஆடியோ வடிவில் கேளுங்கள்</span>
+          </div>
+          <button class="article-listen-btn" id="audioReadAloudBtn" onclick="toggleAudioReadAloud()">
+            <span>🔊 வாசிக்க</span>
+          </button>
+        </div>
+
+        <!-- FEATURED IMAGE -->
+        <div style="margin-bottom:16px; border-radius:6px; overflow:hidden;" id="modalImageWrap">
+          <img src="" id="modalArticleImage" alt="" style="width:100%; max-height:400px; object-fit:cover;">
+        </div>
+
+        <!-- FULL ARTICLE BODY TEXT -->
+        <div id="modalArticleContent" style="font-size:0.94rem; line-height:1.8; color:var(--text-sub);">
+          <!-- Injected via JS -->
+        </div>
+
+        <!-- SHARE BUTTONS -->
+        <div class="share-buttons-row">
+          <span style="font-size:0.78rem; font-weight:700; color:var(--text-main);">செய்தியை பகிர:</span>
+          <button class="share-btn share-wa" onclick="shareArticleOnWhatsApp()">WhatsApp</button>
+          <button class="share-btn share-x" onclick="shareArticleOnX()">X (Twitter)</button>
+          <button class="share-btn share-fb" onclick="shareArticleOnFB()">Facebook</button>
+          <button class="share-btn share-copy" onclick="copyArticleLink()">Copy Link</button>
+          <button class="share-btn" style="background:#1e293b; margin-left:auto;" onclick="window.print()">🖨️ அச்சிடுக</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -2730,116 +2727,266 @@
   {
     "id": 1,
     "category": "tamilnadu",
-    "subCategory": "south",
-    "title": "திருச்செந்தூர் திருக்கோயிலில் சாமி தரிசனம் குறித்த விவாதம் எழுந்ததற்கான காரணங்கள்",
-    "summary": "திருச்செந்தூர் முருகன் திருக்கோயிலில் ஒரு முஸ்லிம் பெண் சாமி தரிசனம் செய்த நிகழ்வு சமூக மற்றும் மத ரீதியான விவாதங்களை எழுப்பியுள்ளது. இது வழிபாட்டு மரபுகளின் எல்லைகள் குறித்து கவனத்தை ஈர்த்துள்ளது.",
-    "body": "திருச்செந்தூர் முருகன் திருக்கோயில் தமிழ்நாட்டின் முக்கியத் தலங்களில் ஒன்றாகும். இங்கு நடைபெறும் வழிபாட்டு முறைகள் பல நூற்றாண்டுகளாகப் பின்பற்றப்பட்டு வருகின்றன. சமீபத்தில், ஒரு முஸ்லிம் பெண் குறிப்பிட்ட தெய்வத்தின் தரிசனம் செய்த நிகழ்வு, கோயில் நிர்வாகம் மற்றும் உள்ளூர் சமூகத்தினரிடையே எதிர்பாராத விவாதங்களைத் தூண்டியுள்ளது. இது வெறும் தனிப்பட்ட நிகழ்வாக இல்லாமல், மத நல்லிணக்கம் மற்றும் வழிபாட்டு நெறிகளின் எல்லைகள் குறித்த பரந்த உரையாடலைத் தூண்டியுள்ளது. அரசு நிர்ணயித்த வழிபாட்டு நெறிகள் மற்றும் கோயில் நிர்வாகத்தின் செயல்பாடுகள் குறித்து ஆய்வு செய்யும்போது, பொது வழிபாட்டுக்கான அணுகல் அனைவருக்கும் சமமாக இருக்க வேண்டும் என்ற அடிப்படை உரிமையும், பாரம்பரிய வழிபாட்டு முறைகளின் புனிதத்தன்மையும் சமநிலையில் வைக்கப்பட வேண்டியுள்ளது. எந்தவொரு மத அடையாளத்தின் அடிப்படையிலும் வழிபாட்டுத் தடையை விதிக்காமல், பொதுவான பக்தியை ஊக்குவிப்பதே நிர்வாகத்தின் நோக்கமாக இருக்க வேண்டும் என்பது பொதுவான கருத்து. இந்தச் சம்பவம் குறித்து உள்ளூர் அரசியல் தலைவர்கள் மற்றும் துறை நிபுணர்கள் கருத்து தெரிவித்துள்ளனர். மத நல்லிணக்கத்தை வலியுறுத்தும் அமைப்புகள், அனைத்து மதத்தினரும் சம உரிமையுடன் வழிபாட்டுத் தலங்களைப் பயன்படுத்த வேண்டும் என்று வலியுறுத்துகின்றன. அதே சமயம், பாரம்பரிய வழிபாட்டு மரபுகளைப் பாதுகாப்பதன் அவசியம் குறித்தும் சில அறிஞர்கள் தங்கள் கருத்துக்களை முன்வைத்துள்ளனர். இது ஒரு குறிப்பிட்ட மதத்தின் மீது சுமத்தப்படும் விமர்சனத்தை விட, சமூக நல்லிணக்கத்திற்கான உரையாடலாகவே பார்க்கப்பட வேண்டும். களத்தில் உள்ள பக்தர்கள் மற்றும் பொதுமக்கள் இந்த நிகழ்வைப் பல்வேறு கோணங்களில் அணுகியுள்ளனர். சிலர் மத நல்லிணக்கத்தின் அடையாளமாகக் கருதுகின்றனர். மற்றவர்கள், குறிப்பிட்ட வழிபாட்டு முறைகள் பாரம்பரியமாக வரையறுக்கப்பட்டவை என்பதால், அதில் ஏற்படும் மாற்றங்கள் குறித்து கவலை தெரிவிக்கின்றனர். இந்தச் சூழல், கோயில் நிர்வாகம் எவ்வாறு அனைத்துப் பிரிவினரையும் சமமாக அணுகுகிறது என்பதைப் பொறுத்தே கள நிலவரம் அமைகிறது. இதன் அடுத்தகட்ட நடவடிக்கையாக, கோயில் நிர்வாகம் அனைத்து மதப் பின்னணியில் உள்ள பக்தர்களுக்கான தெளிவான வழிகாட்டுதல்களை வெளியிட வேண்டியது அவசியமாகிறது. வழிபாட்டு முறைகள் குறித்த சந்தேகங்களைத் தீர்க்க, கோயில் நிர்வாகம் மற்றும் உள்ளூர் மதத் தலைவர்கள் இணைந்து ஒரு பொது கலந்துரையாடலை ஏற்பாடு செய்வது, எதிர்காலச் சர்ச்சைகளைத் தவிர்க்க உதவும். பொதுமக்களும், வழிபாட்டுத் தலங்களைப் பயன்படுத்தும்போது, அமைதியுடனும், பரஸ்பர மரியாதையுடனும் நடந்துகொள்ள அறிவுறுத்தப்படுகின்றனர்.",
-    "image": "https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372748.jpg",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "10 நவம்பர் 2026",
-    "timeAgo": "8 மணி நேரம் முன்",
-    "readTime": "2 நிமிடம்",
-    "views": 7924,
+    "subCategory": "chennai",
+    "title": "இன்றைய தலைமைச் செய்தி - தானியங்கி செய்திப் பதிவேற்ற அரங்கம்",
+    "summary": "இன்றைய முக்கியத் தலைமைச் செய்தி இங்கு தானாகப் பதிவேற்றப்படும். புதிய நேரலை செய்திகள் உடனுக்குடன் தோன்றும்.",
+    "body": "அறச்சுடர் தமிழ் நாளிதழின் இன்றைய முதன்மைத் தலைமைச் செய்தி இங்கு தானியங்கி முறையில் உடனுக்குடன் பதிவேற்றப்படும். உண்மைக்கு முன்னுரிமை தரும் நடுநிலையான செய்திகள், அரசியல், சமூகம் மற்றும் மக்கள் நலன் சார்ந்த முக்கியத் தகவல்களுடன் இந்தப் பகுதியில் விரிவாக வெளியாகும்.",
+    "image": "https://media.assettype.com/dailythanthi/2026-11-10/bb18cb3b/dollar.jpg?w=1200",
+    "author": "அறச்சுடர் ஆசிரியர் குழு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "3 நிமிடம்",
+    "views": 2500,
     "isFlash": true,
     "tags": [
-      "மதநல்லிணக்கம்",
-      "திருச்செந்தூர்",
+      "தலைமைச் செய்தி",
       "தமிழ்நாடு",
-      "சமத்துவம்"
+      "நேரலை"
     ],
-    "sourceUrl": "https://www.dinamalar.com/news/latest-tamil-news/muslim-womans-darshan-of-swami-controversy-at-tiruchendur-temple/4372748",
-    "sourceName": "தினமலர்"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 2,
-    "category": "politics",
-    "subCategory": "south",
-    "title": "பதவி விலகிய அதிமுக எம்.எல்.ஏ.க்கள் குறித்து பேரவைத் தலைவர் பிரபாகர் விசாரணை",
-    "summary": "பதவி விலகிய நான்கு அனைத்திந்திய அண்ணா திராவிட முன்னேற்றக் கழக சட்டமன்ற உறுப்பினர்கள் குறித்து பேரவைத் தலைவர் ஜே.சி.டி. பிரபாகர் விரிவான விசாரணை மேற்கொண்டுள்ளார். இந்த விசாரணை சட்டமன்ற செயல்பாடுகள் மற்றும் கட்சி ஒழுங்குமுறைகள் சார்ந்த முக்கிய அம்சங்களை உள்ளடக்கியுள்ளது.",
-    "body": "சமீபத்தில் பதவி விலகிய நான்கு அனைத்திந்திய அண்ணா திராவிட முன்னேற்றக் கழக சட்டமன்ற உறுப்பினர்கள் தொடர்பான சிக்கல்கள் குறித்து சட்டமன்றப் பேரவைத் தலைவர் ஜே.சி.டி. பிரபாகர் தீவிர விசாரணைக்கு எடுத்துள்ளார். இந்தச் சம்பவம் சட்டமன்றத்தின் செயல்பாட்டுத் தடையை ஏற்படுத்தாதவாறு, கட்சி சார்ந்த ஒழுங்குமுறைகள் மற்றும் சட்டரீதியான அம்சங்களை முழுமையாக ஆராய்வதே பிரபாகரின் நோக்கம் ஆகும். இது சட்டமன்றத்தின் செயல்பாட்டுத் தொடர்ச்சிக்கு மிக அவசியமான நடவடிக்கையாகப் பார்க்கப்படுகிறது. இந்த நான்கு எம்.எல்.ஏ.க்களின் பதவி விலகல் குறித்த விவரங்கள், சம்பந்தப்பட்ட கட்சி விதிமுறைகள், சட்டமன்றப் பேரவை விதிகள் மற்றும் அரசு ஆணைகளின் அடிப்படையில் ஆய்வு செய்யப்படுகின்றன. குறிப்பிட்ட ஒதுக்கீடுகள் அல்லது சட்டரீதியான விலக்குகள் ஏதேனும் உள்ளதா என்பதையும், அவர்களின் விலகல் அறிவிப்பு முறையாகப் பதிவு செய்யப்பட்டுள்ளதா என்பதையும் அரசுப் பதிவேடுகள் மூலம் சரிபார்க்கின்றனர். இது சட்ட மற்றும் நிர்வாக ரீதியான தெளிவை உறுதி செய்கிறது. அரசியல் வட்டாரங்களில் இந்தச் சம்பவம் பெரும் விவாதப் பொருளாகியுள்ளது. எதிர்க்கட்சித் தலைவர்கள் மற்றும் சில துறை நிபுணர்கள், இந்த விசாரணையை நடுநிலையாகவும், சட்டத்தின் அடிப்படையிலும் நடத்த வேண்டும் என்று வலியுறுத்துகின்றனர். அதே சமயம், கட்சித் தலைவர்கள், கட்சிக்குள் நிலவும் ஒழுங்கு நடவடிக்கைகளை விரைந்து முடித்து, சட்டமன்றத்தின் அமைதிக்கு வழிவகுக்க வேண்டும் என்று கருத்து தெரிவித்துள்ளனர். களத்தில், பாதிக்கப்பட்ட எம்.எல்.ஏ.க்களின் தொகுதி மக்கள் மத்தியில் இந்தச் செய்தி கவனத்தை ஈர்த்துள்ளது. அவர்களின் பதவி விலகல் காரணமாக சட்டமன்றப் பணிகள் பாதிக்கப்படாமல் இருக்க, சம்பந்தப்பட்ட மாவட்ட நிர்வாகங்களும், சட்டமன்றப் பேரவை நிர்வாகமும் ஒருங்கிணைந்து செயல்படுகின்றன. பொதுமக்கள், சட்டமன்றத்தின் செயல்பாடுகளில் வெளிப்படைத்தன்மையுடன் இருக்க வேண்டும் என்று எதிர்பார்ப்பதோடு, அடுத்தகட்ட தீர்மானத்தை ஆவலுடன் எதிர்பார்க்கின்றனர். அடுத்தகட்ட நடவடிக்கையாக, பிரபாகர் தலைமையிலான குழு, அனைத்து தரப்பு விளக்கங்களையும், ஆவணங்களையும் பெற்று, உரிய முடிவை சட்டமன்றப் பேரவைக்கு சமர்ப்பிக்கும். பொதுமக்களின் வழிகாட்டுதலின்படி, இந்தச் சிக்கல் விரைந்து தீர்க்கப்பட்டு, சட்டமன்றத்தின் செயல்பாடுகள் எந்தத் தடங்கலும் இன்றி தொடர வழிவகை செய்யப்பட வேண்டும். இது ஜனநாயகத்தின் செயல்பாட்டுத் தரம் உயருதலுக்கு வழிவகுக்கும்.",
-    "image": "https://cf-images.assettype.com/hindutamil-prod/2026-11-11/qsjyzevb/5.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "21 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 13238,
+    "category": "tamilnadu",
+    "subCategory": "districts",
+    "title": "இன்றைய மாவட்டச் செய்திகள் - தமிழகக் கள நிலவரங்கள்",
+    "summary": "தமிழகத்தின் அனைத்து மாவட்டங்களின் முக்கிய நிகழ்வுகள் மற்றும் கள நிலவரங்கள் குறித்த செய்திகள் இங்கு பதிவேற்றப்படும்.",
+    "body": "தமிழகத்தின் பல்வேறு மாவட்டங்களில் நடைபெறும் முக்கிய நிகழ்வுகள், வளர்ச்சித் திட்டங்கள் மற்றும் மக்கள் நலன் சார்ந்த அறிவிப்புகள் குறித்த விரிவான தகவல்கள் இந்தப் பகுதியில் இடம்பெறும்.",
+    "image": "https://media.assettype.com/dailythanthi/2026-11-10/0p8dqg6u/CHENNAI-10.jpg?w=1200",
+    "author": "மாவட்ட நிருபர் குழு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 1800,
     "isFlash": true,
     "tags": [
-      "அதிமுக",
-      "சட்டமன்றம்",
-      "பிரபாகர்",
-      "அரசியல்"
+      "மாவட்டங்கள்",
+      "தமிழ்நாடு",
+      "நிர்வாகம்"
     ],
-    "sourceUrl": "https://www.hindutamil.in/news/tamilnadu/assembly-speaker-jcd-prabhakar-conducts-an-inquiry-with-the-4-aiadmk-mlas-who-resigned",
-    "sourceName": "இந்து தமிழ் திசை"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 3,
-    "category": "tamilnadu",
-    "subCategory": "news",
-    "title": "ஊழல் தடுப்புச் சட்டத்தின் கீழ் சிபிஐ புதிய புகாரளிப்பு வசதியை அறிமுகப்படுத்துகிறது",
-    "summary": "பொது வாழ்வில் ஊழல் மற்றும் லஞ்சச் செயல்களைப் புகாரளிப்பதற்கான சிபிஐ புதிய மற்றும் எளிமையான வழிமுறைகளை நடைமுறைப்படுத்தியுள்ளது. இது வெளிப்படைத்தன்மையை உறுதி செய்து, பொதுமக்களின் நம்பிக்கையை வலுப்படுத்தும் நோக்கம் கொண்டது.",
-    "body": "பொது நிர்வாகத்தில் நிலவும் லஞ்ச மற்றும் ஊழல் குற்றச்சாட்டுகளைத் திறம்பட விசாரிக்கும் நோக்கில், மத்திய புலனாய்வுப் பிரிவு (சிபிஐ) பொதுமக்கள் எளிதில் புகாரளிக்கக்கூடிய புதிய டிஜிட்டல் மற்றும் நேரடி வசதிகளை அறிமுகப்படுத்தியுள்ளது. இந்த நடவடிக்கை, ஊழல் தடுப்பு முயற்சிகளில் பொதுமக்களின் பங்களிப்பை அதிகரிப்பதற்கும், புகார்கள் உரிய நேரத்தில் விசாரணைக்கு வருவதை உறுதி செய்வதற்கும் அவசியமாகிறது. இந்த புதிய வசதி, குறிப்பிட்ட அரசுத் துறைகள், திட்டங்கள் மற்றும் அதிகாரிகளின் செயல்பாடுகளில் ஏற்படும் நிதி முறைகேடுகள், லஞ்சப் பரிமாற்றங்கள் போன்றவற்றை ஆதாரங்களுடன் பதிவு செய்ய வழிவகுக்கிறது. சிபிஐயின் வழிகாட்டுதலின்படி, புகாரளிப்பவர்கள் தங்கள் அடையாளத்தை ரகசியமாக வைத்துப் புகாரளிக்கவோ அல்லது நேரடியாகப் பதிவு செய்யவோ வாய்ப்பு வழங்கப்பட்டுள்ளது. இது, புகாரளிப்பவர்கள் எதிர்கொள்ளும் அச்சுறுத்தல்களைக் குறைக்கும் ஒரு முக்கிய படியாகும். அரசு விதிமுறைகளின்படி, ஊழல் தொடர்பான புகார்களைப் பதிவு செய்யும் ஒவ்வொரு குடிமகனுக்கும் உரிய பாதுகாப்பு உறுதி செய்யப்படுகிறது. சிபிஐ அதிகாரிகள், புகாரளிப்புப் பதிவுகளை ரகசியமாகப் பாதுகாப்பதுடன், புகாரளிப்பவரின் பாதுகாப்பிற்குத் தேவையான அனைத்து நடவடிக்கைகளையும் எடுக்கத் தயாராக உள்ளனர். இது, ஊழல் குற்றவாளிகள் தண்டிக்கப்படுவதை உறுதி செய்யும் சட்ட கட்டமைப்பிற்கு வலு சேர்க்கிறது. இந்தச் செய்தி, களத்தில் பணியாற்றும் அரசு ஊழியர்கள் மற்றும் பொதுமக்களின் பார்வையில் மிகுந்த வரவேற்பைப் பெற்றுள்ளது. மாவட்ட அளவிலான நிர்வாக அமைப்புகள் மற்றும் துறைசார் நிபுணர்கள், இந்த வெளிப்படைத்தன்மை அதிகரிப்பு நிர்வாகச் சீர்திருத்தத்திற்கு மிக அவசியம் என்று கருத்து தெரிவித்துள்ளனர். ஊழல் ஒழிப்பு என்பது அரசின் கடமை மட்டுமல்ல, குடிமக்களின் கூட்டுப் பொறுப்பு என்ற கருத்தை இது வலுப்படுத்துகிறது. அடுத்தகட்ட நடவடிக்கையாக, சிபிஐ இந்த புதிய புகாரளிப்பு தளத்தை நாடு முழுவதும் உள்ள இணையதளங்கள் மற்றும் மாவட்ட அலுவலகங்கள் மூலம் தீவிரமாகப் பரப்புரை செய்யும். பொதுமக்களின் வழிகாட்டுதலின்படி, ஆதாரங்களுடன் கூடிய துல்லியமான தகவல்களை வழங்குவதன் மூலம் மட்டுமே விரைவான மற்றும் நீதிக்குரிய விசாரணை சாத்தியமாகும். புகாரளிக்கும்போது, ஆதாரங்களின் நம்பகத்தன்மை மிக முக்கியமானது என்பதைப் பொதுமக்களுக்கு நினைவூட்ட வேண்டியது அவசியம்.",
-    "image": "https://cf-images.assettype.com/hindutamil-prod/2026-11-11/6dq6qvh4/151222112.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "24 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 13520,
+    "category": "national",
+    "subCategory": "delhi",
+    "title": "இன்றைய தேசியச் செய்தி - இந்திய அரசியல் நடப்புகள்",
+    "summary": "நாடாளுமன்ற நிகழ்வுகள், மத்திய அரசின் முக்கிய கொள்கை முடிவுகள் மற்றும் தேசிய அரசியல் தகவல்கள்.",
+    "body": "இந்தியாவின் தலைநகர் டெல்லி மற்றும் பல்வேறு மாநிலங்களின் முக்கிய தேசிய நிகழ்வுகள், நாடாளுமன்ற நடவடிக்கைகள், மத்திய அமைச்சரவை முடிவுகள் குறித்த விரிவான பார்வை.",
+    "image": "https://cf-images.assettype.com/maalai-malar/2026-11-11/ll8tbwqp/sonia-gandhi.png?w=1200",
+    "author": "தேசியப் பிரிவு நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 2100,
     "isFlash": true,
     "tags": [
-      "ஊழல் ஒழிப்பு",
-      "சிபிஐ",
-      "பொது நிர்வாகம்",
-      "வெளிப்படைத்தன்மை"
+      "தேசியம்",
+      "டெல்லி",
+      "இந்தியா"
     ],
-    "sourceUrl": "https://www.hindutamil.in/news/tamilnadu/bribe-complaint-facitily-in-cbi",
-    "sourceName": "இந்து தமிழ் திசை"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 4,
-    "category": "tamilnadu",
-    "subCategory": "news",
-    "title": "டாஸ்மாக் பணியாளர் இடமாற்ற கலந்தாய்வு: நியாயமான தீர்வுக்கு அரசு உறுதி",
-    "summary": "டாஸ்மாக் பணியாளர்களுக்கான இடமாற்ற கலந்தாய்வு நடைபெற்று வருகிறது. பணியாளர்களின் நலன் கருதி, அரசு உரிய விதிமுறைகளின்படியே நியாயமான தீர்வுகளை வழங்குவதற்கு முனைப்பு காட்டுகிறது.",
-    "body": "தமிழ்நாடு அரசின் டாஸ்மாக் நிறுவனத்தில் பணியாற்றும் ஊழியர்களுக்கான இடமாற்றம் தொடர்பான கலந்தாய்வு தற்போது தீவிரமாக நடைபெற்று வருகிறது. பணியிட மாற்றம் என்பது ஊழியர்களின் தொழில் வாழ்க்கையில் ஒரு முக்கியமான அம்சமாக இருப்பதால், இந்த கலந்தாய்வு அனைத்து தரப்பு ஊழியர்களின் கருத்துக்களையும், தேவைகளையும் முழுமையாகக் கருத்தில் கொள்ளும் நோக்கில் வடிவமைக்கப்பட்டுள்ளது. இது வெறும் நிர்வாக முடிவல்ல, ஊழியர் நலன் சார்ந்த ஒரு செயல்முறையாகும். அரசு நிர்ணயித்த பணியாளர் இடமாற்றத்திற்கான விதிகள், தகுதி அளவுகோல்கள் மற்றும் ஒதுக்கீட்டு முறைகள் ஆகியவை தெளிவான அரசாணைகளின்படியும், நிறுவனத்தின் கொள்கைகளின்படியும் செயல்படுத்தப்படுகின்றன. குறிப்பிட்ட கால இடைவெளியில் நடத்தப்படும் இந்த கலந்தாய்வில், பணியாளர்களின் பணி அனுபவம், திறமை மற்றும் தேவைப்படும் இடத்தின் அவசியம் போன்ற புள்ளிவிவரங்கள் அடிப்படையாகக் கொள்ளப்படுகின்றன. எந்தவித பாரபட்சமும் இன்றி, வெளிப்படைத்தன்மையுடன் முடிவுகள் எடுக்கப்படுவதை அரசு உறுதி செய்துள்ளது. இந்த விவகாரம் குறித்து பல்வேறு அரசியல் கட்சிகள் மற்றும் தொழிலாளர் நலக் குழுக்கள் கருத்துக்களைத் தெரிவித்துள்ளன. அரசு அதிகாரிகள் மற்றும் துறை நிபுணர்கள், சட்ட மற்றும் நிர்வாக கட்டமைப்புகளுக்கு உட்பட்டு மட்டுமே இடமாற்ற முடிவுகள் எடுக்கப்பட வேண்டும் என்று வலியுறுத்துகின்றனர். பணியாளர் சங்கப் பிரதிநிதிகளும், நியாயமான வாய்ப்பு கிடைப்பதை உறுதி செய்யக் கோரி கலந்தாய்வில் பங்கேற்றுள்ளனர். நிர்வாகத் தரப்பில், அனைத்துப் பிரிவினரின் குறைகளையும் நிவர்த்தி செய்யத் தயாராக இருப்பதாகத் தெரிவிக்கப்பட்டுள்ளது. களத்தில் உள்ள டாஸ்மாக் அலுவலகங்கள் மற்றும் பணியாளர்கள் நேரடியாக இந்த கலந்தாய்வின் தாக்கத்தை உணர்கின்றனர். சில பணியாளர்கள் விரும்பிய இடமாற்றம் கிடைக்காததால் கவலை தெரிவிக்கின்றனர்; அதே சமயம், புதிய வாய்ப்புகள் கிடைப்பதில் திருப்தி அடையும் பணியாளர்களும் உள்ளனர். இந்த செயல்முறை, நிறுவனத்தின் செயல்பாட்டுத் தேவைகளுக்கும், தனிப்பட்ட ஊழியர் விருப்பங்களுக்கும் இடையே சமநிலையை ஏற்படுத்துவதை நோக்கமாகக் கொண்டுள்ளது. அடுத்தகட்ட நடவடிக்கையாக, கலந்தாய்வில் பெறப்பட்ட அனைத்துப் பரிந்துரைகளும் உயர் நிர்வாகக் குழுவின் இறுதி ஒப்புதலுக்கு உட்படுத்தப்படும். இடமாற்ற முடிவுகள் குறித்த இறுதி அறிவிப்புகள் விரைவில் அதிகாரப்பூர்வ அறிவிப்புகள் மூலம் வெளியிடப்படும். பணியாளர்கள் தங்கள் தகுதிகள் மற்றும் விருப்பங்களை உரிய காலக்கெடுவுக்குள், நிர்ணயிக்கப்பட்ட அதிகாரப்பூர்வ வழிகள் மூலமாக சமர்ப்பிப்பது அவசியமாகும். மேலும், ஏதேனும் சந்தேகங்கள் இருப்பின், நிறுவனத்தின் மனிதவளத் துறையை அணுகுவது வழிகாட்டுதலுக்கு உதவும்.",
-    "image": "https://cf-images.assettype.com/hindutamil-prod/2026-11-11/d28il9ua/151222112.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "29 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 13273,
-    "isFlash": true,
+    "category": "business",
+    "subCategory": "market",
+    "title": "இன்றைய வணிகச் செய்தி - நிதி & முதலீட்டு களம்",
+    "summary": "பங்குச்சந்தை, தங்கம் மற்றும் வெள்ளி விலை நிலவரம், வணிக முதலீட்டு வழிகாட்டல்கள்.",
+    "body": "இந்திய மற்றும் சர்வதேச நிதிச் சந்தைகளின் தற்போதைய போக்கு, ரிசர்வ் வங்கி கொள்கைகள், நடுத்தர மக்களுக்கான சிறந்த சேமிப்புத் திட்டங்கள் பற்றிய சிறப்புத் தகவல்கள்.",
+    "image": "https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200",
+    "author": "வணிக நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 3200,
+    "isFlash": false,
     "tags": [
-      "டாஸ்மாக்",
-      "பணியாளர் இடமாற்றம்",
-      "தமிழ்நாடு அரசு",
-      "நலன்"
+      "வணிகம்",
+      "முதலீடு",
+      "பங்குச்சந்தை"
     ],
-    "sourceUrl": "https://www.hindutamil.in/news/tamilnadu/transfer-counselling-for-tasmac-employees",
-    "sourceName": "இந்து தமிழ் திசை"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   },
   {
     "id": 5,
+    "category": "tech",
+    "subCategory": "science",
+    "title": "இன்றைய அறிவியல் & தொழில்நுட்பச் செய்தி அரங்கம்",
+    "summary": "இஸ்ரோவின் விண்வெளி சாதனைகள், நவீன மென்பொருள் மற்றும் செயற்கை நுண்ணறிவு முன்னேற்றங்கள்.",
+    "body": "இந்தியாவின் அறிவியல் ஆய்வுகள், செயற்கைக்கோள் ஏவுதல் திட்டங்கள் மற்றும் அன்றாட வாழ்க்கையை எளிதாக்கும் நவீன தொழில்நுட்பக் கண்டுபிடிப்புகள் பற்றிய அலசல்.",
+    "image": "https://thinaboomi.com/uploads/images/202603/image_870x580_69c273307cfa5.jpg",
+    "author": "தொழில்நுட்பப் பிரிவு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 1950,
+    "isFlash": false,
+    "tags": [
+      "தொழில்நுட்பம்",
+      "அறிவியல்",
+      "இஸ்ரோ"
+    ],
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
+  },
+  {
+    "id": 6,
+    "category": "cinema",
+    "subCategory": "kollywood",
+    "title": "இன்றைய திரை உலகம் - தமிழ் சினிமா அண்மைச் செய்திகள்",
+    "summary": "புதிய திரைப்படங்களின் வெளியீடு, டீசர், டிரெய்லர் மற்றும் திரையுலக பிரபலங்களின் சிறப்புப் பேட்டிகள்.",
+    "body": "தமிழ் மற்றும் இந்திய திரையுலகின் சமீபத்திய சினிமா செய்திகள், படப்பிடிப்புத் தகவல்கள் மற்றும் பாக்ஸ் ஆபிஸ் நிலவரங்கள் குறித்த சுவாரசியமான பார்வை.",
+    "image": "https://images.news18.com/tamil/uploads/2026/11/sonia-gandhi-2026-11-bfbe3a4e73a1c1c1200255934925ba2d-1200x800.jpg",
+    "author": "சினிமா நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 4100,
+    "isFlash": false,
+    "tags": [
+      "சினிமா",
+      "திரைப்படம்",
+      "கோலிவுட்"
+    ],
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
+  },
+  {
+    "id": 7,
+    "category": "sports",
+    "subCategory": "cricket",
+    "title": "இன்றைய விளையாட்டு அரங்கம் - சர்வதேச & தேசிய போட்டிகள்",
+    "summary": "கிரிக்கெட், கால்பந்து மற்றும் சர்வதேச தடகளப் போட்டிகளின் முடிவுகள் மற்றும் சாதனைகள்.",
+    "body": "சர்வதேச மற்றும் உள்ளூர் விளையாட்டுப் போட்டிகளின் நேரலை நிலவரங்கள், இந்திய வீரர் வீராங்கனைகளின் சாதனைகள் மற்றும் விளையாட்டுத்துறை வழிகாட்டல்கள்.",
+    "image": "https://imagesvs.oneindia.com/webp/ta/img/2026/11/sheikhhasina-30211794324120.jpg",
+    "author": "விளையாட்டு நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 3800,
+    "isFlash": false,
+    "tags": [
+      "விளையாட்டு",
+      "கிரிக்கெட்",
+      "போட்டிகள்"
+    ],
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
+  },
+  {
+    "id": 8,
     "category": "tamilnadu",
     "subCategory": "trichy",
-    "title": "திருச்சி மைய நூலகத்தில் நூல்கள் அகற்றம்: அறிவுப் பாதுகாப்பு குறித்த விவாதம்",
-    "summary": "திருச்சி மாவட்ட மைய நூலகத்திலிருந்து அகல்விளக்கு மற்றும் பீனிக்ஸ் பதிப்பகங்களின் ஒன்று ஆயிரத்து ஐந்நூறு பதினோரு நூல்கள் அகற்றப்பட்டுள்ளன. இது நூலக நிர்வாக நடைமுறைகள் மற்றும் அறிவுப் பாதுகாப்பு குறித்த கேள்விகளை எழுப்பியுள்ளது.",
-    "body": "திருச்சி மாவட்ட மைய நூலக நிர்வாகத்தின் செயல்பாடுகளின் ஒரு பகுதியாக, அகல்விளக்கு மற்றும் பீனிக்ஸ் பதிப்பகங்களின் தொகுப்பில் இருந்த ஒன்று ஆயிரத்து ஐந்நூறு பதினோரு நூல்கள் முறையாக அகற்றப்பட்டுள்ளன. இந்த செயல்பாடு நூலகத்தின் வளங்களை புதுப்பித்தல் மற்றும் தேய்மானம் அடைந்த பொருட்களை நீக்குதல் என்ற நிர்வாகக் கொள்கையின் கீழ் மேற்கொள்ளப்பட்டதாகும். இந்த அகற்றம் நூலகத்தின் ஒட்டுமொத்த சேகரிப்பு மேலாண்மைக்கு முக்கியத்துவம் அளிக்கிறது. அரசு நூலகங்களுக்கான வழிகாட்டுதல்களின்படி, குறிப்பிட்ட கால இடைவெளியில் நூல்களின் தரம், பயன்பாட்டுத் தன்மை மற்றும் பதிப்புச் செல்லுபடியாகும் தன்மை ஆகியவற்றின் அடிப்படையில் அகற்றுதல் செய்யப்படுகிறது. இந்த நூல்கள் காலாவதியான பதிப்புகள் அல்லது சேதமடைந்த நிலையில் இருந்திருக்கலாம். இந்த செயல்முறை, நூலகத்தின் வளங்களைச் சீரமைத்து, வாசகர்களுக்குப் பயன்படும் தரமான நூல்களை மட்டுமே வழங்குவதை உறுதி செய்கிறது. மாவட்ட நூலக நிர்வாக அதிகாரிகள் மற்றும் பதிப்பகப் பிரதிநிதிகள் இந்த முடிவை நிர்வாகத் தேவைகளின் அடிப்படையில் எடுத்ததாகத் தெரிவித்துள்ளனர். துறை நிபுணர்களின் கருத்துப்படி, நூலகத்தின் சேகரிப்பைத் துல்லியமாகவும், புதுமையாகவும் வைத்திருப்பது, கல்வி மற்றும் ஆராய்ச்சி நோக்கங்களுக்காக நூலகத்தைப் பயன்படுத்துவோருக்குப் பெரும் பயனளிக்கும். இது ஒரு நிர்வாகத் தேவை, கொள்கை மீறல் அல்ல என வலியுறுத்தப்படுகிறது. இந்த அகற்றல் செயல்பாடு நேரடியாக பொதுமக்களின் படிப்புத் தேவையைப் பாதிக்காது என்றாலும், நூல்களின் வகை மற்றும் அவற்றின் பயன்பாட்டு நிலை குறித்து சில கேள்விகள் எழுந்துள்ளன. நூலகத்தைப் பயன்படுத்தும் மாணவர்கள் மற்றும் ஆராய்ச்சியாளர்கள், அகற்றப்பட்ட நூல்களின் விவரங்கள் குறித்துத் தெளிவு கோரியுள்ளனர். கள நிலவரப்படி, நூலகத்தின் மற்ற பிரிவுகள் சீராக இயங்கி வருகின்றன. அடுத்தகட்ட நடவடிக்கையாக, நூலக நிர்வாகம் அகற்றப்பட்ட நூல்களின் முழுப் பட்டியலையும், அகற்றும் காரணங்களையும் பொதுமக்களின் பார்வைக்குக் கிடைக்கச் செய்ய திட்டமிட்டுள்ளது. நூலகத்தைப் பயன்படுத்தும் பொதுமக்கள், நூல்களின் நிலை குறித்து ஏதேனும் சந்தேகங்கள் இருந்தால், மாவட்ட நூலக அலுவலகத்தைத் தொடர்புகொண்டு உரிய விளக்கங்களைப் பெறலாம். இது வெளிப்படைத்தன்மையை உறுதி செய்யும்.",
-    "image": "https://cf-images.assettype.com/dinamani/2026-08-13/40z81751/books070929.jpg?w=1200&auto=format%2Ccompress&fit=max",
-    "author": "அறச்சுடர் சிறப்பு நிருபர்",
-    "date": "11 நவம்பர் 2026",
-    "timeAgo": "15 நிமிடங்கள் முன்",
-    "readTime": "1 நிமிடம்",
-    "views": 10142,
-    "isFlash": true,
+    "title": "இன்றைய மண்டலச் செய்திகள் - நடுவண் தமிழகம்",
+    "summary": "திருச்சி, தஞ்சை, சேலம் உள்ளிட்ட முக்கிய நகரங்களின் வளர்ச்சித் திட்டங்கள் மற்றும் செய்திகள்.",
+    "body": "தமிழகத்தின் மத்திய மற்றும் மேற்கு மண்டல நகரங்களின் அன்றாட முக்கிய நிகழ்வுகள் மற்றும் மக்கள் சார்ந்த செய்திகளின் முழுமையான தொகுப்பு.",
+    "image": "https://images.dinamalar.com/data/large_2025/Tamil_News_lrg_4372635.jpg",
+    "author": "மண்டல நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 1600,
+    "isFlash": false,
     "tags": [
-      "திருச்சி நூலகம்",
-      "நூலக நிர்வாகம்",
-      "அறிவுப் பாதுகாப்பு"
+      "மண்டலம்",
+      "தமிழகம்",
+      "நகரங்கள்"
     ],
-    "sourceUrl": "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/11/tirucci-maavtttt-maiy-nuulkttiliruntu-aklvillkku-piinnniks-ptippkngkllinnn-1-510-nuulkll-akrrrrm",
-    "sourceName": "தினமணி"
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
+  },
+  {
+    "id": 9,
+    "category": "world",
+    "subCategory": "global",
+    "title": "இன்றைய உலகச் செய்தி - சர்வதேச விவகாரங்கள்",
+    "summary": "அமெரிக்கா, ஐரோப்பிய நாடுகள் மற்றும் ஆசிய நாடுகளின் புவிசார் அரசியல் நிகழ்வுகள்.",
+    "body": "சர்வதேச நாடுகளின் முக்கிய கொள்கை மாற்றங்கள், உலகத் தலைவர்களின் சந்திப்புகள் மற்றும் உலகப் பொருளாதார தாக்கங்கள் பற்றிய விரிவான சர்வதேசப் பார்வை.",
+    "image": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/3a8b/live/da8fa680-dcfd-11f1-93e1-3b657b665bcf.jpg",
+    "author": "சர்வதேசப் பிரிவு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 2200,
+    "isFlash": false,
+    "tags": [
+      "உலகம்",
+      "சர்வதேசம்",
+      "புவிசார் அரசியல்"
+    ],
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
+  },
+  {
+    "id": 10,
+    "category": "politics",
+    "subCategory": "karnataka",
+    "title": "இன்றைய அரசியல் களம் - தேர்தல் & கூட்டணிகள்",
+    "summary": "தமிழகம் மற்றும் இந்திய அரசியலின் முக்கிய களம், தேர்தல் அறிக்கைகள் மற்றும் கட்சிகளின் நிலைப்பாடுகள்.",
+    "body": "அரசியல் கட்சிகளின் தீவிர களப்பணிகள், கூட்டணிக் கணக்குகள் மற்றும் சட்டமன்ற நாடாளுமன்ற விவாதங்கள் குறித்த பிரத்யேக அரசியல் அலசல்.",
+    "image": "https://cf-images.assettype.com/hindutamil-prod/2026-11-10/2d9ml1m9/appa-kutty.jpg?w=1200",
+    "author": "அரசியல் நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 3500,
+    "isFlash": false,
+    "tags": [
+      "அரசியல்",
+      "தேர்தல்",
+      "கூட்டணி"
+    ],
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
+  },
+  {
+    "id": 11,
+    "category": "spiritual",
+    "subCategory": "astrology",
+    "title": "இன்றைய ஆன்மிக தரிசனம் & தினசரி ராசிபலன்",
+    "summary": "12 ராசிகளுக்கான இன்றைய பலன்கள், நட்சத்திர பலன்கள் மற்றும் ஆன்மிகத் திருத்தல தகவல்கள்.",
+    "body": "அன்றாட வாழ்க்கைக்கு வழிகாட்டும் 12 ராசிகளுக்கான தினசரி ஜோதிடப் பலன்கள் மற்றும் புகழ்பெற்ற தமிழகத் திருக்கோயில்களின் திருவிழாக்கள் குறித்த ஆன்மிகத் தொகுப்பு.",
+    "image": "https://gumlet.vikatan.com/vikatan/2026-11-10/1xu4rr9j/WhatsApp-Image-2026-11-07-at-10.09.28.jpeg?w=1200&fit=max",
+    "author": "ஆன்மிகப் பிரிவு",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 4500,
+    "isFlash": false,
+    "tags": [
+      "ஆன்மிகம்",
+      "ராசிபலன்",
+      "ஜோதிடம்"
+    ],
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
+  },
+  {
+    "id": 12,
+    "category": "chennai",
+    "subCategory": "transport",
+    "title": "இன்றைய சென்னை & போக்குவரத்து நிலவரம்",
+    "summary": "சென்னை பெருநகர போக்குவரத்து, மெட்ரோ ரயில் பணிகள் மற்றும் மாநகர முக்கிய அறிவிப்புகள்.",
+    "body": "சென்னையின் முக்கிய போக்குவரத்து மாற்றங்கள், புறநகர் மற்றும் மெட்ரோ ரயில் சேவை நிலவரங்கள் மற்றும் மாநகராட்சி நலத்திட்டங்கள் குறித்த செய்திகள்.",
+    "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m72wtzdx77fh2sck4n5wpkr4,imgname-walking-shoes-vs-running-shoes--2--1794319941053.jpg",
+    "author": "சென்னை நிருபர்",
+    "date": "இன்றைய பதிப்பு",
+    "timeAgo": "நேரலை",
+    "readTime": "2 நிமிடம்",
+    "views": 2700,
+    "isFlash": false,
+    "tags": [
+      "சென்னை",
+      "போக்குவரத்து",
+      "மெட்ரோ"
+    ],
+    "sourceUrl": "https://arachudar.blogspot.com/",
+    "sourceName": "அறச்சுடர்"
   }
 ];
 
@@ -2991,29 +3138,8 @@
           const body = entry.content ? entry.content.$t : (entry.summary ? entry.summary.$t : '');
           const tempDiv = document.createElement('div');
           tempDiv.innerHTML = body;
-          const rawParagraphs = Array.from(tempDiv.querySelectorAll('p'))
-            .map(p => (p.textContent || p.innerText || '').trim())
-            .filter(t => t.length > 0);
-
-          let cleanBody = '';
-          let summary = '';
-          if (rawParagraphs.length > 0) {
-            cleanBody = rawParagraphs.join('\n\n');
-            summary = rawParagraphs[0];
-          } else {
-            const textWithBreaks = tempDiv.innerHTML
-              .replace(/<br\s*[\/]?>/gi, '\n')
-              .replace(/<\/p>/gi, '\n\n')
-              .replace(/<\/div>/gi, '\n\n');
-            const d = document.createElement('div');
-            d.innerHTML = textWithBreaks;
-            cleanBody = (d.textContent || d.innerText || '').split('\n')
-              .map(s => s.trim())
-              .filter(s => s.length > 0)
-              .join('\n\n');
-            summary = cleanBody.split('\n\n')[0] || '';
-          }
-          if (summary.length > 180) summary = summary.substring(0, 180) + '...';
+          const cleanText = tempDiv.textContent || tempDiv.innerText || '';
+          const summary = cleanText.substring(0, 150) + '...';
 
           // Image extraction
           let imgUrl = 'https://media.assettype.com/dailythanthi/2026-11-11/b2p0yyb3/CHENNAI-12.jpg?w=1200&auto=format%2Ccompress&fit=max';
@@ -3044,7 +3170,7 @@
             subCategory: 'latest',
             title: title,
             summary: summary,
-            body: cleanBody,
+            body: cleanText,
             image: imgUrl,
             author: entry.author && entry.author[0] ? entry.author[0].name.$t : 'அறச்சுடர் AI நிருபர்',
             date: 'இன்று',
@@ -3701,35 +3827,9 @@
     let speechSynthUtterance = null;
     let isSpeaking = false;
 
-    let currentActiveArticleId = 1;
-
-    function getArticleShareUrl(item) {
-      if (!item) return window.location.href;
-      return `${window.location.origin}${window.location.pathname}#article-${item.id}`;
-    }
-
-    function checkUrlForArticle() {
-      const hash = window.location.hash;
-      if (hash && hash.startsWith('#article-')) {
-        const id = parseInt(hash.replace('#article-', ''), 10);
-        if (!isNaN(id)) {
-          openArticleModalById(id);
-        }
-      }
-    }
-    window.addEventListener('hashchange', checkUrlForArticle);
-
     function openArticleModalById(id) {
       const item = NEWS_DATABASE.find(n => n.id === id) || NEWS_DATABASE[0];
       if (!item) return;
-
-      currentActiveArticleId = item.id;
-
-      // Update URL hash without reload so each news has its own shareable link
-      const articleHash = '#article-' + item.id;
-      if (window.location.hash !== articleHash) {
-        history.pushState({ articleId: item.id }, '', articleHash);
-      }
 
       document.getElementById('modalArticleTitle').textContent = item.title;
       document.getElementById('modalCategoryBadge').textContent = item.category.toUpperCase();
@@ -3746,39 +3846,10 @@
         imgWrap.style.display = 'none';
       }
 
-      // Dina Thanthi style: bold lead box + airy paragraphs with zero scattered words
-      const pList = (item.body || '').split('\n\n')
-        .map(p => p.trim())
-        .filter(p => p.length > 0);
-
-      let contentHTML = '';
-      if (item.summary) {
-        contentHTML += `
-          <div class="modal-lead-box">
-            <span class="modal-lead-badge">முக்கியச் செய்திச் சுருக்கம்</span>
-            <p class="modal-lead-text"><strong>${item.summary}</strong></p>
-          </div>
-        `;
-      }
-
-      contentHTML += '<div class="modal-body-paragraphs">';
-      pList.forEach((p, idx) => {
-        // Skip duplicate if first paragraph is identical to summary
-        if (idx === 0 && item.summary && (p === item.summary || item.summary.startsWith(p.substring(0, 50)))) {
-          return;
-        }
-        contentHTML += `<p class="modal-p">${p}</p>`;
-      });
-      contentHTML += '</div>';
-
-      document.getElementById('modalArticleContent').innerHTML = contentHTML;
+      document.getElementById('modalArticleContent').innerHTML = item.body.split('\n\n').map(p => `<p style="margin-bottom:12px;">${p}</p>`).join('');
 
       const modal = document.getElementById('articleClippingModal');
-      if (modal) {
-        modal.style.display = 'flex';
-        const dialog = modal.querySelector('.article-modal-dialog');
-        if (dialog) dialog.scrollTop = 0;
-      }
+      if (modal) modal.style.display = 'flex';
       currentActiveArticleText = `${item.title}. ${item.body}`;
     }
 
@@ -3788,11 +3859,7 @@
       }
       const modal = document.getElementById('articleClippingModal');
       if (modal) modal.style.display = 'none';
-
-      // Reset address bar when closing modal
-      if (window.location.hash.startsWith('#article-')) {
-        history.pushState(null, '', window.location.pathname + window.location.search);
-      }
+      stopAudioReadAloud();
     }
 
     function toggleAudioReadAloud() {
@@ -3836,32 +3903,24 @@
     }
 
     function shareArticleOnWhatsApp() {
-      const item = NEWS_DATABASE.find(n => n.id === currentActiveArticleId) || NEWS_DATABASE[0];
-      const title = item ? item.title : document.getElementById('modalArticleTitle').textContent;
-      const url = getArticleShareUrl(item);
-      window.open('https://api.whatsapp.com/send?text=' + encodeURIComponent(title + '\n' + url));
+      const title = document.getElementById('modalArticleTitle').textContent;
+      window.open('https://api.whatsapp.com/send?text=' + encodeURIComponent(title + ' - ' + window.location.href));
     }
 
     function shareArticleOnX() {
-      const item = NEWS_DATABASE.find(n => n.id === currentActiveArticleId) || NEWS_DATABASE[0];
-      const title = item ? item.title : document.getElementById('modalArticleTitle').textContent;
-      const url = getArticleShareUrl(item);
-      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' via @arachudar\n' + url));
+      const title = document.getElementById('modalArticleTitle').textContent;
+      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' via @arachudar ' + window.location.href));
     }
 
     function shareArticleOnFB() {
-      const item = NEWS_DATABASE.find(n => n.id === currentActiveArticleId) || NEWS_DATABASE[0];
-      const url = getArticleShareUrl(item);
-      window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url));
+      window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href));
     }
 
     function copyArticleLink() {
-      const item = NEWS_DATABASE.find(n => n.id === currentActiveArticleId) || NEWS_DATABASE[0];
-      const url = getArticleShareUrl(item);
-      navigator.clipboard.writeText(url).then(() => {
-        alert('செய்தி இணைப்பு பிரதி செய்யப்பட்டது:\n' + url);
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        alert('செய்தி இணைப்பு பிரதி செய்யப்பட்டது!');
       }).catch(() => {
-        prompt('செய்தி இணைப்பு:', url);
+        prompt('இணைப்பை பிரதி செய்க:', window.location.href);
       });
     }
 
@@ -4179,10 +4238,9 @@
       if (window.innerWidth < 768) {
         setTimeout(fitEpaperWidth, 120);
       }
-      BloggerFeedEngine.fetchFeed().then(() => checkUrlForArticle());
+      BloggerFeedEngine.fetchFeed();
 
       // Check URL query parameters (e.g. ?q=... or #epaper)
-      checkUrlForArticle();
       const urlParams = new URLSearchParams(window.location.search);
       const queryParam = urlParams.get('q');
       if (queryParam) {

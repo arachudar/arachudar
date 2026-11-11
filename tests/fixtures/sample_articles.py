@@ -351,7 +351,7 @@ SAMPLE_EPAPER_PAGES_CONTENT: Dict[int, Dict[str, str]] = {
         "leadHeadline": "இந்திய பங்குச்சந்தைகள் புதிய வரலாற்று உச்சம்",
         "leadSubhead": "சென்செக்ஸ் 85,000 புள்ளிகளை கடந்து வர்த்தகம் நிறைவு",
         "leadByline": "வணிக நிருபர், மும்பை • 10 நவம்பர் 2026",
-        "leadPhoto": "https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200",
+        "leadPhoto": "https://media.assettype.com/dailythanthi/2026-01-30/cy7x77bo/Gold-Rate-03.jpg?w=1200&auto=format%2Ccompress&fit=max",
         "leadCaption": "மும்பை பங்குச்சந்தையில் உற்சாகமடைந்த முதலீட்டாளர்கள்.",
         "leadBody": "வெளிநாட்டு முதலீடுகள் தொடர்ந்து அதிகரித்து வருவதால் இந்திய பங்குச்சந்தைகள் புதிய வரலாற்று உச்சத்தை எட்டியுள்ளன...",
         "sideHeadline": "தங்கத்தின் விலை சற்று குறைவு: நகைப்பிரியர்கள் மகிழ்ச்சி",

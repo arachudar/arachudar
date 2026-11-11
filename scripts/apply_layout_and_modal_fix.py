@@ -148,12 +148,12 @@ def run():
 
     enhanced_create_grid_card = """    function createGridCardHTML(item) {
       const catLabel = CATEGORY_TITLES[item.category] || item.category || 'செய்தி';
-      const img = item.image || 'https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200';
+      const img = item.image || 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&auto=format&fit=crop';
       const summary = item.summary || '';
       return `
         <article class="news-grid-card" onclick="openArticleModalById(${item.id})">
           <div class="card-media-wrap">
-            <img src="${img}" alt="${item.title}" loading="lazy" onerror="this.src='https://cf-images.assettype.com/dinamani/2026-11-10/6ns58v9g/arayavir.jpg?w=1200';">
+            <img src="${img}" alt="${item.title}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&auto=format&fit=crop';">
           </div>
           <div class="card-content-area">
             <span class="category-tag-badge" style="align-self:flex-start;">${catLabel}</span>

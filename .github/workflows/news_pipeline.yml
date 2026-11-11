@@ -68,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add tamil-news-blogger.html data/seen_articles.json
+          git add tamil-news-blogger.html blogger-theme.xml arachudar-blogger-import.xml data/seen_articles.json
           git commit -m "Automated news update [skip ci]" || echo "No changes"
           git pull --rebase origin main || true
           git push

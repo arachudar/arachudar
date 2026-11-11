@@ -130,7 +130,7 @@ class BloggerClient:
     def format_post_html(self, article: ProcessedArticle) -> str:
         """
         Formats article into publication-ready Tamil Blogger HTML post.
-        Strictly pure Tamil text, spacious line-height, elegant mood indent (&emsp;&emsp;),
+        Strictly pure Tamil text, spacious line-height (2.0), elegant mood indent (&emsp;&emsp; + text-indent),
         and zero byline/source attribution footers.
         """
         body_text = getattr(article, "body", "")
@@ -143,15 +143,15 @@ class BloggerClient:
             f'<div class="arachudar-post" style="font-family: \'Mukta Malar\', sans-serif; max-width: 800px; margin: 0 auto; padding: 10px 0;">\n'
             f'<style>\n'
             f'  .arachudar-post {{ font-family: \'Mukta Malar\', sans-serif; max-width: 800px; margin: 0 auto; }}\n'
-            f'  .arachudar-post .post-body p {{ font-size: 1.15rem; line-height: 2.0; color: #1e293b; margin-bottom: 22px; text-align: left; text-indent: 1.5rem; word-break: normal; overflow-wrap: break-word; }}\n'
-            f'  .arachudar-post .post-lead {{ font-size: 1.25rem; line-height: 1.85; color: #0f172a; margin-top: 18px; margin-bottom: 26px; padding: 16px 20px; background-color: #f8fafc; border-left: 5px solid #990000; border-radius: 4px; font-weight: 700; text-indent: 1.5rem; text-align: left; }}\n'
+            f'  .arachudar-post .post-body p {{ font-size: 1.15rem; line-height: 2.0; color: #1e293b; margin-bottom: 22px; text-align: justify; text-indent: 2rem; word-break: normal; overflow-wrap: break-word; }}\n'
+            f'  .arachudar-post .post-lead {{ font-size: 1.25rem; line-height: 1.85; color: #0f172a; margin-top: 18px; margin-bottom: 26px; padding: 16px 20px; background-color: #f8fafc; border-left: 5px solid #990000; border-radius: 6px; font-weight: 700; text-indent: 1.5rem; text-align: left; }}\n'
             f'</style>\n'
             f'<div class="post-media" style="margin-top: 10px; margin-bottom: 24px; text-align: center;">\n'
             f'  <img src="{article.image}" alt="{clean_title}" style="max-width:100%; height:auto; border-radius:8px; box-shadow: 0 4px 14px rgba(0,0,0,0.08);" />\n'
             f'</div>\n'
-            f'<p class="post-lead">\n'
+            f'<div class="post-lead">\n'
             f'  <strong>{indent}{clean_summary}</strong>\n'
-            f'</p>\n'
+            f'</div>\n'
             f'<div class="post-body">\n{paragraphs}</div>\n'
             f'</div>'
         )
@@ -159,13 +159,20 @@ class BloggerClient:
     def publish_article(self, article: ProcessedArticle, dry_run: bool = False) -> Dict[str, Any]:
         """
         Publishes article to Blogger, returning API response dict or dry-run report.
-        Strictly enforces pure Tamil tags and labels.
+        Strictly enforces pure Tamil tags and labels without trailing commas or duplicates.
         """
         clean_title = clean_tamil_text(article.title)
         label = TAMIL_CATEGORY_LABELS.get(article.category, article.category)
         raw_tags = [t for t in getattr(article, "tags", []) if t != label]
         cleaned_tags = [clean_tamil_text(t) for t in raw_tags if clean_tamil_text(t)]
-        labels = [label] + [t for t in cleaned_tags if t != label]
+        
+        seen_tags = {label}
+        unique_tags = []
+        for t in cleaned_tags:
+            if t and t not in seen_tags:
+                seen_tags.add(t)
+                unique_tags.append(t)
+        labels = [label] + unique_tags
         if getattr(article, "is_flash", False) and "மின்னல்" not in labels:
             labels.append("மின்னல்")
 

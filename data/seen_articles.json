@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T18:47:03.992928+00:00",
-  "count": 118,
+  "last_updated": "2026-11-11T19:51:46.723838+00:00",
+  "count": 123,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -709,6 +709,36 @@
       "timestamp": "2026-11-11T18:47:03.992920+00:00",
       "url": "https://www.hindutamil.in/news/india/god-belongs-to-everyone-akhilesh-yadav-regarding-his-ayodhya-visit",
       "title": "“இறைவன் அனைவருக்கும் உரியவர்” - அயோத்தி பயணம் குறித்து அகிலேஷ் யாதவ் கருத்து",
+      "source_id": "hindu_tamil"
+    },
+    "12d8715c11aab0ac8193a4f17bafdd8905e2cfdfc6fae90702baf494b77e78f7": {
+      "timestamp": "2026-11-11T19:51:46.715061+00:00",
+      "url": "https://www.dailythanthi.com/news/india/kedarnath-and-yamunotri-temples-closed",
+      "title": "கேதார்நாத், யமுனோத்ரி கோவில்கள் மூடல்",
+      "source_id": "daily_thanthi"
+    },
+    "3ea53d815727cf0266a9f6efc8fa91d37478a85f529b183ee6dbe03c5da7dade": {
+      "timestamp": "2026-11-11T19:51:46.717673+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/bangladeshsmajhiprime-minister-hasina-should-not-be-executed-uk-mps/4373771",
+      "title": "வங்கதேச 'மாஜி' பிரதமர் ஹசீனாவுக்கு மரண தண்டனை நிறைவேற்ற கூடாது: பிரிட்டன் எம்.பி.,க்கள் வலியுறுத்தல்",
+      "source_id": "dinamalar"
+    },
+    "feb074b45b47246766a910fab65dec6ab1c87bbb354fa76e5f287cd62458acbc": {
+      "timestamp": "2026-11-11T19:51:46.719779+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/fund-allocated-for-procurement-of-new-machinery-to-increase-production-in-cooperative-spinning-mills",
+      "title": "கூட்டுறவு நூற்பாலைகளின் உற்பத்தியை அதிகரிக்க புதிய இயந்திரங்கள், உதிரி பாகங்கள் கொள்முதல் செய்ய ரூ.14 கோடி நிதி ஒதுக்கீடு",
+      "source_id": "hindu_tamil"
+    },
+    "39738760b0e01633fe03afcd74bc0640f71b8e2c7797421dddb18858efad16c0": {
+      "timestamp": "2026-11-11T19:51:46.721858+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/low-pressure-area-to-form-tomorrow-in-bay-of-bengal",
+      "title": "காற்றழுத்த தாழ்வுப் பகுதி நாளை உருவாகிறது: மீன்பிடி படகுகள் கரை திரும்ப உத்தரவு",
+      "source_id": "hindu_tamil"
+    },
+    "61e67b8e7517e3330c4c343e8eec70501ddca547fb44dd48b72d002256c075b9": {
+      "timestamp": "2026-11-11T19:51:46.723827+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/union-government-sought-report-from-tn-governor-regarding-law-and-order-situation",
+      "title": "சட்டம் ஒழுங்கு நிலவரம் குறித்து தமிழக ஆளுநர் அர்லேகரிடம் அறிக்கை கேட்டது மத்திய அரசு",
       "source_id": "hindu_tamil"
     }
   }

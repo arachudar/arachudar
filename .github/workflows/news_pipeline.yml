@@ -1,0 +1,59 @@
+name: Arachudar Tamil News Automation Pipeline
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Execute in dry-run mode (no live publishing)'
+        required: false
+        default: 'false'
+        type: boolean
+      limit:
+        description: 'Max articles per source'
+        required: false
+        default: '5'
+        type: number
+      category:
+        description: 'Filter category'
+        required: false
+        default: 'all'
+        type: string
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Execute News Pipeline
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+        run: |
+          python -m src.pipeline --limit=${{ inputs.limit || 5 }}
+
+      - name: Commit Updated Newspaper HTML
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tamil-news-blogger.html data/seen_articles.json
+          git commit -m "Automated news update [skip ci]" || echo "No changes"
+          git push

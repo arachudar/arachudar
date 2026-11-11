@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T21:26:17.331318+00:00",
-  "count": 128,
+  "last_updated": "2026-11-11T22:28:14.679987+00:00",
+  "count": 133,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -770,6 +770,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/railway-ticket-booking-for-pongal-festival-begins-on-november-14",
       "title": "பொங்கல் பண்டிகைக்கு நவ.14-ம் தேதி ரயில்வே டிக்கெட் முன்பதிவு தொடக்கம்",
       "source_id": "hindu_tamil"
+    },
+    "00147f2f40baedcd939501c70cb16f601397013e1ff5140448fa5d7f9b8ccf4e": {
+      "timestamp": "2026-11-11T22:28:14.650477+00:00",
+      "url": "https://www.dailythanthi.com/news/india/union-cabinet-approves-5-projects-worth-rs-77000-crore",
+      "title": "ரூ.77 ஆயிரம் கோடியில் 5 திட்டங்களுக்கு மத்திய மந்திரிசபை ஒப்புதல்",
+      "source_id": "daily_thanthi"
+    },
+    "d43bd28aab20107c23cc0d6eb14392cc269fbd131f6a60afa4b9510e80c66472": {
+      "timestamp": "2026-11-11T22:28:14.662442+00:00",
+      "url": "https://www.hindutamil.in/news/education/today-is-last-day-to-apply-for-vacant-seats-in-siddha-ayurveda-unani-homeopathy-courses",
+      "title": "சித்தா, ஆயுர்வேதம், யுனானி, ஓமியோபதி படிப்புகளில் காலியிடங்களுக்கு விண்ணப்பிக்க இன்று கடைசி",
+      "source_id": "hindu_tamil"
+    },
+    "33dcb378669bfa8b833d3fc20d5035fa204119b8c07d5b42d2009feefa45fe5f": {
+      "timestamp": "2026-11-11T22:28:14.664069+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-coimbatore/erode/2026/Nov/11/modifications-announced-for-trichypalakkad-train-services",
+      "title": "திருச்சி-பாலக்காடு ரயில் சேவையில் மாற்றம்",
+      "source_id": "dinamani"
+    },
+    "e44ae1e78527b939c8bfed59b9db97611f0aad4e3b7af3921e961aecdf471c39": {
+      "timestamp": "2026-11-11T22:28:14.678525+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-chennai/thirupattur/2026/Nov/11/%E0%AE%86%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B0-%E0%AE%85%E0%AE%B0%E0%AE%9A%E0%AF%81%E0%AE%AA%E0%AF%8D-%E0%AE%AA%E0%AF%87%E0%AE%B0%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%95%E0%AE%9F%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF-%E0%AE%B5%E0%AE%A8%E0%AF%8D%E0%AE%A4-5-%E0%AE%95%E0%AE%BF%E0%AE%B2%E0%AF%8B-%E0%AE%95%E0%AF%81%E0%AE%9F%E0%AF%8D%E0%AE%95%E0%AE%BE-%E0%AE%AA%E0%AE%B1%E0%AE%BF%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D",
+      "title": "ஆந்திர அரசுப் பேருந்தில் கடத்தி வந்த 5 கிலோ குட்கா பறிமுதல்",
+      "source_id": "dinamani"
+    },
+    "f68e538e0dee50420af490827d843a7750413162d423abe956adc9afefc5ac74": {
+      "timestamp": "2026-11-11T22:28:14.679981+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-coimbatore/erode/2026/Nov/11/%E0%AE%A8%E0%AE%B5%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AF%8D-21-%E0%AE%87%E0%AE%B2%E0%AF%8D-%E0%AE%8A%E0%AE%B0%E0%AE%95-%E0%AE%A4%E0%AE%BF%E0%AE%B1%E0%AE%A9%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%AE%B5%E0%AF%81%E0%AE%A4%E0%AF%8D-%E0%AE%A4%E0%AF%8B%E0%AF%8D%E0%AE%B5%E0%AF%81-3586-%E0%AE%AA%E0%AF%8B%E0%AF%8D-%E0%AE%8E%E0%AE%B4%E0%AF%81%E0%AE%A4%E0%AF%81%E0%AE%95%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AE%A9%E0%AE%BE%E0%AF%8D",
+      "title": "நவம்பா் 21-இல் ஊரக திறனாய்வுத் தோ்வு: 3,586 போ் எழுதுகின்றனா்",
+      "source_id": "dinamani"
     }
   }
 }

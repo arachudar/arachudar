@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T15:42:48.018672+00:00",
-  "count": 103,
+  "last_updated": "2026-11-11T16:47:14.756069+00:00",
+  "count": 108,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -619,6 +619,36 @@
       "timestamp": "2026-11-11T15:42:48.018661+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/krishnasamy-petitions-the-government-seeking-a-ban-on-the-title-of-kamals-film-sandiyar",
       "title": "கமலின் ‘சண்டியர்’ படத் தலைப்புக்கு தடை கோரி அரசிடம் கிருஷ்ணசாமி மனு",
+      "source_id": "hindu_tamil"
+    },
+    "eb483cb44ae57d0797b063eb16df8154a7f6e0e0895bf104b1af8120ae0398e6": {
+      "timestamp": "2026-11-11T16:47:14.748354+00:00",
+      "url": "https://www.dailythanthi.com/news/world/us-military-officer-arrested-in-the-uk-for-spying-for-russia",
+      "title": "இங்கிலாந்தில் ரஷியாவுக்கு உளவு பார்த்த அமெரிக்க ராணுவ அதிகாரி கைது",
+      "source_id": "daily_thanthi"
+    },
+    "465052d2faf556a2ca81a6c391d47e39482aabfb782f89af102ae5c773dac599": {
+      "timestamp": "2026-11-11T16:47:14.750490+00:00",
+      "url": "https://www.dailythanthi.com/education-and-employment/jobs-at-ongc-who-is-eligible-to-apply",
+      "title": "ஓஎன்ஜிசி நிறுவனத்தில் வேலை: யார் யார் விண்ணப்பிக்கலாம்?",
+      "source_id": "daily_thanthi"
+    },
+    "4e5a94bd0137b63506c495f1313d18524a904e2b6aa0bf91c9c69c7a74923f6b": {
+      "timestamp": "2026-11-11T16:47:14.752165+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/irregularities-at-periyar-university-case-registered-by-the-directorate-of-vigilance-and-anti-corruption",
+      "title": "பெரியார் அறிவுலக முறைகேடு - வழக்குப்பதிவு செய்தது லஞ்ச ஒழிப்புத் துறை",
+      "source_id": "daily_thanthi"
+    },
+    "3bc8849a88712c8a3f6620db57bc0dcc14221eb02f82c8cba8b66602afe26cf1": {
+      "timestamp": "2026-11-11T16:47:14.753864+00:00",
+      "url": "https://www.hindutamil.in/news/business/two-south-korean-companies-to-invest-rs-1370-crore-in-tamil-nadu-says-minister-keerthana",
+      "title": "தமிழகத்தில் இரு தென் கொரிய நிறுவனங்கள் ரூ.1,370 கோடி முதலீடு: அமைச்சர் கீர்த்தனா தகவல்",
+      "source_id": "hindu_tamil"
+    },
+    "b9796e7d57261032c9aa1560f90ae13932702a793a757095997eccea6450c666": {
+      "timestamp": "2026-11-11T16:47:14.756060+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/record-breaking-4700-individuals-register-as-advocates-with-the-bar-council-in-a-single-day",
+      "title": "பார் கவுன்சிலில் ஒரே நாளில் 4,700 பேர் வழக்கறிஞர்களாக பதிவு செய்து சாதனை",
       "source_id": "hindu_tamil"
     }
   }

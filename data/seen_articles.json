@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T13:48:32.710917+00:00",
-  "count": 203,
+  "last_updated": "2026-11-12T14:49:23.714381+00:00",
+  "count": 208,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1219,6 +1219,36 @@
       "timestamp": "2026-11-12T13:48:32.710910+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/najmul-hoda-appointed-as-commissioner-of-police-for-tambaram",
       "title": "தாம்பரம் காவல் ஆணையராக நஜ்முல் ஹோடா நியமனம்",
+      "source_id": "hindu_tamil"
+    },
+    "b1e92686b76c1c7ba47c3537185dded5aa45c5299aacb0b0c5015ddc4a622f6f": {
+      "timestamp": "2026-11-12T14:49:23.700741+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/1395-lakh-voters-in-thoothukudi-district-collector-releases-draft-list",
+      "title": "தூத்துக்குடி மாவட்டத்தில் 13.95 லட்சம் வாக்காளர்கள்: வரைவு பட்டியலை கலெக்டர் வெளியிட்டார்",
+      "source_id": "daily_thanthi"
+    },
+    "272ed98b1683a75b67e1599d533f85545c09889187bd33a48edfc5788436b0b5": {
+      "timestamp": "2026-11-12T14:49:23.703673+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/convict-escapes-from-madurai-court",
+      "title": "மதுரை நீதிமன்றத்தில் இருந்து தண்டனைக்கைதி தப்பி ஓட்டம்",
+      "source_id": "daily_thanthi"
+    },
+    "19fd4867d1362f939b25a3deb93c845ff4f9929485992ddb397850f7d56bccc2": {
+      "timestamp": "2026-11-12T14:49:23.705884+00:00",
+      "url": "https://www.dailythanthi.com/news/india/punjab-assembly-elections-to-be-held-next-year-aam-aadmi-party-announces-a-list-of-31-candidates",
+      "title": "பஞ்சாப்:  அடுத்த ஆண்டு சட்டசபை தேர்தல்; 31 வேட்பாளர்கள் பட்டியலை அறிவித்தது ஆம் ஆத்மி",
+      "source_id": "daily_thanthi"
+    },
+    "72ddd9452bb93c0139531550168f57d6f2d3d9c1ed47e1b60470e8728d0c0cad": {
+      "timestamp": "2026-11-12T14:49:23.708041+00:00",
+      "url": "https://www.hindutamil.in/news/world/can-trump-get-compensation-for-iran-war-explainer-explainer",
+      "title": "ஈரான் போர் செலவு: இஸ்ரேல், வளைகுடா நாடுகளிடம் ட்ரம்ப் ‘வசூல்’ சாத்தியம்தானா?",
+      "source_id": "hindu_tamil"
+    },
+    "a087f47eb815d793884726caba56d9ae4e10db39a29c4a0ea3c0ce0fa025c30e": {
+      "timestamp": "2026-11-12T14:49:23.714373+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/rs-bharathi-complaint-against-tvk-mla-at-dsp-office",
+      "title": "கள்ளக்குறிச்சி தவெக எம்எல்ஏ அருள் விக்னேஷ் மீது எப்ஐஆர் பதிய கோரி டிஜிபியிடம் ஆர்.எஸ்.பாரதி மனு",
       "source_id": "hindu_tamil"
     }
   }

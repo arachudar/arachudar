@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T00:14:49.438402+00:00",
-  "count": 143,
+  "last_updated": "2026-11-12T01:47:35.638695+00:00",
+  "count": 148,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -860,6 +860,36 @@
       "url": "https://www.maalaimalar.com/news/world/spanish-protests-turn-violent-in-parts-of-the-country",
       "title": "ஸ்பெயின் நாட்டு போராட்டத்தில் வன்முறை: காவல்துறையினருடன் மோதலில் ஈடுபட்ட போராட்டக்காரர்கள்",
       "source_id": "maalai_malar"
+    },
+    "5713f5084cf7fbc380d94f28b9f8a8d7982a352f82677453a18d73988a0345f5": {
+      "timestamp": "2026-11-12T01:47:35.627357+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/a-low-pressure-area-will-form-in-the-bay-of-bengal-tomorrow-chance-of-rain-in-tamil-nadu",
+      "title": "வங்கக்கடலில் நாளை உருவாகிறது காற்றழுத்த தாழ்வுப்பகுதி: தமிழகத்தில் மழைக்கு வாய்ப்பு..!",
+      "source_id": "daily_thanthi"
+    },
+    "96c31d58173724fe165b18b0b6dfd2d2805e4f3f804445cee3975a656e0f6b75": {
+      "timestamp": "2026-11-12T01:47:35.629572+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/syed-mushtaq-ali-trophy-tamil-nadu-squad-silambarasan-replaces-natarajan",
+      "title": "சையத் முஷ்டாக் அலி கோப்பை :தமிழக அணியில் நடராஜனுக்கு பதிலாக சிலம்பரசன் சேர்ப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "fdad514b88cef3751037643372c3cfce3041cf11e4e4ba93d1ef8c7be9c7f06b": {
+      "timestamp": "2026-11-12T01:47:35.633567+00:00",
+      "url": "https://www.dailythanthi.com/news/india/car-hits-policeman-during-vehicle-check-in-mumbai-causing-commotion-as-he-was-dragged-for-200-meters",
+      "title": "மும்பையில் வாகன சோதனையின்போது காவலர் மீது மோதிய கார் -  200 மீட்டர் இழுத்துச் சென்றதால் பரபரப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "844242c2f38ef250de24ab079fada8b5b8a015ed7a71ee2f0d5bc9a4295430f5": {
+      "timestamp": "2026-11-12T01:47:35.636954+00:00",
+      "url": "https://www.hindutamil.in/news/sports/saff-football-team-india-in-semi-finals",
+      "title": "அரை இறுதியில் இந்திய கால்பந்து அணி",
+      "source_id": "hindu_tamil"
+    },
+    "05b3f959186ba3943c64afc2e17553ae8517255322adf503da0565bfa28acce1": {
+      "timestamp": "2026-11-12T01:47:35.638688+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/krishnasamy-petitions-to-ban-the-title-of-kamal-haasan-film-sandiyar",
+      "title": "கமல்ஹாசனின் ‘சண்டியர்’ பட தலைப்புக்கு தடை கோரி கிருஷ்ணசாமி மனு",
+      "source_id": "hindu_tamil"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T01:47:35.638695+00:00",
-  "count": 148,
+  "last_updated": "2026-11-12T02:44:07.257211+00:00",
+  "count": 153,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -889,6 +889,36 @@
       "timestamp": "2026-11-12T01:47:35.638688+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/krishnasamy-petitions-to-ban-the-title-of-kamal-haasan-film-sandiyar",
       "title": "கமல்ஹாசனின் ‘சண்டியர்’ பட தலைப்புக்கு தடை கோரி கிருஷ்ணசாமி மனு",
+      "source_id": "hindu_tamil"
+    },
+    "ea215a14738b5b4cf014f606f782e14304eb7397d1b84ece312617523c6f46cc": {
+      "timestamp": "2026-11-12T02:44:07.247393+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/fc-will-be-issued-only-if-meters-are-repaired-and-installed-in-autos-transport-commissionerates-condition",
+      "title": "ஆட்டோக்களில் மீட்டர்களை திருத்தி அமைத்தால் மட்டுமே எப்.சி. வழங்கப்படும் - போக்குவரத்து ஆணையரகம் நிபந்தனை",
+      "source_id": "daily_thanthi"
+    },
+    "423e433505c21a0e9dd357579b7e0bff2c4bc0ab18b2f35f386b0b569c1cee6b": {
+      "timestamp": "2026-11-12T02:44:07.250394+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/holiday-for-tasmac-shops-during-festivals-tamil-nadu-governments-major-decision",
+      "title": "பண்டிகை நாட்களில் டாஸ்மாக் கடைகளுக்கு விடுமுறை? தமிழக அரசு முக்கிய முடிவு!",
+      "source_id": "daily_thanthi"
+    },
+    "cb297f0832e88f45ddc63d7e450d738948d3f6c29177ade28151c274c063a0e5": {
+      "timestamp": "2026-11-12T02:44:07.252740+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/lucknow-super-giants-eye-yashasvi-jaiswal-trade",
+      "title": "லக்னோ சூப்பர் ஜெயன்ட்ஸ் அணிக்கு மாறுகிறாரா யஷஸ்வி ஜெய்ஸ்வால்?",
+      "source_id": "daily_thanthi"
+    },
+    "f3aaafa75976ef4b8eb5224cfc78e5b14cb98c4519af2af9fdca59d7f4203a14": {
+      "timestamp": "2026-11-12T02:44:07.254984+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/people-can-now-prepare-their-own-registration-documents",
+      "title": "பதிவுக்கான ஆவணத்தை மக்களே உருவாக்கலாம்: எளிய வழிமுறை வெளியிட்டது பதிவுத் துறை",
+      "source_id": "hindu_tamil"
+    },
+    "8eefc18f977247bebd3e806d087a3b660be808278143d6fd391411ef2b69cfcc": {
+      "timestamp": "2026-11-12T02:44:07.257200+00:00",
+      "url": "https://www.hindutamil.in/news/india/raymond-group-to-set-up-21-smart-bus-stands-in-tirumala",
+      "title": "திருமலையில் 21 ஸ்மார்ட் பேருந்து நிலையங்கள்: ரேமாண்ட்ஸ் நிறுவனம் அமைக்கிறது",
       "source_id": "hindu_tamil"
     }
   }

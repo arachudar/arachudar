@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T22:39:25.601269+00:00",
-  "count": 248,
+  "last_updated": "2026-11-12T23:35:40.280158+00:00",
+  "count": 253,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1490,6 +1490,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/hindu-tamilar-katchi-chief-doubts-possible-fraud-in-pazhani-murugan-maanaadu",
       "title": "பழநி முருகன் மாநாட்டில் முறைகேடு: இந்து தமிழர் கட்சி தலைவர் சந்தேகம்",
       "source_id": "hindu_tamil"
+    },
+    "981b150af82d96073b8fa69279e6bd74d318872eb9c3d1d28134f74d8d1567de": {
+      "timestamp": "2026-11-12T23:35:40.266454+00:00",
+      "url": "https://www.hindutamil.in/news/crime/12-missing-in-cuddalore-district",
+      "title": "கடலூர் மாவட்டத்தில் 7 இளம்பெண்கள் உட்பட 12 பேர் மாயம்",
+      "source_id": "hindu_tamil"
+    },
+    "38ca51d465561a156c4ea97a1df43510090dd9e03dde0ad3766182fa287275e7": {
+      "timestamp": "2026-11-12T23:35:40.270201+00:00",
+      "url": "https://www.hindutamil.in/news/spirituals/305-spl-buses-for-kanda-sashti",
+      "title": "கந்த சஷ்டி விழாவை முன்னிட்டு திருச்செந்தூருக்கு 305 சிறப்பு பேருந்துகள்",
+      "source_id": "hindu_tamil"
+    },
+    "e491a08be0a579c57b092975039357e286ea1dde8d5439c704045389304310a3": {
+      "timestamp": "2026-11-12T23:35:40.273630+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-thirunelveli/kanyakumari/2026/Nov/12/fraud-involving-the-sale-of-a-young-mans-luxury-car-case-registered-against-5-individuals",
+      "title": "இளைஞரின் சொகுசு காரை விற்று பண மோசடி: 5 போ் மீது வழக்குப் பதிவு",
+      "source_id": "dinamani"
+    },
+    "4bb7eff0be1382ceb9afadad5dd87bde547e88bf665d74db70953378c328509b": {
+      "timestamp": "2026-11-12T23:35:40.277181+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/12/possibility-of-a-cyclone-forming-in-the-bay-of-bengal-after-nov-19",
+      "title": "நவ.19-க்கு பிறகு வங்கக் கடலில் புயல் உருவாக வாய்ப்பு",
+      "source_id": "dinamani"
+    },
+    "d6fc8e90d5d6ade838ecba997255dfad93929607609d0b2b19e12f7c74c46255": {
+      "timestamp": "2026-11-12T23:35:40.280148+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/12/matter-concerning-disqualification-speaker-concludes-the-inquiry",
+      "title": "தகுதி நீக்கக் கோரும் விவகாரம்: \nவிசாரணையை நிறைவு செய்தாா் பேரவைத் தலைவா்",
+      "source_id": "dinamani"
     }
   }
 }

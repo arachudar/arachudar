@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T21:40:00.543662+00:00",
-  "count": 243,
+  "last_updated": "2026-11-12T22:39:25.601269+00:00",
+  "count": 248,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1460,6 +1460,36 @@
       "url": "https://www.dinamani.com/tamilnadu/2026/Nov/12/electricity-board-employees-should-not-be-placed-under-suspension-on-the-day-of-their-retirement-new-guidelines-issued",
       "title": "ஓய்வுபெறும் நாளில் மின்வாரிய ஊழியா்களை பணியிடை நீக்கம் செய்யக் கூடாது: புதிய வழிகாட்டுதல் வெளியீடு",
       "source_id": "dinamani"
+    },
+    "09ba1df90609b1789d7db6384022bed2846511969ff8ffdb2cd89fdf89d29141": {
+      "timestamp": "2026-11-12T22:39:25.573486+00:00",
+      "url": "https://www.dailythanthi.com/news/india/young-woman-and-4-others-arrested-for-attempting-to-have-her-lover-killed-by-enlisting-friends",
+      "title": "சுதந்திரம் இல்லை... நண்பர்களை ஏவி காதலனை தீர்த்துக்கட்ட முயற்சி: இளம்பெண் உள்பட 5 பேர் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "21e287ed0b9ef4ad76995a771eb72c08f50d3125abfccea2f49d29067b2c147d": {
+      "timestamp": "2026-11-12T22:39:25.576530+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/bangladesh-slams-china-for-insulting-india/4374738",
+      "title": "இந்தியாவுக்கு எதிராக அவதூறு சீனர்களை காண்காணிக்கும் வங்கதேசம்",
+      "source_id": "dinamalar"
+    },
+    "b6c79f44e3215a84f1b098401b0778a79e08102c428969f482695e6c36b6c960": {
+      "timestamp": "2026-11-12T22:39:25.578853+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/pakistan-plotting-to-create-crisis-in-the-name-of-religious-tourism-intelligence-department-warns-to-focus-on-security/4374733",
+      "title": "மத சுற்றுலா பெயரில் நெருக்கடி ஏற்படுத்த பாகிஸ்தான் சதி திட்டம்! பாதுகாப்பில் கவனம் செலுத்தும்படி உளவுத் துறை எச்சரிக்கை",
+      "source_id": "dinamalar"
+    },
+    "ddfe9aaa4273c98f907303ffc0ac6aa073860e932a9607dd117908ab36472826": {
+      "timestamp": "2026-11-12T22:39:25.599031+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/financial-crisis-spicejet-denies-permission-to-fly-on-payment-dues/4374732",
+      "title": "நிதி நெருக்கடியில் சிக்கிய ஸ்பைஸ்ஜெட்; கட்டண பாக்கியால் பறக்க அனுமதி மறுப்பு",
+      "source_id": "dinamalar"
+    },
+    "56305032a3464e4f0aaf6fb0ac7fcc557c7a14be98c283b7f7ae5843744b0923": {
+      "timestamp": "2026-11-12T22:39:25.601263+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/hindu-tamilar-katchi-chief-doubts-possible-fraud-in-pazhani-murugan-maanaadu",
+      "title": "பழநி முருகன் மாநாட்டில் முறைகேடு: இந்து தமிழர் கட்சி தலைவர் சந்தேகம்",
+      "source_id": "hindu_tamil"
     }
   }
 }

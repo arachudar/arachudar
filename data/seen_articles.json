@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T11:29:45.494850+00:00",
-  "count": 193,
+  "last_updated": "2026-11-12T12:28:15.482885+00:00",
+  "count": 198,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1159,6 +1159,36 @@
       "timestamp": "2026-11-12T11:29:45.494839+00:00",
       "url": "https://www.hindutamil.in/news/india/owaisi-names-chandrashekhar-azad-as-uttar-pradesh-cm-face-of-samajik-parivartan-morcha",
       "title": "“எங்கள் கூட்டணியின் உ.பி. முதல்வர் வேட்பாளர் சந்திரசேகர ஆசாத்” - ஒவைசி அறிவிப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "f11d959e3a8a349a1f520e2e7bd1bb9527e5133751df80c3eb7fca996e6d1033": {
+      "timestamp": "2026-11-12T12:28:15.474371+00:00",
+      "url": "https://www.dailythanthi.com/news/india/father-gifts-bmw-car-worth-rs-162-crore-to-9th-grade-student",
+      "title": "9-ம் வகுப்பு மாணவருக்கு ரூ.1.62 கோடி மதிப்பிலான பி.எம்.டபிள்யூ காரை பரிசாக வழங்கிய தந்தை!",
+      "source_id": "daily_thanthi"
+    },
+    "d3b98ab3f8c14d565aaaf85b3937900ce4e5f347d05f7bdd85deb3230a7087f4": {
+      "timestamp": "2026-11-12T12:28:15.476914+00:00",
+      "url": "https://www.dailythanthi.com/news/world/iran-security-chief-warns-tehran-will-target-distant-us-bases-including-in-europe",
+      "title": "ஐரோப்பிய நாடுகளில் உள்ள அமெரிக்க ராணுவ தளங்களை தாக்குவோம்:  ஈரான் எச்சரிக்கை",
+      "source_id": "daily_thanthi"
+    },
+    "54741409599b1a521f8e73499672c3e7dbd29299cd1b85e1c9e81b2e55566a96": {
+      "timestamp": "2026-11-12T12:28:15.478994+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/is-the-government-hiding-something-regarding-the-kallakurichi-tvk-mla-issue-annamalai-asks",
+      "title": "கள்ளக்குறிச்சி தவெக எம்எல்ஏ விவகாரத்தில் அரசு எதையோ மறைக்கிறதா?  அண்ணாமலை கேள்வி",
+      "source_id": "daily_thanthi"
+    },
+    "de66eb2c508655004cd35fccac90f65ddfd377afe2b92f4072c7afcb53e417e7": {
+      "timestamp": "2026-11-12T12:28:15.480993+00:00",
+      "url": "https://www.hindutamil.in/news/ott-platform/ott-news/this-week-ott-release-movie-list-2",
+      "title": "‘ஜெயிலர் 2’ முதல் ‘ரணபாலி’ வரை: இந்த வார ஓடிடி ரிலீஸ் பட்டியல்",
+      "source_id": "hindu_tamil"
+    },
+    "731c10e555f302fc809b6ef7ece25f13945d7de0ba3d62ceea94786537b4c931": {
+      "timestamp": "2026-11-12T12:28:15.482878+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/why-does-the-chief-minister-continue-to-protect-tvk-mla-arul-vignesh-udhayanidhi-question",
+      "title": "“தவெக எம்எல்ஏ அருள் விக்னேஷை முதல்வர் இன்னமும் பாதுகாப்பது ஏன்?” - உதயநிதி",
       "source_id": "hindu_tamil"
     }
   }

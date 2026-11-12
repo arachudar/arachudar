@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T06:59:33.280590+00:00",
-  "count": 173,
+  "last_updated": "2026-11-12T08:20:03.794578+00:00",
+  "count": 178,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1040,6 +1040,36 @@
       "url": "https://www.dinamani.com/cinema/cinema-news/2026/Nov/12/thank-you-issai-suriya-responds-to-sai-abhyankar",
       "title": "நன்றி இ(சாய்)சை... சாய் அபயங்கருக்குப் பதிலளித்த சூர்யா!",
       "source_id": "dinamani"
+    },
+    "cc34ac7e57e1cdd805a4b35a927372bd7c38a8aa56918f29b66c03de83806116": {
+      "timestamp": "2026-11-12T08:20:03.725751+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/pmk-will-take-steps-to-protect-pallikaranai-swamp-even-more-seriously-anbumani-ramadoss",
+      "title": "‘பள்ளிக்கரணை சதுப்பு நிலத்தை பாதுகாப்பதற்கான நடவடிக்கைகளை பா.ம.க. இன்னும் தீவிரமாக முன்னெடுக்கும்’ - அன்புமணி ராமதாஸ்",
+      "source_id": "daily_thanthi"
+    },
+    "df5718ace94de0ed960524b8e62748107fa7811cab32e1109e82ad0fac698fe4": {
+      "timestamp": "2026-11-12T08:20:03.787718+00:00",
+      "url": "https://www.dailythanthi.com/ampstories/photo-story/yashika-aanand-latest-clicks",
+      "title": "நடிகை யாஷிகா ஆனந்தின் லேட்டஸ்ட் கிளிக்ஸ்..!",
+      "source_id": "daily_thanthi"
+    },
+    "5165469cbb8ba5a7a061bd6d78b0130fe2925dda11b8a581113b9917a4fe0491": {
+      "timestamp": "2026-11-12T08:20:03.790413+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/500-sovereigns-looted-from-a-famous-jewellery-shop-in-madurai",
+      "title": "மதுரையில் பிரபல நகைக்கடையில் 500 சவரன் கொள்ளை",
+      "source_id": "daily_thanthi"
+    },
+    "883c09d7ac821600948f4b1d465da9a9763c4af26f152831d229310bc552380a": {
+      "timestamp": "2026-11-12T08:20:03.792498+00:00",
+      "url": "https://www.hindutamil.in/news/astrology/weekly-raasi-palangal/vara-rasi-palan-for-kadagam-simmam-kanni-up-to-nov12-18",
+      "title": "கடகம், சிம்மம், கன்னி: வார பலன்கள் @ நவ.12 - 18",
+      "source_id": "hindu_tamil"
+    },
+    "619e3f75f3c343c23e27348c72741defd9e95057a4eb24565039644ce1b1905c": {
+      "timestamp": "2026-11-12T08:20:03.794569+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/minister-anandan-instructs-officials-to-renovate-mukkombu-cauvery-barrage",
+      "title": "முக்கொம்பில் அமைச்சர் ஆனந்த் ஆய்வு: காவிரி கதவணை சீரமைப்புப் பணிகளை விரைந்து தொடங்க  உத்தரவு",
+      "source_id": "hindu_tamil"
     }
   }
 }

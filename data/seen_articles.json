@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T17:46:15.981227+00:00",
-  "count": 223,
+  "last_updated": "2026-11-12T18:44:29.646992+00:00",
+  "count": 228,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1339,6 +1339,36 @@
       "timestamp": "2026-11-12T17:46:15.981218+00:00",
       "url": "https://www.hindutamil.in/news/cinema/bollywood/kareena-kapoor-does-not-need-to-apologise-hindu-outfit-comes-out-in-support",
       "title": "நெக்லஸில் குர்ஆன் வசனம் சர்ச்சை: கரீனா கபூருக்கு இந்து அமைப்புகள் ஆதரவு",
+      "source_id": "hindu_tamil"
+    },
+    "281d5bde3f842f889a80974990acb284cc4124c0bbacc61753497e6981ba80d7": {
+      "timestamp": "2026-11-12T18:44:29.631628+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/prisoner-who-escaped-minutes-after-being-sentenced-has-been-arrested",
+      "title": "தண்டனை அறிவிக்கப்பட்ட சில நிமிடங்களில் தப்பியோடிய கைதி கைது",
+      "source_id": "daily_thanthi"
+    },
+    "4833e155487dab28ab443cce8fe0c5371af159ccb41ccc3eea39564232a0e3f9": {
+      "timestamp": "2026-11-12T18:44:29.635683+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/granite-veeramani-sex-case-former-police-commissioner-aruns-name-included-in-charge-sheet/4374648",
+      "title": "கிரானைட்  வீரமணி மீதான பாலியல் வழக்கு:  குற்றப்பத்திரிகையில்  முன்னாள் போலீஸ் கமிஷனர் அருண் பெயர் சேர்ப்பு",
+      "source_id": "dinamalar"
+    },
+    "0387cf4431bdaf878974ec2453468e7e8f379765d74726eaf76d891c51be235b": {
+      "timestamp": "2026-11-12T18:44:29.639290+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/womens-reservation-implementation-bill-special-parliament-session-schedule/4374637",
+      "title": "மகளிர் இடஒதுக்கீடை அமல்படுத்தும் மசோதா: சிறப்பு பார்லிமென்ட் கூட்டம் கூட்ட திட்டம்",
+      "source_id": "dinamalar"
+    },
+    "f4e0f685ef9ab3026f3b7bd7e7fb07273c10d13392cbb4eef7fb1ce7060068e7": {
+      "timestamp": "2026-11-12T18:44:29.642911+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/muslim-converter-not-eligible-for-backward-class-proof-tamil-nadu-government-moves-review-petition-against-supreme-court-verdict/4374587",
+      "title": "முஸ்லிமாக மாறியவர் பிற்படுத்தப்பட்டோர் சான்று பெற தகுதியில்லை: சுப்ரீம் கோர்ட் தீர்ப்பை எதிர்த்து தமிழக அரசு சீராய்வு மனு",
+      "source_id": "dinamalar"
+    },
+    "a4e0178d9dd241b2024de2817da5f187fa50df26dc77072ac6724ff4b0fa8736": {
+      "timestamp": "2026-11-12T18:44:29.646979+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/tamil-cinema/bhairavaa-rereleasing-on-new-year",
+      "title": "புத்தாண்டு தினத்தில் ரீ-ரிலீஸ் ஆகும் ‘பைரவா’",
       "source_id": "hindu_tamil"
     }
   }

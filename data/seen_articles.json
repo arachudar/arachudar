@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T19:47:29.475680+00:00",
-  "count": 233,
+  "last_updated": "2026-11-12T20:42:51.311608+00:00",
+  "count": 238,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1399,6 +1399,36 @@
       "timestamp": "2026-11-12T19:47:29.475641+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/madurai-jewellery-shop-robbery",
       "title": "மதுரை நகைக்கடையில் துணிகரம்: ரூ.50 கோடி மதிப்பிலான 30 கிலோ நகைகள் கொள்ளை - நடந்தது என்ன?",
+      "source_id": "hindu_tamil"
+    },
+    "3cdc574308a4c4930bf5041f812eedd5869f1345070b188c92c60cb45d5f37e4": {
+      "timestamp": "2026-11-12T20:42:51.290582+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/those-without-a-bank-account-can-also-send-up-to-rs-50000-reserve-bank-announcement",
+      "title": "வங்கிக் கணக்கு இல்லாதவரும் ரூ.50 ஆயிரம் வரை பணம் அனுப்பலாம்: ரிசர்வ் வங்கி அறிவிப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "d3b74d0880d2103efedb57bb90e52945c2020b38c7332aacfd0b20b18eed532a": {
+      "timestamp": "2026-11-12T20:42:51.293893+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/no-more-suspension-on-the-day-of-retirement-even-if-disciplinary-proceedings-are-pending-electricity-board-order",
+      "title": "ஒழுங்கு நடவடிக்கை இருந்தாலும் ஓய்வுபெறும் நாளில் இனி பணியிடை நீக்கம் இல்லை: மின்வாரியம் உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "7ed94fcec96e0dba3646fe44021257a7631f65c23ce04ed404d6a01cc7521f5f": {
+      "timestamp": "2026-11-12T20:42:51.306105+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/governor-submits-law-and-order-report-to-amit-shah",
+      "title": "தமிழகத்தின் சட்டம் - ஒழுங்கு நிலவரம்: அமைச்சர் அமித் ஷாவிடம் இன்று அறிக்கை அளிக்கிறார் ஆளுநர் அர்லேகர்",
+      "source_id": "hindu_tamil"
+    },
+    "48c098aa29e6c72194575c7a77d9fdcc3e26e0f677807307e64e788674a64bb2": {
+      "timestamp": "2026-11-12T20:42:51.308927+00:00",
+      "url": "https://www.hindutamil.in/news/crime/human-waste-in-drinking-water-tank-near-mayiladuthurai",
+      "title": "குடிநீர் தொட்டியில் மனிதக்கழிவு கலப்பு: மயிலாடுதுறை அருகே மக்கள் புகார்",
+      "source_id": "hindu_tamil"
+    },
+    "bc756855691bbd98661b78a5987f9391e571cf21c90996fcf7e868e2a875a6a2": {
+      "timestamp": "2026-11-12T20:42:51.311598+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/6-directors-from-school-education-dept-transferred",
+      "title": "பள்ளி கல்வித்துறையில் 6 இயக்குநர்கள் இடமாற்றம்",
       "source_id": "hindu_tamil"
     }
   }

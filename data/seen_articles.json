@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T15:52:13.834125+00:00",
-  "count": 213,
+  "last_updated": "2026-11-12T16:53:47.130198+00:00",
+  "count": 218,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1279,6 +1279,36 @@
       "timestamp": "2026-11-12T15:52:13.834114+00:00",
       "url": "https://www.hindutamil.in/news/crime/35-kg-of-jewels-stolen-from-a-famous-jewelry-shop-in-madurai",
       "title": "மதுரை: பிரபல நகைக் கடையில் 35 கிலோ நகைகள் கொள்ளை",
+      "source_id": "hindu_tamil"
+    },
+    "4c3791d785516ef3b99106dec7e59096671e468a5c5aca87b9ba59e79628fad1": {
+      "timestamp": "2026-11-12T16:53:47.118007+00:00",
+      "url": "https://www.dailythanthi.com/news/india/central-government-plans-to-convene-a-special-parliamentary-session-soon",
+      "title": "சிறப்பு நாடாளுமன்ற கூட்டத்தொடரை விரைவில் கூட்ட மத்திய அரசு திட்டம்",
+      "source_id": "daily_thanthi"
+    },
+    "80a4039440b428ed1d5c0f711db5121f911075f3250d9476d8187195a2819213": {
+      "timestamp": "2026-11-12T16:53:47.121565+00:00",
+      "url": "https://www.dailythanthi.com/news/india/full-fare-for-half-a-berth-railways-plans-to-scrap-the-rac-system",
+      "title": "பாதிப் படுக்கைக்கு முழுக் கட்டணம்... ஆர்.ஏ.சி. முறையை ரத்து செய்ய ரெயில்வே திட்டம்!",
+      "source_id": "daily_thanthi"
+    },
+    "85830116282503ccbaa54d7c0dfa99573557f25aa27bdb6f6be55f2444f98f58": {
+      "timestamp": "2026-11-12T16:53:47.124748+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/keerthy-sureshs-sathyavan-savithiri-film-trailer-out",
+      "title": "கீர்த்தி சுரேஷின் “சத்தியவான் சாவித்திரி” படத்தின் டிரெய்லர் வெளியானது",
+      "source_id": "daily_thanthi"
+    },
+    "6f7e7e0e6f523c4c7be790a01918630ad5c5db958ed82694e2f034c7b7b238ec": {
+      "timestamp": "2026-11-12T16:53:47.127625+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/plea-to-remove-converts-to-christianity-from-bc-mbc-lists-high-court-directs-tamil-nadu-govt-to-respond",
+      "title": "கிறிஸ்தவ மதத்துக்கு மாறியோரை பிசி, எம்பிசி பட்டியலில் இருந்து நீக்க கோரி வழக்கு: தமிழக அரசு பதிலளிக்க ஐகோர்ட் உத்தரவு",
+      "source_id": "hindu_tamil"
+    },
+    "17511a4dd6baee5d78c910f8c09ad0d142620be656b3f51d6eef1829363142e8": {
+      "timestamp": "2026-11-12T16:53:47.130189+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/cannot-allow-the-case-against-senthil-balaji-to-be-dragged-out-judge-warning",
+      "title": "செந்தில் பாலாஜிக்கு எதிரான வழக்கை இழுத்தடிக்க அனுமதிக்க முடியாது: நீதிபதி எச்சரிக்கை",
       "source_id": "hindu_tamil"
     }
   }

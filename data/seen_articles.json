@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T12:28:15.482885+00:00",
-  "count": 198,
+  "last_updated": "2026-11-12T13:48:32.710917+00:00",
+  "count": 203,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1189,6 +1189,36 @@
       "timestamp": "2026-11-12T12:28:15.482878+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/why-does-the-chief-minister-continue-to-protect-tvk-mla-arul-vignesh-udhayanidhi-question",
       "title": "“தவெக எம்எல்ஏ அருள் விக்னேஷை முதல்வர் இன்னமும் பாதுகாப்பது ஏன்?” - உதயநிதி",
+      "source_id": "hindu_tamil"
+    },
+    "4371733d39810283b06940fbad17f02656f28084c40e57b844fe87a382b5b8b2": {
+      "timestamp": "2026-11-12T13:48:32.694386+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-must-pay-extra-attention-to-maintaining-law-and-order-m-veerapandian-urges",
+      "title": "சட்டம் - ஒழுங்கை பாதுகாக்க முதல் அமைச்சர் கூடுதல் கவனம் செலுத்த வேண்டும்:  மு.வீரபாண்டியன் வலியுறுத்தல்",
+      "source_id": "daily_thanthi"
+    },
+    "5795ee8c4d52dd19fe42af75d1854751f8996e09597472a521ed249ed273ec84": {
+      "timestamp": "2026-11-12T13:48:32.701545+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/jail-mates-film-title-teaser-out",
+      "title": "“ஜெயில் மேட்ஸ்” திரைப்படத்தின் டைட்டில் டீசர் வெளியீடு",
+      "source_id": "daily_thanthi"
+    },
+    "d7c7e7807a52207f7e590bc3cde791c7802762d16a332b3a3e1a37cc584d74dd": {
+      "timestamp": "2026-11-12T13:48:32.706838+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/keerthy-sureshs-sathyavan-savithiri-film-bts-video-out",
+      "title": "கீர்த்தி சுரேஷின் “சத்தியவான் சாவித்திரி” படத்தின் படப்பிடிப்பு வீடியோ வெளியீடு",
+      "source_id": "daily_thanthi"
+    },
+    "fd5cc1f6dc66036793b98eeabf4bb0443810dccf830c05432d9e9e2854ccbb11": {
+      "timestamp": "2026-11-12T13:48:32.708967+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/cpi-leader-veerapandian-slams-tvk-for-law-and-order-issue",
+      "title": "“தவறான ஆட்சி முறைக்கு நாங்கள் ஆதரவு கொடுக்கவில்லை” - மு.வீரபாண்டியன்",
+      "source_id": "hindu_tamil"
+    },
+    "aaa266b1becae242104f82d7b2d472e715c9a80023a56fcfec884414435a1d62": {
+      "timestamp": "2026-11-12T13:48:32.710910+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/najmul-hoda-appointed-as-commissioner-of-police-for-tambaram",
+      "title": "தாம்பரம் காவல் ஆணையராக நஜ்முல் ஹோடா நியமனம்",
       "source_id": "hindu_tamil"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T05:53:42.755456+00:00",
-  "count": 168,
+  "last_updated": "2026-11-12T06:59:33.280590+00:00",
+  "count": 173,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1010,6 +1010,36 @@
       "url": "https://www.hindutamil.in/news/cinema/south-cinema/anupama-parameswarans-bhogi-goes-to-the-revising-committee",
       "title": "ரிவைசிங் கமிட்டிக்கு சென்றது அனுபமா பரமேஸ்வரனின் ‘போகி’",
       "source_id": "hindu_tamil"
+    },
+    "e66e6025e0913ef41b0e2613cf78445aee825a2e4087782b8c1332be4c9ce7b5": {
+      "timestamp": "2026-11-12T06:59:33.267962+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/tamil-cinema/regina-cassandra-stars-in-rx",
+      "title": "ரெஜினா கஸாண்ட்ரா நடிக்கும் ‘ஆர்எக்ஸ்’",
+      "source_id": "hindu_tamil"
+    },
+    "751a9cca778c8d1c3375dec8b0efbeb39afe090f5931d1d9df369972a7dbf246": {
+      "timestamp": "2026-11-12T06:59:33.271756+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/south-cinema/restrictions-on-film-titles-protest-in-kerala",
+      "title": "பட தலைப்​பு​களுக்கு கட்டுப்பாடு: கேரளத்தில் எதிர்ப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "19f444ee829428e924e03878615646bcf4988e6d4cf0865403d632043e543f04": {
+      "timestamp": "2026-11-12T06:59:33.274907+00:00",
+      "url": "https://www.dinamani.com/education/news-articles/2026/Nov/12/free-darshan-in-tirupati-for-95-cgpa-students-college-announced",
+      "title": "9.5 சிஜிபிஏ மாணவர்களுக்கு திருப்பதியில் இலவச தரிசனம்! விநோத அறிவிப்பை வெளியிட்ட கல்லூரி",
+      "source_id": "dinamani"
+    },
+    "aecb6725ee68cfa5d39215accbc23fd69af918c3a97756e623a6591220d27250": {
+      "timestamp": "2026-11-12T06:59:33.277780+00:00",
+      "url": "https://www.dinamani.com/trade/2026/Nov/12/stock-market-sensex-pares-400-pts-from-day-high-nifty-below-25300",
+      "title": "பங்குச்சந்தை உயர்வுடன் வர்த்தகம்! ரியல் எஸ்டேட் பங்குகள் லாபம்!",
+      "source_id": "dinamani"
+    },
+    "5719a12a17dceb21f57e4b6695f6393c7f08b35e858e6800772ffafd2fa0cbf0": {
+      "timestamp": "2026-11-12T06:59:33.280576+00:00",
+      "url": "https://www.dinamani.com/cinema/cinema-news/2026/Nov/12/thank-you-issai-suriya-responds-to-sai-abhyankar",
+      "title": "நன்றி இ(சாய்)சை... சாய் அபயங்கருக்குப் பதிலளித்த சூர்யா!",
+      "source_id": "dinamani"
     }
   }
 }

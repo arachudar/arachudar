@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T09:29:17.988130+00:00",
-  "count": 183,
+  "last_updated": "2026-11-12T10:31:21.975793+00:00",
+  "count": 188,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1099,6 +1099,36 @@
       "timestamp": "2026-11-12T09:29:17.988119+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/high-court-directs-chennai-central-crime-branch-to-respond-to-anbil-maheshs-bail-plea",
       "title": "அன்பில் மகேஸ் ஜாமீன் மனு மீது காவல் துறை பதிலளிக்க ஐகோர்ட் உத்தரவு",
+      "source_id": "hindu_tamil"
+    },
+    "d405f88975990661ddbe1bbb5b44d899292099a2356aabf6d20d3060a51b69db": {
+      "timestamp": "2026-11-12T10:31:21.963360+00:00",
+      "url": "https://www.dailythanthi.com/news/world/us-army-sentinel-scolds-pete-hegseth-and-aides-for-laughing-at-tomb-of-the-unknown-soldier",
+      "title": "கல்லறை முன் சிரிப்பு... அமெரிக்க ராணுவ மந்திரியை கடிந்து கொண்ட வீரர்",
+      "source_id": "daily_thanthi"
+    },
+    "3b33268f5c190a059cad57bff2997b298161cd7c1efca2bcac9433587212e8a8": {
+      "timestamp": "2026-11-12T10:31:21.966993+00:00",
+      "url": "https://www.dailythanthi.com/news/india/uttarakhand-man-miraculously-survives-being-trampled-by-wild-elephant",
+      "title": "உத்தராகண்ட்: காட்டு யானை மிதித்தும் அதிர்ஷ்டவசமாக உயிர் தப்பிய நபர்!",
+      "source_id": "daily_thanthi"
+    },
+    "cefb7c01155be215ace294dff26c619a91cae8a927863481fbb6f5e0f99ad971": {
+      "timestamp": "2026-11-12T10:31:21.970264+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/sandiyar-movie-title-one-weeks-time-to-kamal-haasan-krishnasamy",
+      "title": "“சண்டியர்” பட தலைப்பு:  கமல்ஹாசனுக்கு ஒரு வாரம் கெடு - கிருஷ்ணசாமி",
+      "source_id": "daily_thanthi"
+    },
+    "b71da2da86fccdde802fed31f16424a77066be976963af36129f84d4831c2e9e": {
+      "timestamp": "2026-11-12T10:31:21.973013+00:00",
+      "url": "https://www.hindutamil.in/news/environment/sardines-washed-ashore-alive-at-manappadu",
+      "title": "லட்சக்கணக்கான சாளை மீன்கள் மணப்பாடில் உயிரோடு கரை ஒதுங்கின",
+      "source_id": "hindu_tamil"
+    },
+    "bcee8587033e874d0b7f93e2ca43028aee57b1b0c7b2760e762fe7e93470900c": {
+      "timestamp": "2026-11-12T10:31:21.975782+00:00",
+      "url": "https://www.hindutamil.in/news/india/media-should-work-on-stories-about-indias-successes-and-help-them-reach-more-people-pm-modi",
+      "title": "‘இந்தியாவின் வெற்றிக் கதைகளுக்கு முக்கியத்துவம் அளிப்பீர்’ - ஊடகங்களுக்கு பிரதமர் மோடி வேண்டுகோள்",
       "source_id": "hindu_tamil"
     }
   }

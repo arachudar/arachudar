@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T20:42:51.311608+00:00",
-  "count": 238,
+  "last_updated": "2026-11-12T21:40:00.543662+00:00",
+  "count": 243,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1430,6 +1430,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/6-directors-from-school-education-dept-transferred",
       "title": "பள்ளி கல்வித்துறையில் 6 இயக்குநர்கள் இடமாற்றம்",
       "source_id": "hindu_tamil"
+    },
+    "bce862c709fed124ae27ee8d3ebc76822323afdd9c20cf94a95a0ed6a166fd22": {
+      "timestamp": "2026-11-12T21:40:00.533659+00:00",
+      "url": "https://www.dailythanthi.com/news/world/sunita-williams-led-the-veterans-day-parade-in-new-york",
+      "title": "நியூயார்க் படைவீரர் தின அணிவகுப்பை வழிநடத்தினார் சுனிதா வில்லியம்ஸ்",
+      "source_id": "daily_thanthi"
+    },
+    "411f29b67ecf95e3fe29d26364d722e6b06c343de003365a39c4b1a537102bd8": {
+      "timestamp": "2026-11-12T21:40:00.536529+00:00",
+      "url": "https://www.hindutamil.in/news/crime/two-arrested-in-cow-loan-scam",
+      "title": "பொதுமக்கள் பெயரில் பசு லோன் மோசடி: அறக்கட்டளை பெண் நிர்வாகி உட்பட இருவர் கைது",
+      "source_id": "hindu_tamil"
+    },
+    "5ee7ec7255fbfa3037674d4008781eb194042ed6ae53b4e9d3b57b18e47cd5c2": {
+      "timestamp": "2026-11-12T21:40:00.538911+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/duraimurugan-says-karnataka-wont-stop-a-single-bucket-of-water",
+      "title": "‘காவிரி​யில் ஒரு பக்கெட் நீரைக்கூட கர்நாடக அரசு நிறுத்த முடியாது’ - துரைமுருகன் கருத்து",
+      "source_id": "hindu_tamil"
+    },
+    "438b5b01aef3d5f9b3d32ce78c3d27455cc94a80fba11a1363b00e6a07e0e4da": {
+      "timestamp": "2026-11-12T21:40:00.541315+00:00",
+      "url": "https://www.hindutamil.in/news/spirituals/cow-dung-festival-celebrated-with-fervour-at-gummatapura-beereshwara-temple",
+      "title": "கும்டாபுரம் பீரேஸ்வரர் கோயிலில் சாணியடி திருவிழா கோலாகலம்",
+      "source_id": "hindu_tamil"
+    },
+    "913100b201dc4d1f5c93d82901a35eca25b8dbf47f18502d1c134bdf1d6594a9": {
+      "timestamp": "2026-11-12T21:40:00.543655+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/12/electricity-board-employees-should-not-be-placed-under-suspension-on-the-day-of-their-retirement-new-guidelines-issued",
+      "title": "ஓய்வுபெறும் நாளில் மின்வாரிய ஊழியா்களை பணியிடை நீக்கம் செய்யக் கூடாது: புதிய வழிகாட்டுதல் வெளியீடு",
+      "source_id": "dinamani"
     }
   }
 }

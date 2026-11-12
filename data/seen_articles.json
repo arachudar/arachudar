@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T08:20:03.794578+00:00",
-  "count": 178,
+  "last_updated": "2026-11-12T09:29:17.988130+00:00",
+  "count": 183,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1069,6 +1069,36 @@
       "timestamp": "2026-11-12T08:20:03.794569+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/minister-anandan-instructs-officials-to-renovate-mukkombu-cauvery-barrage",
       "title": "முக்கொம்பில் அமைச்சர் ஆனந்த் ஆய்வு: காவிரி கதவணை சீரமைப்புப் பணிகளை விரைந்து தொடங்க  உத்தரவு",
+      "source_id": "hindu_tamil"
+    },
+    "b4a24f0091cbfcbe319ace6f9196718e0c00d42120a153384976baabc5e471da": {
+      "timestamp": "2026-11-12T09:29:17.975122+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/worker-arrested-for-kidnapping-and-sexually-assaulting-a-12-year-old-girl",
+      "title": "12 வயது சிறுமியை கடத்தி பாலியல் வன்கொடுமை: தொழிலாளி கைது",
+      "source_id": "daily_thanthi"
+    },
+    "0a59e03f6f4ac0bfb7fc830b1bd794d131ff02a327c5378755672335ac3ab533": {
+      "timestamp": "2026-11-12T09:29:17.979984+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/this-isnt-a-movie-where-you-can-get-by-just-by-delivering-punch-dialogues-mk-stalins-critique",
+      "title": "பஞ்ச் டயலாக் மட்டுமே பேசி காலத்தை ஓட்ட இது சினிமா இல்லை! - மு.க.ஸ்டாலின் விமர்சனம்",
+      "source_id": "daily_thanthi"
+    },
+    "bc55ba02e3e4d72629cb501b03a76fe60f9d6b5b68e09e9d5e4fdf7d9f47a177": {
+      "timestamp": "2026-11-12T09:29:17.982963+00:00",
+      "url": "https://www.dailythanthi.com/education-and-employment/jobs-at-indian-oil-corporation-12th-grade-pass-diploma-holders-and-graduates-can-apply",
+      "title": "இந்தியன் ஆயில் நிறுவனத்தில் வேலை:  12-ம் வகுப்பு, டிப்ளமோ, பட்டதாரிகள் விண்ணப்பிக்கலாம்",
+      "source_id": "daily_thanthi"
+    },
+    "c525c281cb6b400b0f5ccab2a0270a9d20738cfb4265fb1bd316b43aeca21b6f": {
+      "timestamp": "2026-11-12T09:29:17.985539+00:00",
+      "url": "https://www.hindutamil.in/news/astrology/weekly-raasi-palangal/vara-rasi-palan-for-mesham-rishabam-mithunam-up-to-nov12-18",
+      "title": "மேஷம், ரிஷபம், மிதுனம்: வார பலன்கள் @ நவ.12 - 18",
+      "source_id": "hindu_tamil"
+    },
+    "ce2b783f93bbfcbbd016ac0347644ea7a9c3ef22592292185f92d710d2aecb1d": {
+      "timestamp": "2026-11-12T09:29:17.988119+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/high-court-directs-chennai-central-crime-branch-to-respond-to-anbil-maheshs-bail-plea",
+      "title": "அன்பில் மகேஸ் ஜாமீன் மனு மீது காவல் துறை பதிலளிக்க ஐகோர்ட் உத்தரவு",
       "source_id": "hindu_tamil"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T18:44:29.646992+00:00",
-  "count": 228,
+  "last_updated": "2026-11-12T19:47:29.475680+00:00",
+  "count": 233,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1369,6 +1369,36 @@
       "timestamp": "2026-11-12T18:44:29.646979+00:00",
       "url": "https://www.hindutamil.in/news/cinema/tamil-cinema/bhairavaa-rereleasing-on-new-year",
       "title": "புத்தாண்டு தினத்தில் ரீ-ரிலீஸ் ஆகும் ‘பைரவா’",
+      "source_id": "hindu_tamil"
+    },
+    "85420e33ceafc2739feb862be74593fdd490e18adb4548ef762a8f14be7a0b0a": {
+      "timestamp": "2026-11-12T19:47:29.458148+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/production-begins-for-driverless-train-coaches-for-chennai-metro",
+      "title": "சென்னை மெட்ரோவுக்கு டிரைவர் இல்லாத ரெயில் பெட்டிகள் தயாரிக்கும் பணி தொடக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "e0d17e8720c1c7caebe1bed4746ab7c59d48dd9a4f300df819646b854aaae358": {
+      "timestamp": "2026-11-12T19:47:29.462808+00:00",
+      "url": "https://www.dailythanthi.com/news/india/a-plan-for-it-employees-in-hyderabad-to-work-from-a-park",
+      "title": "ஐதராபாத்தில் ஐ.டி. ஊழியர்கள் பூங்காவில் இருந்து வேலை செய்யும் திட்டம்",
+      "source_id": "daily_thanthi"
+    },
+    "9b4d342452d5e63c8a392bedf496dcc1d9b103d14453c126cbed676c7747c07f": {
+      "timestamp": "2026-11-12T19:47:29.466876+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/dmk-admk-complaint-against-kallakurichi-mla",
+      "title": "திமுக, அதிமுக கட்சிகள் கள்ளக்குறிச்சி தவெக எம்எல்ஏ மீது டிஜிபி.யிடம் புகார்",
+      "source_id": "hindu_tamil"
+    },
+    "ba572a9c21d584b3e1c377b00be4004340b9a143052811cc8b9d8290fd4eb530": {
+      "timestamp": "2026-11-12T19:47:29.471233+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tn-voter-list-draft-released-by-eci",
+      "title": "வரைவு வாக்காளர் பட்டியல் வெளியீடு: தமிழகம் முழுவதும் 5.77 கோடி வாக்காளர்கள்",
+      "source_id": "hindu_tamil"
+    },
+    "2c013edc0773588a825140ab6d245b9c9d2e4e3b0693946c51f9044ca9008447": {
+      "timestamp": "2026-11-12T19:47:29.475641+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/madurai-jewellery-shop-robbery",
+      "title": "மதுரை நகைக்கடையில் துணிகரம்: ரூ.50 கோடி மதிப்பிலான 30 கிலோ நகைகள் கொள்ளை - நடந்தது என்ன?",
       "source_id": "hindu_tamil"
     }
   }

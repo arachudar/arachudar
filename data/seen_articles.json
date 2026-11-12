@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T10:31:21.975793+00:00",
-  "count": 188,
+  "last_updated": "2026-11-12T11:29:45.494850+00:00",
+  "count": 193,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1129,6 +1129,36 @@
       "timestamp": "2026-11-12T10:31:21.975782+00:00",
       "url": "https://www.hindutamil.in/news/india/media-should-work-on-stories-about-indias-successes-and-help-them-reach-more-people-pm-modi",
       "title": "‘இந்தியாவின் வெற்றிக் கதைகளுக்கு முக்கியத்துவம் அளிப்பீர்’ - ஊடகங்களுக்கு பிரதமர் மோடி வேண்டுகோள்",
+      "source_id": "hindu_tamil"
+    },
+    "f0c4015251368a5840aa85281657d6ebb92b67375a57c8b9f423c45c6886a51d": {
+      "timestamp": "2026-11-12T11:29:45.482261+00:00",
+      "url": "https://www.dailythanthi.com/news/india/no-need-to-seek-permission-from-anyone-to-build-the-mekedatu-dam-karnataka-deputy-chief-minister-dk-shivakumar",
+      "title": "மேகதாது அணை கட்ட யாரிடமும் அனுமதி கேட்க தேவையில்லை: கர்நாடக முதல்-மந்திரி டி.கே.சிவக்குமார்",
+      "source_id": "daily_thanthi"
+    },
+    "01a78c3004e5cad1d5d80eba1444e3456822505024115bcb70c772d6bf8b5283": {
+      "timestamp": "2026-11-12T11:29:45.485903+00:00",
+      "url": "https://www.dailythanthi.com/news/weather/there-is-no-chance-of-a-new-storm-symbol-coming-towards-tamil-nadu-meteorological-department",
+      "title": "புதிய புயல் சின்னம் தமிழகம் நோக்கி வர வாய்ப்பு இல்லை - வானிலை மையம்",
+      "source_id": "daily_thanthi"
+    },
+    "d3de8d056fbad1deed9f65dfd101765cd60fd592e41262f1a1bbe36916d5b523": {
+      "timestamp": "2026-11-12T11:29:45.489028+00:00",
+      "url": "https://www.dailythanthi.com/news/world/nvidia-founder-had-a-secret-relationship-with-another-woman-sensational-details-emerge",
+      "title": "என்விடியா நிறுவனருக்கு மேலும் ஒரு பெண்ணுடன் ரகசிய உறவு: வெளியான பரபரப்பு தகவல்",
+      "source_id": "daily_thanthi"
+    },
+    "ad82cdd24c4d4d8ca660d2be3ca6bb5a69e01525758c83c5629cf20f27c61acc": {
+      "timestamp": "2026-11-12T11:29:45.491962+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/south-cinema/sonias-autobiography-made-into-a-film",
+      "title": "சோனியா காந்தியின் சுயசரிதையை திரைப்படமாக்க தெலங்கானா காங். திட்டம்",
+      "source_id": "hindu_tamil"
+    },
+    "ae292a6cd8368ebc9de0023d297c20f3e57026cc827acde1e8106fa554dda246": {
+      "timestamp": "2026-11-12T11:29:45.494839+00:00",
+      "url": "https://www.hindutamil.in/news/india/owaisi-names-chandrashekhar-azad-as-uttar-pradesh-cm-face-of-samajik-parivartan-morcha",
+      "title": "“எங்கள் கூட்டணியின் உ.பி. முதல்வர் வேட்பாளர் சந்திரசேகர ஆசாத்” - ஒவைசி அறிவிப்பு",
       "source_id": "hindu_tamil"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-11T23:21:59.161881+00:00",
-  "count": 138,
+  "last_updated": "2026-11-12T00:14:49.438402+00:00",
+  "count": 143,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -830,6 +830,36 @@
       "url": "https://www.dinamani.com/india/2026/Nov/11/price-ceiling-for-laptops-for-officials-raised-to-rs-18-lakh-central-government-takes-action",
       "title": "அதிகாரிகளுக்கான லேப்டாப் விலை உச்சவரம்பு ரூ. 1.8 லட்சமாக உயா்வு: மத்திய அரசு நடவடிக்கை",
       "source_id": "dinamani"
+    },
+    "e992c1ba610be985d710901c734b68b0cd90087cedc3daec8cfcbe43435be443": {
+      "timestamp": "2026-11-12T00:14:49.431297+00:00",
+      "url": "https://www.dailythanthi.com/news/india/government-employees-must-now-purchase-only-electric-cars-central-government-directive",
+      "title": "அரசு ஊழியர்கள் இனி மின்சார கார்களையே வாங்க வேண்டும்: மத்திய அரசு உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "f0da090c630b9ebc08c6e66d85eb2e57e59619fee49039e81f651cb6a2a124e1": {
+      "timestamp": "2026-11-12T00:14:49.433438+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-madurai/ramanathapuram/2026/Nov/12/%E0%AE%89%E0%AE%B0%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%B3%E0%AE%BF-%E0%AE%95%E0%AE%BE%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%95%E0%AF%8A%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%81%E0%AE%AE%E0%AF%8D-%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%88%E0%AE%95%E0%AE%B3%E0%AE%BE%E0%AE%B2%E0%AF%8D-%E0%AE%B5%E0%AE%BF%E0%AE%B5%E0%AE%9A%E0%AE%BE%E0%AE%AF%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AE%BE%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81",
+      "title": "உரப்புளி கால்வாயில் கொட்டப்படும் குப்பைகளால் விவசாயம் பாதிப்பு",
+      "source_id": "dinamani"
+    },
+    "286980aa1c16b1bcb574276f0ad10a5477a12146e9fbf1e37d8525c2e78abf6b": {
+      "timestamp": "2026-11-12T00:14:49.435228+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-madurai/dindigul/2026/Nov/12/%E0%AE%95%E0%AF%8A%E0%AE%9F%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%A9%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AF%82%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B5%E0%AE%BF%E0%AE%B2%E0%AF%8D-%E0%AE%AE%E0%AE%B2%E0%AE%BE%E0%AF%8D%E0%AE%9A%E0%AF%8D-%E0%AE%9A%E0%AF%86%E0%AE%9F%E0%AE%BF-%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%88%E0%AE%95%E0%AE%B3%E0%AF%8D-%E0%AE%A8%E0%AE%9F%E0%AE%B5%E0%AF%81",
+      "title": "கொடைக்கானல் பூங்காவில் \nமலா்ச் செடி விதைகள் நடவு",
+      "source_id": "dinamani"
+    },
+    "4c0a8355db09e7e7a4703a90c2d694664b580afa68ae894ac2189b3363899b85": {
+      "timestamp": "2026-11-12T00:14:49.436830+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-madurai/theni/2026/Nov/12/theni-si-murder-case-youth-surrenders-in-court",
+      "title": "தேனி எஸ்.ஐ. கொலை வழக்கில் \nநீதிமன்றத்தில் இளைஞா் சரண்",
+      "source_id": "dinamani"
+    },
+    "391948c3685cea179023ec2f8ce467b0ecaec8b67e28fec6bfdb5009e5508e3f": {
+      "timestamp": "2026-11-12T00:14:49.438396+00:00",
+      "url": "https://www.maalaimalar.com/news/world/spanish-protests-turn-violent-in-parts-of-the-country",
+      "title": "ஸ்பெயின் நாட்டு போராட்டத்தில் வன்முறை: காவல்துறையினருடன் மோதலில் ஈடுபட்ட போராட்டக்காரர்கள்",
+      "source_id": "maalai_malar"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T16:53:47.130198+00:00",
-  "count": 218,
+  "last_updated": "2026-11-12T17:46:15.981227+00:00",
+  "count": 223,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1309,6 +1309,36 @@
       "timestamp": "2026-11-12T16:53:47.130189+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/cannot-allow-the-case-against-senthil-balaji-to-be-dragged-out-judge-warning",
       "title": "செந்தில் பாலாஜிக்கு எதிரான வழக்கை இழுத்தடிக்க அனுமதிக்க முடியாது: நீதிபதி எச்சரிக்கை",
+      "source_id": "hindu_tamil"
+    },
+    "b6365e64d14a8649f9d1801495cb5b48c8129e8b0f783c59a70a6412f5282600": {
+      "timestamp": "2026-11-12T17:46:15.967137+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/the-goal-is-to-transform-tamil-nadu-into-a-15-trillion-economy-minister-keerthana",
+      "title": "தமிழகத்தை 1.5 டிரில்லியன் டாலர் பொருளாதாரமாக மாற்றுவதே இலக்கு: அமைச்சர் கீர்த்தனா",
+      "source_id": "daily_thanthi"
+    },
+    "f8467cdba6d71fe6dd574b3bc20de08ec100fc9b78a35162bfb409098a72cc4b": {
+      "timestamp": "2026-11-12T17:46:15.971271+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/gem-veeramani-case-case-registered-against-arun-ips",
+      "title": "ஜெம் வீரமணி வழக்கு: அருண் ஐ.பி.எஸ். மீது வழக்குப்பதிவு",
+      "source_id": "daily_thanthi"
+    },
+    "4cf3441de514ca693d07207f79f46413e68676808a0c3b4c95969dde56b7a00b": {
+      "timestamp": "2026-11-12T17:46:15.975088+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/six-directors-in-the-tamil-nadu-school-education-department-transferred",
+      "title": "தமிழக பள்ளிக்கல்வி துறையில் 6 இயக்குநர்கள் பணியிட மாற்றம்",
+      "source_id": "daily_thanthi"
+    },
+    "8b1e151b708e1319da6dac9073f8e46a15560ebdd9ef783ff48f772ad6661b23": {
+      "timestamp": "2026-11-12T17:46:15.978272+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/tamil-cinema/sathyavan-savithiri-movie-trailer-released",
+      "title": "‘சத்தியவான் சாவித்திரி’ ட்ரெய்லர் எப்படி? – கணவனை மீட்க வாதாடும் மனைவி",
+      "source_id": "hindu_tamil"
+    },
+    "a72b9d9a7562c4ecfa02f8f11bd43ef3d8b693d6044958ea478648b3621e85f7": {
+      "timestamp": "2026-11-12T17:46:15.981218+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/bollywood/kareena-kapoor-does-not-need-to-apologise-hindu-outfit-comes-out-in-support",
+      "title": "நெக்லஸில் குர்ஆன் வசனம் சர்ச்சை: கரீனா கபூருக்கு இந்து அமைப்புகள் ஆதரவு",
       "source_id": "hindu_tamil"
     }
   }

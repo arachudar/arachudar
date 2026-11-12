@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T03:45:42.356254+00:00",
-  "count": 158,
+  "last_updated": "2026-11-12T04:51:05.909359+00:00",
+  "count": 163,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -949,6 +949,36 @@
       "timestamp": "2026-11-12T03:45:42.356244+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/shop-employee-arrested-for-fraud-of-rs-2-lakh-by-tampering-with-qr-code-in-chennai",
       "title": "சென்னை | ‘க்யூஆர்’ குறியீட்டை மாற்றி ரூ.2 லட்சம் மோசடி: கடை ஊழியர் கைது",
+      "source_id": "hindu_tamil"
+    },
+    "8833be4f97766dffa2489a7345c573e96832d85311a4b8c7b5eec29ed19c6a03": {
+      "timestamp": "2026-11-12T04:51:05.900111+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/what-is-the-title-of-the-allu-arjun-lokesh-film-information-circulating-online",
+      "title": "அல்லு அர்ஜுன் – லோகேஷ் படத்தின் டைட்டில் என்ன? இணையத்தில் பரவும் தகவல்",
+      "source_id": "daily_thanthi"
+    },
+    "f6f0999add909d98427fb5f9dc8a7b9b4fa6ef4f697ab625658869fbb20e2335": {
+      "timestamp": "2026-11-12T04:51:05.902973+00:00",
+      "url": "https://www.dailythanthi.com/business/jackpot-for-jewelry-lovers-gold-prices-fall-again",
+      "title": "நகை பிரியர்களுக்கு ஜாக்பாட்: தங்கம் விலை மீண்டும் சரிவு..!",
+      "source_id": "daily_thanthi"
+    },
+    "e5fca445207e01e6f6cda9a8ed3054b0cc545c67cae0a58b030b5b80b7761289": {
+      "timestamp": "2026-11-12T04:51:05.905269+00:00",
+      "url": "https://www.dailythanthi.com/news/india/49-magnitude-moderate-earthquake-hits-west-sikkim-mild-tremors-felt-in-gangtok",
+      "title": "சிக்கிமில் திடீர் நிலநடுக்கம்.. ரிக்டர் அளவுகோலில் 4.9-ஆக பதிவு",
+      "source_id": "daily_thanthi"
+    },
+    "d4df5f9870d55e02101098e5f23d58dcfbafeb40f7113f669701c597791e6022": {
+      "timestamp": "2026-11-12T04:51:05.907334+00:00",
+      "url": "https://www.hindutamil.in/news/world/chinese-companies-reportedly-bought-nvidia-chips-worth-rs-70000-crore-using-secret-relationship-between-jensen-huang-and-alice",
+      "title": "ஜென்சென் ஹுவாங், ஆலிஸ் ரகசிய உறவை பயன்படுத்தி ரூ.70,000 கோடிக்கு என்விடியா சிப்களை சீன நிறுவனங்கள் வாங்கியதாக தகவல்",
+      "source_id": "hindu_tamil"
+    },
+    "cd63c4ef8806cdc1ba7cfe6944e2c46b5fd11be88773fc4c802d16f95fe11872": {
+      "timestamp": "2026-11-12T04:51:05.909350+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/political-gossips-334",
+      "title": "வாகைக் கட்சிக்கு தீராத குடைச்சலாக மாறிய ‘குறுஞ்செய்தி’ விவகாரம் | உள்குத்து உளவாளி",
       "source_id": "hindu_tamil"
     }
   }

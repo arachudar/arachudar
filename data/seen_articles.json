@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T14:49:23.714381+00:00",
-  "count": 208,
+  "last_updated": "2026-11-12T15:52:13.834125+00:00",
+  "count": 213,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1249,6 +1249,36 @@
       "timestamp": "2026-11-12T14:49:23.714373+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/rs-bharathi-complaint-against-tvk-mla-at-dsp-office",
       "title": "கள்ளக்குறிச்சி தவெக எம்எல்ஏ அருள் விக்னேஷ் மீது எப்ஐஆர் பதிய கோரி டிஜிபியிடம் ஆர்.எஸ்.பாரதி மனு",
+      "source_id": "hindu_tamil"
+    },
+    "a6f50f11f905c47dae8685000240fdd724c42450a51d06fdd64041e111261593": {
+      "timestamp": "2026-11-12T15:52:13.821729+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/soil-resource-management-technology-training-for-farmers-in-shivakkalai",
+      "title": "சிவகளையில் விவசாயிகளுக்கு மண்வள மேலாண்மை தொழில்நுட்ப பயிற்சி",
+      "source_id": "daily_thanthi"
+    },
+    "5e3f47d65eac7a11d4cb8b34cc3873d0ad1e6c33bc9367f6477f8dd3ab3eba70": {
+      "timestamp": "2026-11-12T15:52:13.825424+00:00",
+      "url": "https://www.dailythanthi.com/news/world/sundar-pichai-tops-the-list-of-the-worlds-most-powerful-individuals-of-indian-origin",
+      "title": "உலகின் சக்திவாய்ந்த இந்திய வம்சாவளி நபர்கள் பட்டியலில் சுந்தர் பிச்சை முதலிடம்",
+      "source_id": "daily_thanthi"
+    },
+    "8a96edf746ed4105acd248c700ea82bb272901a2e8bd115a2eb6de5f2241b3bc": {
+      "timestamp": "2026-11-12T15:52:13.828380+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/aryas-hello-kadhal-film-second-single-out",
+      "title": "ஆர்யாவின் “ஹலோ காதல்” படத்தின்  “நிறைவே… நீயே…” வீடியோ பாடல் வெளியானது",
+      "source_id": "daily_thanthi"
+    },
+    "ef9e2d204148a479df2f546b233e0e25c74e9ebc51805d375fce4117dd5bdef8": {
+      "timestamp": "2026-11-12T15:52:13.831284+00:00",
+      "url": "https://www.hindutamil.in/videos/politics/north-korean-hackers-explained",
+      "title": "வடகொரிய ‘ஹேக்கர் படை’ பின்புலம் என்ன? | எக்ஸ்ப்ளைனர் வீடியோ",
+      "source_id": "hindu_tamil"
+    },
+    "81311a763f2d5c26f6db8c087ed248dd1b9158324337c244c383edb6101439dd": {
+      "timestamp": "2026-11-12T15:52:13.834114+00:00",
+      "url": "https://www.hindutamil.in/news/crime/35-kg-of-jewels-stolen-from-a-famous-jewelry-shop-in-madurai",
+      "title": "மதுரை: பிரபல நகைக் கடையில் 35 கிலோ நகைகள் கொள்ளை",
       "source_id": "hindu_tamil"
     }
   }

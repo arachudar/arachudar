@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T02:44:07.257211+00:00",
-  "count": 153,
+  "last_updated": "2026-11-12T03:45:42.356254+00:00",
+  "count": 158,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -919,6 +919,36 @@
       "timestamp": "2026-11-12T02:44:07.257200+00:00",
       "url": "https://www.hindutamil.in/news/india/raymond-group-to-set-up-21-smart-bus-stands-in-tirumala",
       "title": "திருமலையில் 21 ஸ்மார்ட் பேருந்து நிலையங்கள்: ரேமாண்ட்ஸ் நிறுவனம் அமைக்கிறது",
+      "source_id": "hindu_tamil"
+    },
+    "a1aeaede0b0ca7a6c6131977de6f15dba260b9f8c64cb90e61a51665bdc3db9a": {
+      "timestamp": "2026-11-12T03:45:42.344868+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/the-first-single-from-manikandans-film-makkal-kaavalan-has-been-released",
+      "title": "மணிகண்டனின் “மக்கள் காவலன்” திரைப்படத்தின் பர்ஸ்ட் சிங்கிள் வெளியானது",
+      "source_id": "daily_thanthi"
+    },
+    "758475998caf2a81793efc9e6da0ac36ea809397927f7abd9e8948074a185388": {
+      "timestamp": "2026-11-12T03:45:42.348101+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/facility-to-obtain-token-online-for-deed-registration-introduced",
+      "title": "பத்திரப்பதிவுக்கு ஆன்லைனில் 'டோக்கன்' பெற வசதி அறிமுகம்",
+      "source_id": "daily_thanthi"
+    },
+    "ee1fb42ea1b3062c023e8a7d56b2b2f073b4ac2160ee22d7567f57acba9f2e83": {
+      "timestamp": "2026-11-12T03:45:42.350901+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/consultation-on-the-law-and-order-situation-in-tamil-nadu-governor-arlekar-to-meet-amit-shah-tomorrow",
+      "title": "தமிழக சட்டம்-ஒழுங்கு நிலவரம் குறித்து ஆலோசனையா? நாளை அமித்ஷாவை சந்திக்கிறார் கவர்னர் அர்லேகர்!",
+      "source_id": "daily_thanthi"
+    },
+    "2e0224a5eaf7832c1341dc5bc9a6e60e8d909889bc8b26e1ce35d64f007ff602": {
+      "timestamp": "2026-11-12T03:45:42.353342+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/sexual-harassment-allegation-against-kallakurichi-dsp",
+      "title": "கள்ளக்குறிச்சி டிஎஸ்பி மீது பெண் பாலியல் குற்றச்சாட்டு",
+      "source_id": "hindu_tamil"
+    },
+    "2595c689d62ae768cb5bec5a40906e6dc951154ae80ba19f77b51f55bc1225e2": {
+      "timestamp": "2026-11-12T03:45:42.356244+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/shop-employee-arrested-for-fraud-of-rs-2-lakh-by-tampering-with-qr-code-in-chennai",
+      "title": "சென்னை | ‘க்யூஆர்’ குறியீட்டை மாற்றி ரூ.2 லட்சம் மோசடி: கடை ஊழியர் கைது",
       "source_id": "hindu_tamil"
     }
   }

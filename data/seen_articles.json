@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T13:42:27.892871+00:00",
-  "count": 318,
+  "last_updated": "2026-11-13T14:47:23.039570+00:00",
+  "count": 323,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1909,6 +1909,36 @@
       "timestamp": "2026-11-13T13:42:27.892863+00:00",
       "url": "https://www.hindutamil.in/photo-album/album/today-news-november-13-2026",
       "title": "இன்றைய செய்தித் தெறிப்புகள் | நவ.13, 2026",
+      "source_id": "hindu_tamil"
+    },
+    "2da706a0d5a3c94596602b67562e39a26ad79fd277af4547d2dc7d09fb624ba5": {
+      "timestamp": "2026-11-13T14:47:23.021843+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/niranjans-mr-bhaarath-film-video-song-out",
+      "title": "நிரஞ்சனின்  “மிஸ்டர் பாரத்” படத்தின் வீடியோ பாடல் வெளியானது",
+      "source_id": "daily_thanthi"
+    },
+    "d57a39443d9dadfa6782e30b19976d178852e2686999e35e0d34b5ba9df13910": {
+      "timestamp": "2026-11-13T14:47:23.026720+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/worker-arrested-for-kidnapping-tying-up-and-raping-a-12-year-old-girl-in-a-forest",
+      "title": "காட்டுப்பகுதிக்கு கடத்தி சென்று 12 வயது சிறுமியை கட்டிப்போட்டு பாலியல் பலாத்காரம்: தொழிலாளி கைது",
+      "source_id": "daily_thanthi"
+    },
+    "f532b536c2fe9baaeb07a8a578a4b035600ee4ab2aa9b299f11a24385762df39": {
+      "timestamp": "2026-11-13T14:47:23.031220+00:00",
+      "url": "https://www.dailythanthi.com/sports/football/uefa-nations-league-england-seal-quarterfinal-spot-as-kane-breaks-peter-shilton-appearance-record",
+      "title": "126-வது சர்வதேச ஆட்டத்தில் ஹாரி கேன் சாதனை... நேஷன்ஸ் லீக் காலிறுதிக்கு முன்னேறிய இங்கிலாந்து",
+      "source_id": "daily_thanthi"
+    },
+    "6987900bdf9633d1d78cce933b445241aef5bca2b18dca06c220f54b006263b6": {
+      "timestamp": "2026-11-13T14:47:23.035476+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/sexual-harassment-of-female-office-bearer-in-coimbatore-case-filed-against-tvk-union-secretary",
+      "title": "கோவையில் பெண் நிர்வாகிக்கு பாலியல் தொல்லை: தவெக ஒன்றிய செயலாளர் மீது வழக்குப் பதிவு",
+      "source_id": "hindu_tamil"
+    },
+    "f73c4e2dbe1a91085196480aa6319715582145201d38bd11d18d86a85a84fdf6": {
+      "timestamp": "2026-11-13T14:47:23.039559+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/cpm-state-executive-committee-passes-resolution-seeking-action-against-tvk-mlas-for-misconduct",
+      "title": "அத்துமீறும் தவெக எம்எல்ஏக்கள் மீது நடவடிக்கை தேவை: மார்க்சிஸ்ட் செயற்குழுவில் தீர்மானம்",
       "source_id": "hindu_tamil"
     }
   }

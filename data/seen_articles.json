@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T12:23:49.854472+00:00",
-  "count": 313,
+  "last_updated": "2026-11-13T13:42:27.892871+00:00",
+  "count": 318,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1879,6 +1879,36 @@
       "timestamp": "2026-11-13T12:23:49.854461+00:00",
       "url": "https://www.hindutamil.in/videos/politics/owaisi-azad-announce-spm-for-2027-up-polls",
       "title": "உ.பி.யில் 3-வது அணி... ஒவைசி - ஆசாத் ‘ப்ளான்’ என்ன? | எக்ஸ்ப்ளைனர் வீடியோ",
+      "source_id": "hindu_tamil"
+    },
+    "c085a73849c29e5f21286ebc0fc016e7970a8dd29c03487e6c0ea58a3ac67b00": {
+      "timestamp": "2026-11-13T13:42:27.878630+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/salary-hike-for-honorary-lecturers-in-government-colleges-chief-minister-vijay-issues-order",
+      "title": "அரசு கல்லூரி கவுரவ விரிவுரையாளர்களுக்கு சம்பள உயர்வு: முதல்-அமைச்சர் விஜய் உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "4f46f98be1d3d04a4b32e91afc9adb71a47d4ab5393acb7a43975beec5572104": {
+      "timestamp": "2026-11-13T13:42:27.882513+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/what-are-the-steps-taken-by-thaveka-in-6-months-interview-with-minister-aadhav-arjuna",
+      "title": "திமுக ஆட்சியில் தேசிய நெடுஞ்சாலை துறையில் ரூ.2,200 கோடி ஊழல் - அமைச்சர் ஆதவ் அர்ஜுனா பேட்டி",
+      "source_id": "daily_thanthi"
+    },
+    "082fe17a650452dff620f5c73be7ed1a6c16366953b8e3a562559021ae30fb95": {
+      "timestamp": "2026-11-13T13:42:27.886352+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/gautham-ram-karthiks-new-film-title-out",
+      "title": "கவுதம் ராம் கார்த்திக் நடிக்கும் புதிய படத்தின் டைட்டில்  வெளியீடு",
+      "source_id": "daily_thanthi"
+    },
+    "8d7c9b04786bfc352f1d58a30d2c4503aeddad875e4a59b06e96ac647d4523c9": {
+      "timestamp": "2026-11-13T13:42:27.889656+00:00",
+      "url": "https://www.hindutamil.in/videos/politics/persistent-irregularities-in-crop-loan-waivers",
+      "title": "பயிர்க் கடன் தள்ளுபடியில் தொடரும் குளறுபடி - நடப்பது என்ன?",
+      "source_id": "hindu_tamil"
+    },
+    "3657a7f1656cc799fd8171b572f69ef3bdeceb4ba36b8b4ae70e35c438eba0f7": {
+      "timestamp": "2026-11-13T13:42:27.892863+00:00",
+      "url": "https://www.hindutamil.in/photo-album/album/today-news-november-13-2026",
+      "title": "இன்றைய செய்தித் தெறிப்புகள் | நவ.13, 2026",
       "source_id": "hindu_tamil"
     }
   }

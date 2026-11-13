@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T06:58:33.795712+00:00",
-  "count": 288,
+  "last_updated": "2026-11-13T08:16:55.143565+00:00",
+  "count": 293,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1729,6 +1729,36 @@
       "timestamp": "2026-11-13T06:58:33.795705+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/retired-judge-cs-karnan-has-passed-away",
       "title": "ஓய்வுபெற்ற நீதிபதி சி.எஸ்.கர்ணன் காலமானார்",
+      "source_id": "hindu_tamil"
+    },
+    "fd3dcc599a67277ccd25697287396978e85cd7c3ca11bcd0a4d4409ebb1588ba": {
+      "timestamp": "2026-11-13T08:16:55.127921+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/kanchipuram-seamless-automated-toll-facility-introduced-at-nemili-toll-plaza",
+      "title": "காஞ்சிபுரம்: நெமிலி சுங்கச்சாவடியில் தடையற்ற தானியங்கி கட்டண வசதி அறிமுகம்",
+      "source_id": "daily_thanthi"
+    },
+    "9b0096e45a42d08606c9281b0dbe12244fcddbcef48d02aa0e85afe23dbb072f": {
+      "timestamp": "2026-11-13T08:16:55.133122+00:00",
+      "url": "https://www.dailythanthi.com/news/india/yoga-is-now-popular-all-over-the-world-due-to-indias-efforts-pm-modi",
+      "title": "‘இந்தியாவின் முயற்சிகளால் யோகா தற்போது உலகம் முழுவதும் பிரபலமாகியுள்ளது’ - பிரதமர் மோடி",
+      "source_id": "daily_thanthi"
+    },
+    "3b0ea9a2720efdf4e97c37e06b4f074a579e9c60d8ee4c6eecd582836dbfadce": {
+      "timestamp": "2026-11-13T08:16:55.136859+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/it-is-an-honor-for-me-to-act-in-a-mani-ratnam-film-says-actress-chaitra-j-achar",
+      "title": "மணிரத்னம் சார் படத்தில் நடிப்பது எனக்கு பெருமை...  நடிகை சைத்ரா ஜே. ஆச்சார்",
+      "source_id": "daily_thanthi"
+    },
+    "71f8bca8a716d49aab53404b705a2e9bb97e87a8037b0dd0ff6ef7cc636560bd": {
+      "timestamp": "2026-11-13T08:16:55.140202+00:00",
+      "url": "https://www.hindutamil.in/news/india/microsoft-service-outage-flight-operations-in-delhi-affected-2",
+      "title": "மைக்ரோசாஃப்ட் சேவை முடக்கம்: டெல்லியில் விமான சேவை பாதிப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "068a1c3fcfd154f7dc2d193483fdb943d0f49106d89bdee31d899687a6d3af80": {
+      "timestamp": "2026-11-13T08:16:55.143554+00:00",
+      "url": "https://www.hindutamil.in/news/india/ministry-of-home-affairs-bans-zakir-naik-irf-organisation-extended-for-another-5-years",
+      "title": "ஜாகீர் நாயக் அமைப்புக்கு மேலும் 5 ஆண்டுகள் தடை: உள்துறை அமைச்சகம் அறிவிப்பு",
       "source_id": "hindu_tamil"
     }
   }

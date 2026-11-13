@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T23:35:40.280158+00:00",
-  "count": 253,
+  "last_updated": "2026-11-13T00:50:08.325315+00:00",
+  "count": 258,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1520,6 +1520,36 @@
       "url": "https://www.dinamani.com/tamilnadu/2026/Nov/12/matter-concerning-disqualification-speaker-concludes-the-inquiry",
       "title": "தகுதி நீக்கக் கோரும் விவகாரம்: \nவிசாரணையை நிறைவு செய்தாா் பேரவைத் தலைவா்",
       "source_id": "dinamani"
+    },
+    "0cfef4dad68f16c78b4fe84eb7d1cf8d98e061e54d0b878a40788e6945bfe2f1": {
+      "timestamp": "2026-11-13T00:50:08.315345+00:00",
+      "url": "https://www.dinamani.com/india/2026/Nov/13/pm-conveys-wishes-to-pitroda-who-referred-to-him-as-a-gujarati-friend",
+      "title": "‘குஜராத்தி நண்பா்’ எனக் கூறிய பிட்ரோடாவுக்கு பிரதமா் வாழ்த்து",
+      "source_id": "dinamani"
+    },
+    "7021563935a6954eb9053904f15283f37e661da18372993edba66650056ad4fa": {
+      "timestamp": "2026-11-13T00:50:08.318302+00:00",
+      "url": "https://www.dinamani.com/india/2026/Nov/13/termination-without-notice-is-not-permissible-high-court-order-on-akoijams-petition",
+      "title": "நோட்டீஸ் வழங்காமல் பணி நீக்கம் செய்ய முடியாது: அகோய்ஜாம் மனுவில் உயா்நீதிமன்றம் உத்தரவு",
+      "source_id": "dinamani"
+    },
+    "e07708108e20bba7b386a7c1b6b73bfd8fe810eed9f933ea275ae65f75810f1c": {
+      "timestamp": "2026-11-13T00:50:08.320711+00:00",
+      "url": "https://www.dinamani.com/all-editions/edition-coimbatore/tiruppur/2026/Nov/13/17-people-arrested-for-gambling",
+      "title": "சூதாட்டத்தில் ஈடுபட்ட 17 போ் கைது",
+      "source_id": "dinamani"
+    },
+    "05a979416b48fc1b2c202338241715d2038843be943f344a632ef3867ac39615": {
+      "timestamp": "2026-11-13T00:50:08.323007+00:00",
+      "url": "https://www.maalaimalar.com/news/tamilnadu/childrens-day-celebrations-cm-vijay-to-distribute-cakes-greeting-cards-to-school-students",
+      "title": "குழந்தைகள் தின விழா: பள்ளி மாணவர்களுக்கு கேக், வாழ்த்து அட்டைகள் வழங்கும் முதலமைச்சர் விஜய்",
+      "source_id": "maalai_malar"
+    },
+    "1cb734205dcedbe18abcb087f25f3f6e76f7544edb76fba0190a3f4bfba904f4": {
+      "timestamp": "2026-11-13T00:50:08.325308+00:00",
+      "url": "https://www.maalaimalar.com/news/national/kejriwal-get-death-threat-from-lawrence-bishnoi-gang-punjab-police-files-case",
+      "title": "அரவிந்த் கெஜ்ரிவால் மற்றும் அவரது மகளுக்கு 'கொலை மிரட்டல்'; பஞ்சாப் காவல்துறை வழக்குப்பதிவு",
+      "source_id": "maalai_malar"
     }
   }
 }

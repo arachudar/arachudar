@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T14:47:23.039570+00:00",
-  "count": 323,
+  "last_updated": "2026-11-13T15:41:08.373041+00:00",
+  "count": 328,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1939,6 +1939,36 @@
       "timestamp": "2026-11-13T14:47:23.039559+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/cpm-state-executive-committee-passes-resolution-seeking-action-against-tvk-mlas-for-misconduct",
       "title": "அத்துமீறும் தவெக எம்எல்ஏக்கள் மீது நடவடிக்கை தேவை: மார்க்சிஸ்ட் செயற்குழுவில் தீர்மானம்",
+      "source_id": "hindu_tamil"
+    },
+    "2328b1a51e0d8f79e583a9a77ae3afd78f36baa0cc8b081190408464049d9923": {
+      "timestamp": "2026-11-13T15:41:08.356791+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/appoint-rinku-as-captain-aakashs-advice-for-kkr-ahead-of-ipl-2027",
+      "title": "ஐபிஎல் 2027: கேகேஆர் கேப்டனாக ரிங்கு சிங்? - இந்திய முன்னாள் வீரர் பரிந்துரை",
+      "source_id": "daily_thanthi"
+    },
+    "5870c8c4d5b6e920987a43840e9cf00388a80d9ccf9f9869c298f207a0a0e476": {
+      "timestamp": "2026-11-13T15:41:08.361423+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/dhanushs-film-om-film-title-changed",
+      "title": "தனுஷின் “ஓம்” திரைப்படத்தின் டைட்டில் மாற்றம்",
+      "source_id": "daily_thanthi"
+    },
+    "6f70391db145e2d59e70b284c4a6fb30a370fea96f35c9d05dbf1d8a61e645bf": {
+      "timestamp": "2026-11-13T15:41:08.365429+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chennai-corporation-special-cleaning-drives-to-be-held-across-all-15-zones-tomorrow",
+      "title": "சென்னை மாநகராட்சி: 15 மண்டலங்களிலும் நாளை சிறப்பு தூய்மை பணிகள்",
+      "source_id": "daily_thanthi"
+    },
+    "ebc3d76dd8a1b63c3eb69ea7ef2abe968f68456269efec1f3427f3d0fe990a05": {
+      "timestamp": "2026-11-13T15:41:08.369277+00:00",
+      "url": "https://www.hindutamil.in/news/education/tnpsc-annual-examination-planner-for-2027-to-be-released-in-december",
+      "title": "2027-க்கான டிஎன்பிஎஸ்சி வருடாந்திர தேர்வு அட்டவணை டிசம்பரில் வெளியீடு",
+      "source_id": "hindu_tamil"
+    },
+    "4f2269f73c7855f06c063fb07f0d07f6cc4a618a6ec748478bbf20731cc220e9": {
+      "timestamp": "2026-11-13T15:41:08.373030+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tenant-farmers-can-also-benefit-from-the-crop-insurance-scheme-says-minister-vinoth",
+      "title": "“பயிர் காப்பீடு திட்டத்தில் குத்தகை விவசாயிகளும் பயன் பெறலாம்” - அமைச்சர் வினோத் தகவல்",
       "source_id": "hindu_tamil"
     }
   }

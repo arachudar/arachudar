@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T11:25:54.637137+00:00",
-  "count": 308,
+  "last_updated": "2026-11-13T12:23:49.854472+00:00",
+  "count": 313,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1849,6 +1849,36 @@
       "timestamp": "2026-11-13T11:25:54.637124+00:00",
       "url": "https://www.hindutamil.in/news/life-style/georgia-girl-wins-netizens-heart-with-her-hindi-song-dance",
       "title": "பாலிவுட் பாடலுக்கு ஜார்ஜியா சிறுமி நடனம் - வீடியோ வைரல்",
+      "source_id": "hindu_tamil"
+    },
+    "ed4c86f0577edb92ccdb596b0c70de1391939d643d7ce447a858e1811f47a270": {
+      "timestamp": "2026-11-13T12:23:49.836458+00:00",
+      "url": "https://www.dailythanthi.com/technology/impact-of-the-microsoft-outage-in-india",
+      "title": "மைக்ரோசாப்ட் முடங்கியதால் இந்தியாவில் ஏற்பட்ட பாதிப்புகள்",
+      "source_id": "daily_thanthi"
+    },
+    "5c02affddeccf56448f638ce3e2412e2c957ffb9af258b0a7aa7d46b78268346": {
+      "timestamp": "2026-11-13T12:23:49.841370+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/gambhir-concerned-about-indias-batting-collapses-ahead-of-world-cup",
+      "title": "89 ரன்களுக்கு சுருண்ட இந்தியா... உலகக் கோப்பைக்கு முன் \nஇப்படி ஒரு தோல்வியா? - கம்பீர் கவலை",
+      "source_id": "daily_thanthi"
+    },
+    "96ed5ac35c416d077883f59a547ad715f3c7a18cff9bad6f94e6cd7404c647e7": {
+      "timestamp": "2026-11-13T12:23:49.846029+00:00",
+      "url": "https://www.dailythanthi.com/sports/othersports/lakshya-sen-beats-yushi-tanaka-to-reach-japan-masters-2026-semifinals",
+      "title": "குமாமோட்டோ மாஸ்டர்ஸ்: அரையிறுதிக்கு முன்னேறிய லக்சயா சென்... ஸ்ரீகாந்த் வெளியேற்றம்",
+      "source_id": "daily_thanthi"
+    },
+    "b5eed8d20281b6e13f788707e3bb975d18ba4c5d4522363adf05aac1495df767": {
+      "timestamp": "2026-11-13T12:23:49.850250+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/under-vijays-rule-only-criminals-feel-confident-edappadi-palaniswamis-criticism",
+      "title": "“விஜய் ஆட்சியில் ‘கான்ஃபிடன்ட்’ ஆக இருப்பது குற்றவாளிகள் மட்டுமே!” - பழனிசாமி விமர்சனம்",
+      "source_id": "hindu_tamil"
+    },
+    "326008b28835c0c765781ce068e2b5282faee2c0549c05b4da47a96d21837122": {
+      "timestamp": "2026-11-13T12:23:49.854461+00:00",
+      "url": "https://www.hindutamil.in/videos/politics/owaisi-azad-announce-spm-for-2027-up-polls",
+      "title": "உ.பி.யில் 3-வது அணி... ஒவைசி - ஆசாத் ‘ப்ளான்’ என்ன? | எக்ஸ்ப்ளைனர் வீடியோ",
       "source_id": "hindu_tamil"
     }
   }

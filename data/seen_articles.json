@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T01:59:30.287375+00:00",
-  "count": 263,
+  "last_updated": "2026-11-13T02:45:30.453619+00:00",
+  "count": 268,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1580,6 +1580,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/minister-launches-dedicated-website-and-mobile-app-for-cooperative-housing-department",
       "title": "கூட்டுறவு வீட்டுவசதி துறைக்கு பிரத்யேக இணையதளம், செயலி: அமைச்சர் ராஜ்குமார் தொடங்கி வைத்தார்",
       "source_id": "hindu_tamil"
+    },
+    "4d2cf3c970c4520fae98b7f510d8f7057718feceac89c30dbd2cbb1ac082fb70": {
+      "timestamp": "2026-11-13T02:45:30.443191+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/sai-pallavi-is-indeed-an-excellent-actress-but-what-about-her-look-as-sita-dipika-chikhlias-opinion",
+      "title": "சாய் பல்லவி சிறந்த நடிகைதான்... ஆனால் சீதையின் தோற்றம்? - தீபிகா சிக்லியா கருத்து",
+      "source_id": "daily_thanthi"
+    },
+    "34fc44db85d2b2dbb7fa27830cbee47443360c0c5899d76b92105c6ca6c4dd45": {
+      "timestamp": "2026-11-13T02:45:30.446260+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/salary-hike-for-honorary-lecturers-tamil-nadu-government-issues-a-government-order",
+      "title": "கவுரவ விரிவுரையாளர்களுக்கு ஊதிய உயர்வு - தமிழக அரசு அரசாணை வெளியீடு!",
+      "source_id": "daily_thanthi"
+    },
+    "88260a18fa983292f2a1437920eca7ea90da848720c664231e3a0165c64eb2f2": {
+      "timestamp": "2026-11-13T02:45:30.448853+00:00",
+      "url": "https://www.dailythanthi.com/news/india/prime-minister-modi-to-visit-philippines-on-16th",
+      "title": "பிரதமர் மோடி வரும் 16-ந்தேதி பிலிப்பைன்ஸ் பயணம்",
+      "source_id": "daily_thanthi"
+    },
+    "00a8a0b5080e9851e9063550fe6ac2f587e22b5f3b4bb42ed28eeb535b8752ad": {
+      "timestamp": "2026-11-13T02:45:30.451189+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/they-think-they-have-the-constitution-in-their-pocket-pm-modi/4374863",
+      "title": "அரசியலமைப்பு சட்டத்தை சட்டைப்பையில் வைத்திருப்பதாக நினைக்கின்றனர்; பிரதமர் மோடி சாடல்",
+      "source_id": "dinamalar"
+    },
+    "776b3f54e7365ad0e62d885692db4309b183e2c1136a59c289c0df56863e8200": {
+      "timestamp": "2026-11-13T02:45:30.453610+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/pslv-level-3-engine-test-success-isro-record-after-successive-failures/4374838",
+      "title": "பி.எஸ்.எல்.வி., 3ம் நிலை இன்ஜின் சோதனை வெற்றி!: அடுத்தடுத்த தோல்விகளுக்குப் பின் இஸ்ரோ சாதனை",
+      "source_id": "dinamalar"
     }
   }
 }

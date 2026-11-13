@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T16:46:18.749230+00:00",
-  "count": 333,
+  "last_updated": "2026-11-13T17:43:13.182920+00:00",
+  "count": 338,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2000,6 +2000,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/cpm-pshanmugam-demand-to-arrest-kallakurichi-tvk-mla",
       "title": "“கள்ளக்குறிச்சி தவெக எம்எல்ஏ மீது வழக்கு பதிந்து கைது செய்ய வேண்டும்” - பெ.சண்முகம்",
       "source_id": "hindu_tamil"
+    },
+    "fb45062374f38069c74c45c6c9353932987b77fbc6e0c6bd957d5538264fa9c0": {
+      "timestamp": "2026-11-13T17:43:13.166924+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/government-order-issued-setting-stock-limits-for-paddy-and-rice",
+      "title": "நெல், அரிசி இருப்பு வரம்பு நிர்ணயித்து அரசாணை வெளியீடு",
+      "source_id": "daily_thanthi"
+    },
+    "b4242c5bcffdd21dc9b7730229426c7adb1a86454c0213df324aa8bd35d76e2b": {
+      "timestamp": "2026-11-13T17:43:13.172102+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/debt-problem-young-woman-son-commit-suicide-by-jumping-in-front-of-train",
+      "title": "கடன் தொல்லை: ரெயில்முன் பாய்ந்து இளம்பெண், மகன் தற்கொலை",
+      "source_id": "daily_thanthi"
+    },
+    "07bb2c9a67b76ae9189119c3405475d6c742fdeb33d954a20a03d08fbe7bb72a": {
+      "timestamp": "2026-11-13T17:43:13.176031+00:00",
+      "url": "https://www.hindutamil.in/news/india/26-killed-in-head-on-collision-between-mini-bus-truck-in-assams-kaziranga",
+      "title": "அசாமில் வேன் - கன்டெய்னர் லாரி நேருக்கு நேர் மோதி விபத்து: 26 பேர் உயிரிழப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "a2ae1b057dff488d6540e56cc36a627e26529b55391c581f36817e16203ab0c4": {
+      "timestamp": "2026-11-13T17:43:13.179574+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/palaniswami-slams-vijay-govt-over-industrial-decline",
+      "title": "“தொழில் வளத்தை நாசமாக்கியதே 6 மாத கால விஜய் அரசின் சாதனை” - பழனிசாமி சாடல்",
+      "source_id": "hindu_tamil"
+    },
+    "aa30f0747a00ff63ce8cf6828a23097857a62c619fda8b80a7400e4f22a59cc5": {
+      "timestamp": "2026-11-13T17:43:13.182911+00:00",
+      "url": "https://www.dinamani.com/galleries/photo-cinema/2026/Nov/13/station-movie",
+      "title": "பூஜையுடன் தொடங்கிய ஸ்டேஷன் திரைப்படம் - புகைப்படங்கள்",
+      "source_id": "dinamani"
     }
   }
 }

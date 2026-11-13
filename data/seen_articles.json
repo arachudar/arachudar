@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T19:47:12.698505+00:00",
-  "count": 348,
+  "last_updated": "2026-11-13T20:46:02.011248+00:00",
+  "count": 353,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2089,6 +2089,36 @@
       "timestamp": "2026-11-13T19:47:12.698491+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/manickam-tagore-slams-dmk",
       "title": "‘புத்தக கொள்முதல் ஊழல் குறித்து உதயநிதியிடம் விசாரிக்க வேண்டும்’ - மாணிக்கம் தாகூர் வலியுறுத்தல்",
+      "source_id": "hindu_tamil"
+    },
+    "ceb82f951a3e5a676612addcc0ee8d57425a037997c91f24652a504179276f53": {
+      "timestamp": "2026-11-13T20:46:01.992498+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/case-filed-against-3-individuals-including-a-tvk-functionary-and-his-daughter-for-operating-an-illegal-quarry",
+      "title": "சட்டவிரோத குவாரி நடத்தியதாக தவெக பிரமுகர், மகள் உள்பட 3 பேர் மீது வழக்கு",
+      "source_id": "daily_thanthi"
+    },
+    "357caff241be4632a669309124c2614df8928d81377a9213dcfe6d73411f601c": {
+      "timestamp": "2026-11-13T20:46:01.997899+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/russian-women-arrived-in-rameswaram-from-goa-on-motorcycles",
+      "title": "கோவாவில் இருந்து ராமேசுவரத்துக்கு மோட்டார் சைக்கிளில் வந்த ரஷிய பெண்கள்",
+      "source_id": "daily_thanthi"
+    },
+    "509198ac063b8b6777df323580f302214fdec00d39a1192bcaf9292d84a5773b": {
+      "timestamp": "2026-11-13T20:46:02.002510+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/darshan-restrictions-at-palani-murugan-temple-tomorrow",
+      "title": "பழனி முருகன் கோவிலில் நாளை தரிசன கட்டுப்பாடு",
+      "source_id": "daily_thanthi"
+    },
+    "494957e7a01247831dcb50db9a89095b48706a2ea490bf843c3d93c8f8c005ae": {
+      "timestamp": "2026-11-13T20:46:02.006981+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/10-released-in-kathiramangalam-protest-case",
+      "title": "கதிராமங்கலம் போராட்ட வழக்கில் திமுக முன்னாள் அமைச்சர் உட்பட 10 பேர் விடுதலை",
+      "source_id": "hindu_tamil"
+    },
+    "741e44f6e56e2789adacdcf5d4262d073fc02549f72312ec8794cfcff1f2eae0": {
+      "timestamp": "2026-11-13T20:46:02.011237+00:00",
+      "url": "https://www.hindutamil.in/news/crime/insta-youth-connected-in-madurai-robbery",
+      "title": "மதுரை நகைக்கடை கொள்ளையில் ஈடுபட்டது இன்ஸ்டாகிராம் இளைஞர்: கைதாகாமல் தப்பியதால் போலீஸ் ஏமாற்றம்",
       "source_id": "hindu_tamil"
     }
   }

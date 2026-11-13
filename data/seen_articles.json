@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T17:43:13.182920+00:00",
-  "count": 338,
+  "last_updated": "2026-11-13T18:42:56.129100+00:00",
+  "count": 343,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2030,6 +2030,36 @@
       "url": "https://www.dinamani.com/galleries/photo-cinema/2026/Nov/13/station-movie",
       "title": "பூஜையுடன் தொடங்கிய ஸ்டேஷன் திரைப்படம் - புகைப்படங்கள்",
       "source_id": "dinamani"
+    },
+    "e13b6741221aa8f06fbc8962045988ab32d0796fffbee0c4fa3e468f237df4c6": {
+      "timestamp": "2026-11-13T18:42:56.114266+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/srivilliputhur-andal-temple-tower-renovations-in-full-swing",
+      "title": "ஸ்ரீவில்லிபுத்தூர் ஆண்டாள் கோவில் கோபுர திருப்பணிகள் மும்முரம்",
+      "source_id": "daily_thanthi"
+    },
+    "004fc92dfde587badd2578544bcec9e1bef6030a24b82b27e1003154c3b73289": {
+      "timestamp": "2026-11-13T18:42:56.118377+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/isnt-the-order-to-purchase-bicycles-at-an-inflated-price-an-act-of-corruption-appavu-asks",
+      "title": "அதிக விலையில் சைக்கிள் கொள்முதல் செய்ய உத்தரவிட்டது ஊழல் தானே? - அப்பாவு கேள்வி",
+      "source_id": "daily_thanthi"
+    },
+    "cc008ced351651ea8ab2bd811bbb09da617cbda9e7a721fa6f0979cdcd5ff347": {
+      "timestamp": "2026-11-13T18:42:56.122129+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/27-kg-of-cassava-tubers-found-in-a-single-plant-public-surprised",
+      "title": "ஒரே செடியில் கிடைத்த 27 கிலோ மரவள்ளி கிழங்குகள்: பொதுமக்கள் ஆச்சரியம்",
+      "source_id": "daily_thanthi"
+    },
+    "a6c93bb7224051da61de9bd5ab943ac77a738fb2b5ded22af28c16d33095f158": {
+      "timestamp": "2026-11-13T18:42:56.125623+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/3-indian-origin-people-in-the-running-for-ceo-of-nvidia/4375601",
+      "title": "என்விடியாவின் சிஇஓ பதவிக்கான பரிசீலனையில் 3 இந்திய வம்சாவளியினர்",
+      "source_id": "dinamalar"
+    },
+    "45da8c67b088046a0157c9fae4b8d89dc7e962ee43b1bf578470b3c7d4bb7e68": {
+      "timestamp": "2026-11-13T18:42:56.129090+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/additional-special-courts-for-speedy-trial-of-corruption-cases-high-court/4375568",
+      "title": "ஊழல் வழக்குகளை விரைந்து விசாரிக்க கூடுதல் சிறப்பு நீதிமன்றங்கள்; ஐகோர்ட்",
+      "source_id": "dinamalar"
     }
   }
 }

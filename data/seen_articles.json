@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T18:42:56.129100+00:00",
-  "count": 343,
+  "last_updated": "2026-11-13T19:47:12.698505+00:00",
+  "count": 348,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2060,6 +2060,36 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/additional-special-courts-for-speedy-trial-of-corruption-cases-high-court/4375568",
       "title": "ஊழல் வழக்குகளை விரைந்து விசாரிக்க கூடுதல் சிறப்பு நீதிமன்றங்கள்; ஐகோர்ட்",
       "source_id": "dinamalar"
+    },
+    "f804e5268a8aa484f3ce5171664003bed66db132acd367d0f0787e55e8b60e19": {
+      "timestamp": "2026-11-13T19:47:12.679980+00:00",
+      "url": "https://www.dailythanthi.com/news/india/ban-extended-on-zakir-naiks-organization",
+      "title": "மத போதகர் ஜாகீர் நாயக்கின் அமைப்பு மீதான தடை நீட்டிப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "0e137d82e5f7e58b7aee21c6a614207a9356e971f7bce8eac77498ed5d150acb": {
+      "timestamp": "2026-11-13T19:47:12.685280+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/extreme-cold-in-kodaikanal-public-suffering",
+      "title": "கொடைக்கானலில் கடும் குளிர்: பொதுமக்கள் அவதி",
+      "source_id": "daily_thanthi"
+    },
+    "3675c8ae702ce24111d5b8f07654dfe5eac5efbeab2a67cd609f95d129249a93": {
+      "timestamp": "2026-11-13T19:47:12.689834+00:00",
+      "url": "https://www.dailythanthi.com/news/india/authority-orders-monitoring-of-price-reductions-for-cancer-drugs",
+      "title": "புற்றுநோய் மருந்துகள் விலை குறைப்பை கண்காணிக்க ஆணையம் உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "52cb5ac1e0655f99237cc91f450bea4386cc0d3c54c8b07feb7485e6293849b9": {
+      "timestamp": "2026-11-13T19:47:12.694214+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/chennai-kumari-10-lane-highway-announced-by-minister-aadav/4375515",
+      "title": "சென்னை - குமரி இடையே 10 வழிச்சாலை: அமைச்சர் ஆதவ் அறிவிப்பு",
+      "source_id": "dinamalar"
+    },
+    "d010d53c2a6f2afa9ac5887d45d164ad9ee71007617a9865e36c4b0491485ef4": {
+      "timestamp": "2026-11-13T19:47:12.698491+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/manickam-tagore-slams-dmk",
+      "title": "‘புத்தக கொள்முதல் ஊழல் குறித்து உதயநிதியிடம் விசாரிக்க வேண்டும்’ - மாணிக்கம் தாகூர் வலியுறுத்தல்",
+      "source_id": "hindu_tamil"
     }
   }
 }

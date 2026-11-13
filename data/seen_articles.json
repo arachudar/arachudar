@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T04:51:46.738029+00:00",
-  "count": 278,
+  "last_updated": "2026-11-13T05:53:09.957274+00:00",
+  "count": 283,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1670,6 +1670,36 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/centre-directs-to-supply-improved-rice-in-ration/4374727",
       "title": "ரேஷனில் இனி மேம்படுத்தப்பட்ட அரிசி வழங்கும்படி மத்திய அரசு உத்தரவு",
       "source_id": "dinamalar"
+    },
+    "ba48626cbf4aebc7c6ccd43618bc38dea5ed2d28296623566555ece6a0dc14b4": {
+      "timestamp": "2026-11-13T05:53:09.941151+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/5-tonnes-of-poppy-worth-rs-5-crore-seized-at-thoothukudi-port-one-arrested",
+      "title": "தூத்துக்குடி துறைமுகத்தில் ரூ. 5 கோடி மதிப்பிலான 5 டன் கசகசா பறிமுதல்: ஒருவர் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "e91fd6871e589c4695712a191f584ff4a8d663457233af72107ff50de029aaab": {
+      "timestamp": "2026-11-13T05:53:09.945631+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/vettambadi-lake-gets-a-fresh-vibrant-look-thanks-to-migratory-birds",
+      "title": "வலசை பறவைகளால் புதுப்பொலிவு பெற்ற வேட்டாம்பாடி ஏரி!",
+      "source_id": "daily_thanthi"
+    },
+    "3b68a9e0654c499c5dd710f981f6658380f23c50c04b6f97c6604875b14549e3": {
+      "timestamp": "2026-11-13T05:53:09.949722+00:00",
+      "url": "https://www.dailythanthi.com/devotional/tiruchendur-kanda-sashti-festival-special-abhishekam-for-swami-jayanthinathar",
+      "title": "திருச்செந்தூர் கந்த சஷ்டி திருவிழா: சுவாமி ஜெயந்திநாதருக்கு சிறப்பு அபிஷேகம்",
+      "source_id": "daily_thanthi"
+    },
+    "c213d813e9df88880692b50ae7423527461780c06e5bc66c19375904b81cca68": {
+      "timestamp": "2026-11-13T05:53:09.953564+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/cm-vijay-distributed-cakes-to-school-students-in-kolathur-event-of-childrens-day",
+      "title": "குழந்தைகள் தினம்: சென்னை கொளத்தூரில் பள்ளி மாணவர்களுக்கு கேக் வழங்கினார் முதல்வர் விஜய்",
+      "source_id": "hindu_tamil"
+    },
+    "25727bb6c021aac0355d68de229d6f4f08dae1b9245b2adf6ddb2fdfe8bed6f8": {
+      "timestamp": "2026-11-13T05:53:09.957263+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tvk-government-is-undermining-the-ambedkar-overseas-higher-education-scholarship-scheme-stalins-allegation",
+      "title": "‘அம்பேத்கர் அயலக உயர்கல்வி உதவித்தொகை திட்டத்தை தவெக அரசு சிதைக்கிறது’ - ஸ்டாலின் குற்றச்சாட்டு",
+      "source_id": "hindu_tamil"
     }
   }
 }

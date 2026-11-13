@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T15:41:08.373041+00:00",
-  "count": 328,
+  "last_updated": "2026-11-13T16:46:18.749230+00:00",
+  "count": 333,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1969,6 +1969,36 @@
       "timestamp": "2026-11-13T15:41:08.373030+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/tenant-farmers-can-also-benefit-from-the-crop-insurance-scheme-says-minister-vinoth",
       "title": "“பயிர் காப்பீடு திட்டத்தில் குத்தகை விவசாயிகளும் பயன் பெறலாம்” - அமைச்சர் வினோத் தகவல்",
+      "source_id": "hindu_tamil"
+    },
+    "e60d9d7c0b92cbb0cf5a74b64c536d4a67f8c3be84bdf0a6e38fb84e41a94bcc": {
+      "timestamp": "2026-11-13T16:46:18.731081+00:00",
+      "url": "https://www.dailythanthi.com/news/world/attack-on-us-military-radar-in-bahrain-iran-reports",
+      "title": "பக்ரைனில் அமெரிக்க ராணுவ ரேடார் மீது தாக்குதல் - ஈரான் தகவல்",
+      "source_id": "daily_thanthi"
+    },
+    "d086dcf32b330ec5b17bbe7c9f20ffe1278b33a292d8d10dfb46eb2185c720e3": {
+      "timestamp": "2026-11-13T16:46:18.736145+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/redwood-logs-worth-rs772-crore-seized-at-chennai-port-3-arrested",
+      "title": "சென்னை துறைமுகத்தில் ரூ.7.72 கோடி செம்மரக்கட்டைகள் பறிமுதல்: 3 பேர் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "1f8e5ccbceed37ae31d56da2a5622e247aa6887f012e238bfa613e0cbd069546": {
+      "timestamp": "2026-11-13T16:46:18.740610+00:00",
+      "url": "https://www.dailythanthi.com/technology/chinese-company-byds-denza-d9-ev-car-launched-in-india",
+      "title": "ஒருமுறை சார்ஜ் செய்தால் 730 கி.மீ வரை பயணம் செய்யலாம்...டென்ஸா கார்  இந்தியாவில் அறிமுகம்",
+      "source_id": "daily_thanthi"
+    },
+    "6a060af51e96fb25517fc03083d0b750120afc765f4f9cca9599003226e83489": {
+      "timestamp": "2026-11-13T16:46:18.745002+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tvk-minister-sengottaiyan-reply-edappadi-palaniswamis-accusation",
+      "title": "“கும்பகர்ணன் போல தூங்கியதால்தான் அதிமுகவுக்கு மூன்றாமிடம்” - பழனிசாமிக்கு செங்கோட்டையன் பதில்",
+      "source_id": "hindu_tamil"
+    },
+    "2f769dd6081c4ecb7dd3e02a7aa625e33e7e9a44efc24e6d9af7f3152e850235": {
+      "timestamp": "2026-11-13T16:46:18.749217+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/cpm-pshanmugam-demand-to-arrest-kallakurichi-tvk-mla",
+      "title": "“கள்ளக்குறிச்சி தவெக எம்எல்ஏ மீது வழக்கு பதிந்து கைது செய்ய வேண்டும்” - பெ.சண்முகம்",
       "source_id": "hindu_tamil"
     }
   }

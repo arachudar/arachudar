@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T20:46:02.011248+00:00",
-  "count": 353,
+  "last_updated": "2026-11-13T21:40:55.476816+00:00",
+  "count": 358,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2120,6 +2120,36 @@
       "url": "https://www.hindutamil.in/news/crime/insta-youth-connected-in-madurai-robbery",
       "title": "மதுரை நகைக்கடை கொள்ளையில் ஈடுபட்டது இன்ஸ்டாகிராம் இளைஞர்: கைதாகாமல் தப்பியதால் போலீஸ் ஏமாற்றம்",
       "source_id": "hindu_tamil"
+    },
+    "4a5e51a6a5a1486e3004f2a246199d359b0d999c91df14505597288764f9f0b3": {
+      "timestamp": "2026-11-13T21:40:55.461147+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/elephant-roaming-around-the-spot-where-it-trampled-and-killed-a-government-employee-forest-explain",
+      "title": "அரசு ஊழியரை மிதித்து கொன்ற இடத்திலேயே சுற்றித்திரியும் யானை - வனத்துறையினர் விளக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "28253678b5bfaa5b4461cf78d282e51c83b8f10e96c1a754da88356cb43ad1da": {
+      "timestamp": "2026-11-13T21:40:55.465560+00:00",
+      "url": "https://www.hindutamil.in/news/spirituals/ragu-kedhu-festival-in-thirunageshwaram",
+      "title": "திருநாகேஸ்வரம், கீழப்பெரும்பள்ளத்தில் ராகு-கேது பெயர்ச்சி விழா கோலாகலம்",
+      "source_id": "hindu_tamil"
+    },
+    "8041eef0aa0747f142888d2e87806f42dc44b3290daa4527e2275f7dad5bdb43": {
+      "timestamp": "2026-11-13T21:40:55.469613+00:00",
+      "url": "https://www.hindutamil.in/news/spirituals/soorasamharam-in-tiruchendur",
+      "title": "திருச்செந்தூரில் நாளை சூரசம்ஹாரம்: லட்சக்கணக்கான பக்தர்கள் குவிகின்றனர்",
+      "source_id": "hindu_tamil"
+    },
+    "f430d2bd916e539f1d7f438c08f056bcf57cc3b843dc46d955cbc30ee39eded2": {
+      "timestamp": "2026-11-13T21:40:55.473202+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/no-irregularities-in-procurement-of-bicycles-for-students-minister-sampathkumar",
+      "title": "‘மாணவர்களுக்கான சைக்கிள்கள் கொள்முதலில் முறைகேடு இல்லை’ - அமைச்சர் சம்பத்குமார் தகவல்",
+      "source_id": "hindu_tamil"
+    },
+    "def50822dafa5b313bc3decc0fbdd0061dab4dbd58aef91a8ced6aba32e07acf": {
+      "timestamp": "2026-11-13T21:40:55.476807+00:00",
+      "url": "https://www.dinamani.com/newdelhi/2026/Nov/13/gang-leader-arrested-following-a-shootout-in-central-delhi",
+      "title": "மத்திய தில்லியில் துப்பாக்கிச் சண்டையைத் தொடா்ந்து கும்பல் தலைவா் கைது",
+      "source_id": "dinamani"
     }
   }
 }

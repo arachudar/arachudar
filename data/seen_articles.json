@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T02:45:30.453619+00:00",
-  "count": 268,
+  "last_updated": "2026-11-13T03:45:49.915316+00:00",
+  "count": 273,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1610,6 +1610,36 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/pslv-level-3-engine-test-success-isro-record-after-successive-failures/4374838",
       "title": "பி.எஸ்.எல்.வி., 3ம் நிலை இன்ஜின் சோதனை வெற்றி!: அடுத்தடுத்த தோல்விகளுக்குப் பின் இஸ்ரோ சாதனை",
       "source_id": "dinamalar"
+    },
+    "3d68b33f6199786e478d0cf1b28b32aca62f8212bf336211916e9b1779495811": {
+      "timestamp": "2026-11-13T03:45:49.898429+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/6-day-ban-for-tourists-at-manimutharu-falls",
+      "title": "மணிமுத்தாறு அருவியில் சுற்றுலா பயணிகளுக்கு 6 நாட்கள் தடை!",
+      "source_id": "daily_thanthi"
+    },
+    "50c71c9be2550cb274bdc528b7da0b99e935a7179a6453a475e664f9d423f317": {
+      "timestamp": "2026-11-13T03:45:49.903163+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/governor-arlekar-on-a-3-day-visit-to-delhi-to-meet-amit-shah-today",
+      "title": "கவர்னர் அர்லேகர் 3 நாள் டெல்லி பயணம்! அமித்ஷாவுடன் இன்று சந்திப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "6a19c4ec738792d90b4ad3e1275cb7c12e79ea8db66a23c728bb866c839b3a9c": {
+      "timestamp": "2026-11-13T03:45:49.907276+00:00",
+      "url": "https://www.dailythanthi.com/sports/othersports/total-chess-praggnanandhaa-erigaisi-games-end-in-a-draw",
+      "title": "டோட்டல் செஸ்: பிரக்ஞானந்தா, எரிகைசி ஆட்டங்கள் ‘டிரா’",
+      "source_id": "daily_thanthi"
+    },
+    "4e9242d35ea4cab5bdd6e29615c8507c9f180738b6a01670909e6dea5a7754b0": {
+      "timestamp": "2026-11-13T03:45:49.911617+00:00",
+      "url": "https://www.hindutamil.in/news/india/woman-thrown-off-train-after-protesting-sexual-harassment-left-hand-severed-hospitalised",
+      "title": "மும்பை: பாலியல் தொல்லையை எதிர்த்த பெண் ரயிலில் இருந்து தள்ளிவிடப்பட்ட கொடூரம்",
+      "source_id": "hindu_tamil"
+    },
+    "f797068e9b27c0561556ef3fb070f353e9d8ab9d8a4bc737d57bbbe02f106abd": {
+      "timestamp": "2026-11-13T03:45:49.915305+00:00",
+      "url": "https://www.hindutamil.in/news/india/indias-achievements-should-be-made-known-to-the-world-pm-modi-appeals-to-media-at-diwali-party",
+      "title": "இந்தியாவின் சாதனைகளை உலகறிய செய்ய வேண்டும்: ஊடகங்களுக்கு பிரதமர் மோடி வேண்டுகோள்",
+      "source_id": "hindu_tamil"
     }
   }
 }

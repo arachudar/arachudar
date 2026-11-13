@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T10:28:56.069634+00:00",
-  "count": 303,
+  "last_updated": "2026-11-13T11:25:54.637137+00:00",
+  "count": 308,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1820,6 +1820,36 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/cyclone-to-form-in-the-bay-of-bengal-on-november-16-rain-likely-in-southern-tamil-nadu/4374899",
       "title": "வங்கக்கடலில் நவம்பர் 16ல் உருவாகிறது புயல்; தென் தமிழகத்தில் மழைக்கு வாய்ப்பு",
       "source_id": "dinamalar"
+    },
+    "458320ef6c7a537171ba8ff181d50d4bbc5265bfab6686e4eb32aa701f1e8010": {
+      "timestamp": "2026-11-13T11:25:54.619910+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/giant-mushroom-weighing-3-kg-public-amazed-by-sight",
+      "title": "3 கிலோ எடை கொண்ட ராட்சத காளான்: ஆச்சரியத்துடன் பார்த்து சென்ற பொதுமக்கள்",
+      "source_id": "daily_thanthi"
+    },
+    "4bc2f08ebc224375f78d8595565518794f03ee90d975669916a689302301af40": {
+      "timestamp": "2026-11-13T11:25:54.624653+00:00",
+      "url": "https://www.dailythanthi.com/news/india/president-murmu-gives-away-national-sports-awards-at-rashtrapati-bhavan",
+      "title": "கேல் ரத்னா யாருக்கும் இல்லை... 17 பேருக்கு அர்ஜுனா விருது -   வழங்கி கவுரவித்த ஜனாதிபதி திரவுபதி முர்மு",
+      "source_id": "daily_thanthi"
+    },
+    "de0ee938298398e06f4a6e0c0d9ce1751030bb614216137906141aa7b9c0603a": {
+      "timestamp": "2026-11-13T11:25:54.628961+00:00",
+      "url": "https://www.dailythanthi.com/devotional/aalaya-varalaru/shri-khandoba-temple-jejuri",
+      "title": "மானிடராக அவதரித்து அரக்கனை அழித்த சிவபெருமான்... ஜேஜூரி கண்டோபா கோவில் சிறப்புகள்",
+      "source_id": "daily_thanthi"
+    },
+    "d006404a13e8a05f10c8f1a724ac28a97d7d8bea32f01cbfa966b66b7f7b2338": {
+      "timestamp": "2026-11-13T11:25:54.633394+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/new-cyclone-to-form-in-the-bay-of-bengal-on-nov-16-meteorological-department",
+      "title": "நவ.16-ல் உருவாகிறது புதிய புயல்: தமிழக மீனவர்களுக்கு எச்சரிக்கை",
+      "source_id": "hindu_tamil"
+    },
+    "19a149de11d0acd04e416ecf84cb04cdc77122f6a9ecdca7b96478006bc77419": {
+      "timestamp": "2026-11-13T11:25:54.637124+00:00",
+      "url": "https://www.hindutamil.in/news/life-style/georgia-girl-wins-netizens-heart-with-her-hindi-song-dance",
+      "title": "பாலிவுட் பாடலுக்கு ஜார்ஜியா சிறுமி நடனம் - வீடியோ வைரல்",
+      "source_id": "hindu_tamil"
     }
   }
 }

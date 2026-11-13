@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T08:16:55.143565+00:00",
-  "count": 293,
+  "last_updated": "2026-11-13T09:28:15.019565+00:00",
+  "count": 298,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1759,6 +1759,36 @@
       "timestamp": "2026-11-13T08:16:55.143554+00:00",
       "url": "https://www.hindutamil.in/news/india/ministry-of-home-affairs-bans-zakir-naik-irf-organisation-extended-for-another-5-years",
       "title": "ஜாகீர் நாயக் அமைப்புக்கு மேலும் 5 ஆண்டுகள் தடை: உள்துறை அமைச்சகம் அறிவிப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "242b588a391fd8685bd653760ef025f721cef9f600b5b067211936c667b45522": {
+      "timestamp": "2026-11-13T09:28:15.003129+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/young-women-and-children-going-missing-one-after-another-what-is-happening-in-tamil-nadu-vanathi-srinivasan-asks",
+      "title": "அடுத்தடுத்து மாயமாகும் இளம்பெண்கள், சிறுவர்கள்... தமிழகத்தில் என்ன நடக்கிறது? - வானதி சீனிவாசன் கேள்வி",
+      "source_id": "daily_thanthi"
+    },
+    "54588b1ca18b273f4dae19f6a2cfe050d77c39840f11dff7448b5dbfafb74242": {
+      "timestamp": "2026-11-13T09:28:15.008633+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/50-pounds-of-gold-jewelry-missing-from-a-cooperative-bank-locker-near-nagercoil",
+      "title": "நாகர்கோவில் அருகே கூட்டுறவு வங்கி லாக்கரில் 50 பவுன் தங்க நகைகள் மாயம்",
+      "source_id": "daily_thanthi"
+    },
+    "b2b3eb9d7d5f45bea773f02a6e6960bdb6ac3c6f17843524fb318c4e399356e0": {
+      "timestamp": "2026-11-13T09:28:15.011677+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/thoothukudi-3-youths-arrested-for-posting-reels-on-instagram-with-sickles-in-their-hands",
+      "title": "தூத்துக்குடி: கையில் அரிவாளுடன் இன்ஸ்டாகிராமில் ரீல்ஸ் பதிவிட்ட 3 வாலிபர்கள் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "bcd98ef9d178787e0ee64083d2d87a0260e73586d087f6a689b8735a465a8948": {
+      "timestamp": "2026-11-13T09:28:15.016160+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/bollywood/ramayana-movie-crossed-rs-1000-crore-collection",
+      "title": "ரூ.1,000 கோடி வசூலை கடந்தது ‘ராமாயணா’",
+      "source_id": "hindu_tamil"
+    },
+    "e16303aa588cb31a8f8afa5b47fec3046af08b22b38e1f2959b4f1be811ba4a0": {
+      "timestamp": "2026-11-13T09:28:15.019557+00:00",
+      "url": "https://www.hindutamil.in/news/sports/uefa-nations-league-england-beats-croatia-again-to-reach-quarter-finals",
+      "title": "UEFA நேஷன்ஸ் லீக்: குரேஷியாவை மீண்டும் வென்று காலிறுதியில் இங்கிலாந்து!",
       "source_id": "hindu_tamil"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T09:28:15.019565+00:00",
-  "count": 298,
+  "last_updated": "2026-11-13T10:28:56.069634+00:00",
+  "count": 303,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1790,6 +1790,36 @@
       "url": "https://www.hindutamil.in/news/sports/uefa-nations-league-england-beats-croatia-again-to-reach-quarter-finals",
       "title": "UEFA நேஷன்ஸ் லீக்: குரேஷியாவை மீண்டும் வென்று காலிறுதியில் இங்கிலாந்து!",
       "source_id": "hindu_tamil"
+    },
+    "9dd60fba79fe5eb5bcde4275b483fcebeede8428d95f5001e743c45a43c3e5bd": {
+      "timestamp": "2026-11-13T10:28:56.050837+00:00",
+      "url": "https://www.dailythanthi.com/news/weather/what-is-the-reason-for-the-formation-of-more-storms-meteorological-department-explanation",
+      "title": "அதிக புயல்கள் உருவாக காரணம் என்ன?  - வானிலை மையம் விளக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "ea8a42bdd58ff46845c9a1ae373cb072b5777ae40fb890ea382a7dc1ac34fb7f": {
+      "timestamp": "2026-11-13T10:28:56.055892+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-ranks-first-in-inflation-once-again-nainar-nagendran-criticizes-the-tvk-government",
+      "title": "பணவீக்கத்தில் தமிழகம் மீண்டும் முதலிடம் - தவெக அரசுக்கு நயினார் நாகேந்திரன் கண்டனம்",
+      "source_id": "daily_thanthi"
+    },
+    "481ddab7ff52cd689337a9f837b4cfa3a17486bf668eb298a36ff1df1c62da06": {
+      "timestamp": "2026-11-13T10:28:56.061130+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/attempt-to-snatch-chain-from-young-woman-public-chases-down-2-youths-and-catches-them",
+      "title": "இளம்பெண்ணிடம் செயின் பறிக்க முயற்சி: 2 வாலிபர்களை துரத்தி பிடித்த பொதுமக்கள்",
+      "source_id": "daily_thanthi"
+    },
+    "d58c71a8aabeca8d5e7526ebb344984bce83cd4b4d1024d98e78e5dfcd4df610": {
+      "timestamp": "2026-11-13T10:28:56.065454+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/employment-growth-in-the-country-pm-modi/4374903",
+      "title": "நாட்டில் வேலைவாய்ப்பு அதிகரிப்பு: பிரதமர் மோடி",
+      "source_id": "dinamalar"
+    },
+    "ffb1fa5730a80a598abe020f86afcd3ca1690867f60ac1ce25b8f99daf2c63ed": {
+      "timestamp": "2026-11-13T10:28:56.069622+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/cyclone-to-form-in-the-bay-of-bengal-on-november-16-rain-likely-in-southern-tamil-nadu/4374899",
+      "title": "வங்கக்கடலில் நவம்பர் 16ல் உருவாகிறது புயல்; தென் தமிழகத்தில் மழைக்கு வாய்ப்பு",
+      "source_id": "dinamalar"
     }
   }
 }

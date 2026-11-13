@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T03:45:49.915316+00:00",
-  "count": 273,
+  "last_updated": "2026-11-13T04:51:46.738029+00:00",
+  "count": 278,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1640,6 +1640,36 @@
       "url": "https://www.hindutamil.in/news/india/indias-achievements-should-be-made-known-to-the-world-pm-modi-appeals-to-media-at-diwali-party",
       "title": "இந்தியாவின் சாதனைகளை உலகறிய செய்ய வேண்டும்: ஊடகங்களுக்கு பிரதமர் மோடி வேண்டுகோள்",
       "source_id": "hindu_tamil"
+    },
+    "36809f9d99f945b08826b736d8dc09cbfb8e54635d9f617ceafa0e3d9b843b8a": {
+      "timestamp": "2026-11-13T04:51:46.725196+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/gold-price-falls-towards-rs-1-lakh-what-is-the-reason-for-the-sudden-decline",
+      "title": "ரூ.1 லட்சத்தை நோக்கி வீழ்ச்சி அடையும் தங்கம் விலை..! திடீர் சரிவுக்கு என்ன காரணம்..?",
+      "source_id": "daily_thanthi"
+    },
+    "f8df78b4900a871121240fb00d5f6eceadec828d2236805ac0fd990c5ff27d60": {
+      "timestamp": "2026-11-13T04:51:46.729036+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/ball-tampering-incident-warner-unhappy-with-cummins",
+      "title": "பந்தை சேதப்படுத்திய விவகாரம்: கம்மின்ஸ் மீது வார்னர் அதிருப்தி",
+      "source_id": "daily_thanthi"
+    },
+    "61af483218981a185f1689df47afe4cfe27561f0e9cf344005bf17ad95cc19c5": {
+      "timestamp": "2026-11-13T04:51:46.732125+00:00",
+      "url": "https://www.dailythanthi.com/news/world/14-people-including-indians-killed-in-series-of-vehicle-collisions-in-uae",
+      "title": "அமீரகத்தில் அடுத்தடுத்து வாகனங்கள் மோதி கோர விபத்து - இந்தியர்கள் உள்பட 14 பேர் உயிரிழப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "f6a72b317a3a1b3b6fb53b41e4b03f7ef2d48db08afb05e720d1b5c25d40478e": {
+      "timestamp": "2026-11-13T04:51:46.735072+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/truck-crash-in-uae-leaves-14-dead-and-30-injured/4374729",
+      "title": "யு.ஏ.இ.,யில் கோர விபத்து: லாரி மோதி தீப்பிடித்ததில் இந்தியர்கள் உட்பட 14 பேர் பலி",
+      "source_id": "dinamalar"
+    },
+    "62826f62e94ac1704521e15ef1a7134e0d9e341422f1ea6cf0f4dfbbec6a8330": {
+      "timestamp": "2026-11-13T04:51:46.738017+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/centre-directs-to-supply-improved-rice-in-ration/4374727",
+      "title": "ரேஷனில் இனி மேம்படுத்தப்பட்ட அரிசி வழங்கும்படி மத்திய அரசு உத்தரவு",
+      "source_id": "dinamalar"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T05:53:09.957274+00:00",
-  "count": 283,
+  "last_updated": "2026-11-13T06:58:33.795712+00:00",
+  "count": 288,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -1699,6 +1699,36 @@
       "timestamp": "2026-11-13T05:53:09.957263+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/tvk-government-is-undermining-the-ambedkar-overseas-higher-education-scholarship-scheme-stalins-allegation",
       "title": "‘அம்பேத்கர் அயலக உயர்கல்வி உதவித்தொகை திட்டத்தை தவெக அரசு சிதைக்கிறது’ - ஸ்டாலின் குற்றச்சாட்டு",
+      "source_id": "hindu_tamil"
+    },
+    "9237de3877334bc90fff76aa33ac2614123bed9923801579ee3173a434df2703": {
+      "timestamp": "2026-11-13T06:58:33.780496+00:00",
+      "url": "https://www.dailythanthi.com/ampstories/photo-story/does-pistachio-increase-blood-sugar",
+      "title": "பிஸ்தா சாப்பிடுவதால் ரத்தச் சர்க்கரை அளவு அதிகரிக்குமா?",
+      "source_id": "daily_thanthi"
+    },
+    "32734e470f02c8c4aa0857cf89ab1ad2dee0f4013847da455f9f7a1e1d9614b3": {
+      "timestamp": "2026-11-13T06:58:33.787257+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/gavaskar-accusation-pat-cummins-response",
+      "title": "முற்றும் மோதல்....கவாஜாவின் குற்றச்சாட்டு முற்றிலும் தவறானது –  கம்மின்ஸ் பதிலடி",
+      "source_id": "daily_thanthi"
+    },
+    "f5911dd9d7ca376b796ebd27c72e19f74e512ab24cb69550a4556095939c2ad6": {
+      "timestamp": "2026-11-13T06:58:33.790577+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/all-is-well-stay-confident-chief-minister-vijay-presents-a-cake-along-with-a-childrens-day-greeting-card",
+      "title": "“ஆல் இஸ் வெல்.. கான்பிடன்ட்-ஆ இருங்க..” - குழந்தைகள் தினவாழ்த்து அட்டையுடன் கேக் வழங்கிய முதல்-அமைச்சர் விஜய்",
+      "source_id": "daily_thanthi"
+    },
+    "de099d5962fb2ebc2efa0b382e21c9d37f62f67e5e333618a8b30851519406a2": {
+      "timestamp": "2026-11-13T06:58:33.793187+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/udhayanidhi-stalin-petition-was-dismissed-by-chennai-high-court",
+      "title": "தேர்தல் வழக்கை நிராகரிக்கக் கோரி உதயநிதி தாக்கல் செய்த மனு - ஐகோர்ட் தள்ளுபடி",
+      "source_id": "hindu_tamil"
+    },
+    "4016d1ad7747191f61cc5f4abfa014646436e256f43c680264bf0d344a2e0716": {
+      "timestamp": "2026-11-13T06:58:33.795705+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/retired-judge-cs-karnan-has-passed-away",
+      "title": "ஓய்வுபெற்ற நீதிபதி சி.எஸ்.கர்ணன் காலமானார்",
       "source_id": "hindu_tamil"
     }
   }

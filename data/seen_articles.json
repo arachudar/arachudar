@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T16:01:12.345182+00:00",
-  "count": 463,
+  "last_updated": "2026-11-14T16:14:49.436280+00:00",
+  "count": 468,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2780,6 +2780,36 @@
       "url": "https://thinaboomi.com/35",
       "title": "வேலூர் நாளிதழ் - பதிப்பு",
       "source_id": "thinaboomi"
+    },
+    "c11fef4407d80339b38e7f859d6f05b358b2007285ee849994e1a93d4a61c5e9": {
+      "timestamp": "2026-11-14T16:14:49.412605+00:00",
+      "url": "https://www.dailythanthi.com/news/india/police-sub-inspector-killed-in-gun-blast",
+      "title": "துப்பாக்கியை சுத்தம் செய்தபோது குண்டு பாய்ந்து போலீஸ் சப்-இன்ஸ்பெக்டர் உயிரிழப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "2d67bc242b4e2a8669a0aaece3124dd320d60a5a57897ec7b496e03a03c654df": {
+      "timestamp": "2026-11-14T16:14:49.421711+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/zimbabwe-afghanistan-final-test-day-2",
+      "title": "ஜிம்பாப்வேக்கு எதிரான கடைசி டெஸ்ட்: ஆப்கானிஸ்தான் தடுமாற்றம்",
+      "source_id": "daily_thanthi"
+    },
+    "fb07702253015591c2194aecbb9740dd65bed370f013108ae19627688b17d166": {
+      "timestamp": "2026-11-14T16:14:49.427088+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/india-u19-asia-cup-2026-final-thriller",
+      "title": "கடைசி பந்தில் ஆசியக் கோப்பை வெற்றி... இந்திய இளம் அணிக்கு பிரதமர் மோடி வாழ்த்து",
+      "source_id": "daily_thanthi"
+    },
+    "af87e5b264e0c037f00ac338140b2205c87c2d9cdc9b42224a3fa4508b57544a": {
+      "timestamp": "2026-11-14T16:14:49.431742+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/bird-flu-confirmed-in-cuddalore",
+      "title": "கடலூரில் பறவைக் காய்ச்சல் பாதிப்பு உறுதி - கட்டுப்படுத்த நடவடிக்கை தீவிரம்",
+      "source_id": "hindu_tamil"
+    },
+    "e6049ff150f6520a9f1f6e56b2a93be9be267058eea1d54c072e56a1144fdfd5": {
+      "timestamp": "2026-11-14T16:14:49.436271+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/case-against-3-people-including-law-college-student-dismissed",
+      "title": "முறைகேட்டை தட்டிக் கேட்ட சட்டக் கல்லூரி மாணவர் உள்ளிட்ட 3 பேர் மீதான வழக்கு ரத்து",
+      "source_id": "hindu_tamil"
     }
   }
 }

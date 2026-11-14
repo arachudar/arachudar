@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T07:53:50.095903+00:00",
-  "count": 408,
+  "last_updated": "2026-11-14T08:43:33.981826+00:00",
+  "count": 413,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2449,6 +2449,36 @@
       "timestamp": "2026-11-14T07:53:50.095892+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/cm-vijay-will-take-action-on-kallakurichi-issue-says-minister-arunraj",
       "title": "“கள்ளக்குறிச்சி விவகாரத்தில் முதல்வர் விஜய் உரிய நடவடிக்கை எடுப்பார்”  -  அமைச்சர் அருண்ராஜ்",
+      "source_id": "hindu_tamil"
+    },
+    "25a5249de15ac7a3ff42e568aa3ec67a1a0d7ca3c0a642bcac331df70d500b3f": {
+      "timestamp": "2026-11-14T08:43:33.957474+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/junior-asia-cup-final-pakistan-sets-338runs-target-for-india",
+      "title": "ஜூனியர் ஆசிய கோப்பை இறுதிப்போட்டி - இந்தியாவுக்கு 338 ரன்கள் இலக்கு நிர்ணயித்த பாகிஸ்தான்",
+      "source_id": "daily_thanthi"
+    },
+    "91f911b275742a7c0f745143ab91cb73886655052f52132f8903de7d368f2e73": {
+      "timestamp": "2026-11-14T08:43:33.965110+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/lets-protect-children-nurture-their-dreams-premalatha-vijayakanths-childrens-day-greetings",
+      "title": "‘குழந்தைகளை பாதுகாப்போம்; அவர்களின் கனவுகளை வளர்ப்போம்’ - பிரேமலதா விஜயகாந்த் குழந்தைகள் தின வாழ்த்து",
+      "source_id": "daily_thanthi"
+    },
+    "16f5c6f9706f7a4ae933058c35327405a28fe20ed00e1634937a61fe1e88010e": {
+      "timestamp": "2026-11-14T08:43:33.970690+00:00",
+      "url": "https://www.dailythanthi.com/technology/ai-for-grocery-stores-do-you-know-how-it-works",
+      "title": "மளிகைக் கடைகளுக்கு உதவும் ஏ.ஐ:  எப்படி இயங்கும் தெரியுமா?",
+      "source_id": "daily_thanthi"
+    },
+    "4eec25eda77a294776201f948615bc6e943fe2b7ce7da204590b1254acc91fbe": {
+      "timestamp": "2026-11-14T08:43:33.976147+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/govt-bears-rs-43-on-diesel-price-hike-to-protect-farmers-pm-modi/4375671",
+      "title": "விவசாயிகளை பாதுகாக்க டீசல் விலை உயர்வில் ரூ.43ஐ மத்திய அரசு ஏற்றது : பிரதமர் மோடி",
+      "source_id": "dinamalar"
+    },
+    "b9db6ba732550c20b8baedb7dce7b3a13bb9ccece856a904dc0582dbafff4103": {
+      "timestamp": "2026-11-14T08:43:33.981810+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/aiadmk-members-devise-strategy-to-defeat-vijayabaskar-in-by-election",
+      "title": "விராலிமலை இடைத்தேர்தலில் விஜயபாஸ்கரை தோற்கடிக்க அதிமுகவினர் வியூகம்",
       "source_id": "hindu_tamil"
     }
   }

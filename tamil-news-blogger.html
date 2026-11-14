@@ -1765,7 +1765,15 @@
     /* ========================================================
        ARTICLE CLIPPING & READER MODAL
        ======================================================== */
-    .article-modal-backdrop {
+    
+    /* ZERO MODAL BOX - DIRECT FULL PAGE READING */
+    .article-modal-backdrop, #articleClippingModal {
+      display: none !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+    }
+    
+.article-modal-backdrop {
       position: fixed;
       top: 0;
       left: 0;
@@ -4889,6 +4897,21 @@
     }
 
     function openArticleModalById(id) {
+      const db = window.NEWS_DATABASE || NEWS_DATABASE;
+      let item = null;
+      if (typeof id === 'number') {
+        item = db.find(n => n.id === id);
+      } else if (typeof id === 'string') {
+        item = db.find(n => n.id === parseInt(id, 10) || n.title === id || n.postUrl === id);
+      }
+      if (!item && db && db.length > 0) {
+        item = db[0];
+      }
+      // 1-Click: Open separate dedicated article link directly
+      if (item && item.postUrl) {
+        window.location.href = item.postUrl;
+        return;
+      }
       openFullArticlePage(id);
     }
 

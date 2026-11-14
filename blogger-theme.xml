@@ -1760,7 +1760,15 @@
     /* ========================================================
        ARTICLE CLIPPING & READER MODAL
        ======================================================== */
-    .article-modal-backdrop {
+    
+    /* ZERO MODAL BOX - DIRECT FULL PAGE READING */
+    .article-modal-backdrop, #articleClippingModal {
+      display: none !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+    }
+    
+.article-modal-backdrop {
       position: fixed;
       top: 0;
       left: 0;
@@ -2654,12 +2662,20 @@
               <b:if cond='data:blog.pageType in ["item", "static_page"]'>
                 <!-- SINGLE POST VIEW (Blogger Individual Article Page) -->
                 <b:loop values='data:posts' var='post'>
-                  <article class='single-post-reader-card' style='background:var(--bg-card); border:1px solid var(--border-color); border-radius:8px; padding:28px 32px; box-shadow:var(--shadow-sm);'>
+                  <article class='article-main-broadsheet'>
+                    <div class="article-reader-toolbar" style="margin-bottom:18px;">
+                      <a href="/" class="btn-back-home" title="முகப்புக்குத் திரும்பு">
+                        <span>← முகப்புக்குத் திரும்பு (Back to Front Page)</span>
+                      </a>
+                      <div style="display:flex; align-items:center; gap:8px;">
+                        <button class="font-resize-btn" onclick="window.print()" title="அச்சிடுக">🖨️</button>
+                      </div>
+                    </div>
                     <div style='display:flex; align-items:center; gap:8px; margin-bottom:12px;'>
                       <span class='category-tag-badge' style='margin-bottom:0;'>செய்தி</span>
                       <span style='font-size:0.78rem; color:var(--text-muted);'><data:post.timestamp/></span>
                     </div>
-                    <h1 class='single-post-title' style='font-family:var(--font-display); font-size:1.75rem; font-weight:800; line-height:1.35; margin-bottom:16px; color:var(--text-main); text-align:left;'>
+                    <h1 class='article-headline-main'>
                       <data:post.title/>
                     </h1>
                     <b:if cond='data:post.firstImageUrl'>
@@ -2667,7 +2683,7 @@
                         <img expr:src='data:post.firstImageUrl' expr:alt='data:post.title' style='width:100%; max-height:450px; object-fit:cover; border-radius:8px;'/>
                       </div>
                     </b:if>
-                    <div class='single-post-body' style='font-size:1.12rem; line-height:2.0; color:var(--text-main); text-align:left;'>
+                    <div class='article-editorial-body'>
                       <data:post.body/>
                     </div>
                     <div class="share-buttons-row" style='margin-top:24px; padding-top:16px; border-top:1px solid var(--border-color);'>
@@ -2684,22 +2700,24 @@
                 <!-- HOMEPAGE STATIC POSTS VIEW (3-Column Clean Cards with Images) -->
                 <div class='articles-grid-3col' id='bloggerStaticPostsGrid'>
                   <b:loop values='data:posts' var='post'>
-                    <article class='news-grid-card' expr:onclick='"openArticleModalById(" + data:post.id + ")"'>
-                      <b:if cond='data:post.firstImageUrl'>
-                        <div class='card-media-wrap'>
-                          <img expr:src='data:post.firstImageUrl' expr:alt='data:post.title' loading='lazy'/>
+                    <article class='news-grid-card'>
+                      <a expr:href='data:post.url' style='text-decoration:none; color:inherit;'>
+                        <b:if cond='data:post.firstImageUrl'>
+                          <div class='card-media-wrap'>
+                            <img expr:src='data:post.firstImageUrl' expr:alt='data:post.title' loading='lazy'/>
+                          </div>
+                        </b:if>
+                        <div class='card-content-area'>
+                          <span class='category-tag-badge' style='align-self:flex-start;'>செய்தி</span>
+                          <h3 class='card-headline'>
+                            <data:post.title/>
+                          </h3>
+                          <p class='card-snippet'><data:post.snippet/></p>
+                          <div class='card-footer-meta'>
+                            <span><data:post.timestamp/></span>
+                          </div>
                         </div>
-                      </b:if>
-                      <div class='card-content-area'>
-                        <span class='category-tag-badge' style='align-self:flex-start;'>செய்தி</span>
-                        <h3 class='card-headline'>
-                          <a expr:href='data:post.url'><data:post.title/></a>
-                        </h3>
-                        <p class='card-snippet'><data:post.snippet/></p>
-                        <div class='card-footer-meta'>
-                          <span><data:post.timestamp/></span>
-                        </div>
-                      </div>
+                      </a>
                     </article>
                   </b:loop>
                 </div>
@@ -4135,88 +4153,27 @@
     }
 
     function openArticleModalById(id) {
+      const db = window.NEWS_DATABASE || NEWS_DATABASE;
+      let item = null;
+      if (typeof id === 'number') {
+        item = db.find(n => n.id === id);
+      } else if (typeof id === 'string') {
+        item = db.find(n => n.id === parseInt(id, 10) || n.title === id || n.postUrl === id);
+      }
+      if (!item && db && db.length > 0) {
+        item = db[0];
+      }
+      // 1-Click: Open separate dedicated article link directly
+      if (item && item.postUrl) {
+        window.location.href = item.postUrl;
+        return;
+      }
       openFullArticlePage(id);
     }
-
-
 
     function getArticleShareUrl(item) {
       if (!item) return window.location.href;
       return `${window.location.origin}${window.location.pathname}#article-${item.id}`;
-    }
-
-    
-    function openArticleModalById(id) {
-      const item = NEWS_DATABASE.find(n => n.id === id || String(n.id) === String(id)) || NEWS_DATABASE[0];
-      if (!item) return;
-
-      currentActiveArticleId = item.id;
-
-      // Update URL hash without reload so each news has its own shareable link
-      const articleHash = '#article-' + item.id;
-      if (window.location.hash !== articleHash) {
-        try {
-          history.pushState({ articleId: item.id }, '', articleHash);
-        } catch(e) {}
-      }
-
-      const titleEl = document.getElementById('modalArticleTitle');
-      if (titleEl) titleEl.textContent = item.title;
-
-      const catBadge = document.getElementById('modalCategoryBadge');
-      if (catBadge) catBadge.textContent = (CATEGORY_TITLES[item.category] || item.category).toUpperCase();
-
-      const dateBadge = document.getElementById('modalDateBadge');
-      if (dateBadge) dateBadge.textContent = item.date || 'இன்றைய பதிப்பு';
-
-      const bylineEl = document.getElementById('modalAuthorByline');
-      if (bylineEl) {
-        bylineEl.textContent = item.author ? 'ஆசிரியர்: ' + item.author : '';
-        bylineEl.style.display = item.author ? 'block' : 'none';
-      }
-
-      const imgEl = document.getElementById('modalArticleImage');
-      const imgWrap = document.getElementById('modalImageWrap');
-      if (item.image) {
-        if (imgEl) imgEl.src = item.image;
-        if (imgWrap) imgWrap.style.display = 'block';
-      } else {
-        if (imgWrap) imgWrap.style.display = 'none';
-      }
-
-      // Format body paragraphs
-      const pList = (item.body || '').split('\n\n')
-        .map(p => p.trim())
-        .filter(p => p.length > 0);
-
-      let contentHTML = '';
-      if (item.summary) {
-        contentHTML += '<div class="modal-lead-box"><span class="modal-lead-badge">முக்கியச் செய்திச் சுருக்கம்</span><p class="modal-lead-text"><strong>' + item.summary + '</strong></p></div>';
-      }
-
-      contentHTML += '<div class="modal-body-paragraphs">';
-      pList.forEach((p, idx) => {
-        if (idx === 0 && item.summary && (p === item.summary || item.summary.startsWith(p.substring(0, 50)))) {
-          return;
-        }
-        contentHTML += '<p class="modal-p">' + p + '</p>';
-      });
-      contentHTML += '</div>';
-
-      if (item.postUrl) {
-        contentHTML += '<div style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border-color); text-align:right;"><a href="' + item.postUrl + '" target="_blank" class="full-view-btn" style="color:var(--brand-red); font-weight:700; text-decoration:none; font-size:0.9rem;">முழு செய்திப் பக்கத்தில் படிக்க (Open Full Article) →</a></div>';
-      }
-
-      const contentEl = document.getElementById('modalArticleContent');
-      if (contentEl) contentEl.innerHTML = contentHTML;
-
-      const modal = document.getElementById('articleClippingModal');
-      if (modal) {
-        modal.style.display = 'flex';
-        const dialog = modal.querySelector('.article-modal-dialog');
-        if (dialog) dialog.scrollTop = 0;
-      }
-      currentActiveArticleText = item.title + '. ' + item.body;
     }
 
     function closeArticleModal(e) {

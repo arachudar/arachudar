@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T05:43:45.025532+00:00",
-  "count": 398,
+  "last_updated": "2026-11-14T06:47:53.408492+00:00",
+  "count": 403,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2389,6 +2389,36 @@
       "timestamp": "2026-11-14T05:43:45.025522+00:00",
       "url": "https://www.hindutamil.in/news/sports/death-of-spanish-footballer-goalkeeper-handed-12-match-ban",
       "title": "ஸ்பெயின் கால்பந்து வீரர் உயிரிழந்த சம்பவம்: கோல் கீப்பருக்கு 12 போட்டிகளில் விளையாட தடை",
+      "source_id": "hindu_tamil"
+    },
+    "1205512335310279ad9eb297c7e9481d7371e06823ba884caabad5a61c8b06c5": {
+      "timestamp": "2026-11-14T06:47:53.385965+00:00",
+      "url": "https://www.dailythanthi.com/ampstories/photo-story/benefits-of-dates-and-soaked-almonds-on-empty-stomach",
+      "title": "தினமும் காலையில் வெறும் வயிற்றில் பேரீச்சம்பழம் மற்றும் ஊறவைத்த பாதாம் சாப்பிடுவதால் கிடைக்கும் நன்மைகள்",
+      "source_id": "daily_thanthi"
+    },
+    "d514c66457c940daed3a65bd6888eb47a2abd9cce12d14569e437bb05f248516": {
+      "timestamp": "2026-11-14T06:47:53.391979+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/may-our-children-reach-new-heights-in-every-field-edappadi-palaniswami",
+      "title": "நம் குழந்தைகள் ஒவ்வொரு துறையிலும் புதிய சிகரங்களைத் தொடட்டும்: எடப்பாடி பழனிசாமி",
+      "source_id": "daily_thanthi"
+    },
+    "b56226f2b5dbbad5e508ad64a477eb5a73a734faded3950e5ae4335152f3d4d1": {
+      "timestamp": "2026-11-14T06:47:53.397706+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/it-is-laughable-for-the-chief-minister-to-issue-a-call-to-build-a-prosperous-tamil-nadu-ttv-dhinakaran",
+      "title": "வளமிக்க தமிழகத்தை உருவாக்குவோம் என முதல்-அமைச்சர் அறைகூவல் விடுப்பது வேடிக்கையானது! - டிடிவி தினகரன்",
+      "source_id": "daily_thanthi"
+    },
+    "7bb68a74459854d68b31f4f5ea3a5014c2533ba22d29b8bae55d0f5c58b1526d": {
+      "timestamp": "2026-11-14T06:47:53.403222+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tamil-nadu-records-highest-inflation-in-india-at-729-anbumani",
+      "title": "“இந்தியாவிலேயே அதிக பணவீக்கம் தமிழ்நாட்டில்தான்” - அன்புமணி",
+      "source_id": "hindu_tamil"
+    },
+    "032a7f61c7a31fd856768e95e93896d673aeda0b6e81819a9815babf7608acb6": {
+      "timestamp": "2026-11-14T06:47:53.408479+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/mekedatu-issue-stalin-writes-to-chief-minister-vijay-requesting-an-all-party-meeting",
+      "title": "மேகேதாட்டு விவகாரம்: அனைத்துக் கட்சி கூட்டத்தை கூட்ட முதல்வர் விஜய்க்கு ஸ்டாலின் கடிதம்",
       "source_id": "hindu_tamil"
     }
   }

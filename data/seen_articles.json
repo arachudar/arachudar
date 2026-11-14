@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T17:16:35.675686+00:00",
-  "count": 459,
+  "last_updated": "2026-11-14T17:20:40.105589+00:00",
+  "count": 460,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2755,6 +2755,12 @@
       "timestamp": "2026-11-14T17:16:35.675641+00:00",
       "url": "https://www.dailythanthi.com/news/sirappukatturaigal/what-is-the-father-of-all-missiles-and-what-is-the-story-behind-irans-threats-toward-the-united-states",
       "title": "அது என்ன அனைத்து ஏவுகணைகளின் தந்தை... அமெரிக்காவை மிரட்டும் ஈரானின் பின்னணி என்ன?",
+      "source_id": "daily_thanthi"
+    },
+    "52728ba238332726a42cea24d2e09af8c510fcf5ed8705ccada660148e8b011d": {
+      "timestamp": "2026-11-14T17:20:40.105556+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tasmac-scam-red-corner-notice-ratheesh",
+      "title": "டாஸ்மாக் முறைகேடு: ரத்தீஷுக்கு எதிராக ரெட் கார்னர் நோட்டீஸ்",
       "source_id": "daily_thanthi"
     }
   }

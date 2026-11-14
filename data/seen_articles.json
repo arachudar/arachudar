@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T00:43:30.707191+00:00",
-  "count": 373,
+  "last_updated": "2026-11-14T01:54:59.702368+00:00",
+  "count": 378,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2239,6 +2239,36 @@
       "timestamp": "2026-11-14T00:43:30.707180+00:00",
       "url": "https://www.hindutamil.in/news/astrology/nallathey-nadakkum/daily-astrology-196",
       "title": "ஜோதிட நாள்காட்டி 14.11.2026 | ஐப்பசி 28 - சனிக்கிழமை",
+      "source_id": "hindu_tamil"
+    },
+    "d07c6e334faec84df14070e4e8ebb2a9ca08c0a15dd8cef6b82824187ea64814": {
+      "timestamp": "2026-11-14T01:54:59.688868+00:00",
+      "url": "https://www.dailythanthi.com/news/india/93-of-the-worlds-100-most-polluted-cities-are-indian-air-quality-worsens-in-northern-states",
+      "title": "உலகின் மாசுபட்ட 100 நகரங்களில் 93 இந்திய நகரங்கள் - வடமாநிலங்களில் மோசமடைந்த காற்றின் தரம்",
+      "source_id": "daily_thanthi"
+    },
+    "76fe26df9ef5b4e8692c0bd20ac8dc613e7bbfee45b746afac42acc32dd852c5": {
+      "timestamp": "2026-11-14T01:54:59.692862+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/pongal-festival-train-ticket-booking-begins-today",
+      "title": "பொங்கல் பண்டிகை: ரெயில் டிக்கெட் முன்பதிவு தொடக்கம்- தேதி வாரியாக விவரம்",
+      "source_id": "daily_thanthi"
+    },
+    "2951163bae8480606bf5bd44d1d417d86744ad9c317dda36ab5e1e595562442f": {
+      "timestamp": "2026-11-14T01:54:59.696155+00:00",
+      "url": "https://www.dailythanthi.com/ampstories/photo-story/actress-vani-bojan-latest-clicks-2",
+      "title": "நடிகை வாணி போஜனின் லேட்டஸ்ட் கிளிக்ஸ்..!",
+      "source_id": "daily_thanthi"
+    },
+    "55bd0c1673465743fc3745120e3eb00e1b74835fb094d5baa95d029e788842e4": {
+      "timestamp": "2026-11-14T01:54:59.699238+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/govt-order-issued-to-increase-the-consolidated-pay-of-honorary-lecturers-in-govt-colleges",
+      "title": "அரசு கல்லூரி கவுரவ விரிவுரையாளர் தொகுப்பூதியத்தை உயர்த்தி அரசாணை",
+      "source_id": "hindu_tamil"
+    },
+    "8d5cb199590a74ef568d255ac532f2d1086b21900bf62db0138479a3c603967d": {
+      "timestamp": "2026-11-14T01:54:59.702361+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/nainar-nagendran-clarifies-is-the-bjp-maintaining-a-cordial-relationship-with-dmk-in-tn",
+      "title": "தமிழகத்தில் திமுகவுடன் பாஜக இணக்கமாக செல்கிறதா? - நயினார் நாகேந்திரன் விளக்கம்",
       "source_id": "hindu_tamil"
     }
   }

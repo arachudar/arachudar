@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T18:32:19.829799+00:00",
-  "count": 465,
+  "last_updated": "2026-11-14T19:24:30.532327+00:00",
+  "count": 466,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2792,6 +2792,12 @@
       "url": "https://www.vikatan.com/spiritual/temples/sabarimala-insurance-cover-of-rs-2-lakh-for-devotees-facility-to-have-aravana-sent-via-post",
       "title": "சபரிமலை: பக்தர்களுக்கு ரூ.2 லட்சம் இலவச காப்பீடு; தபால் மூலம் அரவணை அனுப்பவும் வசதி",
       "source_id": "vikatan"
+    },
+    "c4bf7a51b769bc7c83f2660542eaedc827fa00df88f2c868c41b308a932cae73": {
+      "timestamp": "2026-11-14T19:24:30.532297+00:00",
+      "url": "https://www.dailythanthi.com/news/india/surplus-returns-to-the-global-oil-market",
+      "title": "உலக எண்ணெய் சந்தையில் மீண்டும் உபரி நிலை",
+      "source_id": "daily_thanthi"
     }
   }
 }

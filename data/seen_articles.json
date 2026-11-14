@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-13T23:34:28.863412+00:00",
-  "count": 368,
+  "last_updated": "2026-11-14T00:43:30.707191+00:00",
+  "count": 373,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2210,6 +2210,36 @@
       "url": "https://www.maalaimalar.com/news/national/kangana-ranaut-faces-police-case-over-mysterious-foreigner-x-post-on-sonia-gandhi",
       "title": "சமூக வலைதளத்தில் அவதூறு பதிவு: கங்கனா ரனாவத் மீது வழக்குப் பதிவு",
       "source_id": "maalai_malar"
+    },
+    "d3a9e4dbcf33940a66a98556063e85642a502b2c70d2e1593af8c8b6d5c235a2": {
+      "timestamp": "2026-11-14T00:43:30.686475+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/we-will-not-allow-the-construction-of-the-mekedatu-dam-minister-nirmalkumar-is-firm",
+      "title": "மேகதாது அணையை கட்ட விடமாட்டோம்; அமைச்சர் நிர்மல்குமார் திட்டவட்டம்",
+      "source_id": "daily_thanthi"
+    },
+    "2fd9c147e56a2b47479288ab0431c66fad648a1a36a637aa181d517c406bacdc": {
+      "timestamp": "2026-11-14T00:43:30.692349+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/kanda-sashti-festival-special-train-to-operate-between-chennai-and-tiruchendur-today",
+      "title": "கந்தசஷ்டி விழா: சென்னை- திருச்செந்தூர் இடையே இன்று சிறப்பு ரெயில் இயக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "4379cb836f362156cbecb5616b80720738ffcb3c35bc243ea4fa95d990afba0a": {
+      "timestamp": "2026-11-14T00:43:30.697546+00:00",
+      "url": "https://www.dailythanthi.com/astrology/today-rasi-palan/today-rasi-palan-in-tamil-november-14-2026",
+      "title": "நண்பர்களின் உதவியால் ஒரு முக்கியமான காரியம் நிறைவேறும்: இன்றைய ராசிபலன் - நவம்பர் 14, 2026",
+      "source_id": "daily_thanthi"
+    },
+    "1c43f080e17aa51998247f0fb4607fe29f08c4ded968463b552ec589df025d87": {
+      "timestamp": "2026-11-14T00:43:30.702420+00:00",
+      "url": "https://www.hindutamil.in/news/astrology/daily-horoscope/daily-horoscope-296",
+      "title": "மேஷம் முதல் மீனம் வரை: இன்றைய ராசிபலன் 14 நவம்பர் 2026",
+      "source_id": "hindu_tamil"
+    },
+    "1a4fc49b134a1114c9cb3ee2c82cc2a696ecb46205fbcb90bb6e2202142c5643": {
+      "timestamp": "2026-11-14T00:43:30.707180+00:00",
+      "url": "https://www.hindutamil.in/news/astrology/nallathey-nadakkum/daily-astrology-196",
+      "title": "ஜோதிட நாள்காட்டி 14.11.2026 | ஐப்பசி 28 - சனிக்கிழமை",
+      "source_id": "hindu_tamil"
     }
   }
 }

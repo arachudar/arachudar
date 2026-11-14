@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T18:01:44.949768+00:00",
-  "count": 463,
+  "last_updated": "2026-11-14T18:29:23.213129+00:00",
+  "count": 464,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2780,6 +2780,12 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40eXgtb3lxWE1ONUlfNHNvTXliN25QMUI1a2dqV3prX19VS2h1TTA0WDNGdUQ0eGVqbmxhRjZHRTdsNjJFTl9UTm1nRmtpd1B3clFWbTBfUFpJeWll0gFiQVVfeXFMT3hVRU92MlJ6dnNBaDJUejBSNDUwLUQxY1VaV2V3YXgySWlXeXRUUERXZ1NUYXNsR0pWY3dIZFQ2SmdFVmpSNVdUbUdCM2NJeWtLUkFheGloWXJIeDlsWjc3bGc?oc=5",
       "title": "கள்ளக்குறிச்சி: தவெக எம்எல்ஏ அருள் விக்னேஷ் - பெண் ஐஏஎஸ் அதிகாரி விவகாரத்தில் இதுவரை என்ன நடந்தது? ஒரு தொகுப்பு - BBC",
       "source_id": "google_news_tamil"
+    },
+    "c9d0b4a1ee9cdccf37c76b209d5b420afbad9d14351053613264fcbe9eef04e7": {
+      "timestamp": "2026-11-14T18:29:23.213101+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cjr4glrg4p4yo?at_medium=RSS&at_campaign=rss",
+      "title": "மதுரை நகைக்கடை கொள்ளை வழக்கில் பிரபல யூடியூபர் கைது - கொள்ளை போன தங்க, வைர நகைகள் எவ்வளவு? புதிய தகவல்",
+      "source_id": "bbc_tamil"
     }
   }
 }

@@ -2159,7 +2159,7 @@
   <div class="top-bar">
     <div class="container">
       <div class="top-bar-left">
-        <span class="top-bar-item" id="currentDateDisplay">புதன், 11 நவம்பர் 2026</span>
+        <span class="top-bar-item" id="currentDateDisplay"></span>
         <span class="top-bar-item">|</span>
         <span class="top-bar-item" style="font-weight:700;">சென்னை முதன்மை பதிப்பு</span>
         <span class="top-bar-item">|</span>
@@ -2359,74 +2359,40 @@
   <section class="hero-news-showcase" id="heroNewsShowcaseSection">
     <div class="container">
       <div class="hero-layout-grid">
-        <!-- Lead Headline Card -->
-        <article class="lead-news-card" onclick="navigateToArticle(1)">
+        <!-- Dynamic Lead Headline Card -->
+        <article class="lead-news-card" id="leadNewsCard" onclick="openArticleModalById(1)">
           <div class="lead-news-image-wrap">
-            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&auto=format&fit=crop" alt="இன்றைய தலைமைச் செய்தி" />
+            <img id="leadHeroImg" src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&amp;auto=format&amp;fit=crop" alt="இன்றைய தலைமைச் செய்தி" />
           </div>
           <div class="lead-content-overlay">
-            <span class="category-tag-badge" style="background:var(--brand-red); font-size:0.72rem; padding:3px 9px; font-weight:800; letter-spacing:0.04em;">தலைமைச் செய்தி • LEAD STORY</span>
-            <h1 class="lead-headline">துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை</h1>
-            <p class="lead-summary">தமிழகத்தில் துவரம் பருப்பு மற்றும் உளுந்து இருப்பு நிலவரத்தை நிர்வகிக்க மத்திய அரசு புதிய கட்டுப்பாடுகளை ஒப்புதல் அளித்துள்ளது.</p>
-            <div class="meta-byline-strip">
+            <span class="category-tag-badge" id="leadHeroBadge" style="background:var(--brand-red); font-size:0.72rem; padding:3px 9px; font-weight:800; letter-spacing:0.04em;">தலைமைச் செய்தி • LEAD STORY</span>
+            <h1 class="lead-headline" id="leadHeroTitle">செய்திகள் புதுப்பிக்கப்படுகின்றன...</h1>
+            <p class="lead-summary" id="leadHeroSummary">அறச்சுடர் தமிழ் நாளிதழ்: உடனுக்குடன் உண்மைச் செய்திகள் நேரலையாகப் பெறப்படுகின்றன...</p>
+            <div class="meta-byline-strip" id="leadHeroByline">
               <span>அறச்சுடர் நிருபர் குழு</span>
               <span class="meta-separator">•</span>
-              <span>இன்றைய பதிப்பு</span>
+              <span id="leadHeroDate">இன்றைய பதிப்பு</span>
               <span class="meta-separator">•</span>
               <span>நேரலை</span>
             </div>
           </div>
         </article>
 
-        <!-- Right Stacked 3 Top News Stories -->
-        <div class="hero-side-stack">
-          <article class="side-card-item" onclick="navigateToArticle(4)">
-            <div class="side-card-thumb">
-              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&auto=format&fit=crop" alt="வணிகம்" />
-            </div>
-            <div class="side-card-body">
-              <span class="category-tag-badge" style="align-self:flex-start; font-size:0.65rem;">வணிகம்</span>
-              <h2 class="side-card-title">காவிரி டெல்டா பாசன நிலங்களில் நவீன வேளாண் கட்டமைப்பு: விவசாயிகளுக்கு சிறப்பு நிதி ஒதுக்கீடு</h2>
-              <div class="side-card-meta">இன்றைய பதிப்பு • வணிகப் பிரிவு</div>
-            </div>
-          </article>
-
-          <article class="side-card-item" onclick="navigateToArticle(7)">
-            <div class="side-card-thumb">
-              <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&auto=format&fit=crop" alt="விளையாட்டு" />
-            </div>
-            <div class="side-card-body">
-              <span class="category-tag-badge" style="align-self:flex-start; font-size:0.65rem;">விளையாட்டு</span>
-              <h2 class="side-card-title">நாடாளுமன்ற குளிர்கால கூட்டத்தொடர்: மக்கள் நலன் சார்ந்த முக்கிய மசோதாக்கள் மீது தீவிர விவாதம்</h2>
-              <div class="side-card-meta">இன்றைய பதிப்பு • விளையாட்டு அரங்கம்</div>
-            </div>
-          </article>
-
-          <article class="side-card-item" onclick="navigateToArticle(6)">
-            <div class="side-card-thumb">
-              <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&auto=format&fit=crop" alt="சினிமா" />
-            </div>
-            <div class="side-card-body">
-              <span class="category-tag-badge" style="align-self:flex-start; font-size:0.65rem;">சினிமா</span>
-              <h2 class="side-card-title">தூத்துக்குடி துறைமுகத்தில் பசுமை ஹைட்ரஜன் மையம்: சர்வதேச வர்த்தகத்தில் புதிய மைல்கல்</h2>
-              <div class="side-card-meta">இன்றைய பதிப்பு • திரை உலகம்</div>
-            </div>
-          </article>
+        <!-- Right Stacked 3 Dynamic News Stories -->
+        <div class="hero-side-stack" id="heroSideStack">
+          <!-- Dynamically populated by updateHomepageSlotsFromDatabase() -->
         </div>
       </div>
     </div>
   </section>
 
   <!-- ========================================================
-       6. UPFRONT 3-COLUMN WIRE & TRENDING HUB
-       COLUMN 1: உடனுக்குடன் விரைவுச் செய்திகள் (Fast News Stream)
-       COLUMN 2: டிரெண்டிங் & ஹாட் செய்திகள் (Trending Up News)
-       COLUMN 3: முக்கியச் செய்திகள் அரங்கம் (Main Headline Wire)
+       6. UPFRONT 3-COLUMN WIRE & TRENDING HUB (DYNAMIC)
        ======================================================== -->
   <section class="speed-and-hot-topics-section" id="speedHotTopicsSection">
     <div class="container">
       <div class="speed-hot-grid-3col">
-        <!-- COLUMN 1: LEFT - FAST NEWS STREAM -->
+        <!-- COLUMN 1: LEFT - FAST NEWS STREAM (DYNAMIC) -->
         <div class="speed-col-card">
           <div class="speed-col-header">
             <div class="speed-col-title">
@@ -2435,63 +2401,25 @@
             </div>
             <span style="font-size:0.72rem; color:var(--brand-red); font-weight:800; background:rgba(153,0,0,0.08); padding:2px 8px; border-radius:3px;">லைவ் அப்டேட்ஸ்</span>
           </div>
-          <ul class="fast-news-stream-list">
-            <li class="fast-news-item" onclick="navigateToArticle(2)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">டாஸ்மாக் ஊழியர்களுக்கு மூன்று ஆண்டு சுழற்சி கட்டாய பணியிட மாற்றம் புதிய வழிகாட்டுதல்</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(1)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(10)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">உள்ளாட்சி அமைப்புகளின் நிர்வாக சீர்திருத்தம்: அடிப்படை கட்டமைப்பு மேம்பாட்டுக்கு நிதி பகிர்வு</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(5)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">கோயம்புத்தூரில் புதிய மின்சார வாகன உற்பத்தி மையம்: ₹3,500 கோடி முதலீட்டில் பல்லாயிரம் வேலைவாய்ப்புகள்</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(3)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">தமிழ்நாட்டில் ₹45,000 கோடி புதிய தொழில் முதலீடுகள்: 1 லட்சம் பேருக்கு வேலைவாய்ப்பு உறுதி</div>
-            </li>
+          <ul class="fast-news-stream-list" id="fastNewsStreamList">
+            <!-- Dynamically populated by renderWireColumns() -->
           </ul>
         </div>
 
-        <!-- COLUMN 2: CENTRE - TRENDING UP NEWS -->
-                                                                                                <div class="speed-col-card" style="border-top:3px solid var(--brand-red);">
+        <!-- COLUMN 2: CENTRE - TRENDING UP NEWS (DYNAMIC) -->
+        <div class="speed-col-card" style="border-top:3px solid var(--brand-red);">
           <div class="speed-col-header">
             <div class="speed-col-title" style="color:var(--brand-red);">
               <span>டிரெண்டிங் &amp; ஹாட் செய்திகள் (Trending Up)</span>
             </div>
             <span style="font-size:0.72rem; background:var(--brand-red); color:#fff; padding:2px 8px; border-radius:3px; font-weight:800; letter-spacing:0.04em;">TRENDING</span>
           </div>
-
-          <div class="hot-topic-feature-card" onclick="navigateToArticle(10)">
-            <div class="hot-topic-thumb">
-              <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&auto=format&fit=crop" alt="உள்ளாட்சி அமைப்புகளின் நிர்வாக சீர்திருத்தம்: அடிப்படை கட்டமைப்பு மேம்பாட்டுக்கு நிதி பகிர்வு" />
-              <span class="hot-topic-badge">TRENDING TOPIC</span>
-            </div>
-            <div class="hot-topic-body">
-              <h4 class="hot-topic-title">உள்ளாட்சி அமைப்புகளின் நிர்வாக சீர்திருத்தம்: அடிப்படை கட்டமைப்பு மேம்பாட்டுக்கு நிதி பகிர்வு</h4>
-              <p class="hot-topic-snippet">ஊராட்சி மற்றும் நகராட்சி நிர்வாகங்களை வலுப்படுத்த புதிய நிதி மேலாண்மை நெறிமுறைகளை மாநில நிதி ஆணையம் வெளியீடு.</p>
-            </div>
-          </div>
-
-          <div class="hot-topic-feature-card" onclick="navigateToArticle(4)">
-            <div class="hot-topic-thumb">
-              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&auto=format&fit=crop" alt="காவிரி டெல்டா பாசன நிலங்களில் நவீன வேளாண் கட்டமைப்பு: விவசாயிகளுக்கு சிறப்பு நிதி ஒதுக்கீடு" />
-              <span class="hot-topic-badge">HOT TOPIC</span>
-            </div>
-            <div class="hot-topic-body">
-              <h4 class="hot-topic-title">காவிரி டெல்டா பாசன நிலங்களில் நவீன வேளாண் கட்டமைப்பு: விவசாயிகளுக்கு சிறப்பு நிதி ஒதுக்கீடு</h4>
-              <p class="hot-topic-snippet">தஞ்சாவூர், திருவாரூர் மற்றும் நாகை மாவட்டங்களில் குறைவான நீர் பயன்பாட்டில் கூடுதல் விளைச்சல் தரும் புதிய சாகுபடி முறைகள் அமல்.</p>
-            </div>
+          <div id="hotTopicsContainer">
+            <!-- Dynamically populated by renderWireColumns() -->
           </div>
         </div>
 
-        <!-- COLUMN 3: RIGHT - MAIN HEADLINE WIRE -->
+        <!-- COLUMN 3: RIGHT - MAIN HEADLINE WIRE (DYNAMIC) -->
         <div class="speed-col-card">
           <div class="speed-col-header">
             <div class="speed-col-title">
@@ -2500,27 +2428,8 @@
             </div>
             <span style="font-size:0.72rem; color:var(--text-sub); font-weight:800; background:var(--bg-secondary); padding:2px 8px; border-radius:3px;">முக்கிய நிகழ்வுகள்</span>
           </div>
-          <ul class="fast-news-stream-list">
-            <li class="fast-news-item" onclick="navigateToArticle(1)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">துவரம் பருப்பு, உளுந்து இருப்புக்கு மத்திய அரசின் புதிய கட்டுப்பாடுகள் நடைமுறை</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(3)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">தமிழ்நாட்டில் ₹45,000 கோடி புதிய தொழில் முதலீடுகள்: 1 லட்சம் பேருக்கு வேலைவாய்ப்பு உறுதி</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(6)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">தூத்துக்குடி துறைமுகத்தில் பசுமை ஹைட்ரஜன் மையம்: சர்வதேச வர்த்தகத்தில் புதிய மைல்கல்</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(7)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">நாடாளுமன்ற குளிர்கால கூட்டத்தொடர்: மக்கள் நலன் சார்ந்த முக்கிய மசோதாக்கள் மீது தீவிர விவாதம்</div>
-            </li>
-            <li class="fast-news-item" onclick="navigateToArticle(9)">
-              <div class="fast-news-time-tag">11 நவம்பர் 2026</div>
-              <div class="fast-news-title">தமிழக சட்டப்பேரவை சிறப்புக் கூட்டத்தொடர்: மக்கள் நலத் திட்டங்களுக்கு கூடுதல் நிதி ஒதுக்கீடு ஒப்புதல்</div>
-            </li>
+          <ul class="fast-news-stream-list" id="mainHeadlineWireList">
+            <!-- Dynamically populated by renderWireColumns() -->
           </ul>
         </div>
       </div>
@@ -3905,7 +3814,54 @@
       renderCategoryFeed(cat, sub);
     }
 
-                                                function updateHomepageSlotsFromDatabase() {
+                                                function renderWireColumns() {
+      const col1 = document.getElementById('fastNewsStreamList');
+      const col2 = document.getElementById('hotTopicsContainer');
+      const col3 = document.getElementById('mainHeadlineWireList');
+
+      if (!NEWS_DATABASE || NEWS_DATABASE.length === 0) return;
+
+      // 1. Column 1: Fast News Stream (items 0 to 5)
+      if (col1) {
+        const items = NEWS_DATABASE.slice(0, 5);
+        col1.innerHTML = items.map(item => `
+          <li class="fast-news-item" onclick="openArticleModalById(${item.id})">
+            <div class="fast-news-time-tag">${item.date || 'இன்று'} • ${CATEGORY_TITLES[item.category] || item.category}</div>
+            <div class="fast-news-title">${item.title}</div>
+          </li>
+        `).join('');
+      }
+
+      // 2. Column 2: Trending & Hot Topics (items 1 and 2)
+      if (col2) {
+        const items = (NEWS_DATABASE.length > 2) ? NEWS_DATABASE.slice(1, 3) : NEWS_DATABASE.slice(0, 2);
+        col2.innerHTML = items.map((item, idx) => `
+          <div class="hot-topic-feature-card" onclick="openArticleModalById(${item.id})">
+            <div class="hot-topic-thumb">
+              <img src="${item.image}" alt="${item.title}" loading="lazy" />
+              <span class="hot-topic-badge">${idx === 0 ? 'TRENDING TOPIC' : 'HOT TOPIC'}</span>
+            </div>
+            <div class="hot-topic-body">
+              <h4 class="hot-topic-title">${item.title}</h4>
+              <p class="hot-topic-snippet">${item.summary}</p>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // 3. Column 3: Main Headline Wire (items 3 to 7)
+      if (col3) {
+        const items = (NEWS_DATABASE.length > 3) ? NEWS_DATABASE.slice(3, 8) : NEWS_DATABASE.slice(0, 5);
+        col3.innerHTML = items.map(item => `
+          <li class="fast-news-item" onclick="openArticleModalById(${item.id})">
+            <div class="fast-news-time-tag">${item.date || 'இன்று'} • ${CATEGORY_TITLES[item.category] || item.category}</div>
+            <div class="fast-news-title">${item.title}</div>
+          </li>
+        `).join('');
+      }
+    }
+
+    function updateHomepageSlotsFromDatabase() {
       if (!NEWS_DATABASE || NEWS_DATABASE.length === 0) return;
 
       // 1. Lead card
@@ -3917,34 +3873,39 @@
         const p = leadCard.querySelector('.lead-summary');
         const img = leadCard.querySelector('img');
         const cat = leadCard.querySelector('.category-tag-badge');
+        const byline = leadCard.querySelector('#leadHeroDate');
         if (h1 && p1.title) h1.textContent = p1.title;
         if (p && p1.summary) p.textContent = p1.summary;
         if (img && p1.image) img.src = p1.image;
-        if (cat && p1.category) cat.textContent = (CATEGORY_TITLES[p1.category] || p1.category) + ' • தலைமைச் செய்தி';
+        if (cat) cat.textContent = (CATEGORY_TITLES[p1.category] || p1.category) + ' • தலைமைச் செய்தி • LEAD STORY';
+        if (byline) byline.textContent = p1.date || 'இன்றைய பதிப்பு';
       }
 
       // 2. Side cards
-      const sideCards = document.querySelectorAll('.side-card-item');
-      const sideCandidates = NEWS_DATABASE.slice(1, 4);
-      sideCards.forEach((card, idx) => {
-        const item = sideCandidates[idx];
-        if (item) {
-          card.setAttribute('onclick', `openArticleModalById(${item.id})`);
-          const img = card.querySelector('img');
-          const title = card.querySelector('.side-card-title');
-          const cat = card.querySelector('.category-tag-badge');
-          if (img && item.image) img.src = item.image;
-          if (title && item.title) title.textContent = item.title;
-          if (cat && item.category) cat.textContent = CATEGORY_TITLES[item.category] || item.category;
-        }
-      });
-
-      // 3. Dynamically populate ticker with all flash headlines
-      const flashItems = NEWS_DATABASE.filter(n => n.isFlash);
-      if (flashItems.length > 0) {
-        tickerItems = flashItems.slice(0, 15);
-        initTicker();
+      const stack = document.getElementById('heroSideStack');
+      if (stack) {
+        const sideItems = (NEWS_DATABASE.length > 1) ? NEWS_DATABASE.slice(1, 4) : [p1, p1, p1].slice(0, 3);
+        stack.innerHTML = sideItems.map(item => `
+          <article class="side-card-item" onclick="openArticleModalById(${item.id})">
+            <div class="side-card-thumb">
+              <img src="${item.image}" alt="${item.title}" loading="lazy" />
+            </div>
+            <div class="side-card-body">
+              <span class="category-tag-badge" style="align-self:flex-start; font-size:0.65rem;">${CATEGORY_TITLES[item.category] || item.category}</span>
+              <h2 class="side-card-title">${item.title}</h2>
+              <div class="side-card-meta">${item.date || 'இன்றைய பதிப்பு'} • ${CATEGORY_TITLES[item.category] || item.category}</div>
+            </div>
+          </article>
+        `).join('');
       }
+
+      // 3. Render 3 Wire Columns
+      renderWireColumns();
+
+      // 4. Dynamically populate ticker
+      const flashItems = NEWS_DATABASE.filter(n => n.isFlash);
+      tickerItems = (flashItems.length > 0) ? flashItems.slice(0, 15) : NEWS_DATABASE.slice(0, 8);
+      initTicker();
     }
 
                                     function renderHomeFeed() {

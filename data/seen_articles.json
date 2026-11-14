@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T01:54:59.702368+00:00",
-  "count": 378,
+  "last_updated": "2026-11-14T02:42:42.414952+00:00",
+  "count": 383,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2270,6 +2270,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/nainar-nagendran-clarifies-is-the-bjp-maintaining-a-cordial-relationship-with-dmk-in-tn",
       "title": "தமிழகத்தில் திமுகவுடன் பாஜக இணக்கமாக செல்கிறதா? - நயினார் நாகேந்திரன் விளக்கம்",
       "source_id": "hindu_tamil"
+    },
+    "db3f325297d7cb8b559af1c4cdbb87e8553aa79a89a2df1a9137854840cdeea9": {
+      "timestamp": "2026-11-14T02:42:42.397831+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/private-company-employee-hacked-to-death-youth-seeks-revenge-for-sisters-death",
+      "title": "தனியார் நிறுவன ஊழியர் வெட்டிக்கொலை: தங்கையின் சாவுக்கு பழி தீர்த்த வாலிபர்",
+      "source_id": "daily_thanthi"
+    },
+    "1e0f88558806a09f1f9ff4a9a4fad66adba187dfb5fb9ba83f78f28d8c0ddc4d": {
+      "timestamp": "2026-11-14T02:42:42.402612+00:00",
+      "url": "https://www.dailythanthi.com/news/world/ukraine-launches-attack-on-russia-with-thousands-of-drones-will-peace-talks-continue",
+      "title": "ரஷியா மீது ஆயிரக்கணக்கான டிரோன்களை வீசி உக்ரைன் தாக்குதல்: அமைதி பேச்சுவார்த்தை நீடிக்குமா?",
+      "source_id": "daily_thanthi"
+    },
+    "7cbc449e8be76f95e1a179418b9d6e06d3ab17b780dfe9f8dd4d99af3ce9cabc": {
+      "timestamp": "2026-11-14T02:42:42.407016+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/childrens-day-dmk-leader-mk-stalin-extends-wishes",
+      "title": "குழந்தைகள் தினம்: திமுக தலைவர் மு.க.ஸ்டாலின் வாழ்த்து",
+      "source_id": "daily_thanthi"
+    },
+    "834929b69f7059c0ef1a2ab1921e77d9abfc56fda80209ec92c0dd2b12234c72": {
+      "timestamp": "2026-11-14T02:42:42.410958+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tn-govt-imposes-restrictions-on-stocking-of-rice-and-pulses",
+      "title": "அரிசி, பருப்பு வகைகளை இருப்பு வைக்க தமிழக அரசு கட்டுப்பாடு",
+      "source_id": "hindu_tamil"
+    },
+    "6fc5dcc4f3e706d637988354006dc8d3fce93d1fad3c435d1c625468f3b88468": {
+      "timestamp": "2026-11-14T02:42:42.414941+00:00",
+      "url": "https://www.dinamani.com/health/2026/Nov/14/to-live-healthily-with-diabetes",
+      "title": "சா்க்கரை நோயுடன் ஆரோக்கியமாக வாழ...",
+      "source_id": "dinamani"
     }
   }
 }

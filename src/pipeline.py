@@ -34,8 +34,21 @@ logging.basicConfig(
 )
 logger = logging.getLogger("arachudar.pipeline")
 
+# Load local .env if present
+_env_path = Path(".env")
+if _env_path.exists():
+    try:
+        with open(_env_path, "r", encoding="utf-8") as _ef:
+            for _line in _ef:
+                _line = _line.strip()
+                if _line and not _line.startswith("#") and "=" in _line:
+                    _k, _v = _line.split("=", 1)
+                    os.environ.setdefault(_k.strip(), _v.strip().strip("'\""))
+    except Exception:
+        pass
+
 # Default fallback NVIDIA API Key from user configuration
-DEFAULT_NVIDIA_API_KEY = "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"
+DEFAULT_NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY", "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")
 
 TAMIL_MONTHS = {
     1: "ஜனவரி", 2: "பிப்ரவரி", 3: "மார்ச்", 4: "ஏப்ரல்",
@@ -170,8 +183,9 @@ def run_pipeline(
         logger.debug(f"Social hooks status for '{proc.title[:30]}': {social_status}")
 
     # 7. Mark articles as seen
-    for raw in unseen_articles:
-        deduplicator.mark_seen(raw)
+    if not dry_run:
+        for raw in unseen_articles:
+            deduplicator.mark_seen(raw)
 
     logger.info("=======================================================")
     logger.info("   அனைத்து பணிகளும் வெற்றிகரமாக முடிவடைந்தன! (Completed!)")

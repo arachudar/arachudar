@@ -7,6 +7,7 @@ with automatic model failover, exponential backoff, and TokenBucketRateLimiter p
 import logging
 import os
 import random
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import requests
@@ -15,8 +16,21 @@ from src.ai.rate_limiter import TokenBucketRateLimiter
 
 logger = logging.getLogger(__name__)
 
+# Load local .env if present
+_env_path = Path(".env")
+if _env_path.exists():
+    try:
+        with open(_env_path, "r", encoding="utf-8") as _ef:
+            for _line in _ef:
+                _line = _line.strip()
+                if _line and not _line.startswith("#") and "=" in _line:
+                    _k, _v = _line.split("=", 1)
+                    os.environ.setdefault(_k.strip(), _v.strip().strip("'\""))
+    except Exception:
+        pass
+
 # Default API configuration
-DEFAULT_NVIDIA_API_KEY = "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"
+DEFAULT_NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY", "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")
 DEFAULT_NVIDIA_ENDPOINT = "https://integrate.api.nvidia.com/v1/chat/completions"
 DEFAULT_PRIMARY_MODEL = "nvidia/nemotron-3.5-bolt-e4b"
 DEFAULT_FALLBACK_MODEL = "nvidia/nemotron-3.5-super-vl-120b-a12b"

@@ -39,6 +39,14 @@ htmlcov/
 # Local Secrets (Live secrets injected via GitHub Actions Secrets)
 client_secrets.json
 blogger_token.json
+.env
+.julius/
+blog_analysis_report.json
+AutoCAD_Mac_Keyboard_Shortcuts_Guide.md
+AutoCad_Questions.pdf
+scripts/build_autocad_manual.py
+scripts/analyze_blog.py
+extracted_images/
 
 # Internal agent logs / working notes
 .agents/

@@ -53,6 +53,9 @@ jobs:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID || secrets.BLOGGER_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET || secrets.BLOGGER_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN || secrets.BLOGGER_REFRESH_TOKEN }}
         run: |
           EXTRA_ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then
@@ -68,7 +71,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add tamil-news-blogger.html blogger-theme.xml arachudar-blogger-import.xml data/seen_articles.json
+          git add tamil-news-blogger.html blogger-theme.xml arachudar-blogger-import.xml data/seen_articles.json _posts/ .blog-cache/
           git commit -m "Automated news update [skip ci]" || echo "No changes"
           git pull --rebase origin main || true
           git push

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T18:29:23.213129+00:00",
-  "count": 464,
+  "last_updated": "2026-11-14T18:32:19.829799+00:00",
+  "count": 465,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2786,6 +2786,12 @@
       "url": "https://www.bbc.com/tamil/articles/cjr4glrg4p4yo?at_medium=RSS&at_campaign=rss",
       "title": "மதுரை நகைக்கடை கொள்ளை வழக்கில் பிரபல யூடியூபர் கைது - கொள்ளை போன தங்க, வைர நகைகள் எவ்வளவு? புதிய தகவல்",
       "source_id": "bbc_tamil"
+    },
+    "4074123643f517b9d28d5a99eec3b5d7c76acae3555f53f995466a3582c084e1": {
+      "timestamp": "2026-11-14T18:32:19.829770+00:00",
+      "url": "https://www.vikatan.com/spiritual/temples/sabarimala-insurance-cover-of-rs-2-lakh-for-devotees-facility-to-have-aravana-sent-via-post",
+      "title": "சபரிமலை: பக்தர்களுக்கு ரூ.2 லட்சம் இலவச காப்பீடு; தபால் மூலம் அரவணை அனுப்பவும் வசதி",
+      "source_id": "vikatan"
     }
   }
 }

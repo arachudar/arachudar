@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T14:21:26.147254+00:00",
-  "count": 438,
+  "last_updated": "2026-11-14T14:37:07.403818+00:00",
+  "count": 443,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2630,6 +2630,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/anbazhagan-says-conflict-between-puducherry-govt-and-lg-is-a-misconception",
       "title": "“புதுச்சேரி அரசுக்கும், ஆளுநருக்கும் மோதல் போக்கு என்பது தவறான கருத்து” - அன்பழகன்",
       "source_id": "hindu_tamil"
+    },
+    "8b87eb7d88d2018fada3149b34945359a10b0b726c9a17fdb8109c8beb49def4": {
+      "timestamp": "2026-11-14T14:37:07.380122+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chennai-development-project-works-corporation-commissioner-gs-sameeran-inspects",
+      "title": "சென்னை வளர்ச்சித் திட்டப் பணிகள்: மாநகராட்சி ஆணையர் ஜி.எஸ்.சமீரன் ஆய்வு",
+      "source_id": "daily_thanthi"
+    },
+    "d3f79d5020d8995a1158e7c7007dfa65c5a93fca75b76ad5ce963a668264b107": {
+      "timestamp": "2026-11-14T14:37:07.386381+00:00",
+      "url": "https://www.dailythanthi.com/news/world/macrons-warm-hug-meets-iceland-pms-cold-shoulder",
+      "title": "உலகத் தலைவர்கள் முன்னிலையில் பெண் பிரதமரை கட்டிப்பிடிக்க முயன்ற பிரான்ஸ் அதிபர்",
+      "source_id": "daily_thanthi"
+    },
+    "3f582fef978187b5faaf9dce0b6c009ae40aa89397c4558bf23f7496f4b589f4": {
+      "timestamp": "2026-11-14T14:37:07.392484+00:00",
+      "url": "https://www.hindutamil.in/news/india/democracy-was-destroyed-in-india-in-2014-rahul-gandhi-allegations-at-the-bharat-summit",
+      "title": "“ஓங்கி ஒலிக்கும் பாசிஸ்டுகளின் குரல்...” - பாரத் உச்சி மாநாட்டில் ராகுல் காந்தி பேச்சு",
+      "source_id": "hindu_tamil"
+    },
+    "d9ee8c0c854ac4e80044cddda34449279f46c57a60385e7a4c48ff463862d455": {
+      "timestamp": "2026-11-14T14:37:07.398344+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/14/they-have-deliberately-registered-a-false-case-against-me-former-minister-ev-velu",
+      "title": "என் மீது திட்டமிட்டுப் பொய்யான வழக்கைப் பதிவு செய்துள்ளனர்: முன்னாள் அமைச்சர் எ.வ. வேலு",
+      "source_id": "dinamani"
+    },
+    "94ade944b3c2aa43534b560a849fe8367b89b1cea0686fed042ba62bda813483": {
+      "timestamp": "2026-11-14T14:37:07.403807+00:00",
+      "url": "https://www.dinamani.com/visual-stories/2026/Nov/14/gemini-lovers-know-rahu-and-ketu-transit-benefits",
+      "title": "மிதுன ராசி நேயர்களே! ராகு, கேது பெயர்ச்சி பலன்களைத் தெரிந்துகொள்ளுங்கள்!",
+      "source_id": "dinamani"
     }
   }
 }

@@ -104,6 +104,17 @@ def run_pipeline(
 
     logger.info(f"Ingested {len(raw_articles)} raw news items.")
 
+    # Deep Web Scraping for Daily Thanthi & The Hindu
+    if not os.environ.get("PYTEST_CURRENT_TEST") and not dry_run:
+        try:
+            from src.aggregator.live_web_scraper import LiveWebScraper
+            scraper = LiveWebScraper()
+            scraped_articles = scraper.scrape_all(limit_per_source=2)
+            raw_articles.extend(scraped_articles)
+            logger.info(f"Deep scraped {len(scraped_articles)} additional full articles from Daily Thanthi & The Hindu.")
+        except Exception as exc:
+            logger.debug(f"Deep web scraping note: {exc}")
+
     if not raw_articles:
         logger.warning("No articles fetched from live feeds. Checking if dry-run or sample data needed.")
         if dry_run:

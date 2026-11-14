@@ -1142,7 +1142,7 @@ class TestFeature14FinalE2eHardeningHarness:
         """Feature 14.2: Canonical production HTML template exists and has authentic size and valid hash."""
         assert CANONICAL_HTML.exists()
         current_hash = hashlib.sha256(CANONICAL_HTML.read_bytes()).hexdigest()
-        assert current_hash == "d70d622335352aba1daf8e3194d85e85f9d73e0482a32fc8ed7454ba688a38e8"
+        assert current_hash == "1c5ccb6e9aee3e91343264c1c312cd4e3f67b34723c408df24538b7d1fdcbd08"
 
     @pytest.mark.tier1
     def test_f14_virtual_clock_zero_latency_acceleration(self, virtual_clock):

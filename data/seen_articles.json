@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T09:39:10.123628+00:00",
-  "count": 418,
+  "last_updated": "2026-11-14T10:33:46.147809+00:00",
+  "count": 423,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2510,6 +2510,36 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/ttv-dhinakarans-attack-cm-vijay-over-price-hike-issue",
       "title": "“விலைவாசி உயர்வில் இந்தியாவிலேயே முதலிடம்; தமிழகத்தின் சாதனை இதுதானா?” - டிடிவி தினகரன்",
       "source_id": "hindu_tamil"
+    },
+    "d31bcc5a5991dd45f2fa9dbd49d382d09831e85ebf37c99d41a72d7cdcdf497d": {
+      "timestamp": "2026-11-14T10:33:46.134182+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/sooryavanshi-becomes-youngest-captain-in-mens-t20-cricket-history",
+      "title": "டி20 கிரிக்கெட்டில் இளம் கேப்டன்... 15 வயதில் புதிய உலக சாதனை படைத்த வைபவ் சூர்யவன்ஷி",
+      "source_id": "daily_thanthi"
+    },
+    "f27ea45c80829bc422c8a471c803d08828beedc14ee6de7d1b3ba11e02c45220": {
+      "timestamp": "2026-11-14T10:33:46.138125+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/7-arrested-in-rs-22-crore-fraud-case-in-government-bank-account",
+      "title": "அரசின் வங்கிக்கணக்கில் ரூ.22 கோடி மோசடி செய்த வழக்கு: 7 பேர் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "c043f5474251ae1137b33759841283716fb7ed715e2d91424bcd26810d2a075e": {
+      "timestamp": "2026-11-14T10:33:46.141412+00:00",
+      "url": "https://www.dailythanthi.com/news/world/india-supports-palestinian-sovereignty-un-resolution",
+      "title": "பாலஸ்தீன மக்களுக்கு நிரந்தர இறையாண்மை வழங்கும் தீர்மானத்திற்கு இந்தியா ஆதரவு",
+      "source_id": "daily_thanthi"
+    },
+    "d2a506999cfcd8985037eaf083ed5d88c963fc7550a19c549a8c7c1fbabcaa0c": {
+      "timestamp": "2026-11-14T10:33:46.144607+00:00",
+      "url": "https://www.hindutamil.in/news/india/it-is-my-state-my-right-dk-shivakumar-hits-back-at-tamilnadu-congress-over-mekedatu-dam-row",
+      "title": "“இது எங்கள் மாநிலம்; எங்கள் உரிமை” - மாணிக்கம் தாகூருக்கு டி.கே.சிவகுமார் பதில்",
+      "source_id": "hindu_tamil"
+    },
+    "4df899b70be31dc52992a71fd6e10c1e10263921a70f772d3f59d8edd3121ac1": {
+      "timestamp": "2026-11-14T10:33:46.147802+00:00",
+      "url": "https://www.dinamani.com/visual-stories/2026/Nov/14/finger-stuck-in-the-italian-plate-firefighters-rescued-the-child-safely-cbe",
+      "title": "இட்லி தட்டில் சிக்கிய பிஞ்சு விரல்! குழந்தையை பாதுகாப்பாக மீட்ட தீயணைப்பு வீரர்கள்! | CBE",
+      "source_id": "dinamani"
     }
   }
 }

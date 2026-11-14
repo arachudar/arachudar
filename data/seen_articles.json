@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T10:33:46.147809+00:00",
-  "count": 423,
+  "last_updated": "2026-11-14T11:29:45.278776+00:00",
+  "count": 428,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2540,6 +2540,36 @@
       "url": "https://www.dinamani.com/visual-stories/2026/Nov/14/finger-stuck-in-the-italian-plate-firefighters-rescued-the-child-safely-cbe",
       "title": "இட்லி தட்டில் சிக்கிய பிஞ்சு விரல்! குழந்தையை பாதுகாப்பாக மீட்ட தீயணைப்பு வீரர்கள்! | CBE",
       "source_id": "dinamani"
+    },
+    "88c6306aae044eb43ab7ca7bc485f5f07a58cf4efa8569accdfb96910a1805ed": {
+      "timestamp": "2026-11-14T11:29:45.258611+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/suryakumar-yadav-15-ball-fifty-mumbai-dominates-hyderabad",
+      "title": "சையத் முஷ்டாக் அலி கோப்பை: 15 பந்துகளில் அரைசதம் விளாசிய சூர்யகுமார்... மும்பை அபார வெற்றி",
+      "source_id": "daily_thanthi"
+    },
+    "b396b0b4d3bc4b357ec24300502fa6982317bba337fb642aa39d242d35e795a6": {
+      "timestamp": "2026-11-14T11:29:45.264153+00:00",
+      "url": "https://www.dailythanthi.com/devotional/periya-sesha-vahana-veedithi-ula-at-tirupati-ezhumalaiyan-temple",
+      "title": "திருப்பதி ஏழுமலையான் கோவிலில் பெரிய சேஷ வாகன வீதிஉலா",
+      "source_id": "daily_thanthi"
+    },
+    "1e1b44fa6e835505ef5472674c86619ae1b09422412432e13040025078fac4bf": {
+      "timestamp": "2026-11-14T11:29:45.269275+00:00",
+      "url": "https://www.dailythanthi.com/news/india/daughter-in-law-who-lost-her-husband-at-a-young-age-mother-in-law-who-stood-up-and-remarried",
+      "title": "இளம் வயதில் கணவனை இழந்த மருமகள்; முன்நின்று மறுமணம் செய்து வைத்த மாமியார்",
+      "source_id": "daily_thanthi"
+    },
+    "6cdaddd6dc62300b64921acce5ce8132f90ce246b53f37167fea8dfa38d31b21": {
+      "timestamp": "2026-11-14T11:29:45.274076+00:00",
+      "url": "https://www.hindutamil.in/news/supplements/hindu-talkies/hive-must-watch-war-movie-explained-in-tamil",
+      "title": "Hive: போருக்குப் பின்னாலும் போரிடும் பெண்கள் | சினிமாவும் அரசியலும் 57",
+      "source_id": "hindu_tamil"
+    },
+    "56e9f0f19ed3a2a37ce292b3fc9c566d6f1017e377e7839911053fb8fdce8fda": {
+      "timestamp": "2026-11-14T11:29:45.278767+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/tamil-cinema/suriya-thanks-to-tovino-thomas-for-scene-cameo",
+      "title": "“வார்த்தைகளால் விவரிக்க முடியாது...” - டோவினோ தாமஸுக்கு சூர்யா நன்றி",
+      "source_id": "hindu_tamil"
     }
   }
 }

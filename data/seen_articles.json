@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T21:27:54.076165+00:00",
-  "count": 469,
+  "last_updated": "2026-11-14T22:14:40.371694+00:00",
+  "count": 470,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2816,6 +2816,12 @@
       "url": "https://tamil.oneindia.com/cinema/amala-shaji-rose-to-fame-on-instagram-now-she-s-a-heroine-paired-with-vikram-prabhu-guess-which-827939.html",
       "title": "இன்ஸ்டாகிராமில் கலக்கிய அமலா ஷாஜி.. இப்ப ஹீரோயின்.. அதுவும் விக்ரம் பிரபுவுடன்.. என்ன படம் தெரியுமா?",
       "source_id": "oneindia_tamil"
+    },
+    "9e27faa171de3cfcab36660254828525fc72aafb3a042875fb5123498e18c563": {
+      "timestamp": "2026-11-14T22:14:40.371668+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-government-takes-steps-to-procure-3000-mw-of-electricity-for-5-years",
+      "title": "5 ஆண்டுகளுக்கு 3 ஆயிரம் மெகாவாட் மின்சாரம் கொள்முதல்: தமிழக அரசு நடவடிக்கை",
+      "source_id": "daily_thanthi"
     }
   }
 }

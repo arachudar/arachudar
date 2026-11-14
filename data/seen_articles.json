@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T03:42:52.605162+00:00",
-  "count": 388,
+  "last_updated": "2026-11-14T04:49:37.461326+00:00",
+  "count": 393,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2329,6 +2329,36 @@
       "timestamp": "2026-11-14T03:42:52.605151+00:00",
       "url": "https://www.dinamalar.com/news/latest-tamil-news/did-udhayanidhi-drink-baltai-minister-nirmal-kumar-takes-a-jibe/4375818",
       "title": "உதயநிதி 'பால்டாயில்' குடித்தாரா?: அமைச்சர் நிர்மல்குமார் கிண்டல்",
+      "source_id": "dinamalar"
+    },
+    "46fd9654d2b5b1bb3323a3494f7171045e1cece7535449f73ce92d6e77bdc868": {
+      "timestamp": "2026-11-14T04:49:37.446328+00:00",
+      "url": "https://www.dailythanthi.com/business/gold-rate-chennai/a-jackpot-for-homemakers-the-perfect-time-to-buy-goldwhats-the-situation-today",
+      "title": "இல்லத்தரசிகளுக்கு ஜாக்பாட்: தங்கம் வாங்க சரியான நேரம்..இன்றைய நிலவரம் என்ன..?",
+      "source_id": "daily_thanthi"
+    },
+    "8559770eea04e4940bcb923df4ad6f7e473e90d060334efd2d5f6c51cfd78f49": {
+      "timestamp": "2026-11-14T04:49:37.450427+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/lorry-driver-dies-by-suicide-at-a-police-station-near-madurai-cb-cid-inquiry-ordered",
+      "title": "மதுரை காவல் நிலையத்தில் விசாரணைக்கு அழைத்து வரப்பட்ட  லாரி டிரைவர் விபரீத முடிவு",
+      "source_id": "daily_thanthi"
+    },
+    "f8e647d415ca0fb8469f695226e91b1ca5d6529bae9be312836f6c2b565a7488": {
+      "timestamp": "2026-11-14T04:49:37.454287+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-government-orders-restrictions-on-rice-pulses-and-sugar-stocks",
+      "title": "அரிசி, பருப்பு, சர்க்கரை இருப்புக்கு கட்டுப்பாடு விதித்து தமிழக அரசு உத்தரவு!",
+      "source_id": "daily_thanthi"
+    },
+    "68271974584d252d793414ea50e07b9c47170628e63429d2576c085b2c8bd7a1": {
+      "timestamp": "2026-11-14T04:49:37.457882+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/the-name-of-the-new-storm-is-akvan/4375683",
+      "title": "புதிய புயலின் பெயர் அக்வான்! திருவள்ளூரை நோக்கி வர வாய்ப்பு",
+      "source_id": "dinamalar"
+    },
+    "0917d224ccbc509db77026412b6f7c22419fc7a663f10e4ec57335cf2bf7972f": {
+      "timestamp": "2026-11-14T04:49:37.461316+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/air-force-officer-caught-spying-on-pak-woman-for-porn-shares-war-secrets/4375676",
+      "title": "ஆபாச படத்துக்கு ஆசைபட்டு போர் ரகசியங்கள் பகிர்வு; பாக்., பெண் உளவாளியிடம் சிக்கிய விமான படை அதிகாரி",
       "source_id": "dinamalar"
     }
   }

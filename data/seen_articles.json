@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T08:43:33.981826+00:00",
-  "count": 413,
+  "last_updated": "2026-11-14T09:39:10.123628+00:00",
+  "count": 418,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2479,6 +2479,36 @@
       "timestamp": "2026-11-14T08:43:33.981810+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/aiadmk-members-devise-strategy-to-defeat-vijayabaskar-in-by-election",
       "title": "விராலிமலை இடைத்தேர்தலில் விஜயபாஸ்கரை தோற்கடிக்க அதிமுகவினர் வியூகம்",
+      "source_id": "hindu_tamil"
+    },
+    "5fe7f2e7e05d217b0bc604971d179d6a9b7bf72ee249bb69781a5ef4c86949b6": {
+      "timestamp": "2026-11-14T09:39:10.107568+00:00",
+      "url": "https://www.dailythanthi.com/news/india/megedatu-dam-to-provide-water-to-tamil-nadu-dk-sivakumar",
+      "title": "தமிழ்நாட்டிற்கு தண்ணீர் வழங்கவே மேகதாது அணை - டி.கே.சிவக்குமார்",
+      "source_id": "daily_thanthi"
+    },
+    "e398572389ccc4213734c911400802619f7f32368324aae76de8cd61ce3a3ddf": {
+      "timestamp": "2026-11-14T09:39:10.112168+00:00",
+      "url": "https://www.dailythanthi.com/news/world/all-passengers-rescued-after-cargo-ship-and-cruise-ship-collision",
+      "title": "அமெரிக்காவில் 2 கப்பல்கள் மோதல்; 32 பேர் காயம்",
+      "source_id": "daily_thanthi"
+    },
+    "2474347ebc963d3ca4ecb8ffa58bc9a69cb6ff388e3963f1a7f6ea19b7b0a827": {
+      "timestamp": "2026-11-14T09:39:10.116314+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/are-police-stations-becoming-death-chambers-ttv-dinakaran-questions",
+      "title": "காவல் நிலையங்களே மரணக் கூடங்களாக மாறுகின்றனவா? - டிடிவி தினகரன் கேள்வி",
+      "source_id": "daily_thanthi"
+    },
+    "307770b5174a4d51dc6510a232cc6cba2ca6f62baf297c7e1f79cd33798e7ad4": {
+      "timestamp": "2026-11-14T09:39:10.120030+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/7-custodial-deaths-in-tamil-nadu-over-the-last-6-months-anbumani-expresses-concern",
+      "title": "“தமிழகத்தில் கடந்த 6 மாதங்களில் 7 காவல் மரணங்கள்; அரசு தடுக்க வேண்டும்” - அன்புமணி",
+      "source_id": "hindu_tamil"
+    },
+    "be2cd27a6044aae5fc02285b2ec63acc01c7c868359561d522337c085247fd28": {
+      "timestamp": "2026-11-14T09:39:10.123616+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/ttv-dhinakarans-attack-cm-vijay-over-price-hike-issue",
+      "title": "“விலைவாசி உயர்வில் இந்தியாவிலேயே முதலிடம்; தமிழகத்தின் சாதனை இதுதானா?” - டிடிவி தினகரன்",
       "source_id": "hindu_tamil"
     }
   }

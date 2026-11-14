@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T12:11:24.648011+00:00",
-  "count": 433,
+  "last_updated": "2026-11-14T14:21:26.147254+00:00",
+  "count": 438,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2599,6 +2599,36 @@
       "timestamp": "2026-11-14T12:11:24.647997+00:00",
       "url": "https://www.hindutamil.in/news/india/hindus-should-learn-unity-from-islam-uttar-pradesh-mla-raja-bhaiya",
       "title": "“இஸ்லாத்திடம் இருந்து இந்துக்கள் ஒற்றுமையை கற்றுக்கொள்ள வேண்டும்” - உ.பி. எம்எல்ஏ",
+      "source_id": "hindu_tamil"
+    },
+    "545dbb7fd70b46fed2655f5df758f69016d3c16e717dc7e1abf0324f4fe774b5": {
+      "timestamp": "2026-11-14T14:21:26.128884+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/elderly-woman-murdered-while-alone-at-home-in-virudhunagar-9-sovereigns-of-jewelry-missing",
+      "title": "விருதுநகரில் வீட்டில் தனியாக இருந்த மூதாட்டி கொலை? 9 சவரன் நகைகள் மாயம்",
+      "source_id": "daily_thanthi"
+    },
+    "f963b49b29966982527ca1c159bf9e602fd7211d908e753de8d0d4816d313fd1": {
+      "timestamp": "2026-11-14T14:21:26.134287+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/madurai-jewelry-heist-15kg-gold-recovered",
+      "title": "மதுரை நகைக்கடையில் கொள்ளையடிக்கப்பட்ட 15 கிலோ நகைகளும் மீட்பு",
+      "source_id": "daily_thanthi"
+    },
+    "60556ed6d6bbc42592b5e9a5706c72a3b562ac48e47f53bc1d81ffab34721221": {
+      "timestamp": "2026-11-14T14:21:26.138695+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-vijay-to-visit-delhi-on-the-16th-will-he-hold-talks-with-prime-minister-modi-regarding-the-mekedatu-dam-project",
+      "title": "முதல்-அமைச்சர் விஜய் 16-ந்தேதி டெல்லி பயணம்; மேகதாது அணை தொடர்பாக பிரதமர் மோடியிடம் பேச்சுவார்த்தை..?",
+      "source_id": "daily_thanthi"
+    },
+    "12ff7a3fb3d466471ce479432dab00113d12642555e9d31e0f8bf59c314ad6b7": {
+      "timestamp": "2026-11-14T14:21:26.143015+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/do-not-deprive-street-vendors-of-their-livelihoods-in-the-name-of-removing-encroachments-says-p-shanmugam",
+      "title": "“ஆக்கிரமிப்பை அகற்றுவதாக சாலையோர வியாபாரிகளின் வாழ்வாதாரத்தை பறிக்க கூடாது” - பெ.சண்முகம்",
+      "source_id": "hindu_tamil"
+    },
+    "29969dd7d4bb885add0a5ccd8408e010dbf4d6dac01852973c90a2d28b1a7c22": {
+      "timestamp": "2026-11-14T14:21:26.147245+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/anbazhagan-says-conflict-between-puducherry-govt-and-lg-is-a-misconception",
+      "title": "“புதுச்சேரி அரசுக்கும், ஆளுநருக்கும் மோதல் போக்கு என்பது தவறான கருத்து” - அன்பழகன்",
       "source_id": "hindu_tamil"
     }
   }

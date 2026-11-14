@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T17:51:19.827579+00:00",
-  "count": 462,
+  "last_updated": "2026-11-14T18:01:44.949768+00:00",
+  "count": 463,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2774,6 +2774,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/ghee-fraud-case-at-sabarimala-two-traders-from-oddanchatram-arrested",
       "title": "சபரிமலையில் நெய் மோசடி விவகாரம்: ஒட்டன்சத்திரம் வியாபாரிகள் 2 பேர் கைது",
       "source_id": "daily_thanthi"
+    },
+    "b8dba36174856961aa7c3f26d5eda953bd81cef85bb190b6eeac80ef9e3f5015": {
+      "timestamp": "2026-11-14T18:01:44.949745+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40eXgtb3lxWE1ONUlfNHNvTXliN25QMUI1a2dqV3prX19VS2h1TTA0WDNGdUQ0eGVqbmxhRjZHRTdsNjJFTl9UTm1nRmtpd1B3clFWbTBfUFpJeWll0gFiQVVfeXFMT3hVRU92MlJ6dnNBaDJUejBSNDUwLUQxY1VaV2V3YXgySWlXeXRUUERXZ1NUYXNsR0pWY3dIZFQ2SmdFVmpSNVdUbUdCM2NJeWtLUkFheGloWXJIeDlsWjc3bGc?oc=5",
+      "title": "கள்ளக்குறிச்சி: தவெக எம்எல்ஏ அருள் விக்னேஷ் - பெண் ஐஏஎஸ் அதிகாரி விவகாரத்தில் இதுவரை என்ன நடந்தது? ஒரு தொகுப்பு - BBC",
+      "source_id": "google_news_tamil"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T16:14:49.436280+00:00",
-  "count": 468,
+  "last_updated": "2026-11-14T16:44:32.642425+00:00",
+  "count": 469,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2810,6 +2810,12 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/case-against-3-people-including-law-college-student-dismissed",
       "title": "முறைகேட்டை தட்டிக் கேட்ட சட்டக் கல்லூரி மாணவர் உள்ளிட்ட 3 பேர் மீதான வழக்கு ரத்து",
       "source_id": "hindu_tamil"
+    },
+    "bc16b5e50335bde8aef67039800296249638c0412c4ef39d5eef3fce2b4ab436": {
+      "timestamp": "2026-11-14T16:44:32.642403+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/therthangal-sanctuary-deserted-without-birds-what-is-the-reason",
+      "title": "பறவைகள் இன்றி வெறிச்சோடிய தேர்த்தங்கல் சரணாலயம் - காரணம் என்ன.?",
+      "source_id": "daily_thanthi"
     }
   }
 }

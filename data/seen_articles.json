@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T22:53:19.096955+00:00",
-  "count": 471,
+  "last_updated": "2026-11-14T23:26:55.735843+00:00",
+  "count": 472,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2828,6 +2828,12 @@
       "url": "https://www.vikatan.com/spiritual/astrology/rasipalan",
       "title": "இன்றைய ராசிபலன்",
       "source_id": "vikatan"
+    },
+    "1917772a3f2c505c593c7b097116e60a8bb4f2dd435fa4dc4dc9ea092534b621": {
+      "timestamp": "2026-11-14T23:26:55.735818+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/vilathikulam-student-murder-case-female-inspector-forced-into-retirement",
+      "title": "விளாத்திகுளம் மாணவி கொலை வழக்கு: பெண் இன்ஸ்பெக்டருக்கு கட்டாய பணி ஓய்வு",
+      "source_id": "daily_thanthi"
     }
   }
 }

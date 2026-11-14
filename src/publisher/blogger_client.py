@@ -42,6 +42,7 @@ if _env_path.exists():
         pass
 
 TAMIL_CATEGORY_LABELS: Dict[str, str] = {
+    "history": "வரலாறு",
     "tamilnadu": "தமிழகம்",
     "national": "இந்தியா",
     "world": "உலகம்",
@@ -51,6 +52,7 @@ TAMIL_CATEGORY_LABELS: Dict[str, str] = {
     "sports": "விளையாட்டு",
     "tech": "தொழில்நுட்பம்",
     "spiritual": "ஆன்மீகம்",
+    "astrology": "ராசி பலன்",
     "chennai": "சென்னை",
     "epaper": "இ-பேப்பர்"
 }
@@ -350,6 +352,7 @@ class BloggerClient:
         labels = [label] + unique_tags
         if getattr(article, "is_flash", False) and "மின்னல்" not in labels:
             labels.append("மின்னல்")
+        labels = labels[:6]
 
         payload = {
             "kind": "blogger#post",
@@ -396,7 +399,7 @@ class BloggerClient:
                         ).execute()
                         items = p_list.get('items', [])
                         if items:
-                            target_post = items[0]
+                            target_post = next((p for p in items if p.get('status') == 'LIVE'), items[0])
                             post_id = target_post['id']
                             logger.info(f"Updating existing post slot ID {post_id} with new article...")
                             payload['id'] = post_id

@@ -303,6 +303,7 @@ except ImportError:
 
 
 TAMIL_CATEGORY_LABELS: Dict[str, str] = {
+    "history": "வரலாறு",
     "tamilnadu": "தமிழகம்",
     "national": "இந்தியா",
     "world": "உலகம்",
@@ -312,6 +313,7 @@ TAMIL_CATEGORY_LABELS: Dict[str, str] = {
     "sports": "விளையாட்டு",
     "tech": "தொழில்நுட்பம்",
     "spiritual": "ஆன்மிகம்",
+    "astrology": "ராசி பலன்",
     "epaper": "இ-பேப்பர்"
 }
 

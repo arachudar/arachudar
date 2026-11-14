@@ -22,6 +22,7 @@ DEFAULT_MAX_RETRIES = 3
 # Arachudar Category Taxonomy & Mapping
 # ---------------------------------------------------------------------------
 VALID_CATEGORIES = [
+    "history",
     "tamilnadu",
     "national",
     "world",
@@ -31,6 +32,7 @@ VALID_CATEGORIES = [
     "sports",
     "tech",
     "spiritual",
+    "astrology",
     "epaper",
 ]
 
@@ -83,10 +85,21 @@ CATEGORY_KEYWORDS_MAP = {
         "தொழில்நுட்பம்", "ஸ்மார்ட்போன்", "செயற்கை நுண்ணறிவு", "ஏஐ", "ஆப்",
         "tech", "technology", "mobile", "gadgets", "ai", "auto", "automobile"
     ],
-    # Spiritual & Astrology
+    # Spiritual & Devotional
     "spiritual": [
-        "ஆன்மிகம்", "கோவில்", "கோயில்", "திருக்கோயில்", "திருக்கோவில்", "ராசிபலன்", "ஜோதிடம்", "விரதம்", "பக்தி",
-        "spiritual", "astrology", "horoscope", "devotional", "temple"
+        "ஆன்மிகம்", "கோவில்", "கோயில்", "திருக்கோயில்", "திருக்கோவில்", "விரதம்", "பக்தி",
+        "spiritual", "devotional", "temple"
+    ],
+    # History & Archeology
+    "history": [
+        "வரலாறு", "தொல்லியல்", "கீழடி", "சோழர்", "பாண்டியர்", "சேரர்", "பல்லவர்",
+        "கல்வெட்டு", "அகழ்வாராய்ச்சி", "பெருவுடையார்", "தஞ்சை", "சங்க காலம்",
+        "history", "heritage", "archeology", "ancient", "monument", "sangam"
+    ],
+    # Astrology & Rasi Palan
+    "astrology": [
+        "ராசி பலன்", "ராசிபலன்", "ஜோதிடம்", "பஞ்சாங்கம்", "நட்சத்திரம்", "கிரகப் பெயர்ச்சி",
+        "astrology", "horoscope", "rasi", "rasi palan", "panchangam", "zodiac"
     ],
     # E-Paper
     "epaper": [

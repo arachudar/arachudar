@@ -72,18 +72,24 @@ def get_current_tamil_date() -> str:
 def run_pipeline(
     limit: int = 1,
     dry_run: bool = False,
-    category: str = "all",
+    category: str = "auto",
     sources: Optional[List[str]] = None,
     html_path: Optional[Path] = None,
     seen_path: Optional[Path] = None
 ) -> int:
     """
-    Executes the full automated news pipeline.
+    Executes the full automated news pipeline with sequential topic rotation.
     """
     logger.info("=======================================================")
     logger.info("   அறச்சுடர் தமிழ் செய்தி தானியங்கி இயக்கம் (Pipeline Started)")
     logger.info("=======================================================")
     logger.info(f"Configuration: limit={limit}, dry_run={dry_run}, category={category}")
+
+    from src.aggregator.topic_rotator import TopicRotator
+    rotator = TopicRotator()
+    target_category = rotator.peek_next_topic() if category == "auto" else category
+    if category == "auto":
+        logger.info(f"Topic Rotator dispatched active desk: [{target_category}]")
 
     html_file = html_path or (ROOT_DIR / "tamil-news-blogger.html")
     seen_file = seen_path or (ROOT_DIR / "data" / "seen_articles.json")
@@ -92,8 +98,8 @@ def run_pipeline(
     # 1. Multi-source Ingestion
     logger.info(f"1. Fetching news feeds from Tamil sources...")
     source_keys = sources or list(TAMIL_NEWS_SOURCES.keys())
-    if category != "all" and category in VALID_CATEGORIES:
-        logger.info(f"Filtering feeds by category: {category}")
+    if target_category not in ("all", "auto") and target_category in VALID_CATEGORIES:
+        logger.info(f"Filtering feeds by category: {target_category}")
 
     fetcher = FeedFetcher()
     raw_articles: List[RawArticle] = []
@@ -131,8 +137,10 @@ def run_pipeline(
     unseen_articles = deduplicator.filter_unseen(raw_articles)
     logger.info(f"Found {len(unseen_articles)} unseen new articles.")
 
-    if category != "all" and category in VALID_CATEGORIES:
-        unseen_articles = [a for a in unseen_articles if getattr(a, "category_hint", "") == category or not getattr(a, "category_hint", "")]
+    if target_category not in ("all", "auto") and target_category in VALID_CATEGORIES:
+        matched = [a for a in unseen_articles if getattr(a, "category_hint", "") == target_category]
+        if matched:
+            unseen_articles = matched
 
     unseen_articles = unseen_articles[:limit]
     if not unseen_articles:
@@ -197,6 +205,8 @@ def run_pipeline(
     if not dry_run:
         for raw in unseen_articles:
             deduplicator.mark_seen(raw)
+        if category == "auto":
+            rotator.advance_to_next_topic()
 
     logger.info("=======================================================")
     logger.info("   அனைத்து பணிகளும் வெற்றிகரமாக முடிவடைந்தன! (Completed!)")
@@ -208,7 +218,7 @@ def main():
     parser = argparse.ArgumentParser(description="Arachudar Tamil News Pipeline")
     parser.add_argument("--limit", type=int, default=1, help="Max articles to process")
     parser.add_argument("--dry-run", action="store_true", help="Execute without live network writes")
-    parser.add_argument("--category", type=str, default="all", help="Category filter")
+    parser.add_argument("--category", type=str, default="auto", help="Category filter or 'auto' for sequential topic rotation")
     parser.add_argument("--sources", type=str, default="", help="Comma-separated source keys")
     args = parser.parse_args()
 

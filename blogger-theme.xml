@@ -2445,7 +2445,7 @@
         <b:section id='main' showaddelement='yes'>
           <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
             <b:includable id='main' var='top'>
-              <b:if cond='data:blog.pageType == "item"'>
+              <b:if cond='data:blog.pageType in ["item", "static_page"]'>
                 <!-- SINGLE POST VIEW (Blogger Individual Article Page) -->
                 <b:loop values='data:posts' var='post'>
                   <article class='single-post-reader-card' style='background:var(--bg-card); border:1px solid var(--border-color); border-radius:8px; padding:28px 32px; box-shadow:var(--shadow-sm);'>
@@ -2737,6 +2737,10 @@
       ]
     };
 
+    const TAMIL_MONTHS = ['ஜனவரி', 'பிப்ரவரி', 'மார்ச்', 'ஏப்ரல்', 'மே', 'ஜூன்', 'ஜூலை', 'ஆகஸ்ட்', 'செப்டம்பர்', 'அக்டோபர்', 'நவம்பர்', 'டிசம்பர்'];
+    const TAMIL_DAYS = ['ஞாயிறு', 'திங்கள்', 'செவ்வாய்', 'புதன்', 'வியாழன்', 'வெள்ளி', 'சனி'];
+
+
     let currentCategory = 'home';
     let currentSubFilter = 'all';
 
@@ -2837,16 +2841,18 @@
             this.parseEntries(data.feed.entry);
           }
         } catch (e) {
-          console.log('Blogger feed sync: Using seed news dataset');
+          console.warn('[Arachudar] Live Blogger feed sync note:', e);
         }
       },
 
       parseEntries(entries) {
         const parsed = entries.map((entry, index) => {
-          const title = entry.title ? entry.title. : 'செய்தி தலைப்பு';
-          const body = entry.content ? entry.content. : (entry.summary ? entry.summary. : '');
+          const title = (entry.title && entry.title['$t']) ? entry.title['$t'] : 'செய்தி தலைப்பு';
+          const bodyHtml = (entry.content && entry.content['$t']) ? entry.content['$t'] : ((entry.summary && entry.summary['$t']) ? entry.summary['$t'] : '');
+
           const tempDiv = document.createElement('div');
-          tempDiv.innerHTML = body;
+          tempDiv.innerHTML = bodyHtml;
+
           const rawParagraphs = Array.from(tempDiv.querySelectorAll('p'))
             .map(p => (p.textContent || p.innerText || '').trim())
             .filter(t => t.length > 0);
@@ -2854,39 +2860,45 @@
           let cleanBody = '';
           let summary = '';
           if (rawParagraphs.length > 0) {
-            cleanBody = rawParagraphs.join('
-
-');
+            cleanBody = rawParagraphs.join('\n\n');
             summary = rawParagraphs[0];
           } else {
             cleanBody = (tempDiv.textContent || tempDiv.innerText || '').trim();
-            summary = cleanBody.split('
-
-')[0] || '';
+            summary = cleanBody.split('\n\n')[0] || '';
           }
           if (summary.length > 200) summary = summary.substring(0, 200) + '...';
 
-          // Image extraction
+          // Image extraction from media$thumbnail or content img
           let imgUrl = 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200';
-          if (entry.media && entry.media.url) {
-            imgUrl = entry.media.url.replace('/s72-c/', '/s1600/');
+          if (entry['media$thumbnail'] && entry['media$thumbnail'].url) {
+            imgUrl = entry['media$thumbnail'].url.replace('/s72-c/', '/s1600/');
           } else {
             const firstImg = tempDiv.querySelector('img');
             if (firstImg && firstImg.src) imgUrl = firstImg.src;
           }
 
-          // Category mapping
+          // Category mapping - scan ALL labels
           let cat = 'tamilnadu';
+          let subCat = 'all';
+          const allTags = [];
           if (entry.category && entry.category.length > 0) {
-            const tag = entry.category[0].term.toLowerCase();
-            if (tag.includes('அரசியல்') || tag.includes('politics')) cat = 'politics';
-            else if (tag.includes('வணிகம்') || tag.includes('business')) cat = 'business';
-            else if (tag.includes('சினிமா') || tag.includes('cinema')) cat = 'cinema';
-            else if (tag.includes('விளையாட்டு') || tag.includes('sports')) cat = 'sports';
-            else if (tag.includes('தொழில்நுட்பம்') || tag.includes('tech')) cat = 'tech';
-            else if (tag.includes('இந்தியா') || tag.includes('national')) cat = 'national';
-            else if (tag.includes('உலகம்') || tag.includes('world')) cat = 'world';
-            else if (tag.includes('ஆன்மிகம்') || tag.includes('ஆன்மீகம்') || tag.includes('spiritual')) cat = 'spiritual';
+            entry.category.forEach(c => {
+              if (c && c.term) allTags.push(c.term.trim());
+            });
+            const tagStr = allTags.join(' ').toLowerCase();
+            if (tagStr.includes('அரசியல்') || tagStr.includes('politics')) cat = 'politics';
+            else if (tagStr.includes('வணிகம்') || tagStr.includes('business') || tagStr.includes('சந்தை')) cat = 'business';
+            else if (tagStr.includes('சினிமா') || tagStr.includes('cinema') || tagStr.includes('திரைப்படம்')) cat = 'cinema';
+            else if (tagStr.includes('விளையாட்டு') || tagStr.includes('sports') || tagStr.includes('கிரிக்கெட்')) cat = 'sports';
+            else if (tagStr.includes('தொழில்நுட்பம்') || tagStr.includes('tech') || tagStr.includes('அறிவியல்')) cat = 'tech';
+            else if (tagStr.includes('இந்தியா') || tagStr.includes('national') || tagStr.includes('தேசியம்')) cat = 'national';
+            else if (tagStr.includes('உலகம்') || tagStr.includes('world') || tagStr.includes('சர்வதேசம்')) cat = 'world';
+            else if (tagStr.includes('ஆன்மிகம்') || tagStr.includes('ஆன்மீகம்') || tagStr.includes('spiritual')) cat = 'spiritual';
+            else if (tagStr.includes('சென்னை') || tagStr.includes('chennai')) { cat = 'tamilnadu'; subCat = 'chennai'; }
+            else if (tagStr.includes('மதுரை') || tagStr.includes('madurai')) { cat = 'tamilnadu'; subCat = 'madurai'; }
+            else if (tagStr.includes('கோவை') || tagStr.includes('coimbatore')) { cat = 'tamilnadu'; subCat = 'coimbatore'; }
+            else if (tagStr.includes('திருச்சி') || tagStr.includes('trichy')) { cat = 'tamilnadu'; subCat = 'trichy'; }
+            else if (tagStr.includes('தென்') || tagStr.includes('south')) { cat = 'tamilnadu'; subCat = 'south'; }
           }
 
           // Extract post URL
@@ -2897,30 +2909,51 @@
             }
           }
 
+          // Author extraction
+          let authorName = 'அறச்சுடர் நிருபர்';
+          if (entry.author && entry.author[0] && entry.author[0].name && entry.author[0].name['$t']) {
+            authorName = entry.author[0].name['$t'];
+          }
+
+          // Date extraction
+          let pubDate = 'இன்று';
+          if (entry.published && entry.published['$t']) {
+            try {
+              const d = new Date(entry.published['$t']);
+              const mName = TAMIL_MONTHS[d.getMonth()] || '';
+              pubDate = d.getDate() + ' ' + mName + ' ' + d.getFullYear();
+            } catch(ex) {}
+          }
+
           return {
             id: 100 + index,
             category: cat,
-            subCategory: 'latest',
+            subCategory: subCat,
             title: title,
             summary: summary,
             body: cleanBody,
             image: imgUrl,
-            author: entry.author && entry.author[0] ? entry.author[0].name. : 'அறச்சுடர் நிருபர்',
-            date: 'இன்று',
+            author: authorName,
+            date: pubDate,
             timeAgo: 'உடனுக்குடன்',
             readTime: '3 நிமிடம்',
-            views: 5000 + Math.floor(Math.random() * 15000),
-            isFlash: index < 4,
+            views: 5000 + ((index * 839) % 15000),
+            isFlash: allTags.some(t => t.includes('மின்னல்') || t.includes('flash')) || (index < 3),
+            tags: allTags,
             postUrl: postUrl
           };
         });
 
         if (parsed.length > 0) {
-          NEWS_DATABASE = parsed;
+          window.NEWS_DATABASE = NEWS_DATABASE = parsed;
           updateHomepageSlotsFromDatabase();
           initSidebarAndTicker();
           initTicker();
-          if (currentCategory === 'home' || currentCategory === 'all') renderHomeFeed();
+          if (currentCategory === 'home' || currentCategory === 'all') {
+            renderHomeFeed();
+          } else {
+            renderCategoryFeed(currentCategory, currentSubFilter);
+          }
         }
       }
     };
@@ -3553,7 +3586,94 @@
       return `${window.location.origin}${window.location.pathname}#article-${item.id}`;
     }
 
-        function checkUrlForArticle() {
+    
+    function openArticleModalById(id) {
+      const item = NEWS_DATABASE.find(n => n.id === id || String(n.id) === String(id)) || NEWS_DATABASE[0];
+      if (!item) return;
+
+      currentActiveArticleId = item.id;
+
+      // Update URL hash without reload so each news has its own shareable link
+      const articleHash = '#article-' + item.id;
+      if (window.location.hash !== articleHash) {
+        try {
+          history.pushState({ articleId: item.id }, '', articleHash);
+        } catch(e) {}
+      }
+
+      const titleEl = document.getElementById('modalArticleTitle');
+      if (titleEl) titleEl.textContent = item.title;
+
+      const catBadge = document.getElementById('modalCategoryBadge');
+      if (catBadge) catBadge.textContent = (CATEGORY_TITLES[item.category] || item.category).toUpperCase();
+
+      const dateBadge = document.getElementById('modalDateBadge');
+      if (dateBadge) dateBadge.textContent = item.date || 'இன்றைய பதிப்பு';
+
+      const bylineEl = document.getElementById('modalAuthorByline');
+      if (bylineEl) {
+        bylineEl.textContent = item.author ? 'ஆசிரியர்: ' + item.author : '';
+        bylineEl.style.display = item.author ? 'block' : 'none';
+      }
+
+      const imgEl = document.getElementById('modalArticleImage');
+      const imgWrap = document.getElementById('modalImageWrap');
+      if (item.image) {
+        if (imgEl) imgEl.src = item.image;
+        if (imgWrap) imgWrap.style.display = 'block';
+      } else {
+        if (imgWrap) imgWrap.style.display = 'none';
+      }
+
+      // Format body paragraphs
+      const pList = (item.body || '').split('\n\n')
+        .map(p => p.trim())
+        .filter(p => p.length > 0);
+
+      let contentHTML = '';
+      if (item.summary) {
+        contentHTML += '<div class="modal-lead-box"><span class="modal-lead-badge">முக்கியச் செய்திச் சுருக்கம்</span><p class="modal-lead-text"><strong>' + item.summary + '</strong></p></div>';
+      }
+
+      contentHTML += '<div class="modal-body-paragraphs">';
+      pList.forEach((p, idx) => {
+        if (idx === 0 && item.summary && (p === item.summary || item.summary.startsWith(p.substring(0, 50)))) {
+          return;
+        }
+        contentHTML += '<p class="modal-p">' + p + '</p>';
+      });
+      contentHTML += '</div>';
+
+      if (item.postUrl) {
+        contentHTML += '<div style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border-color); text-align:right;"><a href="' + item.postUrl + '" target="_blank" class="full-view-btn" style="color:var(--brand-red); font-weight:700; text-decoration:none; font-size:0.9rem;">முழு செய்திப் பக்கத்தில் படிக்க (Open Full Article) →</a></div>';
+      }
+
+      const contentEl = document.getElementById('modalArticleContent');
+      if (contentEl) contentEl.innerHTML = contentHTML;
+
+      const modal = document.getElementById('articleClippingModal');
+      if (modal) {
+        modal.style.display = 'flex';
+        const dialog = modal.querySelector('.article-modal-dialog');
+        if (dialog) dialog.scrollTop = 0;
+      }
+      currentActiveArticleText = item.title + '. ' + item.body;
+    }
+
+    function closeArticleModal(e) {
+      if (e && e.target && e.target !== e.currentTarget && !e.target.classList.contains('article-modal-close-btn')) {
+        return;
+      }
+      const modal = document.getElementById('articleClippingModal');
+      if (modal) modal.style.display = 'none';
+      if (window.location.hash.startsWith('#article-')) {
+        try {
+          history.pushState(null, '', window.location.pathname + window.location.search);
+        } catch(ex) {}
+      }
+    }
+
+    function checkUrlForArticle() {
       const hash = window.location.hash;
       if (hash && hash.startsWith('#article-')) {
         const id = parseInt(hash.replace('#article-', ''), 10);
@@ -3564,14 +3684,7 @@
     }
     window.addEventListener('hashchange', checkUrlForArticle);
 
-    window.openArticleModalById = openArticleModalById;
-    window.closeArticleModal = closeArticleModal;
-    window.navigateToArticle = navigateToArticle;
-    window.navigateToCategory = navigateToCategory;
-    window.shareArticleOnWhatsApp = shareArticleOnWhatsApp;
-    window.shareArticleOnX = shareArticleOnX;
-    window.shareArticleOnFB = shareArticleOnFB;
-    window.copyArticleLink = copyArticleLink;
+
 
 
     function toggleAudioReadAloud() {
@@ -3637,11 +3750,15 @@
     function copyArticleLink() {
       const item = NEWS_DATABASE.find(n => n.id === currentActiveArticleId) || NEWS_DATABASE[0];
       const url = getArticleShareUrl(item);
-      navigator.clipboard.writeText(url).then(() => {
-        alert('செய்தி இணைப்பு பிரதி செய்யப்பட்டது:\n' + url);
-      }).catch(() => {
-        prompt('செய்தி இணைப்பு:', url);
-      });
+      if (typeof navigator !== 'undefined' && navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+          if (typeof alert !== 'undefined') alert('செய்தி இணைப்பு பிரதி செய்யப்பட்டது:\n' + url);
+        }).catch(() => {
+          if (typeof prompt !== 'undefined') prompt('செய்தி இணைப்பு:', url);
+        });
+      } else {
+        if (typeof prompt !== 'undefined') prompt('செய்தி இணைப்பு:', url);
+      }
     }
 
     /* ========================================================
@@ -3958,10 +4075,30 @@
       const main = document.getElementById('mainDynamicView');
       if (!main) return;
 
+      const categoryTitle = CATEGORY_TITLES[cat] || 'செய்திகள்';
+
+      if (!NEWS_DATABASE || NEWS_DATABASE.length === 0) {
+        main.innerHTML = `
+          <div class="section-header-row" style="margin-bottom: 18px;">
+            <div><h2 class="section-heading">${categoryTitle}</h2></div>
+          </div>
+          <div style="padding:60px 20px; text-align:center; background:var(--bg-card); border-radius:8px; border:1px solid var(--border-color); margin:20px 0;">
+            <h3 style="font-family:var(--font-display); color:var(--text-main); margin-bottom:8px;">${categoryTitle} செய்திகள் பெறப்படுகின்றன...</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem;">சற்று நேரத்தில் செய்திகள் திரையில் தோன்றும்.</p>
+          </div>
+        `;
+        return;
+      }
+
       let filtered = NEWS_DATABASE.filter(item => {
-        if (cat === 'tamilnadu' && item.category === 'chennai') return true;
+        if (cat === 'all') return true;
+        if (cat === 'tamilnadu' && (item.category === 'tamilnadu' || item.category === 'chennai')) return true;
         if (cat === 'chennai' && (item.category === 'chennai' || item.subCategory === 'chennai')) return true;
-        return item.category === cat;
+        if (item.category === cat) return true;
+        if (item.tags && Array.isArray(item.tags)) {
+          return item.tags.some(t => t.toLowerCase().includes(cat) || (CATEGORY_TITLES[cat] && t.includes(CATEGORY_TITLES[cat])));
+        }
+        return false;
       });
 
       if (sub && sub !== 'all') {
@@ -3972,10 +4109,17 @@
       }
 
       if (filtered.length === 0) {
-        filtered = NEWS_DATABASE.slice(0, 6);
+        main.innerHTML = `
+          <div class="section-header-row" style="margin-bottom: 18px;">
+            <div><h2 class="section-heading">${categoryTitle}</h2></div>
+          </div>
+          <div style="padding:60px 20px; text-align:center; background:var(--bg-card); border-radius:8px; border:1px solid var(--border-color); margin:20px 0;">
+            <h3 style="font-family:var(--font-display); color:var(--text-main); margin-bottom:8px;">${categoryTitle} பிரிவில் தற்போது புதிய செய்திகள் தயாராகின்றன...</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem;">எங்கள் ஆசிரியர் குழு உடனுக்குடன் செய்திகளைப் புதுப்பித்து வருகிறது.</p>
+          </div>
+        `;
+        return;
       }
-
-      const categoryTitle = CATEGORY_TITLES[cat] || 'செய்திகள்';
 
       main.innerHTML = `
         <div class="section-header-row" style="margin-bottom: 18px;">
@@ -3993,7 +4137,7 @@
               <img src="${filtered[0].image}" alt="${filtered[0].title}">
             </div>
             <div class="lead-content-overlay">
-              <span class="category-tag-badge">${filtered[0].category}</span>
+              <span class="category-tag-badge">${CATEGORY_TITLES[filtered[0].category] || filtered[0].category}</span>
               <h2 class="lead-headline" style="font-size:1.4rem;">${filtered[0].title}</h2>
               <p class="lead-summary">${filtered[0].summary}</p>
               <div class="meta-byline-strip">
@@ -4103,12 +4247,12 @@
         htmlElement.setAttribute('data-theme', 'dark');
         if (themeIcon) themeIcon.innerHTML = SUN_ICON_SVG;
         if (themeToggleBtn) themeToggleBtn.setAttribute('title', 'லைட் மோடுக்கு மாறுக');
-        localStorage.setItem('arachudar_theme', 'dark');
+        try { localStorage.setItem('arachudar_theme', 'dark'); } catch(e) {}
       } else {
         htmlElement.setAttribute('data-theme', 'light');
         if (themeIcon) themeIcon.innerHTML = MOON_ICON_SVG;
         if (themeToggleBtn) themeToggleBtn.setAttribute('title', 'டார்க் மோடுக்கு மாறுக');
-        localStorage.setItem('arachudar_theme', 'light');
+        try { localStorage.setItem('arachudar_theme', 'light'); } catch(e) {}
       }
     }
 
@@ -4119,7 +4263,8 @@
       });
     }
 
-    const savedTheme = localStorage.getItem('arachudar_theme');
+    let savedTheme = 'light';
+    try { savedTheme = localStorage.getItem('arachudar_theme') || 'light'; } catch(e) {}
     if (savedTheme === 'dark') {
       applyTheme('dark');
     } else {
@@ -4178,6 +4323,24 @@
         navigateToCategory('epaper');
       }
     });
+
+    // Global Window API bindings
+    window.openArticleModalById = openArticleModalById;
+    window.closeArticleModal = closeArticleModal;
+    window.navigateToArticle = navigateToArticle;
+    window.navigateToCategory = navigateToCategory;
+    window.shareArticleOnWhatsApp = shareArticleOnWhatsApp;
+    window.shareArticleOnX = shareArticleOnX;
+    window.shareArticleOnFB = shareArticleOnFB;
+    window.copyArticleLink = copyArticleLink;
+    window.BloggerFeedEngine = BloggerFeedEngine;
+    window.initTamilDateAndClock = initTamilDateAndClock;
+    window.renderHomeFeed = renderHomeFeed;
+    window.renderCategoryFeed = renderCategoryFeed;
+    window.updateHomepageSlotsFromDatabase = updateHomepageSlotsFromDatabase;
+    window.renderWireColumns = renderWireColumns;
+    window.NEWS_DATABASE = NEWS_DATABASE;
+
   //]]></script>
 
 

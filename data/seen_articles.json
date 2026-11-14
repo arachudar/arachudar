@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T06:47:53.408492+00:00",
-  "count": 403,
+  "last_updated": "2026-11-14T07:53:50.095903+00:00",
+  "count": 408,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2419,6 +2419,36 @@
       "timestamp": "2026-11-14T06:47:53.408479+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/mekedatu-issue-stalin-writes-to-chief-minister-vijay-requesting-an-all-party-meeting",
       "title": "மேகேதாட்டு விவகாரம்: அனைத்துக் கட்சி கூட்டத்தை கூட்ட முதல்வர் விஜய்க்கு ஸ்டாலின் கடிதம்",
+      "source_id": "hindu_tamil"
+    },
+    "c6057a54ae2532e290741d88fd71b361eeed039cf4650506679fc91d8143bfbe": {
+      "timestamp": "2026-11-14T07:53:50.074030+00:00",
+      "url": "https://www.dailythanthi.com/news/india/1-km-above-the-permitted-speed-police-impose-rs-2000-fine-for-driving-in-the-sea",
+      "title": "அனுமதிக்கப்பட்ட வேகத்தை விட 1 கி.மீ. அதிகம்: கடலில் கார் ஓட்டியதாக ரூ. 2,000 அபராதம் விதித்த போலீஸ்!",
+      "source_id": "daily_thanthi"
+    },
+    "c67d9ebe1c7eaf49d1ec51268f8c0840cf0f3e498b32b896421046cbbda50522": {
+      "timestamp": "2026-11-14T07:53:50.079848+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/mekedatu-dam-issue-the-bjp-government-is-acting-against-the-interests-of-tamil-nadu-manickam-tagore",
+      "title": "மேகதாது அணை விவகாரம்: பாஜக அரசு தமிழ்நாட்டிற்கு விரோதமாக செயல்பட்டு வருகிறது - மாணிக்கம் தாகூர்",
+      "source_id": "daily_thanthi"
+    },
+    "e8d8102db6580468ef450b0c03db9a0c079cd7c1af03df15c053432bde8f0743": {
+      "timestamp": "2026-11-14T07:53:50.085273+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/from-2028-to-2032-a-treat-awaits-cricket-fans",
+      "title": "2028 முதல் 2035 வரை: கிரிக்கெட் ரசிகர்களுக்கு காத்திருக்கும் விருந்து!",
+      "source_id": "daily_thanthi"
+    },
+    "103e9a8ee3a89b70d736482197e7ceafa83bac525fd344848522d3486b40402f": {
+      "timestamp": "2026-11-14T07:53:50.090669+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/peter-alphonse-criticizes-pm-modi-over-mekedatu-issue",
+      "title": "“கர்நாடக முதல்வர் சிவகுமாரை பிரதமர் மோடி கண்டித்திருக்க வேண்டும்” - பீட்டர் அல்போன்ஸ்",
+      "source_id": "hindu_tamil"
+    },
+    "1783a7fd6d62d34e1e888d22bd0e3173de4336f5df9b4b7e371bd153abd1958a": {
+      "timestamp": "2026-11-14T07:53:50.095892+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/cm-vijay-will-take-action-on-kallakurichi-issue-says-minister-arunraj",
+      "title": "“கள்ளக்குறிச்சி விவகாரத்தில் முதல்வர் விஜய் உரிய நடவடிக்கை எடுப்பார்”  -  அமைச்சர் அருண்ராஜ்",
       "source_id": "hindu_tamil"
     }
   }

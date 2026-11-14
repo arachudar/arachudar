@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T15:30:34.469538+00:00",
-  "count": 453,
+  "last_updated": "2026-11-14T15:35:40.506185+00:00",
+  "count": 458,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2720,6 +2720,36 @@
       "url": "https://www.maalaimalar.com/sports/cricket/syed-mushtaq-ali-trophy-tamilnadu-beats-railways-by-6-runs",
       "title": "சையது முஸ்தாக் அலி டிராபி: தமிழ்நாடு 6 ரன்னில் த்ரில் வெற்றி",
       "source_id": "maalai_malar"
+    },
+    "a4349e7835a129b54bf543897f60be30b68c6c54b2af5640d4aeaad826fb0e6d": {
+      "timestamp": "2026-11-14T15:35:40.473514+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/10-tons-of-chemicals-collected-on-dhanushkodi-beach",
+      "title": "தனுஷ்கோடி கடற்கரையில் 10 டன் ரசாயன பொருட்கள் சேகரிப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "88a947dee0c252da21d9b9a573286a956930062a96ccc6f7a4f770df904899c9": {
+      "timestamp": "2026-11-14T15:35:40.495855+00:00",
+      "url": "https://www.dailythanthi.com/news/india/telangana-dalit-police-aspirant-dies-by-suicide-over-marriage-refusal",
+      "title": "காதலால் கலைந்துபோன போலீஸ் கனவு ;ஆசைவார்த்தை கூறி ஏமாற்றிய காதலன் - இளம்பெண் எடுத்த விபரீத முடிவு",
+      "source_id": "daily_thanthi"
+    },
+    "745b7c2326c946989d36b6d011e397b585032510f83cbf265615e2addf624361": {
+      "timestamp": "2026-11-14T15:35:40.499436+00:00",
+      "url": "https://www.maalaimalar.com/news/tamilnadu/dmk-ex-minister-ev-velu-sand-theft-allegations",
+      "title": "மலப்பம்பள்ளி மணல் திருட்டு புகார்: லஞ்ச ஒழிப்புத்துறை விசாரணைக்கு நேரில் ஆஜரான எ.வ.வேலு",
+      "source_id": "maalai_malar"
+    },
+    "bf6d0a7df894589b2093d40b6727134fb3f0eeceb3e81fd631a387140762db13": {
+      "timestamp": "2026-11-14T15:35:40.502737+00:00",
+      "url": "https://thinaboomi.com/37",
+      "title": "ரம்ஜான் பண்டிகை,  முகமது நபிக்கு குர்ஆன் அருளப்பட்டதைக் கொண்டாடும் வகையில் இந்த விழா ஒரு மாத காலம் கொண்டாடப்படுகிறது.",
+      "source_id": "thinaboomi"
+    },
+    "19fcab6b463d1ea9de292805cd2205fd39f7ee8a9b64c607a6acd3c7f7c34501": {
+      "timestamp": "2026-11-14T15:35:40.506176+00:00",
+      "url": "https://thinaboomi.com/36",
+      "title": "புதுவை நாளிதழ் - பதிப்பு 24.03.2026",
+      "source_id": "thinaboomi"
     }
   }
 }

@@ -2663,11 +2663,16 @@
                 <!-- SINGLE POST VIEW (Blogger Individual Article Page) -->
                 <b:loop values='data:posts' var='post'>
                   <article class='article-main-broadsheet'>
-                    <div class="article-reader-toolbar" style="margin-bottom:18px;">
+                    <div class="article-reader-toolbar" style="margin-bottom:24px;">
                       <a href="/" class="btn-back-home" title="முகப்புக்குத் திரும்பு">
                         <span>← முகப்புக்குத் திரும்பு (Back to Front Page)</span>
                       </a>
-                      <div style="display:flex; align-items:center; gap:8px;">
+                      <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                        <button id="readerAudioBtn" class="audio-narration-btn" onclick="toggleAudioReadAloud()" title="செய்தியை வாசிக்க">
+                          <span>🔊 வாசிக்க</span>
+                        </button>
+                        <button class="font-resize-btn" onclick="adjustArticleFontSize(-1)" title="சிறிய எழுத்து">A-</button>
+                        <button class="font-resize-btn" onclick="adjustArticleFontSize(1)" title="பெரிய எழுத்து">A+</button>
                         <button class="font-resize-btn" onclick="window.print()" title="அச்சிடுக">🖨️</button>
                       </div>
                     </div>
@@ -2678,11 +2683,7 @@
                     <h1 class='article-headline-main'>
                       <data:post.title/>
                     </h1>
-                    <b:if cond='data:post.firstImageUrl'>
-                      <div style='margin-bottom:20px; border-radius:8px; overflow:hidden;'>
-                        <img expr:src='data:post.firstImageUrl' expr:alt='data:post.title' style='width:100%; max-height:450px; object-fit:cover; border-radius:8px;'/>
-                      </div>
-                    </b:if>
+
                     <div class='article-editorial-body'>
                       <data:post.body/>
                     </div>
@@ -3285,7 +3286,9 @@
           updateHomepageSlotsFromDatabase();
           initSidebarAndTicker();
           initTicker();
-          if (currentCategory === 'home' || currentCategory === 'all') {
+          if (isArticlePage()) {
+            renderArticlePageRecommendations();
+          } else if (currentCategory === 'home' || currentCategory === 'all') {
             renderHomeFeed();
           } else {
             renderCategoryFeed(currentCategory, currentSubFilter);
@@ -4464,7 +4467,26 @@
       initTicker();
     }
 
-                                    function renderHomeFeed() {
+                                    
+    function isArticlePage() {
+      if (typeof window === 'undefined') return false;
+      const path = (window.location && window.location.pathname) ? window.location.pathname : '';
+      if (path.endsWith('.html') && !path.endsWith('/index.html')) return true;
+      if (typeof document !== 'undefined' && document.querySelector && document.querySelector('.article-main-broadsheet')) return true;
+      return false;
+    }
+
+    function renderArticlePageRecommendations() {
+      if (typeof NEWS_DATABASE === 'undefined' || !NEWS_DATABASE || NEWS_DATABASE.length === 0) return;
+      const path = (window.location && window.location.pathname) ? window.location.pathname : '';
+      const activePost = NEWS_DATABASE.find(n => n.postUrl && (path.includes(n.postUrl) || n.postUrl.includes(path))) || NEWS_DATABASE[0];
+      if (activePost && typeof RecommendationAgent !== 'undefined') {
+        RecommendationAgent.render(activePost);
+      }
+    }
+    
+    function renderHomeFeed() {
+      if (isArticlePage()) return;
       const main = document.getElementById('mainDynamicView');
       if (!main) return;
 

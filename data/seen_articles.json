@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T02:42:42.414952+00:00",
-  "count": 383,
+  "last_updated": "2026-11-14T03:42:52.605162+00:00",
+  "count": 388,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2300,6 +2300,36 @@
       "url": "https://www.dinamani.com/health/2026/Nov/14/to-live-healthily-with-diabetes",
       "title": "சா்க்கரை நோயுடன் ஆரோக்கியமாக வாழ...",
       "source_id": "dinamani"
+    },
+    "1d5e1f8d3d887d3eeae061488c00cbf284c6412c2cbb035135e4b120868182f5": {
+      "timestamp": "2026-11-14T03:42:52.584263+00:00",
+      "url": "https://www.dailythanthi.com/news/india/free-insurance-of-rs-2-lakh-for-sabarimala-ayyappa-devotees-devaswom-boards-action-plan",
+      "title": "சபரிமலை அய்யப்ப பக்தர்களுக்கு ரூ.2 லட்சம் இலவச காப்பீடு... தேவசம் போர்டு அதிரடி திட்டம்!",
+      "source_id": "daily_thanthi"
+    },
+    "e75b37a1c96d69c79c86a12d13263abdcece83f7d0bdf1f68e2c9280cfac724a": {
+      "timestamp": "2026-11-14T03:42:52.589907+00:00",
+      "url": "https://www.dailythanthi.com/news/weather/deep-depression-strengthens-storm-likely-to-form-the-day-after-tomorrow",
+      "title": "ஆழ்ந்த காற்றழுத்த தாழ்வுப் பகுதியாக வலுவடைந்தது: நாளை மறுநாள் உருவாகும் புயல்",
+      "source_id": "daily_thanthi"
+    },
+    "6227189cf7e3612aa08acd9fc0cde0e13d58cbb1311ed41ee315482e980c07a2": {
+      "timestamp": "2026-11-14T03:42:52.595106+00:00",
+      "url": "https://www.dailythanthi.com/news/world/ban-on-flight-departures-across-the-united-states-has-been-lifted-after-4-hours",
+      "title": "அமெரிக்கா முழுவதும் விமானப் புறப்பாட்டுக்கு விதிக்கப்பட்டிருத்த தடை 4 மணி நேரத்திற்குப் பிறகு நீக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "69ea266f940e8ded006fc08a64c731403c1f3203899ba5724288b76a345a5f94": {
+      "timestamp": "2026-11-14T03:42:52.600084+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/deep-depression-strengthens-into-a-deep-depression-india-meteorological-department/4375822",
+      "title": "ஆழ்ந்த காற்றழுத்த தாழ்வுப் பகுதியாக வலுவடைந்தது; இந்திய வானிலை மையம் தகவல்",
+      "source_id": "dinamalar"
+    },
+    "a9ef9509d8b9b961f9e8dd3719d340753a49e28f4df16fe6caa242d1341496d1": {
+      "timestamp": "2026-11-14T03:42:52.605151+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/did-udhayanidhi-drink-baltai-minister-nirmal-kumar-takes-a-jibe/4375818",
+      "title": "உதயநிதி 'பால்டாயில்' குடித்தாரா?: அமைச்சர் நிர்மல்குமார் கிண்டல்",
+      "source_id": "dinamalar"
     }
   }
 }

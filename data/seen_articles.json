@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T16:44:32.642425+00:00",
-  "count": 469,
+  "last_updated": "2026-11-14T17:09:23.013230+00:00",
+  "count": 474,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2816,6 +2816,36 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/therthangal-sanctuary-deserted-without-birds-what-is-the-reason",
       "title": "பறவைகள் இன்றி வெறிச்சோடிய தேர்த்தங்கல் சரணாலயம் - காரணம் என்ன.?",
       "source_id": "daily_thanthi"
+    },
+    "309149623b180bf9f53039d64c730525be5289d2d2f8929057dcc71d20897ce4": {
+      "timestamp": "2026-11-14T17:09:22.987652+00:00",
+      "url": "https://www.dailythanthi.com/news/sirappukatturaigal/what-is-the-father-of-all-missiles-and-what-is-the-story-behind-irans-threats-toward-the-united-states",
+      "title": "அது என்ன அனைத்து ஏவுகணைகளின் தந்தை... அமெரிக்காவை மிரட்டும் ஈரானின் பின்னணி என்ன?",
+      "source_id": "daily_thanthi"
+    },
+    "52728ba238332726a42cea24d2e09af8c510fcf5ed8705ccada660148e8b011d": {
+      "timestamp": "2026-11-14T17:09:22.994545+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tasmac-scam-red-corner-notice-ratheesh",
+      "title": "டாஸ்மாக் முறைகேடு: ரத்தீஷுக்கு எதிராக ரெட் கார்னர் நோட்டீஸ்",
+      "source_id": "daily_thanthi"
+    },
+    "d4962ac9a321d929eccdb0a8ced51be10a0d4593a6e654290f3577290d981c52": {
+      "timestamp": "2026-11-14T17:09:23.001420+00:00",
+      "url": "https://www.hindutamil.in/news/sports/india-defeat-pakistan-by-1-wicket-to-clinch-u-19-asia-cup-title",
+      "title": "பாகிஸ்தானை 1 விக்கெட் வித்தியாசத்தில் வீழ்த்தி கோப்பையை வென்றது இந்தியா | U-19 Asia Cup",
+      "source_id": "hindu_tamil"
+    },
+    "ecc6ccd728f8df91cbb0806e394f0d575ab9ec8ef94eb1e9084e7e6e35157d6f": {
+      "timestamp": "2026-11-14T17:09:23.007340+00:00",
+      "url": "https://www.hindutamil.in/news/cinema/south-cinema/veteran-telugu-actor-giri-babu-dies-at-83",
+      "title": "பழம்பெரும் தெலுங்கு நடிகர் கிரி பாபு காலமானார்",
+      "source_id": "hindu_tamil"
+    },
+    "5f8ccdd7352e53691cdd704633faed3b072bd16e312769c9e3c368507e8249a2": {
+      "timestamp": "2026-11-14T17:09:23.013219+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/14/action-to-be-taken-if-the-kallakurichi-district-collector-files-a-complaint-against-a-tvk-mla-arul-vignesh",
+      "title": "மாவட்ட ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி! புகார் அளிக்கப்பட்டால் என்ன நடவடிக்கை எடுக்கப்படும்?",
+      "source_id": "dinamani"
     }
   }
 }

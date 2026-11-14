@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T04:49:37.461326+00:00",
-  "count": 393,
+  "last_updated": "2026-11-14T05:43:45.025532+00:00",
+  "count": 398,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2360,6 +2360,36 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/air-force-officer-caught-spying-on-pak-woman-for-porn-shares-war-secrets/4375676",
       "title": "ஆபாச படத்துக்கு ஆசைபட்டு போர் ரகசியங்கள் பகிர்வு; பாக்., பெண் உளவாளியிடம் சிக்கிய விமான படை அதிகாரி",
       "source_id": "dinamalar"
+    },
+    "069e3038dee0ba97624dd1fdec1d4d5809146c6bcc704305e24958f1421a01d7": {
+      "timestamp": "2026-11-14T05:43:45.004503+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/controversial-social-media-post-police-register-case-against-actress-kangana-ranaut",
+      "title": "சமூக வலைதளத்தில் சர்ச்சை பதிவு: நடிகை கங்கனா ரனாவத் மீது போலீசார் வழக்குப்பதிவு!",
+      "source_id": "daily_thanthi"
+    },
+    "22263ed2d2e64dbffb52ef0a6fa4abdc73e59472948a89a074c88eb52146cab7": {
+      "timestamp": "2026-11-14T05:43:45.010212+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/lets-create-a-prosperous-tamil-nadu-chief-minister-vijay-wishes-childrens-day",
+      "title": "வளமிக்க தமிழ்நாட்டை உருவாக்குவோம்: முதல்-அமைச்சர் விஜய் குழந்தைகள் தின வாழ்த்து",
+      "source_id": "daily_thanthi"
+    },
+    "9cf7ebe6a3a6b3307fb0ff7fc5eb50deb92123b5042254dec979e49757a2af33": {
+      "timestamp": "2026-11-14T05:43:45.015455+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/unhindered-toll-collection-at-toll-booth-near-sriperumbudur-motorists-welcome",
+      "title": "ஸ்ரீபெரும்புதூர் அருகே சுங்கச்சாவடியில் தடையில்லா சுங்கக் கட்டணம் வசூல்: வாகன ஓட்டிகள் வரவேற்பு",
+      "source_id": "daily_thanthi"
+    },
+    "239f9b17fb5c376ddcd314f4351af8ada2c49d265ce4c9a4f6cf7e30c1cf1fb1": {
+      "timestamp": "2026-11-14T05:43:45.020562+00:00",
+      "url": "https://www.hindutamil.in/news/sports/new-zealand-gives-biggest-defeat-margins-by-runs-for-team-india-in-odi-cricket",
+      "title": "இந்திய கிரிக்கெட் அணியின் மாபெரும் தோல்வி - நியூஸிலாந்து மிரட்டலும் சில பாடங்களும்",
+      "source_id": "hindu_tamil"
+    },
+    "b37edb36757a91c6fed1f7d5d794f79ac61104644473c6b264fc807df75b22db": {
+      "timestamp": "2026-11-14T05:43:45.025522+00:00",
+      "url": "https://www.hindutamil.in/news/sports/death-of-spanish-footballer-goalkeeper-handed-12-match-ban",
+      "title": "ஸ்பெயின் கால்பந்து வீரர் உயிரிழந்த சம்பவம்: கோல் கீப்பருக்கு 12 போட்டிகளில் விளையாட தடை",
+      "source_id": "hindu_tamil"
     }
   }
 }

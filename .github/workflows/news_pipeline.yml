@@ -19,7 +19,7 @@ on:
       limit:
         description: 'Max articles per source'
         required: false
-        default: '5'
+        default: '1'
         type: number
       category:
         description: 'Filter category'
@@ -63,7 +63,7 @@ jobs:
           fi
           LIMIT="${{ inputs.limit }}"
           if [ -z "$LIMIT" ]; then
-            LIMIT=5
+            LIMIT=1
           fi
           python -m src.pipeline --limit="$LIMIT" $EXTRA_ARGS
 

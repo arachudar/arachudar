@@ -70,7 +70,7 @@ def get_current_tamil_date() -> str:
 
 
 def run_pipeline(
-    limit: int = 5,
+    limit: int = 1,
     dry_run: bool = False,
     category: str = "all",
     sources: Optional[List[str]] = None,
@@ -206,7 +206,7 @@ def run_pipeline(
 
 def main():
     parser = argparse.ArgumentParser(description="Arachudar Tamil News Pipeline")
-    parser.add_argument("--limit", type=int, default=5, help="Max articles to process")
+    parser.add_argument("--limit", type=int, default=1, help="Max articles to process")
     parser.add_argument("--dry-run", action="store_true", help="Execute without live network writes")
     parser.add_argument("--category", type=str, default="all", help="Category filter")
     parser.add_argument("--sources", type=str, default="", help="Comma-separated source keys")

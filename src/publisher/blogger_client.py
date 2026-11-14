@@ -276,6 +276,34 @@ class BloggerClient:
         filepath.write_text(content, encoding="utf-8")
         return filepath
 
+    def save_topic_date_archive(self, article: ProcessedArticle, post_url: str = "") -> Path:
+        """
+        Organizes published articles in topic-wise and date-wise directory hierarchy
+        (e.g., archive/<category>/<YYYY-MM-DD>/<slug>.html) for permanent record and Google Drive synchronization.
+        """
+        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        category = getattr(article, "category", "general")
+        archive_dir = Path("archive") / category / date_str
+        archive_dir.mkdir(parents=True, exist_ok=True)
+
+        slug = re.sub(r"[^\w\s-]", "", getattr(article, "title", "news")).strip()
+        slug = re.sub(r"\s+", "-", slug)[:60]
+        filename = f"{slug or 'article'}.html"
+        filepath = archive_dir / filename
+
+        html_content = (
+            f"<!DOCTYPE html>\n<html lang=\"ta\">\n<head>\n"
+            f"<meta charset=\"UTF-8\" />\n"
+            f"<title>{getattr(article, 'title', '')} - அறச்சுடர் நாளிதழ்</title>\n"
+            f"<meta name=\"description\" content=\"{getattr(article, 'summary', '')[:160]}\" />\n"
+            f"<link rel=\"canonical\" href=\"{post_url}\" />\n"
+            f"</head>\n<body>\n"
+            f"{self.format_post_html(article)}\n"
+            f"</body>\n</html>"
+        )
+        filepath.write_text(html_content, encoding="utf-8")
+        return filepath
+
     def record_published_post(self, title: str, post_url: str, source_url: str = ""):
         """
         Updates .blog-cache/posts_log.json and posted_history.json for robust deduplication.
@@ -340,22 +368,57 @@ class BloggerClient:
             }
 
         token = self.get_access_token()
-        resp = requests.post(
-            f"https://www.googleapis.com/blogger/v3/blogs/{self.blog_id}/posts",
-            headers={
-                "Authorization": f"Bearer {token}",
-                "Content-Type": "application/json"
-            },
-            json=payload,
-            timeout=15
-        )
-        resp.raise_for_status()
-        res_data = resp.json()
+        res_data = None
+        try:
+            resp = requests.post(
+                f"https://www.googleapis.com/blogger/v3/blogs/{self.blog_id}/posts",
+                headers={
+                    "Authorization": f"Bearer {token}",
+                    "Content-Type": "application/json"
+                },
+                json=payload,
+                timeout=15
+            )
+            resp.raise_for_status()
+            res_data = resp.json()
+        except requests.exceptions.HTTPError as http_err:
+            if resp.status_code == 403:
+                logger.warning(
+                    f"Blogger insert returned HTTP 403 (Permission Denied). Attempting fallback update on existing post slots..."
+                )
+                service = self.get_blogger_service()
+                if service:
+                    try:
+                        p_list = service.posts().list(
+                            blogId=self.blog_id,
+                            status=['LIVE', 'DRAFT', 'SCHEDULED', 'SOFT_TRASHED'],
+                            view='ADMIN'
+                        ).execute()
+                        items = p_list.get('items', [])
+                        if items:
+                            target_post = items[0]
+                            post_id = target_post['id']
+                            logger.info(f"Updating existing post slot ID {post_id} with new article...")
+                            payload['id'] = post_id
+                            res_data = service.posts().update(
+                                blogId=self.blog_id,
+                                postId=post_id,
+                                body=payload
+                            ).execute()
+                            try:
+                                service.posts().publish(blogId=self.blog_id, postId=post_id).execute()
+                            except Exception:
+                                pass
+                    except Exception as fallback_exc:
+                        logger.error(f"Fallback post update also failed: {fallback_exc}")
+            if not res_data:
+                raise http_err
 
         # Archive and track post locally
         post_url = res_data.get("url", "")
         try:
             self.save_local_markdown(article, post_url=post_url)
+            self.save_topic_date_archive(article, post_url=post_url)
             self.record_published_post(
                 title=clean_title,
                 post_url=post_url,

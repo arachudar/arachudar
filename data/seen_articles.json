@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T09:38:19.037223+00:00",
-  "count": 482,
+  "last_updated": "2026-11-15T10:25:24.147615+00:00",
+  "count": 483,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2893,6 +2893,12 @@
       "timestamp": "2026-11-15T09:38:19.037201+00:00",
       "url": "https://www.dailythanthi.com/sports/tennis/wta-doubles-final-siniakova-townsend-vs-errani-paolini",
       "title": "பெண்கள் டென்னிஸ் சாம்பியன்ஷிப் இரட்டையர் பிரிவு: இறுதிப்போட்டிக்கு முன்னேறிய 2 ஜோடிகள்",
+      "source_id": "daily_thanthi"
+    },
+    "af079072e03b8ce7bc725136bf8ab83760b970d0a4d58c967bf82783be5b4a7b": {
+      "timestamp": "2026-11-15T10:25:24.147597+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/cruz-parnandis-157th-birthday-minister-srinath-garlands-statue",
+      "title": "குரூஸ் பர்னாந்தீஸ் 157வது பிறந்தநாள்: சிலைக்கு அமைச்சர் ஸ்ரீநாத் மாலை அணிவித்து மரியாதை",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T17:17:24.837596+00:00",
-  "count": 492,
+  "last_updated": "2026-11-15T17:54:39.895135+00:00",
+  "count": 493,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2953,6 +2953,12 @@
       "timestamp": "2026-11-15T17:17:24.837572+00:00",
       "url": "https://www.dailythanthi.com/cinema/cinemanews/actress-recalls-smoking-100-cigarettes-in-a-day-while-pregnant-with-famous-actress",
       "title": "கர்ப்பிணியாக இருந்தபோது ஒரு நாளைக்கு 100 சிகரெட் புகைத்தேன்; பிரபல நடிகையின் தாய் பரபரப்பு பேட்டி",
+      "source_id": "daily_thanthi"
+    },
+    "924199e8d1822ef8499a4eca15cf74d83f5e21e9e6ad8abf7476cdcb596a9edd": {
+      "timestamp": "2026-11-15T17:54:39.895109+00:00",
+      "url": "https://www.dailythanthi.com/news/sirappukatturaigal/a-great-achievement-for-humanity-voyager-1-to-travel-one-light-day-from-earth",
+      "title": "மனித இனத்தின் மகத்தான சாதனை... பூமியில் இருந்து ‘ஒரு ஒளி நாள்’ தூரத்தை கடக்கப்போகும் ‘வாயேஜர்-1’",
       "source_id": "daily_thanthi"
     }
   }

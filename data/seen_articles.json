@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T18:32:04.169745+00:00",
-  "count": 494,
+  "last_updated": "2026-11-15T19:25:34.638892+00:00",
+  "count": 495,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2966,6 +2966,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/tvk-mla-obscene-text-message-case-national-commission-for-women-to-conduct-an-inquiry",
       "title": "தவெக எம்.எல்.ஏ. ஆபாச குறுஞ்செய்தி விவகாரம்: தேசிய மகளிர் ஆணையம் விசாரணை",
       "source_id": "daily_thanthi"
+    },
+    "a8a60ee30bad627818d665604648896c775cc5b55d822c13911b2b23cb48b0e8": {
+      "timestamp": "2026-11-15T19:25:34.638869+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/is-the-cpi-m-communist-party-of-india-a-trustee-of-thiruparankundram-hindu-condemned-by-the-organization/4377286",
+      "title": "மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சிக்காரர் திருப்பரங்குன்றம் அறங்காவலரா?ஹிந்து அமைப்பினர் கண்டனம்",
+      "source_id": "dinamalar"
     }
   }
 }

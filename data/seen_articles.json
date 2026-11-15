@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T11:59:38.526291+00:00",
-  "count": 485,
+  "last_updated": "2026-11-15T12:47:33.497299+00:00",
+  "count": 486,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2912,6 +2912,12 @@
       "url": "https://www.maalaimalar.com/news/national/neha-bora-non-binary-identity",
       "title": "நான் பெண் இல்லை: பாலின அடையாளம் குறித்து வெளிப்படையாக அறிவித்த நேஹா போரா!",
       "source_id": "maalai_malar"
+    },
+    "1730c9f23f27cf6f894ffc7f473b568d08013ef9d1a60ae7d5f8e2ed93dda9c2": {
+      "timestamp": "2026-11-15T12:47:33.497269+00:00",
+      "url": "https://www.bbc.com/tamil/articles/c9dr1dmgg8vvo?at_medium=RSS&at_campaign=rss",
+      "title": "'வங்கக்கடலில் நாளை உருவாகும் புயல் அதிதீவிர புயலாக வலுப்பெறும்' - சென்னைக்கு 4 நாள் கனமழை எச்சரிக்கை",
+      "source_id": "bbc_tamil"
     }
   }
 }

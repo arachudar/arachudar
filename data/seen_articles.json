@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T22:54:35.860711+00:00",
-  "count": 500,
+  "last_updated": "2026-11-15T23:37:28.611410+00:00",
+  "count": 501,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3002,6 +3002,12 @@
       "url": "https://www.hindutamil.in/news/sports/wtt-table-tennis-gold-and-2-silvers-for-chennai-player",
       "title": "டபிள்​யூடிடி டேபிள் டென்​னிஸ்: சென்னை வீரருக்கு தங்​கம், 2 வெள்ளி",
       "source_id": "hindu_tamil"
+    },
+    "417f8a429c0e1d28f19ec378671b45b06115af2ac8827ad29141fc808638c405": {
+      "timestamp": "2026-11-15T23:37:28.611380+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/cyclone-akwan-to-form-today-heavy-rain-warning-issued-for-3-districts-including-chennai",
+      "title": "இன்று உருவாகிறது 'அக்வான்' புயல்.. சென்னை உள்பட 3 மாவட்டங்களுக்கு கனமழை எச்சரிக்கை",
+      "source_id": "daily_thanthi"
     }
   }
 }

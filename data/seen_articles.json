@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T20:56:44.197165+00:00",
-  "count": 497,
+  "last_updated": "2026-11-15T21:29:17.227154+00:00",
+  "count": 498,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2984,6 +2984,12 @@
       "url": "https://www.vikatan.com/literature/the-inspiring-journey-of-indias-first-woman-neurologist-who-dedicated-her-life-to-medicine",
       "title": "மருத்துவத்திற்காகத் திருமணத்தைத் துறந்த சகோதரிகள்: டாக்டர் சி.ஜானகியின் சாதனைப் பயணம்!",
       "source_id": "vikatan"
+    },
+    "d6140c203faf555b4cb3fc0746309e50e79929ba8c36645070258ea8be48daab": {
+      "timestamp": "2026-11-15T21:29:17.227112+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/i-will-not-make-negative-remarks-about-chief-minister-vijay-suresh-gopi",
+      "title": "முதல்-அமைச்சர் விஜய் குறித்து தவறாக விமர்சிக்க மாட்டேன்: சுரேஷ் கோபி",
+      "source_id": "daily_thanthi"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T12:47:33.497299+00:00",
-  "count": 486,
+  "last_updated": "2026-11-15T13:44:11.632263+00:00",
+  "count": 487,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2918,6 +2918,12 @@
       "url": "https://www.bbc.com/tamil/articles/c9dr1dmgg8vvo?at_medium=RSS&at_campaign=rss",
       "title": "'வங்கக்கடலில் நாளை உருவாகும் புயல் அதிதீவிர புயலாக வலுப்பெறும்' - சென்னைக்கு 4 நாள் கனமழை எச்சரிக்கை",
       "source_id": "bbc_tamil"
+    },
+    "be9cbc4f42353fcf7980f90ea434298fb49c14b420e1312d5e3300c0b93f9ebd": {
+      "timestamp": "2026-11-15T13:44:11.632230+00:00",
+      "url": "https://cinema.vikatan.com/tollywood/nagarjuna-speaks-at-itlu-arjuna-success-meet-shares-king-100-release-update",
+      "title": "\"அப்படித்தான் படங்களை புரொமோட் செய்கிறார்கள்; ஆனால் அவையெல்லாம் ஹிட் ஆகிறதா?\" - நாகர்ஜுனா",
+      "source_id": "vikatan"
     }
   }
 }

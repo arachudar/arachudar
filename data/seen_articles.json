@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T20:16:45.635849+00:00",
-  "count": 496,
+  "last_updated": "2026-11-15T20:56:44.197165+00:00",
+  "count": 497,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2978,6 +2978,12 @@
       "url": "https://www.bbc.com/tamil/articles/ckx28nv92v8lo?at_medium=RSS&at_campaign=rss",
       "title": "இந்தியா - வங்கதேச எல்லையில் திறந்த வெளியில் 5 நாளாக இந்த பெண் பரிதவிப்பது ஏன்?",
       "source_id": "bbc_tamil"
+    },
+    "95c5afd30b32982a784d9441b5e6ecf5aef3ca7752abfffaf44e8f3c88c75993": {
+      "timestamp": "2026-11-15T20:56:44.197125+00:00",
+      "url": "https://www.vikatan.com/literature/the-inspiring-journey-of-indias-first-woman-neurologist-who-dedicated-her-life-to-medicine",
+      "title": "மருத்துவத்திற்காகத் திருமணத்தைத் துறந்த சகோதரிகள்: டாக்டர் சி.ஜானகியின் சாதனைப் பயணம்!",
+      "source_id": "vikatan"
     }
   }
 }

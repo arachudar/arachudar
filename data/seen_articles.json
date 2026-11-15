@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T10:25:24.147615+00:00",
-  "count": 483,
+  "last_updated": "2026-11-15T11:19:04.148356+00:00",
+  "count": 484,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2900,6 +2900,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/cruz-parnandis-157th-birthday-minister-srinath-garlands-statue",
       "title": "குரூஸ் பர்னாந்தீஸ் 157வது பிறந்தநாள்: சிலைக்கு அமைச்சர் ஸ்ரீநாத் மாலை அணிவித்து மரியாதை",
       "source_id": "daily_thanthi"
+    },
+    "b6e753f5ff5b194f8f2bafb2eb418783e4710de8a518ddb12381c9aa492880a8": {
+      "timestamp": "2026-11-15T11:19:04.148334+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/madurai-jewellery-shop-robbery-case-2-including-woman-arrested-jewellery-recovered/4376601",
+      "title": "மதுரை நகைக்கடை கொள்ளை வழக்கில் பெண் உட்பட 2 பேர் கைது: நகைகள் மீட்பு",
+      "source_id": "dinamalar"
     }
   }
 }

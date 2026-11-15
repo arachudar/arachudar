@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T04:33:07.383289+00:00",
-  "count": 477,
+  "last_updated": "2026-11-15T05:29:57.852311+00:00",
+  "count": 478,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2864,6 +2864,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/former-manager-arrested-for-rs-8-crore-fraud-in-pharmaceutical-company",
       "title": "மருந்து நிறுவனத்தில் ரூ.8 கோடி கையாடல்: முன்னாள் மேலாளர் கைது",
       "source_id": "daily_thanthi"
+    },
+    "52d7abd7eacc69d1186677e6052d828db56e6d40b574af29da4635e32374d6f4": {
+      "timestamp": "2026-11-15T05:29:57.852287+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/sale-documents-for-attached-properties-cannot-be-registered-hc-order",
+      "title": "முடக்கப்பட்ட சொத்துகளின் விற்பனை ஆவணத்தை பதிய முடியாது: சென்னை உயர் நீதிமன்றம் உத்தரவு",
+      "source_id": "hindu_tamil"
     }
   }
 }

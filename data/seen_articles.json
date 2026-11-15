@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T13:44:11.632263+00:00",
-  "count": 487,
+  "last_updated": "2026-11-15T14:36:04.704992+00:00",
+  "count": 488,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2924,6 +2924,12 @@
       "url": "https://cinema.vikatan.com/tollywood/nagarjuna-speaks-at-itlu-arjuna-success-meet-shares-king-100-release-update",
       "title": "\"அப்படித்தான் படங்களை புரொமோட் செய்கிறார்கள்; ஆனால் அவையெல்லாம் ஹிட் ஆகிறதா?\" - நாகர்ஜுனா",
       "source_id": "vikatan"
+    },
+    "e276083fed0124c3bc6d32434aa0dbd5cb691bfdc5d796cc9489328b67397db9": {
+      "timestamp": "2026-11-15T14:36:04.704963+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/gem-granites-owner-veeramanis-driver-puzhal-jailed",
+      "title": "ஜெம் கிரானைட்ஸ் உரிமையாளர் வீரமணியின் ஓட்டுநர் புழல் சிறையில் அடைப்பு",
+      "source_id": "daily_thanthi"
     }
   }
 }

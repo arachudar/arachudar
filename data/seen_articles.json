@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T14:36:04.704992+00:00",
-  "count": 488,
+  "last_updated": "2026-11-15T15:18:51.525497+00:00",
+  "count": 489,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2929,6 +2929,12 @@
       "timestamp": "2026-11-15T14:36:04.704963+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/gem-granites-owner-veeramanis-driver-puzhal-jailed",
       "title": "ஜெம் கிரானைட்ஸ் உரிமையாளர் வீரமணியின் ஓட்டுநர் புழல் சிறையில் அடைப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "7c2887a1903b2fa4db50fed4fcf2c7109506569a22fd1d7b55853cc1a2bb8b9b": {
+      "timestamp": "2026-11-15T15:18:51.525468+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/police-deaths-will-destroy-trust-in-the-government-thirumavalavan",
+      "title": "காவல் மரணங்கள் அரசின் மீதான நம்பிக்கையைப் பாழ்படுத்தும் - திருமாவளவன்",
       "source_id": "daily_thanthi"
     }
   }

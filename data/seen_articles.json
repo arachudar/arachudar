@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T00:11:56.799491+00:00",
-  "count": 473,
+  "last_updated": "2026-11-15T01:27:53.281220+00:00",
+  "count": 474,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2840,6 +2840,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/5-additional-dsps-and-14-dsps-transferred-in-tamil-nadu",
       "title": "தமிழகத்தில் 5 கூடுதல் டி.எஸ்.பி.க்கள், 14 டி.எஸ்.பி.க்கள் இடமாற்றம்",
       "source_id": "daily_thanthi"
+    },
+    "e3cc2a2602f1254b926f904bd9024bdc0d11ee13bc0a53af6e9952177be5de59": {
+      "timestamp": "2026-11-15T01:27:53.281199+00:00",
+      "url": "https://www.thehindu.com/news/national/china-border-has-become-more-alive-india-enhancing-frontier-infrastructure-jaishankar/article71703982.ece",
+      "title": "China border has become 'more alive,' India enhancing frontier infrastructure: Jaishankar",
+      "source_id": "the_hindu"
     }
   }
 }

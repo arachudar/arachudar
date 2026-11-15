@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T03:27:22.141254+00:00",
-  "count": 476,
+  "last_updated": "2026-11-15T04:33:07.383289+00:00",
+  "count": 477,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2858,6 +2858,12 @@
       "url": "https://www.vikatan.com/technology/musk-praises-jensen-huangs-leadership-of-nvidias-supply-chain",
       "title": "\"ஜென்சன்‌ ஹுவாங்‌ இல்லையென்றால் Nvidia-க்குப் பாதிகப்பு\" - காரணத்தை விளக்கும் எலான் மஸ்க்",
       "source_id": "vikatan"
+    },
+    "ce32b4afcde0e217f814e5a9a2d18bbbbfecba04481742f51cba5bfce310a16b": {
+      "timestamp": "2026-11-15T04:33:07.383260+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/former-manager-arrested-for-rs-8-crore-fraud-in-pharmaceutical-company",
+      "title": "மருந்து நிறுவனத்தில் ரூ.8 கோடி கையாடல்: முன்னாள் மேலாளர் கைது",
+      "source_id": "daily_thanthi"
     }
   }
 }

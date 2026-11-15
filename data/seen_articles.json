@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-14T23:26:55.735843+00:00",
-  "count": 472,
+  "last_updated": "2026-11-15T00:11:56.799491+00:00",
+  "count": 473,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2833,6 +2833,12 @@
       "timestamp": "2026-11-14T23:26:55.735818+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/vilathikulam-student-murder-case-female-inspector-forced-into-retirement",
       "title": "விளாத்திகுளம் மாணவி கொலை வழக்கு: பெண் இன்ஸ்பெக்டருக்கு கட்டாய பணி ஓய்வு",
+      "source_id": "daily_thanthi"
+    },
+    "150752418922b1d5605afecf86c786d5036b8f8c04ac6310c30693244baae5ff": {
+      "timestamp": "2026-11-15T00:11:56.799461+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/5-additional-dsps-and-14-dsps-transferred-in-tamil-nadu",
+      "title": "தமிழகத்தில் 5 கூடுதல் டி.எஸ்.பி.க்கள், 14 டி.எஸ்.பி.க்கள் இடமாற்றம்",
       "source_id": "daily_thanthi"
     }
   }

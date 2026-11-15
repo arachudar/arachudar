@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T19:25:34.638892+00:00",
-  "count": 495,
+  "last_updated": "2026-11-15T20:16:45.635849+00:00",
+  "count": 496,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2972,6 +2972,12 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/is-the-cpi-m-communist-party-of-india-a-trustee-of-thiruparankundram-hindu-condemned-by-the-organization/4377286",
       "title": "மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சிக்காரர் திருப்பரங்குன்றம் அறங்காவலரா?ஹிந்து அமைப்பினர் கண்டனம்",
       "source_id": "dinamalar"
+    },
+    "bda31f5b00b9b71971983b0d52d02e1b88ffde00c9701a805f833ee68b11267b": {
+      "timestamp": "2026-11-15T20:16:45.635827+00:00",
+      "url": "https://www.bbc.com/tamil/articles/ckx28nv92v8lo?at_medium=RSS&at_campaign=rss",
+      "title": "இந்தியா - வங்கதேச எல்லையில் திறந்த வெளியில் 5 நாளாக இந்த பெண் பரிதவிப்பது ஏன்?",
+      "source_id": "bbc_tamil"
     }
   }
 }

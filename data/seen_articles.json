@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T21:29:17.227154+00:00",
-  "count": 498,
+  "last_updated": "2026-11-15T22:15:45.373973+00:00",
+  "count": 499,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -2989,6 +2989,12 @@
       "timestamp": "2026-11-15T21:29:17.227112+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/i-will-not-make-negative-remarks-about-chief-minister-vijay-suresh-gopi",
       "title": "முதல்-அமைச்சர் விஜய் குறித்து தவறாக விமர்சிக்க மாட்டேன்: சுரேஷ் கோபி",
+      "source_id": "daily_thanthi"
+    },
+    "ec32a17ca8b6eee71fa65bda3657c3aa9db32157f4be92964542c46938f11322": {
+      "timestamp": "2026-11-15T22:15:45.373946+00:00",
+      "url": "https://www.dailythanthi.com/news/india/world-leader-coir-products-worth-rs-6614-crore-exported",
+      "title": "உலக அளவில் முதலிடம்: தென்னை நார் பொருட்கள் ரூ.6,614 கோடிக்கு ஏற்றுமதி",
       "source_id": "daily_thanthi"
     }
   }

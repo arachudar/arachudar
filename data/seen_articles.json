@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-15T23:37:28.611410+00:00",
-  "count": 501,
+  "last_updated": "2026-11-16T00:28:53.761320+00:00",
+  "count": 502,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3007,6 +3007,12 @@
       "timestamp": "2026-11-15T23:37:28.611380+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/cyclone-akwan-to-form-today-heavy-rain-warning-issued-for-3-districts-including-chennai",
       "title": "இன்று உருவாகிறது 'அக்வான்' புயல்.. சென்னை உள்பட 3 மாவட்டங்களுக்கு கனமழை எச்சரிக்கை",
+      "source_id": "daily_thanthi"
+    },
+    "80ff336388809f69849cb53330d4a2a39e3c2fe5c476446628d5d154f4a45a6b": {
+      "timestamp": "2026-11-16T00:28:53.761292+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-vijay-travels-to-delhi-today-is-a-meeting-with-prime-minister-modi-planned",
+      "title": "முதல்-அமைச்சர் விஜய் இன்று டெல்லி பயணம்: பிரதமர் மோடியை சந்திக்க திட்டமா?",
       "source_id": "daily_thanthi"
     }
   }

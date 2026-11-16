@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T21:40:53.008391+00:00",
-  "count": 516,
+  "last_updated": "2026-11-16T22:29:19.058805+00:00",
+  "count": 517,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3098,6 +3098,12 @@
       "url": "https://www.dailythanthi.com/news/india/indias-overall-unemployment-rate-declines-by-03-to-49-on-annual-basis",
       "title": "நாட்டில் வேலையின்மை விகிதம் 4.9 சதவீதமாக குறைவு",
       "source_id": "daily_thanthi"
+    },
+    "11a1513f8b6134da60c15eb4eb1c5ef16e464c1edb6b6e66716f841bbb8ce053": {
+      "timestamp": "2026-11-16T22:29:19.058769+00:00",
+      "url": "https://www.dinamani.com/world/2026/Nov/16/south-korea-top-ranked-candidate-in-tax-consultant-exam-cheated-using-ai",
+      "title": "தென் கொரியா: வரி ஆலோசகா் தோ்வில் முதலிடம் பிடித்தவா் ஏ.ஐ. மூலம் மோசடி",
+      "source_id": "dinamani"
     }
   }
 }

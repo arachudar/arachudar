@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T14:48:22.302378+00:00",
-  "count": 510,
+  "last_updated": "2026-11-16T16:33:15.821623+00:00",
+  "count": 511,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3061,6 +3061,12 @@
       "timestamp": "2026-11-16T14:48:22.302346+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/funding-allocation-for-handloom-and-khadi-sector-announcements-tamil-nadu-government-orders",
       "title": "கைத்தறி மற்றும் கதர்த் துறை அறிவிப்புகளுக்கு நிதி ஒதுக்கீடு: தமிழக அரசு உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "10a7b1bef6a81b61a0d26be931dbe82b090e6990d77fd67ffbfea31c81d2e47f": {
+      "timestamp": "2026-11-16T16:33:15.821586+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/ipl-2027-lucknow-shami-to-rajasthan",
+      "title": "ஐ.பி.எல். 2027: ஷமியை ராஜஸ்தானுக்கு அனுப்பும் லக்னோ? - சாம் கர்ரனை பெற பேச்சுவார்த்தை",
       "source_id": "daily_thanthi"
     }
   }

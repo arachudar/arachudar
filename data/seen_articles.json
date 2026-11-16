@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T10:25:34.667952+00:00",
-  "count": 508,
+  "last_updated": "2026-11-16T11:48:36.275713+00:00",
+  "count": 509,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3050,6 +3050,12 @@
       "url": "https://www.hindutamil.in/news/india/theft-offerings-ram-mandir-congress-demands-sit-under-direct-supervision-of-the-supreme-court",
       "title": "ராமர் கோயில் காணிக்கை திருட்டு: பாஜக, ஆர்எஸ்எஸ் நபர்களை காப்பாற்ற முயற்சி நடப்பதாக காங். குற்றச்சாட்டு",
       "source_id": "hindu_tamil"
+    },
+    "4ee2a1b38e66786aadcc167bf9e6012f693d282a10a9f749be666cfc594021b1": {
+      "timestamp": "2026-11-16T11:48:36.275684+00:00",
+      "url": "https://www.dailythanthi.com/sports/othersports/india-women-clinch-bronze-for-second-consecutive-year-at-asia-rugby-emirates-u20-sevens",
+      "title": "தொடர்ந்து 2-வது ஆண்டாக வெண்கலம்... இந்திய பெண்கள் ரக்பி அணி சாதனை",
+      "source_id": "daily_thanthi"
     }
   }
 }

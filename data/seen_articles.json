@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T22:29:19.058805+00:00",
-  "count": 517,
+  "last_updated": "2026-11-16T23:23:17.634327+00:00",
+  "count": 518,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3104,6 +3104,12 @@
       "url": "https://www.dinamani.com/world/2026/Nov/16/south-korea-top-ranked-candidate-in-tax-consultant-exam-cheated-using-ai",
       "title": "தென் கொரியா: வரி ஆலோசகா் தோ்வில் முதலிடம் பிடித்தவா் ஏ.ஐ. மூலம் மோசடி",
       "source_id": "dinamani"
+    },
+    "e7384bd8ca35cb8a3c86e7a8fc09206ffc4d34ac6e5fc0dbf60f14d840b12364": {
+      "timestamp": "2026-11-16T23:23:17.634293+00:00",
+      "url": "https://www.dailythanthi.com/others/thalayangam/library-scam-high-court-orders-probe-into-book-procurement",
+      "title": "அன்றே எச்சரிக்கை மணி அடித்தது ஐகோர்ட்டு",
+      "source_id": "daily_thanthi"
     }
   }
 }

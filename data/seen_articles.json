@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T03:16:53.684681+00:00",
-  "count": 504,
+  "last_updated": "2026-11-16T04:53:39.258571+00:00",
+  "count": 505,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3025,6 +3025,12 @@
       "timestamp": "2026-11-16T03:16:53.684654+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/katteri-park-loses-its-charm-due-to-a-lack-of-tourists",
       "title": "சுற்றுலா பயணிகள் வருகையின்றி களையிழந்த காட்டேரி பூங்கா",
+      "source_id": "daily_thanthi"
+    },
+    "498d1511f3cd1d5d02cb1b615aa8b68b978ffb584da2b70af6cdc7dceaf52060": {
+      "timestamp": "2026-11-16T04:53:39.258544+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/we-will-always-support-journalists-chief-minister-vijays-greetings-on-national-press-day",
+      "title": "பத்திரிகையாளர்களுக்கு என்றும் துணை நிற்போம்: தேசிய பத்திரிகை நாளில் முதல்-அமைச்சர் விஜய் வாழ்த்து",
       "source_id": "daily_thanthi"
     }
   }

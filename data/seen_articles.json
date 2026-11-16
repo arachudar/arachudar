@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T02:03:10.993396+00:00",
-  "count": 503,
+  "last_updated": "2026-11-16T03:16:53.684681+00:00",
+  "count": 504,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3019,6 +3019,12 @@
       "timestamp": "2026-11-16T02:03:10.993369+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/6-sovereign-gold-chain-snatched-from-an-elderly-woman-the-perpetrator-suffered-a-fractured-arm-after-falling-while-attempting-to-flee3-arrested",
       "title": "மூதாட்டியிடம் 6 பவுன் சங்கிலி பறிப்பு! - தப்பி ஓடியபோது கீழே விழுந்து வாலிபருக்கு கை முறிவு; 3 பேர் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "290575b8b642bd4ccdb39f399c60a3526ae330bfe725f392e79eb6c548f1e826": {
+      "timestamp": "2026-11-16T03:16:53.684654+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/katteri-park-loses-its-charm-due-to-a-lack-of-tourists",
+      "title": "சுற்றுலா பயணிகள் வருகையின்றி களையிழந்த காட்டேரி பூங்கா",
       "source_id": "daily_thanthi"
     }
   }

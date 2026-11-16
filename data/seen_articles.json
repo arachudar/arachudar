@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T11:48:36.275713+00:00",
-  "count": 509,
+  "last_updated": "2026-11-16T14:48:22.302378+00:00",
+  "count": 510,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3055,6 +3055,12 @@
       "timestamp": "2026-11-16T11:48:36.275684+00:00",
       "url": "https://www.dailythanthi.com/sports/othersports/india-women-clinch-bronze-for-second-consecutive-year-at-asia-rugby-emirates-u20-sevens",
       "title": "தொடர்ந்து 2-வது ஆண்டாக வெண்கலம்... இந்திய பெண்கள் ரக்பி அணி சாதனை",
+      "source_id": "daily_thanthi"
+    },
+    "d1fc584e1f53cb8cb2836661fd5472f9608e61ed3b5104ae2167862cb9505a44": {
+      "timestamp": "2026-11-16T14:48:22.302346+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/funding-allocation-for-handloom-and-khadi-sector-announcements-tamil-nadu-government-orders",
+      "title": "கைத்தறி மற்றும் கதர்த் துறை அறிவிப்புகளுக்கு நிதி ஒதுக்கீடு: தமிழக அரசு உத்தரவு",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T06:00:21.268203+00:00",
-  "count": 506,
+  "last_updated": "2026-11-16T08:36:47.616723+00:00",
+  "count": 507,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3038,6 +3038,12 @@
       "url": "https://www.vikatan.com/government-and-politics/governance/vande-bharat-train-operated-for-463-km-without-brakes",
       "title": "பிரேக் குறைபாட்டுடன்  463 கி.மீ தூரம் இயக்கப்பட்ட வந்தே பாரத்: விசாரணைக்கு உத்தரவு... என்ன நடந்தது?",
       "source_id": "vikatan"
+    },
+    "c871f519617665a060b4e9ff64d9104c6f11a5cba70efaf9ae84e5a557382ecf": {
+      "timestamp": "2026-11-16T08:36:47.616698+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cwj3kmmn0gj6o?at_medium=RSS&at_campaign=rss",
+      "title": "அமைச்சரை பதவி விலக வைத்த இந்தியாவின் ஜென்-ஸி போராட்டம் இப்போது நிச்சயமற்ற சூழலில் இருப்பது ஏன்?",
+      "source_id": "bbc_tamil"
     }
   }
 }

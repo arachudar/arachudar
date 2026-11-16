@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T08:36:47.616723+00:00",
-  "count": 507,
+  "last_updated": "2026-11-16T10:25:34.667952+00:00",
+  "count": 508,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3044,6 +3044,12 @@
       "url": "https://www.bbc.com/tamil/articles/cwj3kmmn0gj6o?at_medium=RSS&at_campaign=rss",
       "title": "அமைச்சரை பதவி விலக வைத்த இந்தியாவின் ஜென்-ஸி போராட்டம் இப்போது நிச்சயமற்ற சூழலில் இருப்பது ஏன்?",
       "source_id": "bbc_tamil"
+    },
+    "26a54d101be94da0f6e091a5dfe1eb4c30de4ad28615f905c554ba474e53590a": {
+      "timestamp": "2026-11-16T10:25:34.667923+00:00",
+      "url": "https://www.hindutamil.in/news/india/theft-offerings-ram-mandir-congress-demands-sit-under-direct-supervision-of-the-supreme-court",
+      "title": "ராமர் கோயில் காணிக்கை திருட்டு: பாஜக, ஆர்எஸ்எஸ் நபர்களை காப்பாற்ற முயற்சி நடப்பதாக காங். குற்றச்சாட்டு",
+      "source_id": "hindu_tamil"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T04:53:39.258571+00:00",
-  "count": 505,
+  "last_updated": "2026-11-16T06:00:21.268203+00:00",
+  "count": 506,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3032,6 +3032,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/we-will-always-support-journalists-chief-minister-vijays-greetings-on-national-press-day",
       "title": "பத்திரிகையாளர்களுக்கு என்றும் துணை நிற்போம்: தேசிய பத்திரிகை நாளில் முதல்-அமைச்சர் விஜய் வாழ்த்து",
       "source_id": "daily_thanthi"
+    },
+    "b2c569da5a5354a4bbe41357bc7b7609f49af82d40b43ef27afb10a50d93d7ff": {
+      "timestamp": "2026-11-16T06:00:21.268173+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/governance/vande-bharat-train-operated-for-463-km-without-brakes",
+      "title": "பிரேக் குறைபாட்டுடன்  463 கி.மீ தூரம் இயக்கப்பட்ட வந்தே பாரத்: விசாரணைக்கு உத்தரவு... என்ன நடந்தது?",
+      "source_id": "vikatan"
     }
   }
 }

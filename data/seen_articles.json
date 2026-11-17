@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T21:43:09.606626+00:00",
-  "count": 539,
+  "last_updated": "2026-11-17T22:44:46.099611+00:00",
+  "count": 540,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3236,6 +3236,12 @@
       "url": "https://www.vikatan.com/crime/railway-ticket-seller-who-murdered-a-womans-husband-and-raped-her-apprehended-in-a-police-encounter",
       "title": "உ.பி: திருட வந்த இடத்தில் இரட்டை கொலை... பாலியல் வன்கொடுமை; இளைஞரை சுட்டுப் பிடித்த போலீஸ்!",
       "source_id": "vikatan"
+    },
+    "c1066060bb9b7ade9ba0d22f3ccbb4c19859f05be24826c45565c14a3f9e138b": {
+      "timestamp": "2026-11-17T22:44:46.099583+00:00",
+      "url": "https://www.dailythanthi.com/news/sirappukatturaigal/artificial-intelligence-to-control-pornographic-violent-posts-on-instagram",
+      "title": "இன்ஸ்டாகிராமில் ஆபாச, வன்முறை பதிவுகளை கட்டுப்படுத்த செயற்கை நுண்ணறிவு",
+      "source_id": "daily_thanthi"
     }
   }
 }

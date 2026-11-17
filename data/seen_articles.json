@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T13:52:12.278060+00:00",
-  "count": 531,
+  "last_updated": "2026-11-17T14:49:29.672334+00:00",
+  "count": 532,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3188,6 +3188,12 @@
       "url": "https://www.dailythanthi.com/news/india/apartment-building-collapses-in-delhi-2-killed",
       "title": "டெல்லியில் அடுக்குமாடி கட்டிடம் இடிந்து விழுந்து விபத்து; 2 பேர் பலி",
       "source_id": "daily_thanthi"
+    },
+    "a9f4b9b0a001a8c645df6e7806c3581dc826c35cf7f62bf5ae1ae78d247df30a": {
+      "timestamp": "2026-11-17T14:49:29.672310+00:00",
+      "url": "https://sports.vikatan.com/dhoni-who-is-retiring-from-the-ipl-has-taken-on-a-new-role-as-a-mentor-for-the-csk-team",
+      "title": "``IPL தொடரிலிருந்துதான் ஓய்வு: CSK-வுடன் தோனி பயணிப்பார்\" - சீனிவாசன்",
+      "source_id": "vikatan"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T04:50:44.327363+00:00",
-  "count": 523,
+  "last_updated": "2026-11-17T05:51:54.082701+00:00",
+  "count": 524,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3139,6 +3139,12 @@
       "timestamp": "2026-11-17T04:50:44.327326+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/madurai-jewelry-heist-nishanth-custody-till-nov-1",
       "title": "மதுரை நகைக்கடை கொள்ளை: நிஷாந்துக்கு 1ம் தேதி வரை நீதிமன்ற காவல்",
+      "source_id": "daily_thanthi"
+    },
+    "35494852cf6d4c768e9d6cc8384f588f06f560e2c85f3ace3be7b16665d5bf5b": {
+      "timestamp": "2026-11-17T05:51:54.082675+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/more-than-500-sanitation-workers-protest-in-tambaram-corporation",
+      "title": "தாம்பரம் மாநகராட்சியில் 500-க்கும் மேற்பட்ட துப்புரவு தொழிலாளர்கள் போராட்டம்!",
       "source_id": "daily_thanthi"
     }
   }

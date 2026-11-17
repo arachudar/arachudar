@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T09:25:12.508243+00:00",
-  "count": 527,
+  "last_updated": "2026-11-17T10:37:26.581772+00:00",
+  "count": 528,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3164,6 +3164,12 @@
       "url": "https://www.thehindu.com/news/national/pm-modi-leads-foundation-stone-laying-ceremony-for-philippines-oldest-gurudwaras-redevelopment/article71710655.ece",
       "title": "PM Modi leads foundation stone-laying ceremony for Philippines’ oldest gurudwara’s redevelopment",
       "source_id": "the_hindu"
+    },
+    "bdc3cf81529842055d157ee3f114444e662d843c38a01b7237582bd5c4cb6d36": {
+      "timestamp": "2026-11-17T10:37:26.581748+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cqx2evr2jjp1o?at_medium=RSS&at_campaign=rss",
+      "title": "ஐபிஎல்-லில் இருந்து ஓய்வு: சிஎஸ்கே அணியில் தோனிக்கு புதிய பொறுப்பு",
+      "source_id": "bbc_tamil"
     }
   }
 }

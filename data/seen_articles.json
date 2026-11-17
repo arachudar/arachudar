@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T11:26:40.591000+00:00",
-  "count": 529,
+  "last_updated": "2026-11-17T12:30:35.348244+00:00",
+  "count": 530,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3176,6 +3176,12 @@
       "url": "https://www.maalaimalar.com/news/tamilnadu/action-should-be-taken-against-the-kallakurichi-mla",
       "title": "கள்ளக்குறிச்சி எம்.எல்.ஏ மீது நடவடிக்கை எடுக்க வேண்டும்- முன்னாள் அமைச்சர் வளர்மதி பேச்சு",
       "source_id": "maalai_malar"
+    },
+    "2062fdb86a96eee9ff3802aa3c655925159a82f6875429108df1eb5fd9b8f06f": {
+      "timestamp": "2026-11-17T12:30:35.348214+00:00",
+      "url": "https://www.dinamani.com/trade/2026/Nov/17/indian-stock-market-rallies-2nd-day",
+      "title": "தொடர்ந்து 2வது நாளாக ஏற்றம் கண்ட சென்செக்ஸ் மற்றும் நிஃப்டி!",
+      "source_id": "dinamani"
     }
   }
 }

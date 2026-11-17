@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T03:45:46.827279+00:00",
-  "count": 522,
+  "last_updated": "2026-11-17T04:50:44.327363+00:00",
+  "count": 523,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3133,6 +3133,12 @@
       "timestamp": "2026-11-17T03:45:46.827249+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/prison-guard-who-didnt-come-to-work-for-10-days-body-found-decomposed-at-home",
       "title": "10 நாட்களாக வேலைக்கு வராத சிறைக்காவலர்; வீட்டில் அழுகிய நிலையில் உடல் மீட்பு",
+      "source_id": "daily_thanthi"
+    },
+    "595f0645f0d06b25f29a7c6a23e341b8dd9aeeede8604fca6e65e092b429dfb6": {
+      "timestamp": "2026-11-17T04:50:44.327326+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/madurai-jewelry-heist-nishanth-custody-till-nov-1",
+      "title": "மதுரை நகைக்கடை கொள்ளை: நிஷாந்துக்கு 1ம் தேதி வரை நீதிமன்ற காவல்",
       "source_id": "daily_thanthi"
     }
   }

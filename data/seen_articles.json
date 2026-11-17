@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T16:53:54.163643+00:00",
-  "count": 534,
+  "last_updated": "2026-11-17T17:54:48.346715+00:00",
+  "count": 535,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3205,6 +3205,12 @@
       "timestamp": "2026-11-17T16:53:54.163608+00:00",
       "url": "https://www.dailythanthi.com/news/world/bilateral-talks-between-prime-minister-modi-and-the-president-of-the-philippines",
       "title": "பிரதமர் மோடி, பிலிப்பைன்ஸ் அதிபர் இருதரப்பு பேச்சுவார்த்தை",
+      "source_id": "daily_thanthi"
+    },
+    "c2d6584543b0523cc33741cdc0dd575d83b82e01e7b9e1d2b8cc6fbb39c9e7cf": {
+      "timestamp": "2026-11-17T17:54:48.346689+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/dhanushs-om-film-gets-ua-certificate",
+      "title": "தனுஷின் “ஓம்” திரைப்படத்திற்கு “யு/ஏ” சான்றிதழ்",
       "source_id": "daily_thanthi"
     }
   }

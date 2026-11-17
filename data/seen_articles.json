@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T19:56:35.586679+00:00",
-  "count": 537,
+  "last_updated": "2026-11-17T20:46:35.233110+00:00",
+  "count": 538,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3224,6 +3224,12 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/3-tn-ministers-camped-in-delhi-seeking-union-government-funding-for-projects",
       "title": "3 தமிழக அமைச்சர்கள் டெல்லியில் முகாம்: திட்டங்களுக்கு மத்திய அரசிடம் நிதி பெற முயற்சி",
       "source_id": "hindu_tamil"
+    },
+    "f687a3e3ed9acbff8ee750c2a0067ae5865937d06a2fdecc490ac6b9f76c06cc": {
+      "timestamp": "2026-11-17T20:46:35.233077+00:00",
+      "url": "https://www.maalaimalar.com/news/world/us-launches-fresh-attack-on-irans-qeshm-island",
+      "title": "ஈரானின் கெஷ்ம் தீவு மீது  புதிய தாக்குதலை தொடங்கிய அமெரிக்கா",
+      "source_id": "maalai_malar"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T01:54:30.776053+00:00",
-  "count": 520,
+  "last_updated": "2026-11-17T02:45:28.649869+00:00",
+  "count": 521,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3121,6 +3121,12 @@
       "timestamp": "2026-11-17T01:54:30.776027+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/man-dies-after-asking-for-a-lift-from-a-drunk-youth-on-a-motorcycle",
       "title": "போதை வாலிபரிடம் ‘லிப்ட்’ கேட்டு மோட்டார் சைக்கிளில் ஏறியவர் உயிரிழப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "eb93fa229fbdc0fb7db34b02664f1afb3a1137a4470fc4e3ca7a0a4a3cfffe12": {
+      "timestamp": "2026-11-17T02:45:28.649837+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/mitchell-santner-exits-india-new-zealand-test-series",
+      "title": "இந்தியாவுக்கு எதிரான டெஸ்ட் தொடர்: நியூ. வீரர் மிட்செல் சாண்ட்னர் விலகல்",
       "source_id": "daily_thanthi"
     }
   }

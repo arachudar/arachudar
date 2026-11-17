@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T17:54:48.346715+00:00",
-  "count": 535,
+  "last_updated": "2026-11-17T18:48:53.899955+00:00",
+  "count": 536,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3211,6 +3211,12 @@
       "timestamp": "2026-11-17T17:54:48.346689+00:00",
       "url": "https://www.dailythanthi.com/cinema/cinemanews/dhanushs-om-film-gets-ua-certificate",
       "title": "தனுஷின் “ஓம்” திரைப்படத்திற்கு “யு/ஏ” சான்றிதழ்",
+      "source_id": "daily_thanthi"
+    },
+    "319971a144885f3e8cfdc754fceff65731cecc210bb18a49e7c9d6422ca593b8": {
+      "timestamp": "2026-11-17T18:48:53.899940+00:00",
+      "url": "https://www.dailythanthi.com/sports/football/south-asian-football-championship-india-wins-10th-title",
+      "title": "தெற்காசிய கால்பந்து சாம்பியன்ஷிப் -  10வது முறை  சாம்பியன் பட்டத்தை கைப்பற்றிய இந்தியா",
       "source_id": "daily_thanthi"
     }
   }

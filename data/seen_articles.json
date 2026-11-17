@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T05:51:54.082701+00:00",
-  "count": 524,
+  "last_updated": "2026-11-17T06:59:30.695786+00:00",
+  "count": 525,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3145,6 +3145,12 @@
       "timestamp": "2026-11-17T05:51:54.082675+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/more-than-500-sanitation-workers-protest-in-tambaram-corporation",
       "title": "தாம்பரம் மாநகராட்சியில் 500-க்கும் மேற்பட்ட துப்புரவு தொழிலாளர்கள் போராட்டம்!",
+      "source_id": "daily_thanthi"
+    },
+    "9367b5f916be8088128abdf8aa0a5e79d8ddf44eb7dc13c4a1c162f672df813a": {
+      "timestamp": "2026-11-17T06:59:30.695756+00:00",
+      "url": "https://www.dailythanthi.com/news/world/us-court-strikes-down-trump-visa-rules",
+      "title": "டிரம்ப் அரசு கொண்டு வந்த விசா விதிகளை ரத்து செய்த அமெரிக்க நீதிமன்றம்",
       "source_id": "daily_thanthi"
     }
   }

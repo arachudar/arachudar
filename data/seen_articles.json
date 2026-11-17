@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T18:48:53.899955+00:00",
-  "count": 536,
+  "last_updated": "2026-11-17T19:56:35.586679+00:00",
+  "count": 537,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3218,6 +3218,12 @@
       "url": "https://www.dailythanthi.com/sports/football/south-asian-football-championship-india-wins-10th-title",
       "title": "தெற்காசிய கால்பந்து சாம்பியன்ஷிப் -  10வது முறை  சாம்பியன் பட்டத்தை கைப்பற்றிய இந்தியா",
       "source_id": "daily_thanthi"
+    },
+    "5f573ae90ee3612d10bbd05b326cf4f1e1773ecf7b33da8bd933ef43c1e8dd04": {
+      "timestamp": "2026-11-17T19:56:35.586636+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/3-tn-ministers-camped-in-delhi-seeking-union-government-funding-for-projects",
+      "title": "3 தமிழக அமைச்சர்கள் டெல்லியில் முகாம்: திட்டங்களுக்கு மத்திய அரசிடம் நிதி பெற முயற்சி",
+      "source_id": "hindu_tamil"
     }
   }
 }

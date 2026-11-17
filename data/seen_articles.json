@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T23:23:17.634327+00:00",
-  "count": 518,
+  "last_updated": "2026-11-17T00:21:28.111408+00:00",
+  "count": 519,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3110,6 +3110,12 @@
       "url": "https://www.dailythanthi.com/others/thalayangam/library-scam-high-court-orders-probe-into-book-procurement",
       "title": "அன்றே எச்சரிக்கை மணி அடித்தது ஐகோர்ட்டு",
       "source_id": "daily_thanthi"
+    },
+    "bd8f6d468b8451adc72f778c8c1a6900c4d902ae938f42218e882f715a067dcc": {
+      "timestamp": "2026-11-17T00:21:28.111385+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMTA2ZzduRFFuek5HczhjZExRM0ZndjRvanJub1VpNkNGMV9ZM2lDQUREVWdjdlAxOFV3cV9GM1B1cUdxb01IX0VxX0tXbF9BMkxXUWdYaW5vUy1oWFpVakRZV2NSeUwwbGJKV25lR3duRVhPMmNEbUNEcjZ6SjI1cnVvTFNsWGZIZzhHdFEzaVd6VnhhUUNxRWdwbVXSAaoBQVVfeXFMTjU5VXNvUjZGcjRMc2dtVUdWbDFxcGJrNVlVSWZhclVhMVJUSEpUa0dnbGwxRmo2aXNSQlZiRkI1dVVKZ21waWNucjZ1WVFETFh6d1RIVjFLV0VOWTR5a3pjU29MX1JwQlgtd3N5b2dkclVGeDZnTGpvWjFIQWd0OW9vNllmYmRaTU1yVnhmWUkzN1JneDNKakp4eG42TFN6QzNNYVlLNnNNd2c?oc=5",
+      "title": "தங்கம், வெள்ளி விலை இன்று(நவ.16) அதிரடி குறைவு! - DinaMani",
+      "source_id": "google_news_tamil"
     }
   }
 }

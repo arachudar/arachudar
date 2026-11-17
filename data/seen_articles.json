@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T14:49:29.672334+00:00",
-  "count": 532,
+  "last_updated": "2026-11-17T15:46:21.063702+00:00",
+  "count": 533,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3194,6 +3194,12 @@
       "url": "https://sports.vikatan.com/dhoni-who-is-retiring-from-the-ipl-has-taken-on-a-new-role-as-a-mentor-for-the-csk-team",
       "title": "``IPL தொடரிலிருந்துதான் ஓய்வு: CSK-வுடன் தோனி பயணிப்பார்\" - சீனிவாசன்",
       "source_id": "vikatan"
+    },
+    "27f388b89d462932bf65547d30e5be78715a69cdde8614b167c16824c26b1834": {
+      "timestamp": "2026-11-17T15:46:21.063675+00:00",
+      "url": "https://www.maalaimalar.com/cinema/the-film-chittukurinji-weaves-its-own-magic-and-directs-itself-director-expresses-deep-emotion",
+      "title": "சிட்டுக்குறிஞ்சி திரைப்படம் பல மாயாஜாலங்களை நிகழ்த்தி தன்னை இயக்குகிறது - இயக்குநர் நெகிழ்ச்சி",
+      "source_id": "maalai_malar"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T02:45:28.649869+00:00",
-  "count": 521,
+  "last_updated": "2026-11-17T03:45:46.827279+00:00",
+  "count": 522,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3127,6 +3127,12 @@
       "timestamp": "2026-11-17T02:45:28.649837+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/mitchell-santner-exits-india-new-zealand-test-series",
       "title": "இந்தியாவுக்கு எதிரான டெஸ்ட் தொடர்: நியூ. வீரர் மிட்செல் சாண்ட்னர் விலகல்",
+      "source_id": "daily_thanthi"
+    },
+    "a4462868f76fc06aa29ebebbe2f315f4dd297762163ae045a9de8f0b9ad65097": {
+      "timestamp": "2026-11-17T03:45:46.827249+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/prison-guard-who-didnt-come-to-work-for-10-days-body-found-decomposed-at-home",
+      "title": "10 நாட்களாக வேலைக்கு வராத சிறைக்காவலர்; வீட்டில் அழுகிய நிலையில் உடல் மீட்பு",
       "source_id": "daily_thanthi"
     }
   }

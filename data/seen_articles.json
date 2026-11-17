@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T12:30:35.348244+00:00",
-  "count": 530,
+  "last_updated": "2026-11-17T13:52:12.278060+00:00",
+  "count": 531,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3182,6 +3182,12 @@
       "url": "https://www.dinamani.com/trade/2026/Nov/17/indian-stock-market-rallies-2nd-day",
       "title": "தொடர்ந்து 2வது நாளாக ஏற்றம் கண்ட சென்செக்ஸ் மற்றும் நிஃப்டி!",
       "source_id": "dinamani"
+    },
+    "fe31c143a9ff8c579fe6e4f12881ca43c467da39d68bfb56c88a6251f1668b1c": {
+      "timestamp": "2026-11-17T13:52:12.278033+00:00",
+      "url": "https://www.dailythanthi.com/news/india/apartment-building-collapses-in-delhi-2-killed",
+      "title": "டெல்லியில் அடுக்குமாடி கட்டிடம் இடிந்து விழுந்து விபத்து; 2 பேர் பலி",
+      "source_id": "daily_thanthi"
     }
   }
 }

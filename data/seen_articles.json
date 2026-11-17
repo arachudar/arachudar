@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T00:21:28.111408+00:00",
-  "count": 519,
+  "last_updated": "2026-11-17T01:54:30.776053+00:00",
+  "count": 520,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3116,6 +3116,12 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMTA2ZzduRFFuek5HczhjZExRM0ZndjRvanJub1VpNkNGMV9ZM2lDQUREVWdjdlAxOFV3cV9GM1B1cUdxb01IX0VxX0tXbF9BMkxXUWdYaW5vUy1oWFpVakRZV2NSeUwwbGJKV25lR3duRVhPMmNEbUNEcjZ6SjI1cnVvTFNsWGZIZzhHdFEzaVd6VnhhUUNxRWdwbVXSAaoBQVVfeXFMTjU5VXNvUjZGcjRMc2dtVUdWbDFxcGJrNVlVSWZhclVhMVJUSEpUa0dnbGwxRmo2aXNSQlZiRkI1dVVKZ21waWNucjZ1WVFETFh6d1RIVjFLV0VOWTR5a3pjU29MX1JwQlgtd3N5b2dkclVGeDZnTGpvWjFIQWd0OW9vNllmYmRaTU1yVnhmWUkzN1JneDNKakp4eG42TFN6QzNNYVlLNnNNd2c?oc=5",
       "title": "தங்கம், வெள்ளி விலை இன்று(நவ.16) அதிரடி குறைவு! - DinaMani",
       "source_id": "google_news_tamil"
+    },
+    "452292853a2ee374edd1cdb7494faf2b1c7302304d18648c95519018fd762ae0": {
+      "timestamp": "2026-11-17T01:54:30.776027+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/man-dies-after-asking-for-a-lift-from-a-drunk-youth-on-a-motorcycle",
+      "title": "போதை வாலிபரிடம் ‘லிப்ட்’ கேட்டு மோட்டார் சைக்கிளில் ஏறியவர் உயிரிழப்பு",
+      "source_id": "daily_thanthi"
     }
   }
 }

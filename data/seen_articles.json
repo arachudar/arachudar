@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T16:19:00.952832+00:00",
-  "count": 556,
+  "last_updated": "2026-11-18T17:24:25.783449+00:00",
+  "count": 557,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3337,6 +3337,12 @@
       "timestamp": "2026-11-18T16:19:00.952801+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/beneficiaries-being-removed-from-the-womens-entitlement-grant-scheme-tamil-nadu-government-denies-it",
       "title": "மகளிர் உரிமைத்தொகை  திட்ட பயனாளிகள் நீக்கமா?  தமிழக அரசு மறுப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "17e8b0e02a7118646f8c61521bc0d1349ac651748528264d4b3f537dea06cf0c": {
+      "timestamp": "2026-11-18T17:24:25.783423+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/vijayakumars-arivu-film-teaser-out",
+      "title": "விஜய்குமார் நடிக்கும் “அறிவு” படத்தின் டீசர் வெளியீடு",
       "source_id": "daily_thanthi"
     }
   }

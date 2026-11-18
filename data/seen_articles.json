@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T22:28:39.883013+00:00",
-  "count": 562,
+  "last_updated": "2026-11-18T23:27:48.124859+00:00",
+  "count": 563,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3373,6 +3373,12 @@
       "timestamp": "2026-11-18T22:28:39.882987+00:00",
       "url": "https://www.dailythanthi.com/others/thalayangam/agniveers-who-will-become-army-soldiers",
       "title": "ராணுவ வீரர்களாகப்போகும் அக்னி வீரர்கள்",
+      "source_id": "daily_thanthi"
+    },
+    "ac17995589862dcff8d533f6ff1f0b02223dd0938af047c31b953b5ca2545da0": {
+      "timestamp": "2026-11-18T23:27:48.124838+00:00",
+      "url": "https://www.dailythanthi.com/news/world/us-proposes-tougher-rules-for-employment-based-green-cards-longer-hiring-process",
+      "title": "அமெரிக்காவில் வேலைவாய்ப்பு சார்ந்த ‘கிரீன் கார்டு’ விதிகளில் மாற்றம்",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T19:39:01.471576+00:00",
-  "count": 559,
+  "last_updated": "2026-11-18T20:33:29.895465+00:00",
+  "count": 560,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3356,6 +3356,12 @@
       "url": "https://www.bbc.com/tamil/articles/cm3vgp19w77xo?at_medium=RSS&at_campaign=rss",
       "title": "'இமயமலையிலும் அதே கல்' : திருப்பரங்குன்றம் வழக்கில் தமிழ்நாடு அரசின் வாதத்திற்கு விமர்சனங்கள் எழுவது ஏன்?",
       "source_id": "bbc_tamil"
+    },
+    "341ccc67ce6666b344970a8296ab2b2518819081ac475e38b8ce3ec7d5cb7a99": {
+      "timestamp": "2026-11-18T20:33:29.895437+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/cricket-australia-announces-independent-forum-in-attempt-to-clear-up-sandpapergate-scandal",
+      "title": "பந்தை சேதப்படுத்திய விவகாரம்: ஆஸ்திரேலிய கிரிக்கெட் வாரியம் புதிய முடிவு",
+      "source_id": "daily_thanthi"
     }
   }
 }

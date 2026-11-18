@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T20:33:29.895465+00:00",
-  "count": 560,
+  "last_updated": "2026-11-18T21:30:00.800509+00:00",
+  "count": 561,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3362,6 +3362,12 @@
       "url": "https://www.dailythanthi.com/sports/cricket/cricket-australia-announces-independent-forum-in-attempt-to-clear-up-sandpapergate-scandal",
       "title": "பந்தை சேதப்படுத்திய விவகாரம்: ஆஸ்திரேலிய கிரிக்கெட் வாரியம் புதிய முடிவு",
       "source_id": "daily_thanthi"
+    },
+    "e9201af07a73c22083245c8f1102730e01f6430d0fd51d624837cfdacef1388b": {
+      "timestamp": "2026-11-18T21:30:00.800474+00:00",
+      "url": "https://www.hindutamil.in/news/business/gold-rate-down-by-rupees-97720-per-sovereign",
+      "title": "ஒரு பவுன் தங்கம் ரூ.97,720 ஆக சரிவு",
+      "source_id": "hindu_tamil"
     }
   }
 }

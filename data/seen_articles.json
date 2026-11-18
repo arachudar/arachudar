@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T09:52:09.118415+00:00",
-  "count": 550,
+  "last_updated": "2026-11-18T10:54:08.481903+00:00",
+  "count": 551,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3301,6 +3301,12 @@
       "timestamp": "2026-11-18T09:52:09.118378+00:00",
       "url": "https://www.hindutamil.in/news/tamilnadu/s-raghupathy-slams-tvk-govt",
       "title": "“தவெக அதிருப்தி எம்எல்ஏக்களால் ஆட்சி மாற்ற சூழல் ஏற்படலாம்” - ரகுபதி கணிப்பு",
+      "source_id": "hindu_tamil"
+    },
+    "d306be6f1ee532f376f469a7beaa4deb801b68d7b3a9215167ac4ade4e53c1f1": {
+      "timestamp": "2026-11-18T10:54:08.481870+00:00",
+      "url": "https://www.hindutamil.in/photo-album/album/today-news-november-18-2026",
+      "title": "இன்றைய செய்தித் தெறிப்புகள் | நவ.18, 2026",
       "source_id": "hindu_tamil"
     }
   }

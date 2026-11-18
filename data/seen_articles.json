@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T11:51:50.057467+00:00",
-  "count": 552,
+  "last_updated": "2026-11-18T12:55:40.211935+00:00",
+  "count": 553,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3314,6 +3314,12 @@
       "url": "https://www.thehindu.com/sci-tech/science/nasa-voyager-1-probe-believed-to-have-reached-light-day-milestone/article71715503.ece",
       "title": "NASA Voyager 1 probe believed to have reached ‘light-day’ milestone",
       "source_id": "the_hindu"
+    },
+    "914a8dd9d3f012d386dc6e378f5e0c4314e3f9789f7a18c27d3a5ea7e0350dd5": {
+      "timestamp": "2026-11-18T12:55:40.211906+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/new-infrastructure-projects-of-tamil-nadu-panchalai-corporation-at-rs-250-crore-tamil-nadu-government-information",
+      "title": "ரூ.2.50 கோடியில் தமிழ்நாடு பஞ்சாலை கழகத்தின் புதிய உள்கட்டமைப்பு திட்டங்கள் - தமிழக அரசு தகவல்",
+      "source_id": "daily_thanthi"
     }
   }
 }

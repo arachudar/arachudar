@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T21:30:00.800509+00:00",
-  "count": 561,
+  "last_updated": "2026-11-18T22:28:39.883013+00:00",
+  "count": 562,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3368,6 +3368,12 @@
       "url": "https://www.hindutamil.in/news/business/gold-rate-down-by-rupees-97720-per-sovereign",
       "title": "ஒரு பவுன் தங்கம் ரூ.97,720 ஆக சரிவு",
       "source_id": "hindu_tamil"
+    },
+    "9544e796e223f573bb5d034af356333a34bcb1707b0ed3aa79e9935612ff650b": {
+      "timestamp": "2026-11-18T22:28:39.882987+00:00",
+      "url": "https://www.dailythanthi.com/others/thalayangam/agniveers-who-will-become-army-soldiers",
+      "title": "ராணுவ வீரர்களாகப்போகும் அக்னி வீரர்கள்",
+      "source_id": "daily_thanthi"
     }
   }
 }

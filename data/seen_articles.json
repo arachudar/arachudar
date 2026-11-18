@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T02:10:05.597462+00:00",
-  "count": 543,
+  "last_updated": "2026-11-18T03:08:01.878028+00:00",
+  "count": 544,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3260,6 +3260,12 @@
       "url": "https://tamil.asianetnews.com/gallery/cinema/jailer-2-actor-jackie-shroff-1-lakh-investment-became-100-crore-rupees-091eqiu",
       "title": "ரியல் லக்கி பாஸ்கர்! 1 லட்சம் முதலீடு செய்து 100 கோடி ரிட்டர்ன்ஸ் எடுத்த ஜெயிலர் 2 நடிகர்",
       "source_id": "asianet_tamil"
+    },
+    "e9516e27ab5cf1decfe7d75cfd385b3ef68cbadab78c936211b570541500a4b4": {
+      "timestamp": "2026-11-18T03:08:01.878001+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/students-return-home-as-teachers-fail-to-show-up-at-government-school-headmaster-suspended",
+      "title": "அரசு பள்ளிக்கு ஆசிரியர்கள் வராததால் வீடு திரும்பிய மாணவர்கள்: தலைமை ஆசிரியர் பணியிடை நீக்கம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

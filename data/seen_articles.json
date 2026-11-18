@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T12:55:40.211935+00:00",
-  "count": 553,
+  "last_updated": "2026-11-18T14:11:05.788889+00:00",
+  "count": 554,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3319,6 +3319,12 @@
       "timestamp": "2026-11-18T12:55:40.211906+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/new-infrastructure-projects-of-tamil-nadu-panchalai-corporation-at-rs-250-crore-tamil-nadu-government-information",
       "title": "ரூ.2.50 கோடியில் தமிழ்நாடு பஞ்சாலை கழகத்தின் புதிய உள்கட்டமைப்பு திட்டங்கள் - தமிழக அரசு தகவல்",
+      "source_id": "daily_thanthi"
+    },
+    "dff5e451c038833153118c422e3d534c404cb31d318670f54328685dcad49c4b": {
+      "timestamp": "2026-11-18T14:11:05.788870+00:00",
+      "url": "https://www.dailythanthi.com/news/world/india-japan-cooperation-should-be-further-strengthened-union-minister-jaishankar",
+      "title": "‘இந்தியா-ஜப்பான் ஒத்துழைப்பை மேலும் வலுப்படுத்த வேண்டும்’ - மத்திய மந்திரி ஜெய்சங்கர்",
       "source_id": "daily_thanthi"
     }
   }

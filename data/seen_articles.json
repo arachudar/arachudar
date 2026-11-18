@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T07:54:21.001434+00:00",
-  "count": 548,
+  "last_updated": "2026-11-18T08:54:39.372149+00:00",
+  "count": 549,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3290,6 +3290,12 @@
       "url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-seeks-immediate-central-assistance-to-cope-with-damages-caused-by-two-cyclones/article71712161.ece",
       "title": "Naidu seeks immediate Central assistance to cope with damages caused by two cyclones",
       "source_id": "the_hindu"
+    },
+    "2b690c4fcc8b40b222d6fd39f4215e63ee9a71a72521a7f411c82e977624d800": {
+      "timestamp": "2026-11-18T08:54:39.372121+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cwnv43mge995o?at_medium=RSS&at_campaign=rss",
+      "title": "தமிழகத்தில் கிறிஸ்தவர்களுக்கு வழங்கப்படும் இடஒதுக்கீட்டை விசாரிப்பதாக உயர் நீதிமன்றம் கூறியது ஏன்?",
+      "source_id": "bbc_tamil"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T17:24:25.783449+00:00",
-  "count": 557,
+  "last_updated": "2026-11-18T18:26:49.887132+00:00",
+  "count": 558,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3344,6 +3344,12 @@
       "url": "https://www.dailythanthi.com/cinema/cinemanews/vijayakumars-arivu-film-teaser-out",
       "title": "விஜய்குமார் நடிக்கும் “அறிவு” படத்தின் டீசர் வெளியீடு",
       "source_id": "daily_thanthi"
+    },
+    "f1a761046b880cd31d1c54e447f4d9c96839fd722ee057a2b3a8d69a2dc7ffdb": {
+      "timestamp": "2026-11-18T18:26:49.887094+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/governance/not-everyone-who-creates-insta-reels-is-a-journalist",
+      "title": "``இன்ஸ்டா ரீல்ஸ் தயாரிப்பவர்களெல்லாம் பத்திரிகையாளர்கள் அல்ல\" - நீதிமன்றத்தில் டெல்லி காவல்துறை!",
+      "source_id": "vikatan"
     }
   }
 }

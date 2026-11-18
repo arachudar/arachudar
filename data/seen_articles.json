@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T10:54:08.481903+00:00",
-  "count": 551,
+  "last_updated": "2026-11-18T11:51:50.057467+00:00",
+  "count": 552,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3308,6 +3308,12 @@
       "url": "https://www.hindutamil.in/photo-album/album/today-news-november-18-2026",
       "title": "இன்றைய செய்தித் தெறிப்புகள் | நவ.18, 2026",
       "source_id": "hindu_tamil"
+    },
+    "9317f2fb48818c6ebb12bade973ce3d815a41fed0a3973b4277324145fa0d00a": {
+      "timestamp": "2026-11-18T11:51:50.057439+00:00",
+      "url": "https://www.thehindu.com/sci-tech/science/nasa-voyager-1-probe-believed-to-have-reached-light-day-milestone/article71715503.ece",
+      "title": "NASA Voyager 1 probe believed to have reached ‘light-day’ milestone",
+      "source_id": "the_hindu"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T05:19:34.999923+00:00",
-  "count": 546,
+  "last_updated": "2026-11-18T06:24:33.318285+00:00",
+  "count": 547,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3277,6 +3277,12 @@
       "timestamp": "2026-11-18T05:19:34.999894+00:00",
       "url": "https://www.dailythanthi.com/news/india/contempt-of-court-case-final-opportunity-for-kejriwal-to-file-a-response",
       "title": "கோர்ட்டு அவமதிப்பு வழக்கு; பதிலளிக்க கெஜ்ரிவாலுக்கு கடைசி வாய்ப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "6b5958afa4b9bae3a1442963e4403b827a62532a68d1ba89e9c532acd5f5e28f": {
+      "timestamp": "2026-11-18T06:24:33.318251+00:00",
+      "url": "https://www.dailythanthi.com/news/india/puducherry-stray-dogs-chasing-school-students-peoples-demand",
+      "title": "புதுச்சேரி: பள்ளி மாணவர்களைத் துரத்திய தெரு நாய்கள் -மக்கள் கோரிக்கை",
       "source_id": "daily_thanthi"
     }
   }

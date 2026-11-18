@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T23:41:35.959859+00:00",
-  "count": 541,
+  "last_updated": "2026-11-18T00:52:17.918097+00:00",
+  "count": 542,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3248,6 +3248,12 @@
       "url": "https://www.dailythanthi.com/news/world/pm-modi-is-my-friend-and-a-great-leader-trump-in-quad-meeting",
       "title": "என் நண்பர் பிரதமர் மோடி மிகவும் மதிக்கப்படும் மாபெரும் தலைவர் -  டிரம்ப்",
       "source_id": "daily_thanthi"
+    },
+    "2f456b21d1e55838a57a87078e876d5939a908d83a47ccb062fc273b220c7b69": {
+      "timestamp": "2026-11-18T00:52:17.918070+00:00",
+      "url": "https://tamil.asianetnews.com/gallery/sports/ms-dhoni-ipl-retirement-unbreakable-records-of-csk-legend-as-captain-0hr44uv",
+      "title": "MS Dhoni IPL Retirement: ஐபிஎல்-ல தோனியோட இந்த சாதனைகளை யாராவது முறியடிப்பாங்களா?",
+      "source_id": "asianet_tamil"
     }
   }
 }

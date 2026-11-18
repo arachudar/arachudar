@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T03:08:01.878028+00:00",
-  "count": 544,
+  "last_updated": "2026-11-18T04:15:53.620223+00:00",
+  "count": 545,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3265,6 +3265,12 @@
       "timestamp": "2026-11-18T03:08:01.878001+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/students-return-home-as-teachers-fail-to-show-up-at-government-school-headmaster-suspended",
       "title": "அரசு பள்ளிக்கு ஆசிரியர்கள் வராததால் வீடு திரும்பிய மாணவர்கள்: தலைமை ஆசிரியர் பணியிடை நீக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "50ce2cfdd3b9601f0930023e3076592ec65558771842c561a9079a710a1eb250": {
+      "timestamp": "2026-11-18T04:15:53.620199+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/a-thorough-investigation-should-be-conducted-into-the-death-of-a-tamil-nadu-youth-who-died-in-singapore-seeman-insists",
+      "title": "சிங்கப்பூரில் உயிரிழந்த தமிழக இளைஞர் மரணம் குறித்து முழுமையான விசாரணை நடத்த வேண்டும்: சீமான்",
       "source_id": "daily_thanthi"
     }
   }

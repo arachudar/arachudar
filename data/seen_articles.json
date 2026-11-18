@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T08:54:39.372149+00:00",
-  "count": 549,
+  "last_updated": "2026-11-18T09:52:09.118415+00:00",
+  "count": 550,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3296,6 +3296,12 @@
       "url": "https://www.bbc.com/tamil/articles/cwnv43mge995o?at_medium=RSS&at_campaign=rss",
       "title": "தமிழகத்தில் கிறிஸ்தவர்களுக்கு வழங்கப்படும் இடஒதுக்கீட்டை விசாரிப்பதாக உயர் நீதிமன்றம் கூறியது ஏன்?",
       "source_id": "bbc_tamil"
+    },
+    "cfe68c41af096468e223af12877c568a8ad67bed018f096d70a094bf1de818dd": {
+      "timestamp": "2026-11-18T09:52:09.118378+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/s-raghupathy-slams-tvk-govt",
+      "title": "“தவெக அதிருப்தி எம்எல்ஏக்களால் ஆட்சி மாற்ற சூழல் ஏற்படலாம்” - ரகுபதி கணிப்பு",
+      "source_id": "hindu_tamil"
     }
   }
 }

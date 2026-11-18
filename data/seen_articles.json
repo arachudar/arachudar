@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T15:15:43.463005+00:00",
-  "count": 555,
+  "last_updated": "2026-11-18T16:19:00.952832+00:00",
+  "count": 556,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3331,6 +3331,12 @@
       "timestamp": "2026-11-18T15:15:43.462975+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/my-wristwatch-costs-only-rs-5500-minister-rajmohan-clarifies",
       "title": "எனது கைக்கடிகாரத்தின் விலை ரூ.5,500 தான் - அமைச்சர் ராஜ்மோகன் விளக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "2b0b8c6eb3f1f0958fd1593bd2730f734bc4ffdc235a895333100cb0ef226875": {
+      "timestamp": "2026-11-18T16:19:00.952801+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/beneficiaries-being-removed-from-the-womens-entitlement-grant-scheme-tamil-nadu-government-denies-it",
+      "title": "மகளிர் உரிமைத்தொகை  திட்ட பயனாளிகள் நீக்கமா?  தமிழக அரசு மறுப்பு",
       "source_id": "daily_thanthi"
     }
   }

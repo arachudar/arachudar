@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T14:11:05.788889+00:00",
-  "count": 554,
+  "last_updated": "2026-11-18T15:15:43.463005+00:00",
+  "count": 555,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3325,6 +3325,12 @@
       "timestamp": "2026-11-18T14:11:05.788870+00:00",
       "url": "https://www.dailythanthi.com/news/world/india-japan-cooperation-should-be-further-strengthened-union-minister-jaishankar",
       "title": "‘இந்தியா-ஜப்பான் ஒத்துழைப்பை மேலும் வலுப்படுத்த வேண்டும்’ - மத்திய மந்திரி ஜெய்சங்கர்",
+      "source_id": "daily_thanthi"
+    },
+    "dc048a1fb653195707a3f59b43e179fc4033a6cd9ef5b32d982cca52726e6352": {
+      "timestamp": "2026-11-18T15:15:43.462975+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/my-wristwatch-costs-only-rs-5500-minister-rajmohan-clarifies",
+      "title": "எனது கைக்கடிகாரத்தின் விலை ரூ.5,500 தான் - அமைச்சர் ராஜ்மோகன் விளக்கம்",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T06:24:33.318285+00:00",
-  "count": 547,
+  "last_updated": "2026-11-18T07:54:21.001434+00:00",
+  "count": 548,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3284,6 +3284,12 @@
       "url": "https://www.dailythanthi.com/news/india/puducherry-stray-dogs-chasing-school-students-peoples-demand",
       "title": "புதுச்சேரி: பள்ளி மாணவர்களைத் துரத்திய தெரு நாய்கள் -மக்கள் கோரிக்கை",
       "source_id": "daily_thanthi"
+    },
+    "e7b5729db206cd8d26d66d6bb2d172f096cb097d02bcf00bdcef117de9a23bd9": {
+      "timestamp": "2026-11-18T07:54:21.001403+00:00",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-seeks-immediate-central-assistance-to-cope-with-damages-caused-by-two-cyclones/article71712161.ece",
+      "title": "Naidu seeks immediate Central assistance to cope with damages caused by two cyclones",
+      "source_id": "the_hindu"
     }
   }
 }

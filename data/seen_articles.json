@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T02:45:20.962725+00:00",
-  "count": 566,
+  "last_updated": "2026-11-19T03:47:35.075210+00:00",
+  "count": 567,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3398,6 +3398,12 @@
       "url": "https://www.maalaimalar.com/astrology/aries/daily/today-rasipalan-19-november-2026-12",
       "title": "மேஷம்: இன்றைய ராசிபலன் - 19 நவம்பர் 2026",
       "source_id": "maalai_malar"
+    },
+    "e7d4639002f1f6da5db6e82d4841ec08f3189ba2451afd4474ae8b68330058f4": {
+      "timestamp": "2026-11-19T03:47:35.075181+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-governor-arlekar-admitted-to-hospital",
+      "title": "தமிழக கவர்னர் அர்லேகர் மருத்துவமனையில் அனுமதி",
+      "source_id": "daily_thanthi"
     }
   }
 }

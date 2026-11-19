@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-18T23:27:48.124859+00:00",
-  "count": 563,
+  "last_updated": "2026-11-19T00:29:55.299009+00:00",
+  "count": 564,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3380,6 +3380,12 @@
       "url": "https://www.dailythanthi.com/news/world/us-proposes-tougher-rules-for-employment-based-green-cards-longer-hiring-process",
       "title": "அமெரிக்காவில் வேலைவாய்ப்பு சார்ந்த ‘கிரீன் கார்டு’ விதிகளில் மாற்றம்",
       "source_id": "daily_thanthi"
+    },
+    "0520e177e1bc520f421925b178fc0a62fcfb3fd5216f2fe3fa4eeb646dd008b3": {
+      "timestamp": "2026-11-19T00:29:55.298982+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/cartoon-november-25-2026",
+      "title": "வினையாடுவோமா..?",
+      "source_id": "vikatan"
     }
   }
 }

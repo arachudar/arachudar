@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T17:48:56.292657+00:00",
-  "count": 580,
+  "last_updated": "2026-11-19T18:50:04.088146+00:00",
+  "count": 581,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3482,6 +3482,12 @@
       "url": "https://www.bbc.com/tamil/articles/c6702q02z9dvo?at_medium=RSS&at_campaign=rss",
       "title": "கொளத்தூர் சட்டப்பேரவை உறுப்பினர் வி.எஸ். பாபு காலமானார் - முதல்வர் விஜய், ஸ்டாலின் கூறியது என்ன?",
       "source_id": "bbc_tamil"
+    },
+    "8939319b56bd8a15ec3011f90d8416eb1eaa1a1ece2048f3a9697cbe1ec8532c": {
+      "timestamp": "2026-11-19T18:50:04.088128+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/tvk-members-excesses-fueled-by-the-intoxication-of-power-ops-condemns",
+      "title": "“அதிகார போதையில் தவெகவினர் அட்டூழியம்” - ஓபிஎஸ் கண்டனம்",
+      "source_id": "hindu_tamil"
     }
   }
 }

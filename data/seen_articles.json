@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T05:54:11.520223+00:00",
-  "count": 569,
+  "last_updated": "2026-11-19T06:58:34.335456+00:00",
+  "count": 570,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3416,6 +3416,12 @@
       "url": "https://www.thehindu.com/news/national/cyclone-akwan-tracker-live-updates-odisha-andhra-pradesh-landfall-imd-map-location-puri-vizag-bay-of-bengal/article71718788.ece",
       "title": "Cyclone 'Akvan' LIVE updates: Severe cyclonic storm moves northwards; nearly 50,000 evacuated in Odisha",
       "source_id": "the_hindu"
+    },
+    "1199292e0779c06cf78279278f5b21c26f42152497aa1b10a487fe39b82f90eb": {
+      "timestamp": "2026-11-19T06:58:34.335431+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cr9d75wdlp3zo?at_medium=RSS&at_campaign=rss",
+      "title": "அக்வான் புயல் எங்கு உள்ளது? எங்கே கரையைக் கடக்கும்? - சமீபத்திய தகவல்கள்",
+      "source_id": "bbc_tamil"
     }
   }
 }

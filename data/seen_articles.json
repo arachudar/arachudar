@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T04:54:34.535185+00:00",
-  "count": 568,
+  "last_updated": "2026-11-19T05:54:11.520223+00:00",
+  "count": 569,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3410,6 +3410,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/a-prize-of-rs-5-lakh-for-farmers-who-achieve-the-highest-yield-in-the-crop-production-competition",
       "title": "பயிர் விளைச்சல் போட்டியில் அதிக மகசூல் பெறும் விவசாயிகளுக்கு ரூ.5 லட்சம் பரிசு..!",
       "source_id": "daily_thanthi"
+    },
+    "2a8ec6ae610d6b3913b3c45968e2034cd72e966c3a488c1c3d9236d803fdb1e0": {
+      "timestamp": "2026-11-19T05:54:11.520199+00:00",
+      "url": "https://www.thehindu.com/news/national/cyclone-akwan-tracker-live-updates-odisha-andhra-pradesh-landfall-imd-map-location-puri-vizag-bay-of-bengal/article71718788.ece",
+      "title": "Cyclone 'Akvan' LIVE updates: Severe cyclonic storm moves northwards; nearly 50,000 evacuated in Odisha",
+      "source_id": "the_hindu"
     }
   }
 }

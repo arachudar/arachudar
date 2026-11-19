@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T19:56:12.891590+00:00",
-  "count": 582,
+  "last_updated": "2026-11-19T20:45:58.787712+00:00",
+  "count": 583,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3493,6 +3493,12 @@
       "timestamp": "2026-11-19T19:56:12.891569+00:00",
       "url": "https://www.dailythanthi.com/sports/othersports/hong-kong-open-2026-badminton-rakshita-ramraj-qualifies-for-quarter-finals",
       "title": "ஹாங்காங் ஓபன் பேட்மிண்டன்:  இந்திய வீராங்கனை ரஷிதா கால்இறுதிக்கு தகுதி",
+      "source_id": "daily_thanthi"
+    },
+    "7103e340f81129405f78323e85f346a6f0d4bca5e2d6cf086d764242978b6c14": {
+      "timestamp": "2026-11-19T20:45:58.787679+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/mohammed-siraj-ravindra-jadejas-leaving-in-indias-team-ravichandran-ashwin-criticizes",
+      "title": "முகமது சிராஜ், ஜடேஜா நீக்கம் கடுமையானது - அஸ்வின் விமர்சனம்",
       "source_id": "daily_thanthi"
     }
   }

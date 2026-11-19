@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T15:50:09.247906+00:00",
-  "count": 578,
+  "last_updated": "2026-11-19T16:56:04.453059+00:00",
+  "count": 579,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3470,6 +3470,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/monthly-maintenance-work-power-outage-in-tirunelveli-the-day-after-tomorrow-33",
       "title": "மாதாந்திர பராமரிப்பு பணி: திருநெல்வேலியில் நாளை மறுநாள் மின்தடை",
       "source_id": "daily_thanthi"
+    },
+    "c06da50fe3507c99bf77a7963b67ae470f96e6ba33d36cd93d74f14a86a068a3": {
+      "timestamp": "2026-11-19T16:56:04.453033+00:00",
+      "url": "https://www.thehindu.com/news/cities/Visakhapatnam/srikakulam-vizianagaram-district-administrations-brace-for-cyclone-akvan/article71719223.ece",
+      "title": "Srikakulam, Vizianagaram district administrations brace for Cyclone Akvan",
+      "source_id": "the_hindu"
     }
   }
 }

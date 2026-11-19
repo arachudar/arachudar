@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T14:45:09.900192+00:00",
-  "count": 577,
+  "last_updated": "2026-11-19T15:50:09.247906+00:00",
+  "count": 578,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3463,6 +3463,12 @@
       "timestamp": "2026-11-19T14:45:09.900167+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/tragedy-near-thakkalai-8th-grade-student-suffering-from-fever-dies-suddenly",
       "title": "தக்கலை அருகே சோகம்: காய்ச்சலால் பாதிக்கப்பட்ட 8-ம் வகுப்பு மாணவி திடீர் உயிரிழப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "b9c6caafe5f9c6460d7bd9fba242cafb81e93e6c1bc7ea484b07da76f544383c": {
+      "timestamp": "2026-11-19T15:50:09.247875+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/monthly-maintenance-work-power-outage-in-tirunelveli-the-day-after-tomorrow-33",
+      "title": "மாதாந்திர பராமரிப்பு பணி: திருநெல்வேலியில் நாளை மறுநாள் மின்தடை",
       "source_id": "daily_thanthi"
     }
   }

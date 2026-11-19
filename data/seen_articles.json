@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T10:33:19.790624+00:00",
-  "count": 573,
+  "last_updated": "2026-11-19T11:30:21.620181+00:00",
+  "count": 574,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3439,6 +3439,12 @@
       "timestamp": "2026-11-19T10:33:19.790599+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/kolathur-mla-vs-babu-passes-away",
       "title": "கொளத்தூர் எம்.எல்.ஏ. வி.எஸ்.பாபு மறைவு - அன்புமணி ராமதாஸ் இரங்கல்",
+      "source_id": "daily_thanthi"
+    },
+    "99d2c4029b742d17e49d9175079b1e4446f0fd09857371ee162d8fab1190863b": {
+      "timestamp": "2026-11-19T11:30:21.620154+00:00",
+      "url": "https://www.dailythanthi.com/news/world/india-should-buy-weapons-from-us-instead-of-russias-useless-garbage-us-mps-speech",
+      "title": "‘ரஷியாவின் பயனற்ற குப்பைகளுக்கு பதிலாக எங்களிடம் இந்தியா ஆயுதம் வாங்க வேண்டும்’ - அமெரிக்க எம்.பி. பேச்சு",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T08:20:31.875197+00:00",
-  "count": 571,
+  "last_updated": "2026-11-19T09:30:26.619656+00:00",
+  "count": 572,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3428,6 +3428,12 @@
       "url": "https://www.vikatan.com/government-and-politics/thiruvarur-residents-fear-health-issues-due-to-salt-contaminated-drinking-water",
       "title": "திருவாரூர்: டேங்கில் இருந்து உப்பு கலந்து வரும் குடிநீர்; உயிரிழப்பு ஏற்படுவதாக மக்கள் அச்சம்",
       "source_id": "vikatan"
+    },
+    "678fdf0492bbd8c960136a6bdd6d59c1a9340a263228b0a9b698a471a7cd3bed": {
+      "timestamp": "2026-11-19T09:30:26.619625+00:00",
+      "url": "https://www.hindutamil.in/photo-album/album/today-news-november-19-2026",
+      "title": "இன்றைய செய்தித் தெறிப்புகள் | நவ.19, 2026",
+      "source_id": "hindu_tamil"
     }
   }
 }

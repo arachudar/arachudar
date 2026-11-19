@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T09:30:26.619656+00:00",
-  "count": 572,
+  "last_updated": "2026-11-19T10:33:19.790624+00:00",
+  "count": 573,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3434,6 +3434,12 @@
       "url": "https://www.hindutamil.in/photo-album/album/today-news-november-19-2026",
       "title": "இன்றைய செய்தித் தெறிப்புகள் | நவ.19, 2026",
       "source_id": "hindu_tamil"
+    },
+    "4e32dbd5c352f2474c6368b091f2ba6b8204012b89921b81a8023b7efe16893f": {
+      "timestamp": "2026-11-19T10:33:19.790599+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/kolathur-mla-vs-babu-passes-away",
+      "title": "கொளத்தூர் எம்.எல்.ஏ. வி.எஸ்.பாபு மறைவு - அன்புமணி ராமதாஸ் இரங்கல்",
+      "source_id": "daily_thanthi"
     }
   }
 }

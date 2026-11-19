@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T20:45:58.787712+00:00",
-  "count": 583,
+  "last_updated": "2026-11-19T21:41:27.812570+00:00",
+  "count": 584,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3499,6 +3499,12 @@
       "timestamp": "2026-11-19T20:45:58.787679+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/mohammed-siraj-ravindra-jadejas-leaving-in-indias-team-ravichandran-ashwin-criticizes",
       "title": "முகமது சிராஜ், ஜடேஜா நீக்கம் கடுமையானது - அஸ்வின் விமர்சனம்",
+      "source_id": "daily_thanthi"
+    },
+    "25a7965d9d1c9622a07f7ea09ec6174211161629b5cd8dfe8570c58e24cf1213": {
+      "timestamp": "2026-11-19T21:41:27.812549+00:00",
+      "url": "https://www.dailythanthi.com/sports/tennis/atp-finals-ben-shelton-beats-rafael-jodar",
+      "title": "டென்னிஸ் சாம்பியன்ஷிப்: அமெரிக்க வீரர் பென் ஷெல்டன் 2-வது வெற்றி",
       "source_id": "daily_thanthi"
     }
   }

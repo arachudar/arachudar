@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T22:40:52.763190+00:00",
-  "count": 585,
+  "last_updated": "2026-11-19T23:26:11.975914+00:00",
+  "count": 586,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3511,6 +3511,12 @@
       "timestamp": "2026-11-19T22:40:52.763160+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/test-match-against-new-zealand-why-were-siraj-jadeja-dropped-coach-kotak-explains",
       "title": "நியூசிலாந்துக்கு எதிரான டெஸ்ட் போட்டி: சிராஜ், ஜடேஜா நீக்கப்பட்டது ஏன்? பயிற்சியாளர் கோடக் விளக்கம்",
+      "source_id": "daily_thanthi"
+    },
+    "8590b2faf11ac91d2970b6c81d2c505c24d8985a8ccb23ec202936ffc67790d6": {
+      "timestamp": "2026-11-19T23:26:11.975888+00:00",
+      "url": "https://www.dailythanthi.com/others/thalayangam/ipl-cricket-ms-dhoni-bids-farewell-to-iplcompetition",
+      "title": "ஐ.பி.எல். போட்டியில் இருந்து விடைபெற்றார் தல!",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T12:37:31.701315+00:00",
-  "count": 575,
+  "last_updated": "2026-11-19T13:55:09.022342+00:00",
+  "count": 576,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3451,6 +3451,12 @@
       "timestamp": "2026-11-19T12:37:31.701263+00:00",
       "url": "https://www.dailythanthi.com/devotional/tulsi-vivah-2026-story-and-significance",
       "title": "துளசி திருமணம்... பகவானுடன் கலந்த பதிவிரதா பக்தை",
+      "source_id": "daily_thanthi"
+    },
+    "844410625267d97415f98d8b183bf225b1374651c354f2907e60be79aca80485": {
+      "timestamp": "2026-11-19T13:55:09.022320+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/kolathur-mla-vs-babu-passes-away-indian-union-muslim-league-condoles-death",
+      "title": "கொளத்தூர் எம்.எல்.ஏ. விஎஸ். பாபு மறைவு: இந்திய யூனியன் முஸ்லிம் லீக் இரங்கல்",
       "source_id": "daily_thanthi"
     }
   }

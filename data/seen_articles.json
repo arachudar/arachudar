@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T00:29:55.299009+00:00",
-  "count": 564,
+  "last_updated": "2026-11-19T01:55:22.607337+00:00",
+  "count": 565,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3386,6 +3386,12 @@
       "url": "https://www.vikatan.com/government-and-politics/cartoon-november-25-2026",
       "title": "வினையாடுவோமா..?",
       "source_id": "vikatan"
+    },
+    "42149a578ade207fbddab0cb937de7d6fa2a8c6890cc5c82eadbe11a5c1413ef": {
+      "timestamp": "2026-11-19T01:55:22.607308+00:00",
+      "url": "https://www.maalaimalar.com/spirituality/today-panchangam-and-important-events-19-november-2026-dakshinamurthy-abhishekam",
+      "title": "Today Panchangam மற்றும் முக்கிய நிகழ்வுகள்- 19 நவம்பர் 2026:  தட்சிணாமூர்த்திக்கு அபிஷேகம்",
+      "source_id": "maalai_malar"
     }
   }
 }

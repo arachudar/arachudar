@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T11:30:21.620181+00:00",
-  "count": 574,
+  "last_updated": "2026-11-19T12:37:31.701315+00:00",
+  "count": 575,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3445,6 +3445,12 @@
       "timestamp": "2026-11-19T11:30:21.620154+00:00",
       "url": "https://www.dailythanthi.com/news/world/india-should-buy-weapons-from-us-instead-of-russias-useless-garbage-us-mps-speech",
       "title": "‘ரஷியாவின் பயனற்ற குப்பைகளுக்கு பதிலாக எங்களிடம் இந்தியா ஆயுதம் வாங்க வேண்டும்’ - அமெரிக்க எம்.பி. பேச்சு",
+      "source_id": "daily_thanthi"
+    },
+    "d5075a07e9dc89f24e8a164eed5ab80c152ae477775029f1cb75a1f7d56b825d": {
+      "timestamp": "2026-11-19T12:37:31.701263+00:00",
+      "url": "https://www.dailythanthi.com/devotional/tulsi-vivah-2026-story-and-significance",
+      "title": "துளசி திருமணம்... பகவானுடன் கலந்த பதிவிரதா பக்தை",
       "source_id": "daily_thanthi"
     }
   }

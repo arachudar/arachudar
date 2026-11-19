@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T16:56:04.453059+00:00",
-  "count": 579,
+  "last_updated": "2026-11-19T17:48:56.292657+00:00",
+  "count": 580,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3476,6 +3476,12 @@
       "url": "https://www.thehindu.com/news/cities/Visakhapatnam/srikakulam-vizianagaram-district-administrations-brace-for-cyclone-akvan/article71719223.ece",
       "title": "Srikakulam, Vizianagaram district administrations brace for Cyclone Akvan",
       "source_id": "the_hindu"
+    },
+    "829114ba03f2be476c69a11830f0e4bcf69678370322167ca975b3080c95e5f9": {
+      "timestamp": "2026-11-19T17:48:56.292631+00:00",
+      "url": "https://www.bbc.com/tamil/articles/c6702q02z9dvo?at_medium=RSS&at_campaign=rss",
+      "title": "கொளத்தூர் சட்டப்பேரவை உறுப்பினர் வி.எஸ். பாபு காலமானார் - முதல்வர் விஜய், ஸ்டாலின் கூறியது என்ன?",
+      "source_id": "bbc_tamil"
     }
   }
 }

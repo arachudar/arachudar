@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T13:55:09.022342+00:00",
-  "count": 576,
+  "last_updated": "2026-11-19T14:45:09.900192+00:00",
+  "count": 577,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3457,6 +3457,12 @@
       "timestamp": "2026-11-19T13:55:09.022320+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/kolathur-mla-vs-babu-passes-away-indian-union-muslim-league-condoles-death",
       "title": "கொளத்தூர் எம்.எல்.ஏ. விஎஸ். பாபு மறைவு: இந்திய யூனியன் முஸ்லிம் லீக் இரங்கல்",
+      "source_id": "daily_thanthi"
+    },
+    "902a4b9a3c51f99f66856e1e1ce03bb63c9b4a0ac81f87fd1e79b2bdcd5039c3": {
+      "timestamp": "2026-11-19T14:45:09.900167+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tragedy-near-thakkalai-8th-grade-student-suffering-from-fever-dies-suddenly",
+      "title": "தக்கலை அருகே சோகம்: காய்ச்சலால் பாதிக்கப்பட்ட 8-ம் வகுப்பு மாணவி திடீர் உயிரிழப்பு",
       "source_id": "daily_thanthi"
     }
   }

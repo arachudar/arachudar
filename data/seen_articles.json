@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T03:47:35.075210+00:00",
-  "count": 567,
+  "last_updated": "2026-11-19T04:54:34.535185+00:00",
+  "count": 568,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3403,6 +3403,12 @@
       "timestamp": "2026-11-19T03:47:35.075181+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-governor-arlekar-admitted-to-hospital",
       "title": "தமிழக கவர்னர் அர்லேகர் மருத்துவமனையில் அனுமதி",
+      "source_id": "daily_thanthi"
+    },
+    "4632fb255b527c107f10b43320b7302ad13049879269d4057d5cbb47620b3558": {
+      "timestamp": "2026-11-19T04:54:34.535158+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/a-prize-of-rs-5-lakh-for-farmers-who-achieve-the-highest-yield-in-the-crop-production-competition",
+      "title": "பயிர் விளைச்சல் போட்டியில் அதிக மகசூல் பெறும் விவசாயிகளுக்கு ரூ.5 லட்சம் பரிசு..!",
       "source_id": "daily_thanthi"
     }
   }

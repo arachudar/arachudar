@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T02:44:43.115722+00:00",
-  "count": 589,
+  "last_updated": "2026-11-20T03:45:17.154862+00:00",
+  "count": 590,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3536,6 +3536,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/case-involving-the-slapping-of-an-sbi-bank-manager-charge-sheet-filed-against-mk-alagiris-daughter",
       "title": "எஸ்பிஐ வங்கி மேலாளரை கன்னத்தில் அறைந்த வழக்கு: மு.க.அழகிரி மகள் மீது குற்றப்பத்திரிகை தாக்கல்",
       "source_id": "daily_thanthi"
+    },
+    "c313dc9f04dc03d1003937b417104838e2059181446baefce17c6092cc343999": {
+      "timestamp": "2026-11-20T03:45:17.154832+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1dFUFlFQ3RNdnV2R1ZoNEZpSkUyWlRTTFFBNFR0WlZTeGlQZ3JzeU5icmNPOV9KcG1JRHMtX3YweG9GUnhCTExxa2VOa1pUdVFVUUpJSGpLN1FDYzE4NUxrNFhIaDU1eE11R2ZucTVYWG5oVXVZZGUzdHhKYXUzcWNUcVNzbDlESkp0dkM0dkVFWmt3R1AybmVLYTRSa1ZLTk9odDJ4N2Nxdw?oc=5",
+      "title": "‘நிஷாந்த்’தை ஒருநாள் போலீஸ் காவலில் விசாரிக்க அனுமதி: தந்தைக்கும், தோழிக்கும் தொடர்பில்லை என நீதிபதியிடம் தகவல் - Hindu Tamil Thisai",
+      "source_id": "google_news_tamil"
     }
   }
 }

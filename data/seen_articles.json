@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T11:31:22.699415+00:00",
-  "count": 597,
+  "last_updated": "2026-11-20T12:35:38.342151+00:00",
+  "count": 598,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3583,6 +3583,12 @@
       "timestamp": "2026-11-20T11:31:22.699383+00:00",
       "url": "https://www.dailythanthi.com/devotional/varushabishekam-at-kariapatti-ayyappan-temple",
       "title": "காரியாபட்டி அய்யப்பன் கோவிலில் வருஷாபிஷேகம்",
+      "source_id": "daily_thanthi"
+    },
+    "ae498abeb77546c875b93033782064d11d8220affbfe4f644cc2cf681a5bc880": {
+      "timestamp": "2026-11-20T12:35:38.342123+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-government-orders-release-of-water-from-periyar-kovilar-dams",
+      "title": "பிளவக்கல் பெரியாறு, கோவிலாறு அணைகளில் இருந்து தண்ணீர் திறக்க தமிழக அரசு உத்தரவு",
       "source_id": "daily_thanthi"
     }
   }

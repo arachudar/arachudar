@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T09:21:32.323769+00:00",
-  "count": 595,
+  "last_updated": "2026-11-20T10:27:02.662027+00:00",
+  "count": 596,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3572,6 +3572,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/changes-in-train-services-passing-through-trichy-2",
       "title": "திருச்சி வழியாக செல்லும் ரெயில்களின் சேவையில் மாற்றம்",
       "source_id": "daily_thanthi"
+    },
+    "bcdd17625c495819b99977c606a00d4ac6c011745120ae3d084c457bfb43584a": {
+      "timestamp": "2026-11-20T10:27:02.662002+00:00",
+      "url": "https://www.thehindu.com/entertainment/movies/om-operation-mole-mammootty-dhanush-sai-pallavi-rajkumar-periasamy-sai-abhyankkar/article71723402.ece",
+      "title": "‘O.M Operation Mole’: Is Mammootty’s casting in the Dhanush-starrer justified?",
+      "source_id": "the_hindu"
     }
   }
 }

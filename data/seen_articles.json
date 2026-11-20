@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T00:22:55.191219+00:00",
-  "count": 587,
+  "last_updated": "2026-11-20T01:51:18.823593+00:00",
+  "count": 588,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3524,6 +3524,12 @@
       "url": "https://www.hindutamil.in/news/astrology/nallathey-nadakkum/daily-astrology-200",
       "title": "ஜோதிட நாள்காட்டி 20.11.2026 | கார்த்திகை 04 - வெள்ளிக்கிழமை",
       "source_id": "hindu_tamil"
+    },
+    "e3319d11b3df29e3377c784615ca8c56c35813ca4997a4ab68a0340dee91fa6c": {
+      "timestamp": "2026-11-20T01:51:18.823562+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/nepal-bangladesh-t20-lords-2027",
+      "title": "வரலாற்று சிறப்புமிக்க டி20 போட்டி: லார்ட்ஸ் மைதானத்தில் வங்காளதேசத்துடன் மோதும் நேபாளம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

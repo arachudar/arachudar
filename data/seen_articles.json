@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T05:55:01.861311+00:00",
-  "count": 592,
+  "last_updated": "2026-11-20T06:58:03.645008+00:00",
+  "count": 593,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3554,6 +3554,12 @@
       "url": "https://www.hindutamil.in/news/india/congress-demands-removal-of-sam-pitroda-for-praising-the-prime-minister",
       "title": "பிரதமரை புகழ்ந்த சாம் பிட்ரோடாவை பதவி நீக்க அயலக காங். வலியுறுத்தல்",
       "source_id": "hindu_tamil"
+    },
+    "fdb6982b765c8812def5cd04f5eb9a8b505a0fbb9c0eecf9cb5072be2cbc9adb": {
+      "timestamp": "2026-11-20T06:58:03.644984+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/hettai-amman-festival-in-the-nilgiris-devotees-are-excited-with-traditional-dance-and-song",
+      "title": "நீலகிரியில் களைகட்டிய ஹெத்தையம்மன் திருவிழா: பாரம்பரிய ஆடல் பாடலுடன் பக்தர்கள் உற்சாகம்!",
+      "source_id": "daily_thanthi"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T15:48:55.329607+00:00",
-  "count": 601,
+  "last_updated": "2026-11-20T16:51:28.757925+00:00",
+  "count": 602,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3608,6 +3608,12 @@
       "url": "https://www.dailythanthi.com/news/world/candidates-tied-with-an-equal-number-of-votes-outcome-decided-by-a-coin-toss-an-interesting-turn-in-the-us-election",
       "title": "சம வாக்குகள் பெற்ற வேட்பாளர்கள்; டாஸ் போட்டு முடிவு அறிவிப்பு- அமெரிக்க தேர்தலில் சுவாராசியம்",
       "source_id": "daily_thanthi"
+    },
+    "0ce7a5f5b8cbe9408b26afe3f5059c0a7f64ceeb18f5447bc296627bb5bccfe7": {
+      "timestamp": "2026-11-20T16:51:28.757899+00:00",
+      "url": "https://cinema.vikatan.com/kollywood/keerthy-suresh-and-mysskin-starrer-sathyavan-savithiri-movie-review",
+      "title": "சத்தியவான் சாவித்திரி விமர்சனம்: நவீன சாவித்திரியின் கதை - கவனம் பெறுகிறதா இந்த குறுக்கு விசாரணை?",
+      "source_id": "vikatan"
     }
   }
 }

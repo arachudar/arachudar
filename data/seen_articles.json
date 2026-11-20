@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T03:45:17.154862+00:00",
-  "count": 590,
+  "last_updated": "2026-11-20T04:52:07.734801+00:00",
+  "count": 591,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3542,6 +3542,12 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1dFUFlFQ3RNdnV2R1ZoNEZpSkUyWlRTTFFBNFR0WlZTeGlQZ3JzeU5icmNPOV9KcG1JRHMtX3YweG9GUnhCTExxa2VOa1pUdVFVUUpJSGpLN1FDYzE4NUxrNFhIaDU1eE11R2ZucTVYWG5oVXVZZGUzdHhKYXUzcWNUcVNzbDlESkp0dkM0dkVFWmt3R1AybmVLYTRSa1ZLTk9odDJ4N2Nxdw?oc=5",
       "title": "‘நிஷாந்த்’தை ஒருநாள் போலீஸ் காவலில் விசாரிக்க அனுமதி: தந்தைக்கும், தோழிக்கும் தொடர்பில்லை என நீதிபதியிடம் தகவல் - Hindu Tamil Thisai",
       "source_id": "google_news_tamil"
+    },
+    "c7a0e74543dd325aae1d4c89bf1be833dec9544da5c183e02c3fd418edaac792": {
+      "timestamp": "2026-11-20T04:52:07.734774+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cklye9e676ggo?at_medium=RSS&at_campaign=rss",
+      "title": "இரு பெரும் வல்லரசுகளுக்கு இடையே போட்டி - எரிசக்திக் கட்டணங்களில் ஏற்படுத்தும் தாக்கம் என்ன?",
+      "source_id": "bbc_tamil"
     }
   }
 }

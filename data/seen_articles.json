@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T12:35:38.342151+00:00",
-  "count": 598,
+  "last_updated": "2026-11-20T13:52:42.723455+00:00",
+  "count": 599,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3589,6 +3589,12 @@
       "timestamp": "2026-11-20T12:35:38.342123+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-government-orders-release-of-water-from-periyar-kovilar-dams",
       "title": "பிளவக்கல் பெரியாறு, கோவிலாறு அணைகளில் இருந்து தண்ணீர் திறக்க தமிழக அரசு உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "b46da8857984e96167286748ab96f50f05b57e80575c7db7b4c60fc819528bb8": {
+      "timestamp": "2026-11-20T13:52:42.723423+00:00",
+      "url": "https://www.dailythanthi.com/news/india/restrictions-on-ethanol-production-high-court-refuses-to-stay-central-governments-order",
+      "title": "எத்தனால் தயாரிக்க கட்டுப்பாடு: மத்திய அரசின் உத்தரவுக்கு தடை விதிக்க ஐகோர்ட்டு மறுப்பு",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T04:52:07.734801+00:00",
-  "count": 591,
+  "last_updated": "2026-11-20T05:55:01.861311+00:00",
+  "count": 592,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3548,6 +3548,12 @@
       "url": "https://www.bbc.com/tamil/articles/cklye9e676ggo?at_medium=RSS&at_campaign=rss",
       "title": "இரு பெரும் வல்லரசுகளுக்கு இடையே போட்டி - எரிசக்திக் கட்டணங்களில் ஏற்படுத்தும் தாக்கம் என்ன?",
       "source_id": "bbc_tamil"
+    },
+    "63b8a37a6a36b68b70313881de9c92f01016c91716829eb1277a8359b18e4962": {
+      "timestamp": "2026-11-20T05:55:01.861285+00:00",
+      "url": "https://www.hindutamil.in/news/india/congress-demands-removal-of-sam-pitroda-for-praising-the-prime-minister",
+      "title": "பிரதமரை புகழ்ந்த சாம் பிட்ரோடாவை பதவி நீக்க அயலக காங். வலியுறுத்தல்",
+      "source_id": "hindu_tamil"
     }
   }
 }

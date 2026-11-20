@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T23:26:11.975914+00:00",
-  "count": 586,
+  "last_updated": "2026-11-20T00:22:55.191219+00:00",
+  "count": 587,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3518,6 +3518,12 @@
       "url": "https://www.dailythanthi.com/others/thalayangam/ipl-cricket-ms-dhoni-bids-farewell-to-iplcompetition",
       "title": "ஐ.பி.எல். போட்டியில் இருந்து விடைபெற்றார் தல!",
       "source_id": "daily_thanthi"
+    },
+    "cd4bc3e73124adc7943ce16addd323381ac58b744f78ac615becf7b8e1bc14a8": {
+      "timestamp": "2026-11-20T00:22:55.191196+00:00",
+      "url": "https://www.hindutamil.in/news/astrology/nallathey-nadakkum/daily-astrology-200",
+      "title": "ஜோதிட நாள்காட்டி 20.11.2026 | கார்த்திகை 04 - வெள்ளிக்கிழமை",
+      "source_id": "hindu_tamil"
     }
   }
 }

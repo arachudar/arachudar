@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T01:51:18.823593+00:00",
-  "count": 588,
+  "last_updated": "2026-11-20T02:44:43.115722+00:00",
+  "count": 589,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3529,6 +3529,12 @@
       "timestamp": "2026-11-20T01:51:18.823562+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/nepal-bangladesh-t20-lords-2027",
       "title": "வரலாற்று சிறப்புமிக்க டி20 போட்டி: லார்ட்ஸ் மைதானத்தில் வங்காளதேசத்துடன் மோதும் நேபாளம்",
+      "source_id": "daily_thanthi"
+    },
+    "d879e20362c48ed89e65b701aedcb520cf4eeba5b9907c17bb3ecdf7edc04636": {
+      "timestamp": "2026-11-20T02:44:43.115694+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/case-involving-the-slapping-of-an-sbi-bank-manager-charge-sheet-filed-against-mk-alagiris-daughter",
+      "title": "எஸ்பிஐ வங்கி மேலாளரை கன்னத்தில் அறைந்த வழக்கு: மு.க.அழகிரி மகள் மீது குற்றப்பத்திரிகை தாக்கல்",
       "source_id": "daily_thanthi"
     }
   }

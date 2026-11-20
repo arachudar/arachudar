@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T17:50:27.729034+00:00",
-  "count": 603,
+  "last_updated": "2026-11-20T18:50:48.532413+00:00",
+  "count": 604,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3620,6 +3620,12 @@
       "url": "https://www.dailythanthi.com/cinema/cinemanews/vikram-prabhus-26th-film-shooting-wrapped",
       "title": "விக்ரம் பிரபுவின் 26வது படத்தின் படப்பிடிப்பு நிறைவு",
       "source_id": "daily_thanthi"
+    },
+    "44f6f28248acb05a3ad7dfc1ab1c9285f1125fb04aa4ceb34824d260fa4591ea": {
+      "timestamp": "2026-11-20T18:50:48.532377+00:00",
+      "url": "https://www.thehindu.com/sci-tech/technology/anthropic-researcher-says-claude-solved-maths-greatest-riddle/article71725942.ece",
+      "title": "Anthropic researcher says Claude solved maths’ greatest riddle",
+      "source_id": "the_hindu"
     }
   }
 }

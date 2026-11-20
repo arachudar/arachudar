@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T08:16:16.287685+00:00",
-  "count": 594,
+  "last_updated": "2026-11-20T09:21:32.323769+00:00",
+  "count": 595,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3566,6 +3566,12 @@
       "url": "https://www.dinamani.com/cinema/cinema-news/2026/Nov/20/sabarimala-booking-full-half-pilgrims-arrived",
       "title": "நிரம்பி வழியும் சபரிமலை முன்பதிவு! வருவதோ பாதி பக்தர்கள்! சிக்கலில் கோயில் நிர்வாகம்!",
       "source_id": "dinamani"
+    },
+    "fe9169c52a68f5aaa8d075d192d8739ea64c6a61de972baba03fdda49a436346": {
+      "timestamp": "2026-11-20T09:21:32.323741+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/changes-in-train-services-passing-through-trichy-2",
+      "title": "திருச்சி வழியாக செல்லும் ரெயில்களின் சேவையில் மாற்றம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

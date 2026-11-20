@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T06:58:03.645008+00:00",
-  "count": 593,
+  "last_updated": "2026-11-20T08:16:16.287685+00:00",
+  "count": 594,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3560,6 +3560,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/hettai-amman-festival-in-the-nilgiris-devotees-are-excited-with-traditional-dance-and-song",
       "title": "நீலகிரியில் களைகட்டிய ஹெத்தையம்மன் திருவிழா: பாரம்பரிய ஆடல் பாடலுடன் பக்தர்கள் உற்சாகம்!",
       "source_id": "daily_thanthi"
+    },
+    "d4f724715dc2950e13037a480b6304e963a91fb0b50e29ec2f0725259b9ace4c": {
+      "timestamp": "2026-11-20T08:16:16.287657+00:00",
+      "url": "https://www.dinamani.com/cinema/cinema-news/2026/Nov/20/sabarimala-booking-full-half-pilgrims-arrived",
+      "title": "நிரம்பி வழியும் சபரிமலை முன்பதிவு! வருவதோ பாதி பக்தர்கள்! சிக்கலில் கோயில் நிர்வாகம்!",
+      "source_id": "dinamani"
     }
   }
 }

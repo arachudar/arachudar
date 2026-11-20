@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T16:51:28.757925+00:00",
-  "count": 602,
+  "last_updated": "2026-11-20T17:50:27.729034+00:00",
+  "count": 603,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3614,6 +3614,12 @@
       "url": "https://cinema.vikatan.com/kollywood/keerthy-suresh-and-mysskin-starrer-sathyavan-savithiri-movie-review",
       "title": "சத்தியவான் சாவித்திரி விமர்சனம்: நவீன சாவித்திரியின் கதை - கவனம் பெறுகிறதா இந்த குறுக்கு விசாரணை?",
       "source_id": "vikatan"
+    },
+    "46f13cab5e498db8ff341d00699d96c7d5ed8ea0c42e12d6ea07018e6849f7bd": {
+      "timestamp": "2026-11-20T17:50:27.729004+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/vikram-prabhus-26th-film-shooting-wrapped",
+      "title": "விக்ரம் பிரபுவின் 26வது படத்தின் படப்பிடிப்பு நிறைவு",
+      "source_id": "daily_thanthi"
     }
   }
 }

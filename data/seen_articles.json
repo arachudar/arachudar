@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T13:52:42.723455+00:00",
-  "count": 599,
+  "last_updated": "2026-11-20T14:48:42.170216+00:00",
+  "count": 600,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3596,6 +3596,12 @@
       "url": "https://www.dailythanthi.com/news/india/restrictions-on-ethanol-production-high-court-refuses-to-stay-central-governments-order",
       "title": "எத்தனால் தயாரிக்க கட்டுப்பாடு: மத்திய அரசின் உத்தரவுக்கு தடை விதிக்க ஐகோர்ட்டு மறுப்பு",
       "source_id": "daily_thanthi"
+    },
+    "097aec8397805d3f2acfc50515c8ab55c04f9cd19b7018f520911a63fde08b13": {
+      "timestamp": "2026-11-20T14:48:42.170191+00:00",
+      "url": "https://www.dinamani.com/sports/cricket/2026/Nov/20/selectors-team-management-discouraging-sooryavanshi-making-a-blunder-srikkanth-2",
+      "title": "சூர்யவன்ஷி விஷயத்தில் இந்திய அணி நிர்வாகம் பெரும் தவறு செய்கிறது: முன்னாள் கேப்டன்",
+      "source_id": "dinamani"
     }
   }
 }

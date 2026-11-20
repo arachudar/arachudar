@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T20:42:06.139106+00:00",
-  "count": 606,
+  "last_updated": "2026-11-20T21:39:46.717984+00:00",
+  "count": 607,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3638,6 +3638,12 @@
       "url": "https://tamil.asianetnews.com/gallery/review/sathyavan-savithiri-movie-review-keerthy-suresh-vs-mysskin-clash-impress-or-not-0bdbs3d",
       "title": "Sathyavan Savithiri Review : கீர்த்தி சுரேஷ் நடித்த சத்தியவான் சாவித்திரி பந்தயம் அடித்ததா? பல்பு வாங்கியதா? முழு விமர்சனம் இதோ",
       "source_id": "asianet_tamil"
+    },
+    "312e36238c3df8a67ac4ef7029045c22a3ee0fb581fdc107b352e239378f7d9d": {
+      "timestamp": "2026-11-20T21:39:46.717958+00:00",
+      "url": "https://www.dailythanthi.com/news/sirappukatturaigal/leaders-who-use-english-words-to-appeal-to-gen-c-youth",
+      "title": "“ஜென்-சி” இளைஞர்களை கவர ஆங்கில வார்த்தைகளை உதிர்க்கும் தலைவர்கள்",
+      "source_id": "daily_thanthi"
     }
   }
 }

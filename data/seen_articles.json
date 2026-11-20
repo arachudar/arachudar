@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T14:48:42.170216+00:00",
-  "count": 600,
+  "last_updated": "2026-11-20T15:48:55.329607+00:00",
+  "count": 601,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3602,6 +3602,12 @@
       "url": "https://www.dinamani.com/sports/cricket/2026/Nov/20/selectors-team-management-discouraging-sooryavanshi-making-a-blunder-srikkanth-2",
       "title": "சூர்யவன்ஷி விஷயத்தில் இந்திய அணி நிர்வாகம் பெரும் தவறு செய்கிறது: முன்னாள் கேப்டன்",
       "source_id": "dinamani"
+    },
+    "5508ba1e37699ba60185ee6bbc7a885c477f594e7f04bceff49355524e2aecfe": {
+      "timestamp": "2026-11-20T15:48:55.329579+00:00",
+      "url": "https://www.dailythanthi.com/news/world/candidates-tied-with-an-equal-number-of-votes-outcome-decided-by-a-coin-toss-an-interesting-turn-in-the-us-election",
+      "title": "சம வாக்குகள் பெற்ற வேட்பாளர்கள்; டாஸ் போட்டு முடிவு அறிவிப்பு- அமெரிக்க தேர்தலில் சுவாராசியம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T05:49:22.945349+00:00",
-  "count": 615,
+  "last_updated": "2026-11-21T06:54:45.683537+00:00",
+  "count": 616,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3691,6 +3691,12 @@
       "timestamp": "2026-11-21T05:49:22.945323+00:00",
       "url": "https://www.dailythanthi.com/news/india/manipur-illicit-liquor-deaths-11-hospitalized-300",
       "title": "மணிப்பூரில் கள்ளச்சாராயம் குடித்த 11 பேர் உயிரிழப்பு: 300-க்கும் மேற்பட்டோர் மருத்துவமனையில் அனுமதி",
+      "source_id": "daily_thanthi"
+    },
+    "e904d2f066e9781c53f48738fe755e3cfa4bdb7b0156b1226a567dea29b54844": {
+      "timestamp": "2026-11-21T06:54:45.683508+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/high-court-orders-ban-on-asking-for-documents-of-land-where-tasmac-shop-is-located-in-thiruvanmiyur",
+      "title": "திருவான்மியூர் டாஸ்மாக் கடை இருக்கும் நிலத்தின் ஆவணங்களை கேட்க தடை: ஐகோர்ட்டு உத்தரவு",
       "source_id": "daily_thanthi"
     }
   }

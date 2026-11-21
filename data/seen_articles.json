@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T13:50:16.581663+00:00",
-  "count": 623,
+  "last_updated": "2026-11-21T14:42:12.380891+00:00",
+  "count": 624,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3740,6 +3740,12 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/union-minister-jp-nadda-attended-convocation-ceremony-of-jipmer-in-puducherry",
       "title": "“மருத்துவப் படிப்புகளில் கூடுதலாக 75,000 இடங்களை உருவாக்க இலக்கு” - புதுச்சேரியில் ஜே.பி.நட்டா பேச்சு",
       "source_id": "hindu_tamil"
+    },
+    "27fb843cb3e19b10c7b0f631d30baaf42f9a9637b3c09d0eaa70831d13c5d828": {
+      "timestamp": "2026-11-21T14:42:12.380870+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/anirudh-kavya-maran-wedding-reception-political-leaders-film-celebrities-participate",
+      "title": "அனிருத்-காவியா மாறன் திருமண வரவேற்பு நிகழ்ச்சி: அரசியல் தலைவர்கள், திரை பிரபலங்கள் பங்கேற்பு",
+      "source_id": "daily_thanthi"
     }
   }
 }

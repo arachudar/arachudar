@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T11:59:27.822130+00:00",
-  "count": 621,
+  "last_updated": "2026-11-21T12:50:01.263978+00:00",
+  "count": 622,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3728,6 +3728,12 @@
       "url": "https://www.thehindu.com/news/national/nobody-in-india-faces-religious-discrimination-rijiju-amid-siraj-row/article71728092.ece",
       "title": "Nobody in India faces religious discrimination: Rijiju amid Siraj row",
       "source_id": "the_hindu"
+    },
+    "a7f26b80b24eb956e442e63bdb5a880a73ef5331d032473b14cb2a9cdcc3224f": {
+      "timestamp": "2026-11-21T12:50:01.263951+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cj04w57wlvveo?at_medium=RSS&at_campaign=rss",
+      "title": "திருவாரூர்: வகுப்பறையில் 3 வயது சிறுவனை கட்டி வைத்து தாக்குதலா? வைரல் வீடியோவின் பின்னணி",
+      "source_id": "bbc_tamil"
     }
   }
 }

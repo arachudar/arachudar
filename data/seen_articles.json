@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T21:20:28.501765+00:00",
-  "count": 632,
+  "last_updated": "2026-11-21T22:01:28.923251+00:00",
+  "count": 633,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3794,6 +3794,12 @@
       "url": "https://www.bbc.com/tamil/articles/c6eq4rr7qx0lo?at_medium=RSS&at_campaign=rss",
       "title": "காவியா மாறன் - அனிருத் திருமண வரவேற்பு நிகழ்ச்சியில் யார்யார் பங்கேற்றனர்? ஒரு புகைப்படத் தொகுப்பு",
       "source_id": "bbc_tamil"
+    },
+    "462e21e003f5849acc3771677711905906258740d28c4cbc59497310bc8027dc": {
+      "timestamp": "2026-11-21T22:01:28.923232+00:00",
+      "url": "https://www.vikatan.com/literature/how-quantum-computing-will-replace-guesswork-with-precision-by-2040",
+      "title": "டிஜிட்டல் மூளை முதல் ஹாலோகிராம் ஜிம் வரை: குவாண்டம் கம்ப்யூட்டிங் மாற்றப்போகும் 2040 உலகம்!",
+      "source_id": "vikatan"
     }
   }
 }

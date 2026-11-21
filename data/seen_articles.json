@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T02:43:52.710874+00:00",
-  "count": 612,
+  "last_updated": "2026-11-21T03:44:02.302554+00:00",
+  "count": 613,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3674,6 +3674,12 @@
       "url": "https://www.vikatan.com/government-and-politics/trump-compares-us-interest-rates-with-indias-7-growth",
       "title": "\"இந்தியாவைப் பாருங்கள்: வட்டி விகிதம் குறைவு, GDP வளர்ச்சி அதிகம்!\" - US Fed வங்கியை சாடும் ட்ரம்ப்",
       "source_id": "vikatan"
+    },
+    "fb1fe40dafcd3b4183be5e3793d7a8404d1edd249c85fece73f9a7eeee4e0d41": {
+      "timestamp": "2026-11-21T03:44:02.302535+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/pat-cummins-captaincy-debate-josh-hazlewood-comments",
+      "title": "கம்மின்ஸ் கேப்டன் பதவியில் இருந்து நீக்கப்பட்டால்.... ஜோஷ் ஹேசில்வுட் அதிரடி கருத்து!",
+      "source_id": "daily_thanthi"
     }
   }
 }

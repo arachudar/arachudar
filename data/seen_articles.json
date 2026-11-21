@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T04:48:39.937869+00:00",
-  "count": 614,
+  "last_updated": "2026-11-21T05:49:22.945349+00:00",
+  "count": 615,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3685,6 +3685,12 @@
       "timestamp": "2026-11-21T04:48:39.937845+00:00",
       "url": "https://www.dailythanthi.com/business/gold-rate-chennai/gold-price-drops-below-92k-in-chennai",
       "title": "என்னதான் ஆச்சு தங்கத்துக்கு..? சவரன் ரூ.92 ஆயிரத்துக்கும் கீழே சரிந்தது - இன்றைய நிலவரம் என்ன..?",
+      "source_id": "daily_thanthi"
+    },
+    "a98b3d3f697970ae75cbc0fd22a7f9aa3bf794129bc86e4a0c34cbdfb9f974c9": {
+      "timestamp": "2026-11-21T05:49:22.945323+00:00",
+      "url": "https://www.dailythanthi.com/news/india/manipur-illicit-liquor-deaths-11-hospitalized-300",
+      "title": "மணிப்பூரில் கள்ளச்சாராயம் குடித்த 11 பேர் உயிரிழப்பு: 300-க்கும் மேற்பட்டோர் மருத்துவமனையில் அனுமதி",
       "source_id": "daily_thanthi"
     }
   }

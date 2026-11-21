@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T22:01:28.923251+00:00",
-  "count": 633,
+  "last_updated": "2026-11-21T22:57:15.120625+00:00",
+  "count": 634,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3800,6 +3800,12 @@
       "url": "https://www.vikatan.com/literature/how-quantum-computing-will-replace-guesswork-with-precision-by-2040",
       "title": "டிஜிட்டல் மூளை முதல் ஹாலோகிராம் ஜிம் வரை: குவாண்டம் கம்ப்யூட்டிங் மாற்றப்போகும் 2040 உலகம்!",
       "source_id": "vikatan"
+    },
+    "673364f9512436777e5ed40dfbb4ad4321150b439d1cd13cca688bdca3315980": {
+      "timestamp": "2026-11-21T22:57:15.120601+00:00",
+      "url": "https://www.dailythanthi.com/news/sirappukatturaigal/from-the-grooms-arrival-to-the-wedding-receptionthe-amazing-wedding-business",
+      "title": "வரன் பார்ப்பது முதல் பந்திவரை...பிரமிக்க வைக்கும் திருமண வர்த்தகம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

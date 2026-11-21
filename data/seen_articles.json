@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T09:03:33.428169+00:00",
-  "count": 618,
+  "last_updated": "2026-11-21T10:04:53.606751+00:00",
+  "count": 619,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3709,6 +3709,12 @@
       "timestamp": "2026-11-21T09:03:33.428139+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/sanitation-workers-in-karaikudi-sivaganga-district-staged-a-protest-by-burning-a-copy-of-a-government-order",
       "title": "சிவகங்கை மாவட்டம் காரைக்குடியில் அரசாணை நகலை எரித்து தூய்மைப் பணியாளர்கள் போராட்டம்",
+      "source_id": "daily_thanthi"
+    },
+    "a4483c2b232e1d0f4098270b870e3e22dcad2991a5d5ffe8431e9f52df98ea24": {
+      "timestamp": "2026-11-21T10:04:53.606724+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tvk-government-will-collapse-on-its-own-edappadi-palaniswamis-prediction",
+      "title": "தவெக ஆட்சி தானாகவே கவிழும்: எடப்பாடி பழனிசாமி ஆருடம்",
       "source_id": "daily_thanthi"
     }
   }

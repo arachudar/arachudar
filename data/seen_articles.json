@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T17:22:52.513476+00:00",
-  "count": 627,
+  "last_updated": "2026-11-21T18:17:52.416511+00:00",
+  "count": 628,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3763,6 +3763,12 @@
       "timestamp": "2026-11-21T17:22:52.513455+00:00",
       "url": "https://www.dailythanthi.com/cinema/cinemanews/dhanushs-om-film-official-first-day-collection",
       "title": "தனுஷின் “ஓம்” படத்தின் முதல் நாள் அதிகாரப்பூர்வ வசூல்",
+      "source_id": "daily_thanthi"
+    },
+    "830bf3546ee4b02b60ac4f0da004818fe4475d1ee82c2f6a6bb00980737619a1": {
+      "timestamp": "2026-11-21T18:17:52.416495+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/suriya-thanks-fans-for-the-success-of-scene",
+      "title": "“சீன்” படத்தின் வெற்றிக்கு ரசிகர்களுக்கு நன்றி தெரிவித்த சூர்யா",
       "source_id": "daily_thanthi"
     }
   }

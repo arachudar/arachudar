@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T08:05:24.659737+00:00",
-  "count": 617,
+  "last_updated": "2026-11-21T09:03:33.428169+00:00",
+  "count": 618,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3703,6 +3703,12 @@
       "timestamp": "2026-11-21T08:05:24.659712+00:00",
       "url": "https://www.dailythanthi.com/cinema/cinemanews/telugu-actor-ram-nithin-makes-his-tamil-debut-will-he-receive-a-warm-welcome",
       "title": "தமிழில் அறிமுகமாகும் தெலுங்கு நடிகர் ராம் நிதின்; வரவேற்பை பெறுவாரா?",
+      "source_id": "daily_thanthi"
+    },
+    "cb1e1f07944dbca45cb342ba3a72c8cfa43f1a020b4c0393cbf6f14f03fb8bc6": {
+      "timestamp": "2026-11-21T09:03:33.428139+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/sanitation-workers-in-karaikudi-sivaganga-district-staged-a-protest-by-burning-a-copy-of-a-government-order",
+      "title": "சிவகங்கை மாவட்டம் காரைக்குடியில் அரசாணை நகலை எரித்து தூய்மைப் பணியாளர்கள் போராட்டம்",
       "source_id": "daily_thanthi"
     }
   }

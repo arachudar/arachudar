@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T00:27:17.515257+00:00",
-  "count": 610,
+  "last_updated": "2026-11-21T01:53:19.561201+00:00",
+  "count": 611,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3662,6 +3662,12 @@
       "url": "https://www.maalaimalar.com/news/world/air-india-air-india-express-suspend-jeddah-flights-till-nov-24",
       "title": "ஜெட்டாவிற்கு நவ. 24 வரை விமான சேவைகளை ரத்து செய்த ஏர் இந்தியா மற்றும் ஏர் இந்தியா எக்ஸ்பிரஸ்",
       "source_id": "maalai_malar"
+    },
+    "f9bcc6c08ec27f0a09508fda14246debdff15f3365d0620e1298b70713fd69cb": {
+      "timestamp": "2026-11-21T01:53:19.561176+00:00",
+      "url": "https://www.bbc.com/tamil/articles/c6pv94x8p318o?at_medium=RSS&at_campaign=rss",
+      "title": "திருப்பரங்குன்றம் மலை உச்சியில் ஒருமுறை தீபம் ஏற்ற உச்சநீதிமன்றம் அனுமதி - இந்து மற்றும் முஸ்லிம் தரப்பினர் கூறுவது என்ன?",
+      "source_id": "bbc_tamil"
     }
   }
 }

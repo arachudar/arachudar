@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T16:24:11.430814+00:00",
-  "count": 626,
+  "last_updated": "2026-11-21T17:22:52.513476+00:00",
+  "count": 627,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3757,6 +3757,12 @@
       "timestamp": "2026-11-21T16:24:11.430794+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/india-and-new-zealand-are-evenly-matched-in-tests-says-phillips",
       "title": "டெஸ்டில் இந்தியாவும், நியூசிலாந்தும் சமமான நிலையில் உள்ளன - பிலிப்ஸ் கூறுகிறார்",
+      "source_id": "daily_thanthi"
+    },
+    "434d0c16021496eab132c681ed7d0450df5760bfb1337b80b047a6202a0c29dc": {
+      "timestamp": "2026-11-21T17:22:52.513455+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/dhanushs-om-film-official-first-day-collection",
+      "title": "தனுஷின் “ஓம்” படத்தின் முதல் நாள் அதிகாரப்பூர்வ வசூல்",
       "source_id": "daily_thanthi"
     }
   }

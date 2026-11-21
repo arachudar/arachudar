@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T14:42:12.380891+00:00",
-  "count": 624,
+  "last_updated": "2026-11-21T15:37:02.519436+00:00",
+  "count": 625,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3745,6 +3745,12 @@
       "timestamp": "2026-11-21T14:42:12.380870+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/anirudh-kavya-maran-wedding-reception-political-leaders-film-celebrities-participate",
       "title": "அனிருத்-காவியா மாறன் திருமண வரவேற்பு நிகழ்ச்சி: அரசியல் தலைவர்கள், திரை பிரபலங்கள் பங்கேற்பு",
+      "source_id": "daily_thanthi"
+    },
+    "5cac476ed23907ef12e9c5c1edc6724e5014c04a02eb30228b8a0f29ea79e601": {
+      "timestamp": "2026-11-21T15:37:02.519411+00:00",
+      "url": "https://www.dailythanthi.com/news/world/a-train-collided-with-a-minibus-attempting-to-cross-the-tracks-triggering-a-massive-fire-the-driver-has-died",
+      "title": "தண்டவாளத்தை கடக்க முயன்ற மினிபஸ் மீது ரெயில் மோதி பயங்கர தீ விபத்து - ஓட்டுநர் உயிரிழப்பு",
       "source_id": "daily_thanthi"
     }
   }

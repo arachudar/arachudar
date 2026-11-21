@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-20T23:25:49.765708+00:00",
-  "count": 609,
+  "last_updated": "2026-11-21T00:27:17.515257+00:00",
+  "count": 610,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3656,6 +3656,12 @@
       "url": "https://www.dailythanthi.com/others/thalayangam/4-track-railway-line",
       "title": "4 வழி ரெயில் பாதை",
       "source_id": "daily_thanthi"
+    },
+    "9889fce640c4a4b81ba4bdc97022820a32dd53c78c1a448061bcf426dbd2a5b2": {
+      "timestamp": "2026-11-21T00:27:17.515234+00:00",
+      "url": "https://www.maalaimalar.com/news/world/air-india-air-india-express-suspend-jeddah-flights-till-nov-24",
+      "title": "ஜெட்டாவிற்கு நவ. 24 வரை விமான சேவைகளை ரத்து செய்த ஏர் இந்தியா மற்றும் ஏர் இந்தியா எக்ஸ்பிரஸ்",
+      "source_id": "maalai_malar"
     }
   }
 }

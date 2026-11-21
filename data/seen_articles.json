@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T18:17:52.416511+00:00",
-  "count": 628,
+  "last_updated": "2026-11-21T19:12:59.782240+00:00",
+  "count": 629,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3769,6 +3769,12 @@
       "timestamp": "2026-11-21T18:17:52.416495+00:00",
       "url": "https://www.dailythanthi.com/cinema/cinemanews/suriya-thanks-fans-for-the-success-of-scene",
       "title": "“சீன்” படத்தின் வெற்றிக்கு ரசிகர்களுக்கு நன்றி தெரிவித்த சூர்யா",
+      "source_id": "daily_thanthi"
+    },
+    "5a74f869a46b96fb8ab3397d096be682109d0bdd8bcdbd2339b63078412fdc4a": {
+      "timestamp": "2026-11-21T19:12:59.782215+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/aadhithya-baaskars-feel-my-love-film-teaser-out",
+      "title": "ஆதித்யா பாஸ்கரின்  “பீல் மை லவ்” படத்தின் டீசர் வெளியானது",
       "source_id": "daily_thanthi"
     }
   }

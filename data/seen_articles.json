@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T01:53:19.561201+00:00",
-  "count": 611,
+  "last_updated": "2026-11-21T02:43:52.710874+00:00",
+  "count": 612,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3668,6 +3668,12 @@
       "url": "https://www.bbc.com/tamil/articles/c6pv94x8p318o?at_medium=RSS&at_campaign=rss",
       "title": "திருப்பரங்குன்றம் மலை உச்சியில் ஒருமுறை தீபம் ஏற்ற உச்சநீதிமன்றம் அனுமதி - இந்து மற்றும் முஸ்லிம் தரப்பினர் கூறுவது என்ன?",
       "source_id": "bbc_tamil"
+    },
+    "8677e7553ed0769b79a93709bc072c87177d6c6a6e4b83eebaad489bb54c06ac": {
+      "timestamp": "2026-11-21T02:43:52.710849+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/trump-compares-us-interest-rates-with-indias-7-growth",
+      "title": "\"இந்தியாவைப் பாருங்கள்: வட்டி விகிதம் குறைவு, GDP வளர்ச்சி அதிகம்!\" - US Fed வங்கியை சாடும் ட்ரம்ப்",
+      "source_id": "vikatan"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T06:54:45.683537+00:00",
-  "count": 616,
+  "last_updated": "2026-11-21T08:05:24.659737+00:00",
+  "count": 617,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3697,6 +3697,12 @@
       "timestamp": "2026-11-21T06:54:45.683508+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/high-court-orders-ban-on-asking-for-documents-of-land-where-tasmac-shop-is-located-in-thiruvanmiyur",
       "title": "திருவான்மியூர் டாஸ்மாக் கடை இருக்கும் நிலத்தின் ஆவணங்களை கேட்க தடை: ஐகோர்ட்டு உத்தரவு",
+      "source_id": "daily_thanthi"
+    },
+    "a9083e8129daa245fad7ec6b9e1d0c656361c2bd195fe189ff57ea585fe6d6c3": {
+      "timestamp": "2026-11-21T08:05:24.659712+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/telugu-actor-ram-nithin-makes-his-tamil-debut-will-he-receive-a-warm-welcome",
+      "title": "தமிழில் அறிமுகமாகும் தெலுங்கு நடிகர் ராம் நிதின்; வரவேற்பை பெறுவாரா?",
       "source_id": "daily_thanthi"
     }
   }

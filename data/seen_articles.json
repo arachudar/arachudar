@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T10:04:53.606751+00:00",
-  "count": 619,
+  "last_updated": "2026-11-21T11:03:18.153888+00:00",
+  "count": 620,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3715,6 +3715,12 @@
       "timestamp": "2026-11-21T10:04:53.606724+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/tvk-government-will-collapse-on-its-own-edappadi-palaniswamis-prediction",
       "title": "தவெக ஆட்சி தானாகவே கவிழும்: எடப்பாடி பழனிசாமி ஆருடம்",
+      "source_id": "daily_thanthi"
+    },
+    "fd590c25d97877ee5edf64020e95622ca3de3c0fe4802458380167a53ae18962": {
+      "timestamp": "2026-11-21T11:03:18.153847+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/krishnagiri-worker-dies-after-tripping-while-cleaning-drinking-water-tank",
+      "title": "கிருஷ்ணகிரி: குடிநீர் தொட்டியை சுத்தம் செய்தபோது தவறி விழுந்து தொழிலாளி பலி",
       "source_id": "daily_thanthi"
     }
   }

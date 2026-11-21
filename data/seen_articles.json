@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T03:44:02.302554+00:00",
-  "count": 613,
+  "last_updated": "2026-11-21T04:48:39.937869+00:00",
+  "count": 614,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3679,6 +3679,12 @@
       "timestamp": "2026-11-21T03:44:02.302535+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/pat-cummins-captaincy-debate-josh-hazlewood-comments",
       "title": "கம்மின்ஸ் கேப்டன் பதவியில் இருந்து நீக்கப்பட்டால்.... ஜோஷ் ஹேசில்வுட் அதிரடி கருத்து!",
+      "source_id": "daily_thanthi"
+    },
+    "f8389629fd3276c320d3c91756d9426791faf456b5d0d93c176bf1c3940ebbf9": {
+      "timestamp": "2026-11-21T04:48:39.937845+00:00",
+      "url": "https://www.dailythanthi.com/business/gold-rate-chennai/gold-price-drops-below-92k-in-chennai",
+      "title": "என்னதான் ஆச்சு தங்கத்துக்கு..? சவரன் ரூ.92 ஆயிரத்துக்கும் கீழே சரிந்தது - இன்றைய நிலவரம் என்ன..?",
       "source_id": "daily_thanthi"
     }
   }

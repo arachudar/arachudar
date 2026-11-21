@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T12:50:01.263978+00:00",
-  "count": 622,
+  "last_updated": "2026-11-21T13:50:16.581663+00:00",
+  "count": 623,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3734,6 +3734,12 @@
       "url": "https://www.bbc.com/tamil/articles/cj04w57wlvveo?at_medium=RSS&at_campaign=rss",
       "title": "திருவாரூர்: வகுப்பறையில் 3 வயது சிறுவனை கட்டி வைத்து தாக்குதலா? வைரல் வீடியோவின் பின்னணி",
       "source_id": "bbc_tamil"
+    },
+    "32ecda754dd17d728f33ddb03d384efa63e1da161405ff827b2ae13a527a9ae1": {
+      "timestamp": "2026-11-21T13:50:16.581653+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/union-minister-jp-nadda-attended-convocation-ceremony-of-jipmer-in-puducherry",
+      "title": "“மருத்துவப் படிப்புகளில் கூடுதலாக 75,000 இடங்களை உருவாக்க இலக்கு” - புதுச்சேரியில் ஜே.பி.நட்டா பேச்சு",
+      "source_id": "hindu_tamil"
     }
   }
 }

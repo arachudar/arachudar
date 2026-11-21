@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T11:03:18.153888+00:00",
-  "count": 620,
+  "last_updated": "2026-11-21T11:59:27.822130+00:00",
+  "count": 621,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3722,6 +3722,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/krishnagiri-worker-dies-after-tripping-while-cleaning-drinking-water-tank",
       "title": "கிருஷ்ணகிரி: குடிநீர் தொட்டியை சுத்தம் செய்தபோது தவறி விழுந்து தொழிலாளி பலி",
       "source_id": "daily_thanthi"
+    },
+    "5cf5f55943fca8a7db395dae17d34d5d14cef2f3f4f9b096e23341daa5d8c2e0": {
+      "timestamp": "2026-11-21T11:59:27.822108+00:00",
+      "url": "https://www.thehindu.com/news/national/nobody-in-india-faces-religious-discrimination-rijiju-amid-siraj-row/article71728092.ece",
+      "title": "Nobody in India faces religious discrimination: Rijiju amid Siraj row",
+      "source_id": "the_hindu"
     }
   }
 }

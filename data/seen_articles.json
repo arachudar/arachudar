@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T17:24:18.889737+00:00",
-  "count": 653,
+  "last_updated": "2026-11-22T18:18:14.458149+00:00",
+  "count": 654,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3920,6 +3920,12 @@
       "url": "https://www.bbc.com/tamil/articles/cm0evlj2pvg3o?at_medium=RSS&at_campaign=rss",
       "title": "இந்தியாவில் தங்கம் விற்பனை குறைய மோதி வேண்டுகோளே காரணமா? நிபுணர்கள் விளக்கம்",
       "source_id": "bbc_tamil"
+    },
+    "6187459ff3791fa89fc48ff5dfa7d2e26e949e306606f6b13534d97246f91337": {
+      "timestamp": "2026-11-22T18:18:14.458126+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/sandeep-pradeeps-cosmic-samson-film-trailer-out",
+      "title": "சந்தீப் பிரதீப் நடிக்கும்  “காஸ்மிக் சாம்சன்” படத்தின் டிரெய்லர் வெளியானது",
+      "source_id": "daily_thanthi"
     }
   }
 }

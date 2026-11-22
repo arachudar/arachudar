@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T15:24:48.056367+00:00",
-  "count": 651,
+  "last_updated": "2026-11-22T16:25:40.614548+00:00",
+  "count": 652,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3908,6 +3908,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-has-yet-to-speak-up-on-the-gingee-girl-case-udhayanidhi-stalins-criticism",
       "title": "செஞ்சி சிறுமி வழக்கில்  முதலமைச்சர் இதுவரை வாய் திறக்கவில்லை : உதயநிதி ஸ்டாலின் விமர்சனம்",
       "source_id": "daily_thanthi"
+    },
+    "365b61a47ac1501d13f65814182d7020901af069d25dcd11e6bf3ff7554ed47c": {
+      "timestamp": "2026-11-22T16:25:40.614523+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EMXo2dnBJNE9LMVRxUmZmVFoxX1RCMU5yQjdXZkFNTVBLQ3Atd1IyUXRDdlVsc1JfSkRHdkZZNHZacWNWQnA1d3pEU0FnbGo5TFMtaGM5ME9BcWhr0gFiQVVfeXFMTWl2TThpaFBJSzcwZG9YSEctTUdRM2s4NWJadm9oZFRxRklERHplU1BGUjNGdjNFQ0hWdTFPNmk0R0thT3FYcS1oY2xrRWNVQ1ZNNWl3MHV2T25XM0JfTVJCS2c?oc=5",
+      "title": "திருப்பரங்குன்றம் தீபத்தூண் வழக்கு: உச்ச நீதிமன்றத்தில் தமிழக அரசு சீராய்வு மனு - என்ன கூறியுள்ளது? - BBC",
+      "source_id": "google_news_tamil"
     }
   }
 }

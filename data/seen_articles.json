@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T09:41:07.894640+00:00",
-  "count": 645,
+  "last_updated": "2026-11-22T10:40:09.834809+00:00",
+  "count": 646,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3872,6 +3872,12 @@
       "url": "https://www.dailythanthi.com/news/india/more-than-100-children-fall-ill-after-eating-noodles-at-a-festival-admitted-to-hospital",
       "title": "திருவிழாவில் நூடுல்ஸ் சாப்பிட்ட 100-க்கும் மேற்பட்ட குழந்தைகளுக்கு உடல்நல குறைவு; மருத்துவமனையில் அனுமதி",
       "source_id": "daily_thanthi"
+    },
+    "fc6cd0785f8387342d767b0c963596bc63eca5b632b326645a620b24b31199ae": {
+      "timestamp": "2026-11-22T10:40:09.834787+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/judiciary/thiruparankundram-hrce-department-files-review-petition-seeking-stay-on-supreme-court-order",
+      "title": "திருப்பரங்குன்றம் விவகாரம்: உச்ச நீதிமன்ற உத்தரவுக்குத் தடை கோரி அறநிலையத் துறை சீராய்வு மனு",
+      "source_id": "vikatan"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T01:29:24.133586+00:00",
-  "count": 637,
+  "last_updated": "2026-11-22T02:32:16.428482+00:00",
+  "count": 638,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3824,6 +3824,12 @@
       "url": "https://www.dailythanthi.com/news/india/madras-high-court-orders-kerala-govt-to-install-ai-cameras-on-railway-tracks-to-prevent-elephant-deaths",
       "title": "தண்டவாளங்களில் “ஏஐ” கேமரா அமைக்க கேரள அரசுக்கு சென்னை ஐகோர்ட் உத்தரவு",
       "source_id": "daily_thanthi"
+    },
+    "ca4af2c67e7c547ea87c18074ded0dedea8188aa76dfea1faac715e88fb6f30d": {
+      "timestamp": "2026-11-22T02:32:16.428456+00:00",
+      "url": "https://www.vikatan.com/spiritual/festivals/meenakshi_sundareswarar-temple-karthikai-festival-swamyambal-procession-in-silver-simmasanam",
+      "title": "மீனாட்சி சுந்தரேசுவரர் கோயில்\nகார்த்திகை தீபத்திருவிழா; சுவாமி, அம்பாள் வெள்ளி சிம்மாசனத்தில் வலம்!",
+      "source_id": "vikatan"
     }
   }
 }

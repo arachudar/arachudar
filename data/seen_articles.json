@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T13:38:26.925780+00:00",
-  "count": 649,
+  "last_updated": "2026-11-22T14:29:01.398821+00:00",
+  "count": 650,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3895,6 +3895,12 @@
       "timestamp": "2026-11-22T13:38:26.925758+00:00",
       "url": "https://www.dailythanthi.com/devotional/tirumala-kaisika-dwadasi-utsavam-sri-ugra-srinivasa-murthy-procession",
       "title": "திருப்பதி ஏழுமலையான் கோவிலில் கைசிக துவாதசி உற்சவம்.. உக்ர சீனிவாச மூர்த்தி வீதிஉலா",
+      "source_id": "daily_thanthi"
+    },
+    "b318fecba1c8c7e378684717065b7d93064710d880600da2d64b706854ad5777": {
+      "timestamp": "2026-11-22T14:29:01.398805+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tiruvannamalai-deepam-festival-minister-ramesh-inspects-special-arrangements-for-devotees",
+      "title": "திருவண்ணாமலை தீபத்திருவிழா: பக்தர்களுக்கான சிறப்பு ஏற்பாடுகளை ஆய்வு செய்த அமைச்சர் ரமேஷ்",
       "source_id": "daily_thanthi"
     }
   }

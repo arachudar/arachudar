@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T07:50:44.036621+00:00",
-  "count": 643,
+  "last_updated": "2026-11-22T08:42:50.023596+00:00",
+  "count": 644,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3860,6 +3860,12 @@
       "url": "https://www.bbc.com/tamil/articles/cmze71lxwr76o?at_medium=RSS&at_campaign=rss",
       "title": "பரந்தூர் விமான நிலைய திட்டம் ரத்து: அரசாணை வெளியாகாததால் தவிக்கும் மக்கள் – நீதிமன்றம் எழுப்பிய கேள்விகள் என்ன?",
       "source_id": "bbc_tamil"
+    },
+    "5f9a4fd8ca5c1f20ea2b7f635173d84e7caf3f0db9fa898f075255162097211b": {
+      "timestamp": "2026-11-22T08:42:50.023577+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/judiciary/thiruparankundram-issue-tamil-nadu-government-files-petition-seeking-review-of-supreme-court-order",
+      "title": "திருப்பரங்குன்றம்  விவகாரம் - உச்ச நீதிமன்ற உத்தரவை மறு ஆய்வு செய்ய தமிழக அரசு மனு!",
+      "source_id": "vikatan"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T04:36:51.794366+00:00",
-  "count": 640,
+  "last_updated": "2026-11-22T05:34:47.899379+00:00",
+  "count": 641,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3841,6 +3841,12 @@
       "timestamp": "2026-11-22T04:36:51.794347+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/sp-velumani-leadership-listens-to-every-voice",
       "title": "ஒவ்வொரு தொண்டனின் குரலையும் கேட்பது தான் தலைமைக்கு அழகு - எஸ்.பி.வேலுமணி",
+      "source_id": "daily_thanthi"
+    },
+    "3010611b788f37ca96da471c8d11d289f7dc125729e5774f26cbe361fe52de60": {
+      "timestamp": "2026-11-22T05:34:47.899355+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/teacher-arrested-under-pocso-for-marrying-and-impregnating-plus-2-student",
+      "title": "பிளஸ்-2 மாணவியை திருமணம் செய்து கர்ப்பமாக்கிய ஆசிரியர் போக்சோவில் கைது",
       "source_id": "daily_thanthi"
     }
   }

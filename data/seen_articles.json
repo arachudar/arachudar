@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T14:29:01.398821+00:00",
-  "count": 650,
+  "last_updated": "2026-11-22T15:24:48.056367+00:00",
+  "count": 651,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3901,6 +3901,12 @@
       "timestamp": "2026-11-22T14:29:01.398805+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/tiruvannamalai-deepam-festival-minister-ramesh-inspects-special-arrangements-for-devotees",
       "title": "திருவண்ணாமலை தீபத்திருவிழா: பக்தர்களுக்கான சிறப்பு ஏற்பாடுகளை ஆய்வு செய்த அமைச்சர் ரமேஷ்",
+      "source_id": "daily_thanthi"
+    },
+    "5cecc8f9d1f58a89f06721fc87c6d073aaea07b9c5329ca12542589001b3e3cb": {
+      "timestamp": "2026-11-22T15:24:48.056353+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chief-minister-has-yet-to-speak-up-on-the-gingee-girl-case-udhayanidhi-stalins-criticism",
+      "title": "செஞ்சி சிறுமி வழக்கில்  முதலமைச்சர் இதுவரை வாய் திறக்கவில்லை : உதயநிதி ஸ்டாலின் விமர்சனம்",
       "source_id": "daily_thanthi"
     }
   }

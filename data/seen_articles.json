@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T05:34:47.899379+00:00",
-  "count": 641,
+  "last_updated": "2026-11-22T06:33:28.360662+00:00",
+  "count": 642,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3848,6 +3848,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/teacher-arrested-under-pocso-for-marrying-and-impregnating-plus-2-student",
       "title": "பிளஸ்-2 மாணவியை திருமணம் செய்து கர்ப்பமாக்கிய ஆசிரியர் போக்சோவில் கைது",
       "source_id": "daily_thanthi"
+    },
+    "95fc193ce9d891e710b7b73bee75374295458f37795b4139fa0adf65e7101376": {
+      "timestamp": "2026-11-22T06:33:28.360641+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/trump-praises-india-cant-digest-rahul-bjp/4382781",
+      "title": "இந்தியாவை பாராட்டும் டிரம்ப்... ஜீரணித்துக் கொள்ள முடியாத ராகுல்; பாஜ விமர்சனம்",
+      "source_id": "dinamalar"
     }
   }
 }

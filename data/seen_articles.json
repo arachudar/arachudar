@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T20:59:39.173178+00:00",
-  "count": 657,
+  "last_updated": "2026-11-22T21:39:43.560788+00:00",
+  "count": 658,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3943,6 +3943,12 @@
       "timestamp": "2026-11-22T20:59:39.173151+00:00",
       "url": "https://www.dailythanthi.com/sports/othersports/national-squash-tournament-tamil-nadu-squash-player-abhay-singh-champion-for-the-3rd-time",
       "title": "தேசிய ஸ்குவாஷ் போட்டி: தமிழக வீரர் அபய்சிங் 3-வது முறையாக “சாம்பியன்”",
+      "source_id": "daily_thanthi"
+    },
+    "5aefc245cab299bf73f8e24556c5bf7f7d4a8df455857b265157c07dabb7d47e": {
+      "timestamp": "2026-11-22T21:39:43.560770+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/asia-cup-cricket-pakistan-win-india",
+      "title": "ஆசிய கோப்பை கிரிக்கெட் -  இந்தியாவை வென்ற  பாகிஸ்தான்",
       "source_id": "daily_thanthi"
     }
   }

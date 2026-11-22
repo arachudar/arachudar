@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T22:24:54.924175+00:00",
-  "count": 659,
+  "last_updated": "2026-11-22T23:23:27.070409+00:00",
+  "count": 660,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3955,6 +3955,12 @@
       "timestamp": "2026-11-22T22:24:54.924152+00:00",
       "url": "https://www.dailythanthi.com/others/thalayangam/tamil-nadu-is-becoming-a-state-of-senior-citizens",
       "title": "முதியோர் மாநிலமாக மாறி வரும் தமிழ்நாடு",
+      "source_id": "daily_thanthi"
+    },
+    "b1d27cf8404581bd571520062c0d6f081fba5a2cf84e6556c6113c0c03394b95": {
+      "timestamp": "2026-11-22T23:23:27.070368+00:00",
+      "url": "https://www.dailythanthi.com/news/world/opposition-leader-in-talks-with-ruling-party-to-form-israel-govt",
+      "title": "இஸ்ரேலில் ஆட்சி அமைக்க எதிர்கட்சி தலைவர் ஆளுங்கட்சியுடன் பேச்சுவார்த்தை",
       "source_id": "daily_thanthi"
     }
   }

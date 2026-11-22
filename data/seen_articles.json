@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-21T23:30:41.269810+00:00",
-  "count": 635,
+  "last_updated": "2026-11-22T00:15:53.066842+00:00",
+  "count": 636,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3811,6 +3811,12 @@
       "timestamp": "2026-11-21T23:30:41.269776+00:00",
       "url": "https://www.dailythanthi.com/news/world/us-president-praises-indias-economic-growth-low-interest-rates",
       "title": "இந்தியாவின் பொருளாதார வளர்ச்சிக்கு டிரம்ப் பாராட்டு",
+      "source_id": "daily_thanthi"
+    },
+    "0bcadffc9e98980b8d3aa05276e52e223271ce9e6a1fd6c927a394e6bd651f6b": {
+      "timestamp": "2026-11-22T00:15:53.066823+00:00",
+      "url": "https://www.dailythanthi.com/astrology/today-rasi-palan/today-rasi-palan-in-tamil-22112026",
+      "title": "பொருளாதாரத்தில் படிப்படியான வளர்ச்சி ஏற்படும்! இன்றைய ராசிபலன் - நவம்பர் 22, 2026",
       "source_id": "daily_thanthi"
     }
   }

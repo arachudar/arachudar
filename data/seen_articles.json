@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T20:01:32.376195+00:00",
-  "count": 656,
+  "last_updated": "2026-11-22T20:59:39.173178+00:00",
+  "count": 657,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3938,6 +3938,12 @@
       "url": "https://www.maalaimalar.com/news/tamilnadu/chennai-metro-rail-time-change-announced",
       "title": "மெட்ரோ ரெயில் சேவையில் மாற்றம் - வெளியான முக்கிய அறிவிப்பு",
       "source_id": "maalai_malar"
+    },
+    "85f4826b3fee45dcd48c46d951b5015f5fe6eee62189ee6fa0bcf544b2829967": {
+      "timestamp": "2026-11-22T20:59:39.173151+00:00",
+      "url": "https://www.dailythanthi.com/sports/othersports/national-squash-tournament-tamil-nadu-squash-player-abhay-singh-champion-for-the-3rd-time",
+      "title": "தேசிய ஸ்குவாஷ் போட்டி: தமிழக வீரர் அபய்சிங் 3-வது முறையாக “சாம்பியன்”",
+      "source_id": "daily_thanthi"
     }
   }
 }

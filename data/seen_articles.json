@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T16:25:40.614548+00:00",
-  "count": 652,
+  "last_updated": "2026-11-22T17:24:18.889737+00:00",
+  "count": 653,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3914,6 +3914,12 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EMXo2dnBJNE9LMVRxUmZmVFoxX1RCMU5yQjdXZkFNTVBLQ3Atd1IyUXRDdlVsc1JfSkRHdkZZNHZacWNWQnA1d3pEU0FnbGo5TFMtaGM5ME9BcWhr0gFiQVVfeXFMTWl2TThpaFBJSzcwZG9YSEctTUdRM2s4NWJadm9oZFRxRklERHplU1BGUjNGdjNFQ0hWdTFPNmk0R0thT3FYcS1oY2xrRWNVQ1ZNNWl3MHV2T25XM0JfTVJCS2c?oc=5",
       "title": "திருப்பரங்குன்றம் தீபத்தூண் வழக்கு: உச்ச நீதிமன்றத்தில் தமிழக அரசு சீராய்வு மனு - என்ன கூறியுள்ளது? - BBC",
       "source_id": "google_news_tamil"
+    },
+    "c9cf7ecf3c4f7987c061382ba2d21a02918c56b32e6b53cd18912a44b6925b03": {
+      "timestamp": "2026-11-22T17:24:18.889718+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cm0evlj2pvg3o?at_medium=RSS&at_campaign=rss",
+      "title": "இந்தியாவில் தங்கம் விற்பனை குறைய மோதி வேண்டுகோளே காரணமா? நிபுணர்கள் விளக்கம்",
+      "source_id": "bbc_tamil"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T11:48:00.056555+00:00",
-  "count": 670,
+  "last_updated": "2026-11-23T12:58:38.107603+00:00",
+  "count": 671,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4021,6 +4021,12 @@
       "timestamp": "2026-11-23T11:48:00.056536+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/india-new-zealand-test-draw-world-test-championship",
       "title": "முதல் போட்டி டிரா... உலக டெஸ்ட் சாம்பியன்ஷிப் புள்ளிப்பட்டியலில் இந்தியாவுக்கு பின்னடைவு",
+      "source_id": "daily_thanthi"
+    },
+    "9736be131310c6faed73b5e95b895cc10371859fa9e9a20cdee6f5d7d46c77b3": {
+      "timestamp": "2026-11-23T12:58:38.107581+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/new-zealand-india-test-draw-tom-latham-reaction",
+      "title": "இந்தியாவுக்கு எதிரான டிரா... ’வெற்றியை போன்ற மகிழ்ச்சி’ - நியூசிலாந்து கேப்டன் டாம் லாதம்",
       "source_id": "daily_thanthi"
     }
   }

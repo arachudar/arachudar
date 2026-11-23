@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-22T23:23:27.070409+00:00",
-  "count": 660,
+  "last_updated": "2026-11-23T00:22:37.622289+00:00",
+  "count": 661,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3961,6 +3961,12 @@
       "timestamp": "2026-11-22T23:23:27.070368+00:00",
       "url": "https://www.dailythanthi.com/news/world/opposition-leader-in-talks-with-ruling-party-to-form-israel-govt",
       "title": "இஸ்ரேலில் ஆட்சி அமைக்க எதிர்கட்சி தலைவர் ஆளுங்கட்சியுடன் பேச்சுவார்த்தை",
+      "source_id": "daily_thanthi"
+    },
+    "78090a2a20b441baa6a03aee12eec355cbd1cd9722b970270d274e915d701d86": {
+      "timestamp": "2026-11-23T00:22:37.622271+00:00",
+      "url": "https://www.dailythanthi.com/astrology/today-rasi-palan/today-rasi-palan-in-tamil-23112026",
+      "title": "உத்தியோகத்தில் சாதகமான மாற்றங்களை எதிர்பார்க்கலாம்! இன்றைய ராசிபலன் - நவம்பர் 23, 2026",
       "source_id": "daily_thanthi"
     }
   }

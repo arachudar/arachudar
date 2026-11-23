@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T22:44:00.056689+00:00",
-  "count": 680,
+  "last_updated": "2026-11-23T23:42:05.390241+00:00",
+  "count": 681,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4082,6 +4082,12 @@
       "url": "https://www.hindutamil.in/news/tamilnadu/palani-temple-land-fraud-case-government-opposes-bail-to-sub-registrar",
       "title": "பழநி கோயில் நில மோசடி வழக்கு: சார் பதிவாளர் ஜஸ்டினுக்கு ஜாமீன் வழங்க அரசு எதிர்ப்பு",
       "source_id": "hindu_tamil"
+    },
+    "4c79e49c51a32de94cd8405c23153f6e61276fb04d903d7734bbe224ca5c73d8": {
+      "timestamp": "2026-11-23T23:42:05.390218+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/karthigai-deepam-festival-maha-deepam-is-being-lit-in-tiruvannamalai-this-evening",
+      "title": "கார்த்திகை தீபத்திருவிழா: திருவண்ணாமலையில் இன்று மாலை மகா தீபம் ஏற்றப்படுகிறது",
+      "source_id": "daily_thanthi"
     }
   }
 }

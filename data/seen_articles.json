@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T08:09:00.006933+00:00",
-  "count": 667,
+  "last_updated": "2026-11-23T09:41:41.477044+00:00",
+  "count": 668,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4004,6 +4004,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/cauvery-farmers-consultation-committee-dmk-leader-mk-stalin-makes-an-announcement",
       "title": "காவிரி விவசாயிகள் கருத்துக் கேட்புக் குழு: திமுக தலைவர் மு.க. ஸ்டாலின் அறிவிப்பு..!",
       "source_id": "daily_thanthi"
+    },
+    "42404634a2bcf7ea8bc0524788555c665979068cd06a45acbb243a214d1f9a5d": {
+      "timestamp": "2026-11-23T09:41:41.477021+00:00",
+      "url": "https://tamil.asianetnews.com/gallery/cinema/did-mammootty-disappoint-fans-in-dhanush-om-netizens-troll-his-character-1i4y3qu",
+      "title": "OM : அடுத்த மூர்த்தி அண்ணன்... டம்மி பீஸ் ஆக்கப்பட்ட மம்மூட்டி கேரக்டர் - ஓம் படம் சறுக்கியது எங்கே?",
+      "source_id": "asianet_tamil"
     }
   }
 }

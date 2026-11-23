@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T01:58:01.560481+00:00",
-  "count": 662,
+  "last_updated": "2026-11-23T02:53:05.397002+00:00",
+  "count": 663,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3974,6 +3974,12 @@
       "url": "https://www.hindutamil.in/news/india/delhi-cop-gets-rs-9-lakh-aura-instead-of-rs-13-lakh-brezza-he-cancels-wedding",
       "title": "பிரெஸ்ஸாவுக்கு பதில் ஆரா கார் தந்ததால் திருமணம் ரத்து: டெல்லி காவலர் மீது மணமகளின் தந்தை புகார்",
       "source_id": "hindu_tamil"
+    },
+    "a40898216e8f4dcaa28c20575ffbfd7d2100b6a6f36e33749194ab5abfeced60": {
+      "timestamp": "2026-11-23T02:53:05.396976+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cmgj3lq487qzo?at_medium=RSS&at_campaign=rss",
+      "title": "கணையப் புற்றுநோய் சிகிச்சையில் நம்பிக்கையளிக்கும் புதிய மாத்திரை - ஆய்வில் மறைந்த கட்டிகள்",
+      "source_id": "bbc_tamil"
     }
   }
 }

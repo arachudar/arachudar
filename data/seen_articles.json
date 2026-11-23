@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T21:42:57.211299+00:00",
-  "count": 679,
+  "last_updated": "2026-11-23T22:44:00.056689+00:00",
+  "count": 680,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4076,6 +4076,12 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/internet-services-hit-again-microsoft-chief-warns/4384669",
       "title": "இணைய சேவைகளில் மீண்டும் பாதிப்பு: மைக்ரோசாப்ட் தலைவர் எச்சரிக்கை",
       "source_id": "dinamalar"
+    },
+    "6b28d676b496c9f14e25cab8a5928f5925102156af25be3fc1a5ce7b06c9a7c7": {
+      "timestamp": "2026-11-23T22:44:00.056651+00:00",
+      "url": "https://www.hindutamil.in/news/tamilnadu/palani-temple-land-fraud-case-government-opposes-bail-to-sub-registrar",
+      "title": "பழநி கோயில் நில மோசடி வழக்கு: சார் பதிவாளர் ஜஸ்டினுக்கு ஜாமீன் வழங்க அரசு எதிர்ப்பு",
+      "source_id": "hindu_tamil"
     }
   }
 }

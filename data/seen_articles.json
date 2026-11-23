@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T06:26:15.809384+00:00",
-  "count": 666,
+  "last_updated": "2026-11-23T08:09:00.006933+00:00",
+  "count": 667,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3997,6 +3997,12 @@
       "timestamp": "2026-11-23T06:26:15.809360+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/man-arrested-for-sexually-harassing-college-student-on-moving-bus",
       "title": "ஓடும் பஸ்சில் கல்லூரி மாணவிக்கு பாலியல் தொல்லை கொடுத்தவர் கைது",
+      "source_id": "daily_thanthi"
+    },
+    "7e6d4466f62dbef7aa92f5f79d144414882c6205b5419a646bc192adb6183221": {
+      "timestamp": "2026-11-23T08:09:00.006911+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/cauvery-farmers-consultation-committee-dmk-leader-mk-stalin-makes-an-announcement",
+      "title": "காவிரி விவசாயிகள் கருத்துக் கேட்புக் குழு: திமுக தலைவர் மு.க. ஸ்டாலின் அறிவிப்பு..!",
       "source_id": "daily_thanthi"
     }
   }

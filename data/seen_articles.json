@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T12:58:38.107603+00:00",
-  "count": 671,
+  "last_updated": "2026-11-23T14:23:19.845164+00:00",
+  "count": 672,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4027,6 +4027,12 @@
       "timestamp": "2026-11-23T12:58:38.107581+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/new-zealand-india-test-draw-tom-latham-reaction",
       "title": "இந்தியாவுக்கு எதிரான டிரா... ’வெற்றியை போன்ற மகிழ்ச்சி’ - நியூசிலாந்து கேப்டன் டாம் லாதம்",
+      "source_id": "daily_thanthi"
+    },
+    "bf248d6e8f7d6fc70b184bdd0aa7b81272a3fd5190ad738263d1aa383b38e03b": {
+      "timestamp": "2026-11-23T14:23:19.845139+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/thiruparankundram-issue-government-must-act-with-determination-to-safeguard-religious-harmony-sdpi-urges",
+      "title": "திருப்பரங்குன்றம் விவகாரம்: மதநல்லிணக்கத்தை பாதுகாக்க அரசு உறுதியுடன் செயல்பட வேண்டும் - எஸ்டிபிஐ வலியுறுத்தல்",
       "source_id": "daily_thanthi"
     }
   }

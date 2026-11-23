@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T05:05:13.947492+00:00",
-  "count": 665,
+  "last_updated": "2026-11-23T06:26:15.809384+00:00",
+  "count": 666,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3992,6 +3992,12 @@
       "url": "https://www.maalaimalar.com/news/business-and-gold-rate/today-gold-price-in-chennai-23-11-2026",
       "title": "GOLD PRICE TODAY: வார தொடக்கத்தில் உயர்ந்த தங்கம் விலை - எவ்வளவு தெரியுமா?",
       "source_id": "maalai_malar"
+    },
+    "fbbff4199df52a1786fcb7407fb396284dd670725891bc1d2c148165eb2f7940": {
+      "timestamp": "2026-11-23T06:26:15.809360+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/man-arrested-for-sexually-harassing-college-student-on-moving-bus",
+      "title": "ஓடும் பஸ்சில் கல்லூரி மாணவிக்கு பாலியல் தொல்லை கொடுத்தவர் கைது",
+      "source_id": "daily_thanthi"
     }
   }
 }

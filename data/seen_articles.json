@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T03:53:44.535834+00:00",
-  "count": 664,
+  "last_updated": "2026-11-23T05:05:13.947492+00:00",
+  "count": 665,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3986,6 +3986,12 @@
       "url": "https://www.vikatan.com/spiritual/temples/glory-of-kerala-chottanikkara-temple",
       "title": "சோட்டானிக்கரை அற்புதங்கள்-2: யட்சினியிடம் இருந்து காத்த அம்பிகை... பிரச்னைகள் தீர்க்கும் பஜனம்!",
       "source_id": "vikatan"
+    },
+    "2fdd5f76979897964a6e6eb0c374295dac18f128de6a807608ed937610e031ed": {
+      "timestamp": "2026-11-23T05:05:13.947467+00:00",
+      "url": "https://www.maalaimalar.com/news/business-and-gold-rate/today-gold-price-in-chennai-23-11-2026",
+      "title": "GOLD PRICE TODAY: வார தொடக்கத்தில் உயர்ந்த தங்கம் விலை - எவ்வளவு தெரியுமா?",
+      "source_id": "maalai_malar"
     }
   }
 }

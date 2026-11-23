@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T20:44:29.147288+00:00",
-  "count": 678,
+  "last_updated": "2026-11-23T21:42:57.211299+00:00",
+  "count": 679,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4070,6 +4070,12 @@
       "url": "https://www.dailythanthi.com/news/world/iran-unveils-dual-missile-launcher-new-missile-city",
       "title": "அமெரிக்க தாக்குதலை எதிர்கொள்ள ஈரான் தீவிரம்",
       "source_id": "daily_thanthi"
+    },
+    "7814bb7244bea2781461cbf15591e2fbdfb8c6457926f86244609da887bbe290": {
+      "timestamp": "2026-11-23T21:42:57.211275+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/internet-services-hit-again-microsoft-chief-warns/4384669",
+      "title": "இணைய சேவைகளில் மீண்டும் பாதிப்பு: மைக்ரோசாப்ட் தலைவர் எச்சரிக்கை",
+      "source_id": "dinamalar"
     }
   }
 }

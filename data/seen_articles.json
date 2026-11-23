@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T15:42:46.833371+00:00",
-  "count": 673,
+  "last_updated": "2026-11-23T16:52:39.119948+00:00",
+  "count": 674,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4040,6 +4040,12 @@
       "url": "https://www.maalaimalar.com/news/national/meta-india-content-restrictions-2026-report",
       "title": "மத்திய அரசு கோரிக்கையின் அடிப்படையில் உள்ளடக்கங்கள் கட்டுப்பாடு- மெட்டா விளக்கம்",
       "source_id": "maalai_malar"
+    },
+    "7f88ee518c981ff87d2d74c1f5679da2c625607a2e4f7e9cd9e8bac26e18f169": {
+      "timestamp": "2026-11-23T16:52:39.119930+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cvlyj36d6830o?at_medium=RSS&at_campaign=rss",
+      "title": "திருப்பரங்குன்றம் மலை உச்சியில் தீபம் ஏற்றப்படுமா?  டிரோன் பறக்கத் தடை, காவல்துறையினர் குவிப்பு",
+      "source_id": "bbc_tamil"
     }
   }
 }

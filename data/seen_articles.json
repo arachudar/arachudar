@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T18:50:11.041420+00:00",
-  "count": 676,
+  "last_updated": "2026-11-23T19:56:10.188094+00:00",
+  "count": 677,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4058,6 +4058,12 @@
       "url": "https://www.dailythanthi.com/news/world/indias-diversity-amazes-me-russian-president-putin",
       "title": "இந்தியாவின் பன்முகத்தன்மை  என்னை வியப்பில் ஆழ்த்தியது - ரஷிய அதிபர் புதின்",
       "source_id": "daily_thanthi"
+    },
+    "ffeace6612d6b1c02f98dde276f0d1b058b7d955197a3fef81c6174921f2ba96": {
+      "timestamp": "2026-11-23T19:56:10.188073+00:00",
+      "url": "https://www.hindutamil.in/news/technology/lava-smart-4-pro-smartphone-in-india-price-specs",
+      "title": "Lava Smart 4 Pro போன் இந்தியாவில் அறிமுகம்: விலை, சிறப்பு அம்சங்கள் என்னென்ன?",
+      "source_id": "hindu_tamil"
     }
   }
 }

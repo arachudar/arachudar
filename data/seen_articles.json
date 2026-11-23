@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T14:23:19.845164+00:00",
-  "count": 672,
+  "last_updated": "2026-11-23T15:42:46.833371+00:00",
+  "count": 673,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4034,6 +4034,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/thiruparankundram-issue-government-must-act-with-determination-to-safeguard-religious-harmony-sdpi-urges",
       "title": "திருப்பரங்குன்றம் விவகாரம்: மதநல்லிணக்கத்தை பாதுகாக்க அரசு உறுதியுடன் செயல்பட வேண்டும் - எஸ்டிபிஐ வலியுறுத்தல்",
       "source_id": "daily_thanthi"
+    },
+    "7798bc509cb429e29740fdf1858ebf14866b6102165a9543738b791e46fdd733": {
+      "timestamp": "2026-11-23T15:42:46.833348+00:00",
+      "url": "https://www.maalaimalar.com/news/national/meta-india-content-restrictions-2026-report",
+      "title": "மத்திய அரசு கோரிக்கையின் அடிப்படையில் உள்ளடக்கங்கள் கட்டுப்பாடு- மெட்டா விளக்கம்",
+      "source_id": "maalai_malar"
     }
   }
 }

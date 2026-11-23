@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T02:53:05.397002+00:00",
-  "count": 663,
+  "last_updated": "2026-11-23T03:53:44.535834+00:00",
+  "count": 664,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -3980,6 +3980,12 @@
       "url": "https://www.bbc.com/tamil/articles/cmgj3lq487qzo?at_medium=RSS&at_campaign=rss",
       "title": "கணையப் புற்றுநோய் சிகிச்சையில் நம்பிக்கையளிக்கும் புதிய மாத்திரை - ஆய்வில் மறைந்த கட்டிகள்",
       "source_id": "bbc_tamil"
+    },
+    "ea2e173edabadec9120c058435c2ea5cbe1246f150fa95082cf0cab51ae5694a": {
+      "timestamp": "2026-11-23T03:53:44.535816+00:00",
+      "url": "https://www.vikatan.com/spiritual/temples/glory-of-kerala-chottanikkara-temple",
+      "title": "சோட்டானிக்கரை அற்புதங்கள்-2: யட்சினியிடம் இருந்து காத்த அம்பிகை... பிரச்னைகள் தீர்க்கும் பஜனம்!",
+      "source_id": "vikatan"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T19:56:10.188094+00:00",
-  "count": 677,
+  "last_updated": "2026-11-23T20:44:29.147288+00:00",
+  "count": 678,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4064,6 +4064,12 @@
       "url": "https://www.hindutamil.in/news/technology/lava-smart-4-pro-smartphone-in-india-price-specs",
       "title": "Lava Smart 4 Pro போன் இந்தியாவில் அறிமுகம்: விலை, சிறப்பு அம்சங்கள் என்னென்ன?",
       "source_id": "hindu_tamil"
+    },
+    "e7611ce3dc549346e6c980dcc2854c7fdecc244804e1c80e502f9403b9f2b373": {
+      "timestamp": "2026-11-23T20:44:29.147265+00:00",
+      "url": "https://www.dailythanthi.com/news/world/iran-unveils-dual-missile-launcher-new-missile-city",
+      "title": "அமெரிக்க தாக்குதலை எதிர்கொள்ள ஈரான் தீவிரம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

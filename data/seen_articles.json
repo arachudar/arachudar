@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T03:09:38.283874+00:00",
-  "count": 684,
+  "last_updated": "2026-11-24T04:20:08.200153+00:00",
+  "count": 685,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4106,6 +4106,12 @@
       "url": "https://www.bbc.com/tamil/articles/cm752391xgweo?at_medium=RSS&at_campaign=rss",
       "title": "'இரானில் ஹிஜாப் அணியாமல் இசை நிகழ்ச்சி நடத்திய பாடகிக்கு 74 சவுக்கடிகள்' -  வழக்கறிஞர்கள் தகவல்",
       "source_id": "bbc_tamil"
+    },
+    "a4b56d5428fea6d29a90097c8483ae270c372df9a7315804b9c3422cf32f9e0c": {
+      "timestamp": "2026-11-24T04:20:08.200130+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/24/bjp-state-president-nainar-nagendran-placed-under-house-arrest",
+      "title": "வீட்டுக் காவலில் பாஜக மாநிலத் தலைவர் நயினார் நாகேந்திரன்!",
+      "source_id": "dinamani"
     }
   }
 }

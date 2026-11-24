@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T15:43:31.401764+00:00",
-  "count": 695,
+  "last_updated": "2026-11-24T16:57:08.598551+00:00",
+  "count": 696,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4172,6 +4172,12 @@
       "url": "https://www.bbc.com/tamil/articles/cm36g5966w7po?at_medium=RSS&at_campaign=rss",
       "title": "திருப்பரங்குன்றம்: வழக்கமான இடத்திலேயே இந்த ஆண்டும் தீபம் ஏற்றியது ஏன்? கோயில் நிர்வாகம் விளக்கம்",
       "source_id": "bbc_tamil"
+    },
+    "eaa48182436f38e7faef03bdfc660688e6d8917c79121be8e23129f7f88914d4": {
+      "timestamp": "2026-11-24T16:57:08.598527+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/murugan-teaches-lesson-to-dmk-government",
+      "title": "அதிகார ஆணவத்தில் மிதக்கும் தவெக அரசுக்கு முருகப்பெருமான் தக்க பாடத்தை புகட்டுவார் - நயினார் நாகேந்திரன்",
+      "source_id": "daily_thanthi"
     }
   }
 }

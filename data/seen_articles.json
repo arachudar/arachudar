@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T16:57:08.598551+00:00",
-  "count": 696,
+  "last_updated": "2026-11-24T17:47:59.973930+00:00",
+  "count": 697,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4178,6 +4178,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/murugan-teaches-lesson-to-dmk-government",
       "title": "அதிகார ஆணவத்தில் மிதக்கும் தவெக அரசுக்கு முருகப்பெருமான் தக்க பாடத்தை புகட்டுவார் - நயினார் நாகேந்திரன்",
       "source_id": "daily_thanthi"
+    },
+    "0a33cb8b7e10786f955b0586b1a8fd7bdcb7c409ee11db3427a222aeaa0055f6": {
+      "timestamp": "2026-11-24T17:47:59.973908+00:00",
+      "url": "https://www.thehindu.com/business/Industry/with-fleet-down-to-six-spicejet-flight-services-shrink-to-20-per-day/article71739872.ece",
+      "title": "With fleet down to six, SpiceJet flight services shrink to 20 per day",
+      "source_id": "the_hindu"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T19:55:41.285467+00:00",
-  "count": 699,
+  "last_updated": "2026-11-24T20:45:19.571198+00:00",
+  "count": 700,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4196,6 +4196,12 @@
       "url": "https://www.hindutamil.in/news/sports/from-stokes-to-aryaveer-sehwag-1220-players-express-interest-in-participating-ipl-auction",
       "title": "ஸ்டோக்ஸ் முதல் ஆர்யவீர் சேவாக் வரை: ஐபிஎல் ஏலத்தில் பங்கேற்க 1,220 வீரர்கள் விருப்பம்",
       "source_id": "hindu_tamil"
+    },
+    "6adcee77eeb95a2f60189e09d2ef8cedbf6a2b167af3918899f0e9b7a6766ac8": {
+      "timestamp": "2026-11-24T20:45:19.571180+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/ias-officer-kavitha-ramu-supports-the-collector-over-the-obscene-message-issue",
+      "title": "கலெக்டருக்கு ஆபாச மெசேஜ் விவகாரம்; ஐஏஎஸ் அதிகாரி கவிதா ராமு ஆதரவு",
+      "source_id": "daily_thanthi"
     }
   }
 }

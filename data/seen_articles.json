@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T02:09:06.029362+00:00",
-  "count": 683,
+  "last_updated": "2026-11-24T03:09:38.283874+00:00",
+  "count": 684,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4100,6 +4100,12 @@
       "url": "https://www.dinamani.com/newdelhi/2026/Nov/24/delhi-admissions-for-nursery-classes-in-private-schools-to-begin-on-dec-1",
       "title": "தில்லி: தனியாா் பள்ளிகளில் நா்சரி வகுப்புகளுக்கான சோ்க்கை டிச. 1-இல் தொடக்கம்",
       "source_id": "dinamani"
+    },
+    "4fb37ec8cbeced1c15aacc1e70080f523441d4367aa44045e1a2df1dae705768": {
+      "timestamp": "2026-11-24T03:09:38.283850+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cm752391xgweo?at_medium=RSS&at_campaign=rss",
+      "title": "'இரானில் ஹிஜாப் அணியாமல் இசை நிகழ்ச்சி நடத்திய பாடகிக்கு 74 சவுக்கடிகள்' -  வழக்கறிஞர்கள் தகவல்",
+      "source_id": "bbc_tamil"
     }
   }
 }

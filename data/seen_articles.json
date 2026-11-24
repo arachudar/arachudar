@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T08:59:09.605170+00:00",
-  "count": 689,
+  "last_updated": "2026-11-24T10:07:42.569243+00:00",
+  "count": 690,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4136,6 +4136,12 @@
       "url": "https://tamil.asianetnews.com/gallery/cinema/dhanush-missing-from-anirudh-wedding-reception-what-happened-to-their-special-bond-34ufopf",
       "title": "ஒட்டுமொத்த கோலிவுட்டே ஆஜரான அனிருத் திருமண வரவேற்பில் தனுஷ் மட்டும் ஆப்சென்ட் ஆனது ஏன்?... உடைந்ததா DnA கூட்டணி? வெடிக்கும் சர்ச்சை",
       "source_id": "asianet_tamil"
+    },
+    "fdc95c2065cef058c7ebe0adbeef5a9f30028b91c0f6ad5139c59ca7f440ec7a": {
+      "timestamp": "2026-11-24T10:07:42.569222+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/even-a-district-collector-is-not-safe-in-this-tamil-nadu-mp-kanimozhi",
+      "title": "ஒரு மாவட்ட ஆட்சியருக்கே இந்தத் தமிழ்நாட்டில் பாதுகாப்பு இல்லை.. - கனிமொழி எம்.பி.",
+      "source_id": "daily_thanthi"
     }
   }
 }

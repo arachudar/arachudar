@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T12:16:51.807971+00:00",
-  "count": 692,
+  "last_updated": "2026-11-24T13:37:20.574256+00:00",
+  "count": 693,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4153,6 +4153,12 @@
       "timestamp": "2026-11-24T12:16:51.807953+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/vaibhav-suriyavanshi-204-runs-india-a-beats-uae-a",
       "title": "ஆசிய கோப்பை: வைபவ் சூர்யவன்சி 204 ரன்கள் விளாசல்... யுஏஇ 'ஏ' அணியை வீழ்த்திய இந்தியா ’ஏ’",
+      "source_id": "daily_thanthi"
+    },
+    "b7a678f09715610315c478b0be22ac1d6369721e09b3fd913d78d00456c7c4e1": {
+      "timestamp": "2026-11-24T13:37:20.574234+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/crops-suffering-due-to-rainfall-deficit-agriculture-department-offers-key-advice-to-protect-yields",
+      "title": "மழை பற்றாக்குறையால் வாடும் பயிர்கள்: மகசூலை பாதுகாக்க வேளாண் துறை முக்கிய ஆலோசனை",
       "source_id": "daily_thanthi"
     }
   }

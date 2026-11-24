@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T05:28:55.707394+00:00",
-  "count": 686,
+  "last_updated": "2026-11-24T06:32:02.916012+00:00",
+  "count": 687,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4118,6 +4118,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/tvk-mla-arul-vignesh-is-unfit-to-be-in-politics-tamilisai-soundararajan",
       "title": "தவெக எம்.எல்.ஏ. அருள் விக்னேஷ் அரசியலில் இருப்பதற்கே தகுதியற்றவர்: தமிழிசை சவுந்தரராஜன்",
       "source_id": "daily_thanthi"
+    },
+    "e690b63b0e2dff2984a9147958b319b1302506e8e0dc98e1f9fc887c4c02828c": {
+      "timestamp": "2026-11-24T06:32:02.915996+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/thiruparankundram-deepam-issue-section-144-imposed-hindu-group-members-placed-under-house-arrest-madurai-in-a-state-of-tension",
+      "title": "திருப்பரங்குன்றம்: 144 தடை உத்தரவு; வீட்டுக்காவலில் இந்து அமைப்பினர் - பதற்றத்தில் மதுரை!",
+      "source_id": "vikatan"
     }
   }
 }

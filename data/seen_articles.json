@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T14:40:19.314306+00:00",
-  "count": 694,
+  "last_updated": "2026-11-24T15:43:31.401764+00:00",
+  "count": 695,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4166,6 +4166,12 @@
       "url": "https://www.maalaimalar.com/news/national/gaganyaan-astronauts-russia-low-gravity-training",
       "title": "நிலவு போன்ற ஈர்ப்பு விசையில் மிதந்து, பல்டி அடிக்க ரஷ்யாவில் இந்திய விண்வெளி வீரர்கள் பயிற்சி",
       "source_id": "maalai_malar"
+    },
+    "6444821356bf789bf95489486b836e60d730ee819b277caa469aac909928ad48": {
+      "timestamp": "2026-11-24T15:43:31.401742+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cm36g5966w7po?at_medium=RSS&at_campaign=rss",
+      "title": "திருப்பரங்குன்றம்: வழக்கமான இடத்திலேயே இந்த ஆண்டும் தீபம் ஏற்றியது ஏன்? கோயில் நிர்வாகம் விளக்கம்",
+      "source_id": "bbc_tamil"
     }
   }
 }

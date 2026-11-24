@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T13:37:20.574256+00:00",
-  "count": 693,
+  "last_updated": "2026-11-24T14:40:19.314306+00:00",
+  "count": 694,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4160,6 +4160,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/crops-suffering-due-to-rainfall-deficit-agriculture-department-offers-key-advice-to-protect-yields",
       "title": "மழை பற்றாக்குறையால் வாடும் பயிர்கள்: மகசூலை பாதுகாக்க வேளாண் துறை முக்கிய ஆலோசனை",
       "source_id": "daily_thanthi"
+    },
+    "d248b226c5a37209068ca012140ce33a054cce88901f169f3ba34b3717ca715e": {
+      "timestamp": "2026-11-24T14:40:19.314271+00:00",
+      "url": "https://www.maalaimalar.com/news/national/gaganyaan-astronauts-russia-low-gravity-training",
+      "title": "நிலவு போன்ற ஈர்ப்பு விசையில் மிதந்து, பல்டி அடிக்க ரஷ்யாவில் இந்திய விண்வெளி வீரர்கள் பயிற்சி",
+      "source_id": "maalai_malar"
     }
   }
 }

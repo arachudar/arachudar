@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T22:48:15.824721+00:00",
-  "count": 702,
+  "last_updated": "2026-11-24T23:42:01.400130+00:00",
+  "count": 703,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4213,6 +4213,12 @@
       "timestamp": "2026-11-24T22:48:15.824697+00:00",
       "url": "https://www.dinamalar.com/news/latest-tamil-news/bjp-hindu-condemns-tvk-government-for-not-respecting-supreme-court-verdict/4385484",
       "title": "உச்ச நீதிமன்ற தீர்ப்பை மதிக்காத த.வெ.க., அரசு: பா.ஜ., ஹிந்து அமைப்புகள் கடும் கண்டனம்",
+      "source_id": "dinamalar"
+    },
+    "15ae9addfba567586d4b39e98dff620430443ea2fa8b5b2a62c365e53a4c8b80": {
+      "timestamp": "2026-11-24T23:42:01.400114+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/tragic-incident-for-our-republic-high-court-judge-pains/4385475",
+      "title": "நம் குடியரசுக்கு துயரமான நிகழ்வு: உயர்நீதிமன்ற நீதிபதி வேதனை",
       "source_id": "dinamalar"
     }
   }

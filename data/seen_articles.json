@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T04:20:08.200153+00:00",
-  "count": 685,
+  "last_updated": "2026-11-24T05:28:55.707394+00:00",
+  "count": 686,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4112,6 +4112,12 @@
       "url": "https://www.dinamani.com/tamilnadu/2026/Nov/24/bjp-state-president-nainar-nagendran-placed-under-house-arrest",
       "title": "வீட்டுக் காவலில் பாஜக மாநிலத் தலைவர் நயினார் நாகேந்திரன்!",
       "source_id": "dinamani"
+    },
+    "55ef1fadd2290dd7f967f3d713a8f5225e33fb54994057540581c28272e74635": {
+      "timestamp": "2026-11-24T05:28:55.707370+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tvk-mla-arul-vignesh-is-unfit-to-be-in-politics-tamilisai-soundararajan",
+      "title": "தவெக எம்.எல்.ஏ. அருள் விக்னேஷ் அரசியலில் இருப்பதற்கே தகுதியற்றவர்: தமிழிசை சவுந்தரராஜன்",
+      "source_id": "daily_thanthi"
     }
   }
 }

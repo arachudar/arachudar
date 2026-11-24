@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T06:32:02.916012+00:00",
-  "count": 687,
+  "last_updated": "2026-11-24T07:59:36.665576+00:00",
+  "count": 688,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4124,6 +4124,12 @@
       "url": "https://www.vikatan.com/government-and-politics/thiruparankundram-deepam-issue-section-144-imposed-hindu-group-members-placed-under-house-arrest-madurai-in-a-state-of-tension",
       "title": "திருப்பரங்குன்றம்: 144 தடை உத்தரவு; வீட்டுக்காவலில் இந்து அமைப்பினர் - பதற்றத்தில் மதுரை!",
       "source_id": "vikatan"
+    },
+    "31960564a3f0f3f5f027ccfa49a0c09601535537fb3b00af59f636e7824e9638": {
+      "timestamp": "2026-11-24T07:59:36.665563+00:00",
+      "url": "https://www.dailythanthi.com/astrology/jothidam-the-benefits-of-the-position-of-guru-bhagavan",
+      "title": "ஜாதகத்தில் குரு பகவான் எந்த இடத்தில் இருந்தால் என்ன பலன்?",
+      "source_id": "daily_thanthi"
     }
   }
 }

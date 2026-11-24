@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T21:47:56.487786+00:00",
-  "count": 701,
+  "last_updated": "2026-11-24T22:48:15.824721+00:00",
+  "count": 702,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4208,6 +4208,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/obscene-message-issue-to-collector-chennai-high-court-anguish",
       "title": "கலெக்டருக்கு ஆபாச மெசேஜ் விவகாரம் - சென்னை ஐகோர்ட்டு வேதனை",
       "source_id": "daily_thanthi"
+    },
+    "b26ca22029d25809c0804d6360ee47a1e642ddbd64fe649578cd1813a2be3503": {
+      "timestamp": "2026-11-24T22:48:15.824697+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/bjp-hindu-condemns-tvk-government-for-not-respecting-supreme-court-verdict/4385484",
+      "title": "உச்ச நீதிமன்ற தீர்ப்பை மதிக்காத த.வெ.க., அரசு: பா.ஜ., ஹிந்து அமைப்புகள் கடும் கண்டனம்",
+      "source_id": "dinamalar"
     }
   }
 }

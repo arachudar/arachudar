@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T00:49:13.784666+00:00",
-  "count": 682,
+  "last_updated": "2026-11-24T02:09:06.029362+00:00",
+  "count": 683,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4094,6 +4094,12 @@
       "url": "https://www.dailythanthi.com/news/world/president-zelensky-claims-ukraine-sank-russian-warship",
       "title": "ரஷிய போர்க்கப்பலை மூழ்கடித்தது உக்ரைன்தான் அதிபர் ஜெலன்ஸ்கி பரபரப்பு தகவல்",
       "source_id": "daily_thanthi"
+    },
+    "4533ed294b2b656def35c94303d78301474f7a69ed88d8958278662655c26f03": {
+      "timestamp": "2026-11-24T02:09:06.029318+00:00",
+      "url": "https://www.dinamani.com/newdelhi/2026/Nov/24/delhi-admissions-for-nursery-classes-in-private-schools-to-begin-on-dec-1",
+      "title": "தில்லி: தனியாா் பள்ளிகளில் நா்சரி வகுப்புகளுக்கான சோ்க்கை டிச. 1-இல் தொடக்கம்",
+      "source_id": "dinamani"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-23T23:42:05.390241+00:00",
-  "count": 681,
+  "last_updated": "2026-11-24T00:49:13.784666+00:00",
+  "count": 682,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4087,6 +4087,12 @@
       "timestamp": "2026-11-23T23:42:05.390218+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/karthigai-deepam-festival-maha-deepam-is-being-lit-in-tiruvannamalai-this-evening",
       "title": "கார்த்திகை தீபத்திருவிழா: திருவண்ணாமலையில் இன்று மாலை மகா தீபம் ஏற்றப்படுகிறது",
+      "source_id": "daily_thanthi"
+    },
+    "f19feb66666bebd48be51295102cb5e9530e955ec5d2b127fcef1d7a24138cac": {
+      "timestamp": "2026-11-24T00:49:13.784643+00:00",
+      "url": "https://www.dailythanthi.com/news/world/president-zelensky-claims-ukraine-sank-russian-warship",
+      "title": "ரஷிய போர்க்கப்பலை மூழ்கடித்தது உக்ரைன்தான் அதிபர் ஜெலன்ஸ்கி பரபரப்பு தகவல்",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T10:07:42.569243+00:00",
-  "count": 690,
+  "last_updated": "2026-11-24T11:11:45.832611+00:00",
+  "count": 691,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4141,6 +4141,12 @@
       "timestamp": "2026-11-24T10:07:42.569222+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/even-a-district-collector-is-not-safe-in-this-tamil-nadu-mp-kanimozhi",
       "title": "ஒரு மாவட்ட ஆட்சியருக்கே இந்தத் தமிழ்நாட்டில் பாதுகாப்பு இல்லை.. - கனிமொழி எம்.பி.",
+      "source_id": "daily_thanthi"
+    },
+    "1b5b2efe8c9ecb5f24ad40a5f5c05bf49279204b0c920d3c886d5c34ecacb453": {
+      "timestamp": "2026-11-24T11:11:45.832587+00:00",
+      "url": "https://www.dailythanthi.com/devotional/chariot-procession-held-at-swamimalai-murugan-temple",
+      "title": "சுவாமிமலை முருகன் கோவிலில் விமரிசையாக நடைபெற்ற தேரோட்டம்",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T17:47:59.973930+00:00",
-  "count": 697,
+  "last_updated": "2026-11-24T18:48:40.911360+00:00",
+  "count": 698,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4184,6 +4184,12 @@
       "url": "https://www.thehindu.com/business/Industry/with-fleet-down-to-six-spicejet-flight-services-shrink-to-20-per-day/article71739872.ece",
       "title": "With fleet down to six, SpiceJet flight services shrink to 20 per day",
       "source_id": "the_hindu"
+    },
+    "96190a950a4b67d71f3ca51158d83e24a92bbbba490138bbf0b1021e9c13aca8": {
+      "timestamp": "2026-11-24T18:48:40.911337+00:00",
+      "url": "https://www.hindutamil.in/news/technology/motorola-edge-70-neo-smartphone-launched-in-india",
+      "title": "Motorola Edge 70 Neo ஸ்மார்ட்போன் இந்தியாவில் அறிமுகம்: விலை, சிறப்பு அம்சங்கள்",
+      "source_id": "hindu_tamil"
     }
   }
 }

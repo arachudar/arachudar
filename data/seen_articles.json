@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T15:25:45.379566+00:00",
-  "count": 716,
+  "last_updated": "2026-11-25T16:41:51.822254+00:00",
+  "count": 717,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4298,6 +4298,12 @@
       "url": "https://www.bbc.com/tamil/articles/c9vg26d5penyo?at_medium=RSS&at_campaign=rss",
       "title": "திருப்பரங்குன்றம்: விஜய் அரசின் நடவடிக்கை அரசியல்ரீதியாக என்ன விளைவுகளை ஏற்படுத்தும்?",
       "source_id": "bbc_tamil"
+    },
+    "4d9ab1c7d26ad4a8b9aa6bae316feaf3bed977a04708808d98406102e673cb67": {
+      "timestamp": "2026-11-25T16:41:51.822226+00:00",
+      "url": "https://www.dinamani.com/india/2026/Nov/25/who-will-be-the-bjp-chief-minister-in-2027-decision-to-be-made-after-the-election",
+      "title": "2027-ல் பாஜக முதல்வர் யார்? தேர்தலுக்குப் பிறகு முடிவு செய்யப்படும்: உ.பி. துணை முதல்வர்",
+      "source_id": "dinamani"
     }
   }
 }

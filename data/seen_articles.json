@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T03:19:20.196171+00:00",
-  "count": 706,
+  "last_updated": "2026-11-25T04:31:32.073772+00:00",
+  "count": 707,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4238,6 +4238,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/judgment-today-on-the-petition-seeking-police-custody-of-anbil-mahesh",
       "title": "அன்பில் மகேஷை போலீஸ் காவலில் விசாரிக்கக்கோரிய மனு மீது இன்று தீர்ப்பு",
       "source_id": "daily_thanthi"
+    },
+    "645928f61fd5ad41a9b4fee659d347f772daf1fcfdc168ae85c8e23f714508f7": {
+      "timestamp": "2026-11-25T04:31:32.073753+00:00",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTE95XzJnTjFHbGNsRldBNEZhQlBucGo0ZE5hYzFOVUxJZ3V4dk5BRlpxZ1NwZHVPU2NHLUxJMUMtNWNEaThzcHdDQy1xUnZHZ3RWRy1ycXV4S1BIZW5GT3gxdEJLM2h3R3dZelNodXRLVkJINFFiTHhFVGo5R1VkMmg1eUh0aVd6N3Z5V1hCbmtYR3pSY3Y4?oc=5",
+      "title": "தங்கம் விலை சவரனுக்கு ரூ.920 உயர்வு - Dinamalar",
+      "source_id": "google_news_tamil"
     }
   }
 }

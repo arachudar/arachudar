@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T22:46:01.861085+00:00",
-  "count": 722,
+  "last_updated": "2026-11-25T23:42:33.897787+00:00",
+  "count": 723,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4333,6 +4333,12 @@
       "timestamp": "2026-11-25T22:46:01.861069+00:00",
       "url": "https://www.dinamalar.com/news/latest-tamil-news/the-government-which-gives-autonomy-to-other-religions-only-controls-hindu-temples-senior-supreme-court-lawyer-vaidyanathan/4386397",
       "title": "மற்ற மதங்களுக்கு சுயாட்சி கொடுக்கும் அரசு ஹிந்து கோவில்களை மட்டும் கட்டுப்படுத்துகிறது: சுப்ரீம் கோர்ட் மூத்த வழக்கறிஞர் வைத்தியநாதன் பேச்சு",
+      "source_id": "dinamalar"
+    },
+    "78d0df1d21e6a21f0243b868152e1ae4d97082f36c083fb64ef2ecf8cf29e5dd": {
+      "timestamp": "2026-11-25T23:42:33.897767+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/first-private--rocket-to-launch-in-march-2027/4386362",
+      "title": "முதல் தனியார் பி.எஸ்.எல்.வி., ராக்கெட்: 2027 மார்ச்சில் விண்ணில் பாய்கிறது",
       "source_id": "dinamalar"
     }
   }

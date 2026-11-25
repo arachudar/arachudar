@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-24T23:42:01.400130+00:00",
-  "count": 703,
+  "last_updated": "2026-11-25T00:53:01.376199+00:00",
+  "count": 704,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4220,6 +4220,12 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/tragic-incident-for-our-republic-high-court-judge-pains/4385475",
       "title": "நம் குடியரசுக்கு துயரமான நிகழ்வு: உயர்நீதிமன்ற நீதிபதி வேதனை",
       "source_id": "dinamalar"
+    },
+    "6bb3858296f471de17e29d188a6fc5f483481209af91e27eb5a346146ed41f09": {
+      "timestamp": "2026-11-25T00:53:01.376175+00:00",
+      "url": "https://www.maalaimalar.com/sports/indian-womens-hockey-team-climbs-to-best-ever-ranking-fih-chart",
+      "title": "FIH தரவரிசையில் ஐந்தாவது இடத்திற்கு முன்னேறிய இந்திய மகளிர் ஹாக்கி அணி",
+      "source_id": "maalai_malar"
     }
   }
 }

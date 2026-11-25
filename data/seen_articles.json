@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T08:03:14.757968+00:00",
-  "count": 710,
+  "last_updated": "2026-11-25T09:33:27.145664+00:00",
+  "count": 711,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4262,6 +4262,12 @@
       "url": "https://tamil.asianetnews.com/gallery/cinema/top-10-richest-south-indian-actors-vijay-surpasses-rajinikanth-in-this-list-2xt99oe",
       "title": "தென்னிந்தியாவின் டாப் 10 பணக்கார நடிகர்கள் பட்டியலில் ரஜினியை முந்திய விஜய்... 5 ஆயிரம் கோடியுடன் டாப்பில் உள்ளது யார்?",
       "source_id": "asianet_tamil"
+    },
+    "aaf68ec8f88e2729f8b8138c2f163c51b39514019a13ac835ce1257528aba8c0": {
+      "timestamp": "2026-11-25T09:33:27.145650+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-water-rights-dinakaran-statement",
+      "title": "தவெக அரசின் கையாலாகாத தனத்தால் தொடர்ந்து பறிபோகும் தமிழகத்தின் உரிமைகள் - டிடிவி தினகரன்",
+      "source_id": "daily_thanthi"
     }
   }
 }

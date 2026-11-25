@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T17:44:01.709992+00:00",
-  "count": 718,
+  "last_updated": "2026-11-25T18:42:02.219696+00:00",
+  "count": 719,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4309,6 +4309,12 @@
       "timestamp": "2026-11-25T17:44:01.709966+00:00",
       "url": "https://www.dailythanthi.com/news/world/iran-honour-killing-parents-beat-strangle-pregnant-teenage-daughter-to-death",
       "title": "காதலால்  மகள் கர்ப்பம்; ஆத்திரத்தில் பெற்றோர் செய்த வெறிச்செயல்",
+      "source_id": "daily_thanthi"
+    },
+    "04f621d12f9b03d6fe55a72fe48be5d5320b2f5a8aa081ba17c59682e0843e38": {
+      "timestamp": "2026-11-25T18:42:02.219673+00:00",
+      "url": "https://www.dailythanthi.com/news/india/bank-loan-write-offs-10-year-tally-at-rs-18-lakh-crore-fy26-sees-82-dip",
+      "title": "10 ஆண்டுகளில் ரூ.18 லட்சம் கோடி கடனை தள்ளுபடி செய்த வங்கிகள் - ரிசர்வ் வங்கி தகவல்",
       "source_id": "daily_thanthi"
     }
   }

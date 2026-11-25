@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T02:16:07.246259+00:00",
-  "count": 705,
+  "last_updated": "2026-11-25T03:19:20.196171+00:00",
+  "count": 706,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4232,6 +4232,12 @@
       "url": "https://www.dinamani.com/world/2026/Nov/25/chinese-official-sentenced-to-death-for-leaking-state-secrets",
       "title": "தேச ரகசியங்களை கசியவிட்ட சீன அதிகாரிக்கு மரண தண்டனை",
       "source_id": "dinamani"
+    },
+    "34ac14d29176ea92d2ecf82a482fc6c133cc66afed276c81e67a1db96f461b4a": {
+      "timestamp": "2026-11-25T03:19:20.196128+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/judgment-today-on-the-petition-seeking-police-custody-of-anbil-mahesh",
+      "title": "அன்பில் மகேஷை போலீஸ் காவலில் விசாரிக்கக்கோரிய மனு மீது இன்று தீர்ப்பு",
+      "source_id": "daily_thanthi"
     }
   }
 }

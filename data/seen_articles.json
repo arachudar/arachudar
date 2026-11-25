@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T04:31:32.073772+00:00",
-  "count": 707,
+  "last_updated": "2026-11-25T05:36:44.342210+00:00",
+  "count": 708,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4244,6 +4244,12 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTE95XzJnTjFHbGNsRldBNEZhQlBucGo0ZE5hYzFOVUxJZ3V4dk5BRlpxZ1NwZHVPU2NHLUxJMUMtNWNEaThzcHdDQy1xUnZHZ3RWRy1ycXV4S1BIZW5GT3gxdEJLM2h3R3dZelNodXRLVkJINFFiTHhFVGo5R1VkMmg1eUh0aVd6N3Z5V1hCbmtYR3pSY3Y4?oc=5",
       "title": "தங்கம் விலை சவரனுக்கு ரூ.920 உயர்வு - Dinamalar",
       "source_id": "google_news_tamil"
+    },
+    "bcef4403e8cedd51a6a17e01c47aab758e9bab45e3cedc1485c716fe46ec18dc": {
+      "timestamp": "2026-11-25T05:36:44.342192+00:00",
+      "url": "https://www.hindutamil.in/news/supplements/thisai-katti/an-international-day-for-ai",
+      "title": "ஏ.ஐ.க்கு ஒரு சர்வதேச நாள்!",
+      "source_id": "hindu_tamil"
     }
   }
 }

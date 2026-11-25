@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T11:36:41.322687+00:00",
-  "count": 713,
+  "last_updated": "2026-11-25T12:42:18.967730+00:00",
+  "count": 714,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4279,6 +4279,12 @@
       "timestamp": "2026-11-25T11:36:41.322665+00:00",
       "url": "https://www.dailythanthi.com/news/india/thiruparankundram-case-supreme-court-refuses-urgent-hearing-today",
       "title": "திருப்பரங்குன்றம் வழக்கு: இன்று அவசரமாக விசாரிக்க சுப்ரீம்கோர்ட்டு மறுப்பு",
+      "source_id": "daily_thanthi"
+    },
+    "e22dabd7745ea84bcd8ac5bd91fcb1a4b1ca587a2ff9d197f342e32b7efb2344": {
+      "timestamp": "2026-11-25T12:42:18.967710+00:00",
+      "url": "https://www.dailythanthi.com/news/india/order-issued-to-pay-rs-63199-as-compensation-to-a-couple-who-missed-their-flight-due-to-a-train-delay",
+      "title": "ரெயில் தாமதத்தால் விமானத்தை தவறவிட்ட தம்பதிக்கு ரூ.63,199 இழப்பீடு வழங்க உத்தரவு",
       "source_id": "daily_thanthi"
     }
   }

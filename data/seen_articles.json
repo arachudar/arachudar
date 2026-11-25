@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T05:36:44.342210+00:00",
-  "count": 708,
+  "last_updated": "2026-11-25T06:34:08.748150+00:00",
+  "count": 709,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4250,6 +4250,12 @@
       "url": "https://www.hindutamil.in/news/supplements/thisai-katti/an-international-day-for-ai",
       "title": "ஏ.ஐ.க்கு ஒரு சர்வதேச நாள்!",
       "source_id": "hindu_tamil"
+    },
+    "3c37e9bd0a65b5a1bd925f23cd208fd5ba1673291e8527faeac7f209302853ae": {
+      "timestamp": "2026-11-25T06:34:08.748131+00:00",
+      "url": "https://www.dailythanthi.com/devotional/karthigai-deepam-festival-chokkapanai-was-lit-on-tiruchendur-temple-beach",
+      "title": "கார்த்திகை தீப திருநாள்: திருச்செந்தூர் கோவில் கடற்கரையில் சொக்கப்பனை கொளுத்தப்பட்டது",
+      "source_id": "daily_thanthi"
     }
   }
 }

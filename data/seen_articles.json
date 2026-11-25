@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T16:41:51.822254+00:00",
-  "count": 717,
+  "last_updated": "2026-11-25T17:44:01.709992+00:00",
+  "count": 718,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4304,6 +4304,12 @@
       "url": "https://www.dinamani.com/india/2026/Nov/25/who-will-be-the-bjp-chief-minister-in-2027-decision-to-be-made-after-the-election",
       "title": "2027-ல் பாஜக முதல்வர் யார்? தேர்தலுக்குப் பிறகு முடிவு செய்யப்படும்: உ.பி. துணை முதல்வர்",
       "source_id": "dinamani"
+    },
+    "cf0f8f13c020610ff840cd0e84114f9789ff0a451b22b257639795d48e1a107c": {
+      "timestamp": "2026-11-25T17:44:01.709966+00:00",
+      "url": "https://www.dailythanthi.com/news/world/iran-honour-killing-parents-beat-strangle-pregnant-teenage-daughter-to-death",
+      "title": "காதலால்  மகள் கர்ப்பம்; ஆத்திரத்தில் பெற்றோர் செய்த வெறிச்செயல்",
+      "source_id": "daily_thanthi"
     }
   }
 }

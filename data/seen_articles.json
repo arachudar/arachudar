@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T00:53:01.376199+00:00",
-  "count": 704,
+  "last_updated": "2026-11-25T02:16:07.246259+00:00",
+  "count": 705,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4226,6 +4226,12 @@
       "url": "https://www.maalaimalar.com/sports/indian-womens-hockey-team-climbs-to-best-ever-ranking-fih-chart",
       "title": "FIH தரவரிசையில் ஐந்தாவது இடத்திற்கு முன்னேறிய இந்திய மகளிர் ஹாக்கி அணி",
       "source_id": "maalai_malar"
+    },
+    "02e63aec0a8a4e69d915a27b446807f1f1d74b72595789d4a7c1dab4e926769d": {
+      "timestamp": "2026-11-25T02:16:07.246216+00:00",
+      "url": "https://www.dinamani.com/world/2026/Nov/25/chinese-official-sentenced-to-death-for-leaking-state-secrets",
+      "title": "தேச ரகசியங்களை கசியவிட்ட சீன அதிகாரிக்கு மரண தண்டனை",
+      "source_id": "dinamani"
     }
   }
 }

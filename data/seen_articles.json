@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T12:42:18.967730+00:00",
-  "count": 714,
+  "last_updated": "2026-11-25T14:13:07.489187+00:00",
+  "count": 715,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4286,6 +4286,12 @@
       "url": "https://www.dailythanthi.com/news/india/order-issued-to-pay-rs-63199-as-compensation-to-a-couple-who-missed-their-flight-due-to-a-train-delay",
       "title": "ரெயில் தாமதத்தால் விமானத்தை தவறவிட்ட தம்பதிக்கு ரூ.63,199 இழப்பீடு வழங்க உத்தரவு",
       "source_id": "daily_thanthi"
+    },
+    "005f28912c9c5e3bb17d079abd8bc5ba5344d98623b371803854ebe94b67b164": {
+      "timestamp": "2026-11-25T14:13:07.489159+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGTkRyMFFHZ2JSaXFUWVlIUlpjR0xoMWVGUjAyd2pBaDluV1I1TTZ6VUxWc3M0OHowTGxPbndSNnlnQ0xVblhmOUFMYk54cTBHMlpvUHNhbEc5S0xJ0gFiQVVfeXFMTXBiSFJCU0RUV1JScnp2bTJIV3J2X19tR2k4V0xLcE5pYTNwTUVmZnJSa0I3Z3dRTlZzazduT3piWkptS2RvWEpDd0VvaUtrdGJCU18yZHF3bnhYR3F1Y083MGc?oc=5",
+      "title": "திருப்பரங்குன்றம்: மலை உச்சியில் தூணில் தீபம் ஏற்றாதது ஏன்? உச்ச நீதிமன்றத்தில் மதுரை ஆட்சியர் அளித்த விளக்கம் என்ன? - BBC",
+      "source_id": "google_news_tamil"
     }
   }
 }

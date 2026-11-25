@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T06:34:08.748150+00:00",
-  "count": 709,
+  "last_updated": "2026-11-25T08:03:14.757968+00:00",
+  "count": 710,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4256,6 +4256,12 @@
       "url": "https://www.dailythanthi.com/devotional/karthigai-deepam-festival-chokkapanai-was-lit-on-tiruchendur-temple-beach",
       "title": "கார்த்திகை தீப திருநாள்: திருச்செந்தூர் கோவில் கடற்கரையில் சொக்கப்பனை கொளுத்தப்பட்டது",
       "source_id": "daily_thanthi"
+    },
+    "701f264de4e36de45003fafa360dc8090a71e9d22083ec878f67d947d479b226": {
+      "timestamp": "2026-11-25T08:03:14.757954+00:00",
+      "url": "https://tamil.asianetnews.com/gallery/cinema/top-10-richest-south-indian-actors-vijay-surpasses-rajinikanth-in-this-list-2xt99oe",
+      "title": "தென்னிந்தியாவின் டாப் 10 பணக்கார நடிகர்கள் பட்டியலில் ரஜினியை முந்திய விஜய்... 5 ஆயிரம் கோடியுடன் டாப்பில் உள்ளது யார்?",
+      "source_id": "asianet_tamil"
     }
   }
 }

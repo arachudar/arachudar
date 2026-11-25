@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T09:33:27.145664+00:00",
-  "count": 711,
+  "last_updated": "2026-11-25T10:38:11.887959+00:00",
+  "count": 712,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4267,6 +4267,12 @@
       "timestamp": "2026-11-25T09:33:27.145650+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-water-rights-dinakaran-statement",
       "title": "தவெக அரசின் கையாலாகாத தனத்தால் தொடர்ந்து பறிபோகும் தமிழகத்தின் உரிமைகள் - டிடிவி தினகரன்",
+      "source_id": "daily_thanthi"
+    },
+    "9a7b14f352e88a81f280d7e7f36a570dcb215d0f3cda4571c5088bc17f769e9f": {
+      "timestamp": "2026-11-25T10:38:11.887938+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/commotion-at-congress-meeting-disciplinary-committee-issues-notice-seeking-an-explanation-within-7-days",
+      "title": "காங்கிரஸ் கூட்டத்தில் சலசலப்பு: 7 நாட்களில் விளக்கம் அளிக்க ஒழுங்கு நடவடிக்கைக்குழு நோட்டீஸ்",
       "source_id": "daily_thanthi"
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T10:38:11.887959+00:00",
-  "count": 712,
+  "last_updated": "2026-11-25T11:36:41.322687+00:00",
+  "count": 713,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4273,6 +4273,12 @@
       "timestamp": "2026-11-25T10:38:11.887938+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/commotion-at-congress-meeting-disciplinary-committee-issues-notice-seeking-an-explanation-within-7-days",
       "title": "காங்கிரஸ் கூட்டத்தில் சலசலப்பு: 7 நாட்களில் விளக்கம் அளிக்க ஒழுங்கு நடவடிக்கைக்குழு நோட்டீஸ்",
+      "source_id": "daily_thanthi"
+    },
+    "d26b649d46ca54d627e3e04839dc21632a3286ef1f9a0ab40209caadb2b4568b": {
+      "timestamp": "2026-11-25T11:36:41.322665+00:00",
+      "url": "https://www.dailythanthi.com/news/india/thiruparankundram-case-supreme-court-refuses-urgent-hearing-today",
+      "title": "திருப்பரங்குன்றம் வழக்கு: இன்று அவசரமாக விசாரிக்க சுப்ரீம்கோர்ட்டு மறுப்பு",
       "source_id": "daily_thanthi"
     }
   }

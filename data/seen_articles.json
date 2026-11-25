@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T20:46:46.870997+00:00",
-  "count": 720,
+  "last_updated": "2026-11-25T21:49:56.228884+00:00",
+  "count": 721,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4321,6 +4321,12 @@
       "timestamp": "2026-11-25T20:46:46.870975+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/vellore-a-stir-anger-over-romantic-wife-car-driver-commits-a-heinous-act",
       "title": "வேலூரில் பரபரப்பு; காதல் மனைவி மீது ஏற்பட்ட கோபம் - கார் டிரைவர் செய்த வெறிச்செயல்",
+      "source_id": "daily_thanthi"
+    },
+    "95591dd3ae7f20683fb29435f6024b6c67bf58dc8a5e51d6f50529db299f5ea4": {
+      "timestamp": "2026-11-25T21:49:56.228863+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/500-primary-school-students-who-recite-300-thirukkurals-will-be-awarded-rs-5000-each-tamil-nadu-government-order",
+      "title": "300 திருக்குறள் ஒப்பிக்கும் 500 தொடக்கப்பள்ளி மாணவர்களுக்கு தலா ரூ.5,000 பரிசு - தமிழக அரசு ஆணை",
       "source_id": "daily_thanthi"
     }
   }

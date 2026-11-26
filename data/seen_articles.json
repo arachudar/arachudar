@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T03:15:13.368954+00:00",
-  "count": 726,
+  "last_updated": "2026-11-26T04:24:48.016466+00:00",
+  "count": 727,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4358,6 +4358,12 @@
       "url": "https://www.bbc.com/tamil/articles/cm20vnwxd6qqo?at_medium=RSS&at_campaign=rss",
       "title": "திருப்பரங்குன்றம்: உச்ச நீதிமன்ற உத்தரவை நிறைவேற்றாததால் தவெக அரசுக்கு சிக்கலா? சட்ட நிபுணர்கள் விளக்கம்",
       "source_id": "bbc_tamil"
+    },
+    "12e4eebc07742ff55824867406d019f4aebc555ce3e21dc07a1ee9340f27c40f": {
+      "timestamp": "2026-11-26T04:24:48.016448+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/tvk-6",
+      "title": "”கட்சிப் பதவி வாங்கித் தரேன்”- தவெகவைச் சேர்ந்த பெண்ணுக்கு அக்கட்சி நிர்வாகி ஆபாசமெசேஜ் அனுப்பினாரா?",
+      "source_id": "vikatan"
     }
   }
 }

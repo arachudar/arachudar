@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T06:35:39.449312+00:00",
-  "count": 729,
+  "last_updated": "2026-11-26T08:01:42.220054+00:00",
+  "count": 730,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4376,6 +4376,12 @@
       "url": "https://www.maalaimalar.com/sports/south-africa-tops-world-test-championship-with-77-78-points",
       "title": "உலக டெஸ்ட் சாம்பியன்ஷிப்: 77.78 புள்ளிகளுடன் முதலிடத்தைத் தக்கவைத்தது தென் ஆப்பிரிக்கா",
       "source_id": "maalai_malar"
+    },
+    "1e7b9216445e5c828f1eb967c7282eed4483cb1805c1c7858309cc820587a99f": {
+      "timestamp": "2026-11-26T08:01:42.220038+00:00",
+      "url": "https://www.dinamani.com/sports/cricket/2026/Nov/26/former-tamil-nadu-captain-baba-aparajith-retires-from-professional-cricket",
+      "title": "32 வயதில் கிரிக்கெட்டில் இருந்து ஓய்வை அறிவித்த தமிழ்நாடு கேப்டன் பாபா அபரஜித்!",
+      "source_id": "dinamani"
     }
   }
 }

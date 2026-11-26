@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T18:47:01.041004+00:00",
-  "count": 739,
+  "last_updated": "2026-11-26T19:55:56.325839+00:00",
+  "count": 740,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4436,6 +4436,12 @@
       "url": "https://www.dailythanthi.com/news/india/high-quality-food-introduced-on-3-vande-bharat-trains-similar-to-what-is-offered-on-flights",
       "title": "விமானத்தை வழங்குவதுபோல் 3 வந்தே பாரத் ரெயில்களில் உயர்தர உணவு அறிமுகம்",
       "source_id": "daily_thanthi"
+    },
+    "04f506c90e7806be26be4bd3b3c0ead2ac097f7378c27ea708af6a5a6bd1fb20": {
+      "timestamp": "2026-11-26T19:55:56.325819+00:00",
+      "url": "https://tamil.oneindia.com/technology/whatsapp-scheduled-messages-feature-how-to-send-birthday-wishes-and-reminders-automatically-848331.html",
+      "title": "இனி நள்ளிரவு வரை முழிக்க வேண்டாம்! வாட்ஸ்அப்பில் வந்தது சூப்பர் வசதி.. என்ன செய்ய வேண்டும்?",
+      "source_id": "oneindia_tamil"
     }
   }
 }

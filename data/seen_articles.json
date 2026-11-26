@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T11:31:11.629917+00:00",
-  "count": 733,
+  "last_updated": "2026-11-26T12:41:12.603787+00:00",
+  "count": 734,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4399,6 +4399,12 @@
       "timestamp": "2026-11-26T11:31:11.629895+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/kallakurichi-mla-case-dmk-seeks-cbi-probe-into-former-mp-kanimozhi-somus-case",
       "title": "கள்ளக்குறிச்சி எம்.எல்.ஏ. விவகாரம்: சி.பி.ஐ. விசாரணை கோரி தி.மு.க. முன்னாள் எம்.பி. கனிமொழி சோமு வழக்கு",
+      "source_id": "daily_thanthi"
+    },
+    "1f6b5a13130da8cbd4520737e792a38fc16406a3c7bd11f2ce321c7dc344a11d": {
+      "timestamp": "2026-11-26T12:41:12.603763+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/chennai-bus-shelters-cleaning-drive-nov-28",
+      "title": "சென்னையில் உள்ள அனைத்து பேருந்து நிழற்குடைகளிலும் நாளை மறுநாள் சிறப்பு தீவிரத் தூய்மைப் பணி",
       "source_id": "daily_thanthi"
     }
   }

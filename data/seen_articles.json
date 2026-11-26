@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T08:01:42.220054+00:00",
-  "count": 730,
+  "last_updated": "2026-11-26T09:30:41.375164+00:00",
+  "count": 731,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4382,6 +4382,12 @@
       "url": "https://www.dinamani.com/sports/cricket/2026/Nov/26/former-tamil-nadu-captain-baba-aparajith-retires-from-professional-cricket",
       "title": "32 வயதில் கிரிக்கெட்டில் இருந்து ஓய்வை அறிவித்த தமிழ்நாடு கேப்டன் பாபா அபரஜித்!",
       "source_id": "dinamani"
+    },
+    "57b1d396538a95e78c6a4f5a8130f1f5c599a27357aabb605146f30bc946cfa8": {
+      "timestamp": "2026-11-26T09:30:41.375142+00:00",
+      "url": "https://www.dailythanthi.com/cinema/cinemanews/ramayana-film-team-meets-amit-shah",
+      "title": "அமித்ஷாவை சந்தித்த “ராமாயணா” படக்குழு",
+      "source_id": "daily_thanthi"
     }
   }
 }

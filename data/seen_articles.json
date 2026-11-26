@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T09:30:41.375164+00:00",
-  "count": 731,
+  "last_updated": "2026-11-26T10:36:45.458550+00:00",
+  "count": 732,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4387,6 +4387,12 @@
       "timestamp": "2026-11-26T09:30:41.375142+00:00",
       "url": "https://www.dailythanthi.com/cinema/cinemanews/ramayana-film-team-meets-amit-shah",
       "title": "அமித்ஷாவை சந்தித்த “ராமாயணா” படக்குழு",
+      "source_id": "daily_thanthi"
+    },
+    "999e76f34f0f5a55e20080f98a065e1108e888c79bd5c0e11b6e2f76a097eddc": {
+      "timestamp": "2026-11-26T10:36:45.458532+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement",
+      "title": "பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் - சீமான் பரபரப்பு பேச்சு",
       "source_id": "daily_thanthi"
     }
   }

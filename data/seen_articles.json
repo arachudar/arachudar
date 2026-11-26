@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T04:24:48.016466+00:00",
-  "count": 727,
+  "last_updated": "2026-11-26T05:37:20.656354+00:00",
+  "count": 728,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4364,6 +4364,12 @@
       "url": "https://www.vikatan.com/government-and-politics/tvk-6",
       "title": "”கட்சிப் பதவி வாங்கித் தரேன்”- தவெகவைச் சேர்ந்த பெண்ணுக்கு அக்கட்சி நிர்வாகி ஆபாசமெசேஜ் அனுப்பினாரா?",
       "source_id": "vikatan"
+    },
+    "08fa4ddf1491477d7ccce5a1a8d4f68d71df376cb8423e119d08ce59a7cb067f": {
+      "timestamp": "2026-11-26T05:37:20.656332+00:00",
+      "url": "https://www.maalaimalar.com/news/business-and-gold-rate/today-gold-price-in-chennai-26-11-2026",
+      "title": "GOLD PRICE TODAY: உயரத் தொடங்கிய தங்கம் விலை: எவ்வளவு தெரியுமா?",
+      "source_id": "maalai_malar"
     }
   }
 }

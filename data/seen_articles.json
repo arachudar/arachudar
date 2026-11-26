@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T17:49:01.927148+00:00",
-  "count": 738,
+  "last_updated": "2026-11-26T18:47:01.041004+00:00",
+  "count": 739,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4430,6 +4430,12 @@
       "url": "https://www.vikatan.com/editorial/events/live-blog-of-event-aval-awards",
       "title": "Aval Awards:\"நான் சிங்கிள்தான்; தாலியும் பெண்ணும் கிடைச்சா கல்யாணம்தான்’’ -  அதர்வா | Live Blog",
       "source_id": "vikatan"
+    },
+    "1e7d9b21e8719dcfbf5e064224e1211f6ff342fdba3ebce998963d3a188d3925": {
+      "timestamp": "2026-11-26T18:47:01.040979+00:00",
+      "url": "https://www.dailythanthi.com/news/india/high-quality-food-introduced-on-3-vande-bharat-trains-similar-to-what-is-offered-on-flights",
+      "title": "விமானத்தை வழங்குவதுபோல் 3 வந்தே பாரத் ரெயில்களில் உயர்தர உணவு அறிமுகம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

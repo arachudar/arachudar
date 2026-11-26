@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T12:41:12.603787+00:00",
-  "count": 734,
+  "last_updated": "2026-11-26T14:12:17.003392+00:00",
+  "count": 735,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4405,6 +4405,12 @@
       "timestamp": "2026-11-26T12:41:12.603763+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/chennai-bus-shelters-cleaning-drive-nov-28",
       "title": "சென்னையில் உள்ள அனைத்து பேருந்து நிழற்குடைகளிலும் நாளை மறுநாள் சிறப்பு தீவிரத் தூய்மைப் பணி",
+      "source_id": "daily_thanthi"
+    },
+    "98ae85f02d04685411f4bf522cdfdc6e53e54ac6927a6df60206e8df03707c9b": {
+      "timestamp": "2026-11-26T14:12:17.003366+00:00",
+      "url": "https://www.dailythanthi.com/news/world/drugs-sedation-and-1-million-obscene-videos-a-psycho-husband-offered-his-wife-to-other-men-for-20-years",
+      "title": "போதை மருந்து, மயக்கம், 10 லட்சம் ஆபாச வீடியோக்கள்... 20 வருடங்களாக மனைவியை பலருக்கு விருந்து படைத்த சைக்கோ கணவர்",
       "source_id": "daily_thanthi"
     }
   }

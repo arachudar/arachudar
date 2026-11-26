@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T05:37:20.656354+00:00",
-  "count": 728,
+  "last_updated": "2026-11-26T06:35:39.449312+00:00",
+  "count": 729,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4369,6 +4369,12 @@
       "timestamp": "2026-11-26T05:37:20.656332+00:00",
       "url": "https://www.maalaimalar.com/news/business-and-gold-rate/today-gold-price-in-chennai-26-11-2026",
       "title": "GOLD PRICE TODAY: உயரத் தொடங்கிய தங்கம் விலை: எவ்வளவு தெரியுமா?",
+      "source_id": "maalai_malar"
+    },
+    "d6b11ab456b25740fbf34245868696a024cc87ec426628bf9023629d1bc0b8f0": {
+      "timestamp": "2026-11-26T06:35:39.449287+00:00",
+      "url": "https://www.maalaimalar.com/sports/south-africa-tops-world-test-championship-with-77-78-points",
+      "title": "உலக டெஸ்ட் சாம்பியன்ஷிப்: 77.78 புள்ளிகளுடன் முதலிடத்தைத் தக்கவைத்தது தென் ஆப்பிரிக்கா",
       "source_id": "maalai_malar"
     }
   }

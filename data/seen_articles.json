@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T15:21:36.205847+00:00",
-  "count": 736,
+  "last_updated": "2026-11-26T16:41:38.671942+00:00",
+  "count": 737,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4418,6 +4418,12 @@
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZTM4RHJzbFFyaWZXUFMtWjRhNm9pM1ZQQTMwYjB5dDNERjJ1SWstWG5pRVBTR3k1UklkVUx1OU8wLUNYMHBqcVY0Q0k4a3pXTllFOTRJRmZiWFV4ZWt2NkFwRFVwSzVpTllVOUo3VFQ4N0NzcmRhQUtMV0RUdlhldTRUblc1aHNDWERlSVF0QnB4Q0hCcklCZGRuR0tFclNuLVotdDJOR1JrX29TdVJBckY3R2ZNNlFpZTVhZHF2dk9tNjJVSmQwaU0xeHJtSG1kV3BBdlg3dURIOVhSOFY0b3V6ZmU0d1pNdXUxYWZraUNKclBy?oc=5",
       "title": "\"திருப்பரங்குன்றம் தீப விவகாரத்தில் தவெக அரசு தவறுக்கு மேல் தவறு\" - தமிழிசை சவுந்தரராஜன் - Polimer News",
       "source_id": "google_news_tamil"
+    },
+    "e26a6f742cab7aa43f8e90ebacab4dbb18ce5c45149a0793b879ffbd57de0436": {
+      "timestamp": "2026-11-26T16:41:38.671925+00:00",
+      "url": "https://www.dinamani.com/india/2026/Nov/26/1700-indians-deported-from-us-this-year-so-far",
+      "title": "அமெரிக்காவில் இருந்து நாடுகடத்தப்பட்ட 1,700 இந்தியா்கள்!",
+      "source_id": "dinamani"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-25T23:42:33.897787+00:00",
-  "count": 723,
+  "last_updated": "2026-11-26T00:51:59.464433+00:00",
+  "count": 724,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4340,6 +4340,12 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/first-private--rocket-to-launch-in-march-2027/4386362",
       "title": "முதல் தனியார் பி.எஸ்.எல்.வி., ராக்கெட்: 2027 மார்ச்சில் விண்ணில் பாய்கிறது",
       "source_id": "dinamalar"
+    },
+    "be0291e2ccfe26e345927e27a60c3d3c605a49bffebbc7a594fc09364e7f107a": {
+      "timestamp": "2026-11-26T00:51:59.464410+00:00",
+      "url": "https://www.dailythanthi.com/news/india/30-missing-terrorists-from-reasi-exfiltrated-to-pakistan-for-arms-training-disturb-peace-in-india-dgp",
+      "title": "காஷ்மீரில் மாயமான 30 பயங்கரவாதிகளுக்கு பாகிஸ்தானில் ஆயுதப்பயிற்சி; இந்தியாவில் அமைதியை சீர்குலைக்க திட்டம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

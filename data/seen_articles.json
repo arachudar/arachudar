@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T10:36:45.458550+00:00",
-  "count": 732,
+  "last_updated": "2026-11-26T11:31:11.629917+00:00",
+  "count": 733,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4393,6 +4393,12 @@
       "timestamp": "2026-11-26T10:36:45.458532+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/a-common-candidate-i-will-not-go-and-stand-before-anyone-to-seek-support-seemans-sensational-statement",
       "title": "பொது வேட்பாளரா...? எவனிடமும் போய் நின்று ஆதரவு கேட்க மாட்டேன் - சீமான் பரபரப்பு பேச்சு",
+      "source_id": "daily_thanthi"
+    },
+    "72da51198381c02ac47b636c19a6be970aed27e557ed0079211c12248b39b32d": {
+      "timestamp": "2026-11-26T11:31:11.629895+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/kallakurichi-mla-case-dmk-seeks-cbi-probe-into-former-mp-kanimozhi-somus-case",
+      "title": "கள்ளக்குறிச்சி எம்.எல்.ஏ. விவகாரம்: சி.பி.ஐ. விசாரணை கோரி தி.மு.க. முன்னாள் எம்.பி. கனிமொழி சோமு வழக்கு",
       "source_id": "daily_thanthi"
     }
   }

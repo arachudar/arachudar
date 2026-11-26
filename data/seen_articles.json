@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T21:45:25.489171+00:00",
-  "count": 742,
+  "last_updated": "2026-11-26T22:46:42.282965+00:00",
+  "count": 743,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4454,6 +4454,12 @@
       "url": "https://www.dailythanthi.com/news/india/facility-to-withdraw-money-from-pf-through-upi-to-be-introduced-next-month",
       "title": "பி.எப்-ல்  இருந்து யு.பி.ஐ. மூலம் பணம் எடுக்கும் வசதி அடுத்த மாதம் அறிமுகம்",
       "source_id": "daily_thanthi"
+    },
+    "5dfeed497d88d885c6d3de1a226e9aaf5f71ed3d72a563945b0ac01edf71edb4": {
+      "timestamp": "2026-11-26T22:46:42.282946+00:00",
+      "url": "https://www.dinamalar.com/news/latest-tamil-news/union-minister-vaishnaw-urges-people-of-tamil-nadu-to-get-justice-in-tirupparankundram-fire-case/4387307",
+      "title": "திருப்பரங்குன்றம் தீப விவகாரத்தில் தமிழக மக்களுக்கு நியாயம் வேண்டும்: மத்திய அமைச்சர் வைஷ்ணவ் வலியுறுத்தல்",
+      "source_id": "dinamalar"
     }
   }
 }

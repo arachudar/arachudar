@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T02:15:31.464037+00:00",
-  "count": 725,
+  "last_updated": "2026-11-26T03:15:13.368954+00:00",
+  "count": 726,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4352,6 +4352,12 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGxHdlFoNkpNRHBEX1FOSldQYVpsSWRiczJybjhKczRaQll5UXE3Zm5PeUx0UGQ3b19ZYkdudUJBLU9BbE8wbXhtNmczcmQtcGVzcm1jQXNXV2dJbGpPeFlMQTJDOUM2b3NlbTZubWhtU09IY2piVnJKMXNabUQ4NXduUXlCN0l5bl9B?oc=5",
       "title": "தவெக எம்.எல்.ஏ., அருள் விக்னேஷ் ராஜினாமா செய்ய முடிவா? - Dinamalar",
       "source_id": "google_news_tamil"
+    },
+    "95819f7e6d0e82254ee7a75f3af5dcaf209afa9a49556be519d8b8c5d80433a5": {
+      "timestamp": "2026-11-26T03:15:13.368934+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cm20vnwxd6qqo?at_medium=RSS&at_campaign=rss",
+      "title": "திருப்பரங்குன்றம்: உச்ச நீதிமன்ற உத்தரவை நிறைவேற்றாததால் தவெக அரசுக்கு சிக்கலா? சட்ட நிபுணர்கள் விளக்கம்",
+      "source_id": "bbc_tamil"
     }
   }
 }

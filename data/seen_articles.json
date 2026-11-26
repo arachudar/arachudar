@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T20:45:23.346388+00:00",
-  "count": 741,
+  "last_updated": "2026-11-26T21:45:25.489171+00:00",
+  "count": 742,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4447,6 +4447,12 @@
       "timestamp": "2026-11-26T20:45:23.346374+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/maintenance-work-nellai-thiruchendur-train-cancelled-for-5-days",
       "title": "பராமரிப்பு பணி: நெல்லை- திருச்செந்தூர் ரெயில் 5 நாட்கள் ரத்து",
+      "source_id": "daily_thanthi"
+    },
+    "803698487378f456ba11a0292e5854431d7ac0875b5b27c7f9018b4c873424ba": {
+      "timestamp": "2026-11-26T21:45:25.489156+00:00",
+      "url": "https://www.dailythanthi.com/news/india/facility-to-withdraw-money-from-pf-through-upi-to-be-introduced-next-month",
+      "title": "பி.எப்-ல்  இருந்து யு.பி.ஐ. மூலம் பணம் எடுக்கும் வசதி அடுத்த மாதம் அறிமுகம்",
       "source_id": "daily_thanthi"
     }
   }

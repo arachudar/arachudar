@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T16:41:38.671942+00:00",
-  "count": 737,
+  "last_updated": "2026-11-26T17:49:01.927148+00:00",
+  "count": 738,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4424,6 +4424,12 @@
       "url": "https://www.dinamani.com/india/2026/Nov/26/1700-indians-deported-from-us-this-year-so-far",
       "title": "அமெரிக்காவில் இருந்து நாடுகடத்தப்பட்ட 1,700 இந்தியா்கள்!",
       "source_id": "dinamani"
+    },
+    "d423f03c93d39816f80c8cc60ef871d21280080ea830a2ced8b6fc50b535078a": {
+      "timestamp": "2026-11-26T17:49:01.927131+00:00",
+      "url": "https://www.vikatan.com/editorial/events/live-blog-of-event-aval-awards",
+      "title": "Aval Awards:\"நான் சிங்கிள்தான்; தாலியும் பெண்ணும் கிடைச்சா கல்யாணம்தான்’’ -  அதர்வா | Live Blog",
+      "source_id": "vikatan"
     }
   }
 }

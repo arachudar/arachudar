@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T00:51:59.464433+00:00",
-  "count": 724,
+  "last_updated": "2026-11-26T02:15:31.464037+00:00",
+  "count": 725,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4346,6 +4346,12 @@
       "url": "https://www.dailythanthi.com/news/india/30-missing-terrorists-from-reasi-exfiltrated-to-pakistan-for-arms-training-disturb-peace-in-india-dgp",
       "title": "காஷ்மீரில் மாயமான 30 பயங்கரவாதிகளுக்கு பாகிஸ்தானில் ஆயுதப்பயிற்சி; இந்தியாவில் அமைதியை சீர்குலைக்க திட்டம்",
       "source_id": "daily_thanthi"
+    },
+    "2f2503f54d8abdf60889be02d412338630628d41ee7f9bbce5fae782fc7c51e9": {
+      "timestamp": "2026-11-26T02:15:31.463999+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGxHdlFoNkpNRHBEX1FOSldQYVpsSWRiczJybjhKczRaQll5UXE3Zm5PeUx0UGQ3b19ZYkdudUJBLU9BbE8wbXhtNmczcmQtcGVzcm1jQXNXV2dJbGpPeFlMQTJDOUM2b3NlbTZubWhtU09IY2piVnJKMXNabUQ4NXduUXlCN0l5bl9B?oc=5",
+      "title": "தவெக எம்.எல்.ஏ., அருள் விக்னேஷ் ராஜினாமா செய்ய முடிவா? - Dinamalar",
+      "source_id": "google_news_tamil"
     }
   }
 }

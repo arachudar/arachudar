@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T16:26:54.565675+00:00",
-  "count": 758,
+  "last_updated": "2026-11-27T17:33:14.150517+00:00",
+  "count": 759,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4550,6 +4550,12 @@
       "url": "https://www.bbc.com/tamil/articles/ck5y1ez311l3o?at_medium=RSS&at_campaign=rss",
       "title": "தவெக எம்எல்ஏ அருள் விக்னேஷ் கைது: திமுக, அதிமுக விமர்சனம் - காவல்துறை கூறியது என்ன?",
       "source_id": "bbc_tamil"
+    },
+    "107a2429892744acadb53148c01d6988959ef134dd8c1ebe1ff84d96f569b256": {
+      "timestamp": "2026-11-27T17:33:14.150494+00:00",
+      "url": "https://www.vikatan.com/crime/pocso-case-filed-against-a-nursing-woman-student-in-nagercoil",
+      "title": "இன்ஸ்டாவில் பழகிய சிறுவன் மூலம் கர்ப்பம்; நர்சிங் மாணவி மீது போக்சோ வழக்கு பதிவு!",
+      "source_id": "vikatan"
     }
   }
 }

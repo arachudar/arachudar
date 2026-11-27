@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T02:17:14.984500+00:00",
-  "count": 746,
+  "last_updated": "2026-11-27T03:21:19.349459+00:00",
+  "count": 747,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4478,6 +4478,12 @@
       "url": "https://www.maalaimalar.com/sports/cricket/new-zealand-reach-77-for-one-at-lunch-on-day-one-of-second-test-against-india",
       "title": "2-ஆவது டெஸ்ட் போட்டி: முதல் நாளை உணவு இடைவேளையில் நியூசிலாந்து 77 ரன்களுக்கு 1 விக்கெட் இழப்பு",
       "source_id": "maalai_malar"
+    },
+    "b66e78aa6895d75eb1b97a84cec3bf7791b38baf9d6a49d08cf179caea11916b": {
+      "timestamp": "2026-11-27T03:21:19.349437+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cx24ez3400q2o?at_medium=RSS&at_campaign=rss",
+      "title": "இந்தியாவில் உணவுப் பொருட்களின் விலை தொடர்ந்து உயர்வது ஏன்? ஏழைக் குடும்பங்களை அதிகம் பாதிக்கும் பணவீக்கம்",
+      "source_id": "bbc_tamil"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T11:49:02.009627+00:00",
-  "count": 754,
+  "last_updated": "2026-11-27T12:58:21.551135+00:00",
+  "count": 755,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4525,6 +4525,12 @@
       "timestamp": "2026-11-27T11:49:02.009605+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-cm-vijay-reviews-rainfall-impact",
       "title": "பருவமழை குறைவால் ஏற்படும் பாதிப்புகள் குறித்து முதல்-அமைச்சர் விஜய் ஆய்வு",
+      "source_id": "daily_thanthi"
+    },
+    "2949fb2f27d4e77fde0412e04ed5a8f10311d6d2c71f0b399f653c4417525d2a": {
+      "timestamp": "2026-11-27T12:58:21.551110+00:00",
+      "url": "https://www.dailythanthi.com/news/india/india-rejects-us-excess-capacity-charge-says-no-sector-has-overproduction-as-it-faces-tariffs-of-up-to-25",
+      "title": "சந்தையை சீர்குலைக்கும் அதிகப்படியான உற்பத்தி: அமெரிக்காவின் குற்றச்சாட்டுக்கு இந்தியா மறுப்பு",
       "source_id": "daily_thanthi"
     }
   }

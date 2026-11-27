@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T18:26:02.815613+00:00",
-  "count": 760,
+  "last_updated": "2026-11-27T19:37:43.372720+00:00",
+  "count": 761,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4562,6 +4562,12 @@
       "url": "https://www.hindutamil.in/news/business/make-in-india-faces-trumps-new-threat-explainer",
       "title": "ட்ரம்ப்பை நடுங்க வைக்கிறதா ‘மேக் இன் இந்தியா’? - அமெரிக்க முட்டுக்கட்டை முயற்சியும் பின்புலமும்",
       "source_id": "hindu_tamil"
+    },
+    "e2c1871877cfdc58f4ed1903b909183e5c26befebdd90b3a77eb6c74905f1132": {
+      "timestamp": "2026-11-27T19:37:43.372691+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/fellow-police-officer-arrested-for-cheating-on-female-police-officer-by-falling-in-love",
+      "title": "பெண் போலீசை காதலித்து ஏமாற்றியதாக, சக போலீஸ்காரர் கைது",
+      "source_id": "daily_thanthi"
     }
   }
 }

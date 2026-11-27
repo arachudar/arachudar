@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T21:32:14.936773+00:00",
-  "count": 763,
+  "last_updated": "2026-11-27T22:33:54.299738+00:00",
+  "count": 764,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4579,6 +4579,12 @@
       "timestamp": "2026-11-27T21:32:14.936757+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/anbil-mahesh-case-judge-recuses-himself-from-case-seeking-transfer-to-cbi-probe",
       "title": "அன்பில் மகேஷ் மீதான வழக்கு: சி.பி.ஐ. விசாரணைக்கு மாற்றக்கோரிய வழக்கில் இருந்து நீதிபதி விலகல்",
+      "source_id": "daily_thanthi"
+    },
+    "5a6c0ed3938f371fa75d100db259a5d76fdbbb5ca8cf79833546ee8bd05fd7f8": {
+      "timestamp": "2026-11-27T22:33:54.299720+00:00",
+      "url": "https://www.dailythanthi.com/news/india/central-government-warns-of-5-times-fine-for-hiding-vehicle-registration-number",
+      "title": "தடையற்ற சுங்கச்சாவடிகளில் செல்லும்போது  வாகனப் பதிவு எண்ணை மறைத்தால் 5 மடங்கு அபராதம் மத்திய அரசு எச்சரிக்கை",
       "source_id": "daily_thanthi"
     }
   }

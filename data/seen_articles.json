@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T23:45:58.087944+00:00",
-  "count": 744,
+  "last_updated": "2026-11-27T00:57:11.878742+00:00",
+  "count": 745,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4466,6 +4466,12 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/not-respecting-court-order-not-chief-secretarys-order-hc/4387295",
       "title": "நீதிமன்ற உத்தரவுக்கு தான் மரியாதை இல்லை; தலைமை செயலரின் உத்தரவுக்கும் இல்லையா: ஐகோர்ட் கேள்வி",
       "source_id": "dinamalar"
+    },
+    "ac55667afbd20c1116f2a6b33130572546a1a9738aa5bf448a0590ca4c20613c": {
+      "timestamp": "2026-11-27T00:57:11.878723+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/%E0%AE%9C%E0%AE%A9%E0%AE%BE%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AE%BF-%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%B5%E0%AF%81%E0%AE%AA%E0%AE%A4%E0%AE%BF-%E0%AE%AE%E0%AF%81%E0%AE%B0%E0%AF%8D%E0%AE%AE%E0%AF%81-%E0%AE%87%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81-%E0%AE%95%E0%AF%87%E0%AE%B0%E0%AE%B3%E0%AE%BE-%E0%AE%B5%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%88",
+      "title": "ஜனாதிபதி திரவுபதி முர்மு இன்று கேரளா வருகை",
+      "source_id": "daily_thanthi"
     }
   }
 }

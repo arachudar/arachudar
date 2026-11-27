@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T17:33:14.150517+00:00",
-  "count": 759,
+  "last_updated": "2026-11-27T18:26:02.815613+00:00",
+  "count": 760,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4556,6 +4556,12 @@
       "url": "https://www.vikatan.com/crime/pocso-case-filed-against-a-nursing-woman-student-in-nagercoil",
       "title": "இன்ஸ்டாவில் பழகிய சிறுவன் மூலம் கர்ப்பம்; நர்சிங் மாணவி மீது போக்சோ வழக்கு பதிவு!",
       "source_id": "vikatan"
+    },
+    "4218ebfa926231435d2799074ddb5e5a2e782f02f3a153764f02aa690a68f652": {
+      "timestamp": "2026-11-27T18:26:02.815593+00:00",
+      "url": "https://www.hindutamil.in/news/business/make-in-india-faces-trumps-new-threat-explainer",
+      "title": "ட்ரம்ப்பை நடுங்க வைக்கிறதா ‘மேக் இன் இந்தியா’? - அமெரிக்க முட்டுக்கட்டை முயற்சியும் பின்புலமும்",
+      "source_id": "hindu_tamil"
     }
   }
 }

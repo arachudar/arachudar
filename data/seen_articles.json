@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T09:45:11.879509+00:00",
-  "count": 752,
+  "last_updated": "2026-11-27T10:48:04.251524+00:00",
+  "count": 753,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4514,6 +4514,12 @@
       "url": "https://www.hindutamil.in/news/cinema/tamil-cinema/ags29-movie-shooting-warped",
       "title": "ஜெய் நடிக்கும் படத்தின் ஷூட்டிங் நிறைவு",
       "source_id": "hindu_tamil"
+    },
+    "de0b4877d70af560f967cb344f88563421ebd5a31d5c4a19d1d12bec30aaef6d": {
+      "timestamp": "2026-11-27T10:48:04.251503+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/dhruv-jurel-india-dream-cricket-opportunity",
+      "title": "'இந்திய அணிக்காக விளையாடுவது கனவு... வாய்ப்புகளை வீணாக்க மாட்டேன்' - துருவ் ஜுரெல்",
+      "source_id": "daily_thanthi"
     }
   }
 }

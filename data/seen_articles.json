@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T05:55:10.192615+00:00",
-  "count": 749,
+  "last_updated": "2026-11-27T07:00:48.830663+00:00",
+  "count": 750,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4496,6 +4496,12 @@
       "url": "https://www.dailythanthi.com/news/india/a-group-of-monkeys-surrounded-the-taj-mahal-tourists-ran-away-screaming",
       "title": "தாஜ்மஹாலைச் சுற்றிவளைத்த குரங்குகள் கூட்டம்: அலறியடுத்து ஓடிய சுற்றுலா பயணிகள்!",
       "source_id": "daily_thanthi"
+    },
+    "ee2b40238b098ef5ce6141c77e673bdaff322aafd05aaee9679bbe47eb2ecc7f": {
+      "timestamp": "2026-11-27T07:00:48.830643+00:00",
+      "url": "https://www.maalaimalar.com/news/tamilnadu/manickam-thakur-condemns-ashwini-vaishnaw",
+      "title": "முருக பக்தர்களின் மனதைப் புண்படுத்தாதீர்கள்..!- மத்திய அமைச்சருக்கு மாணிக்கம் தாகூர் கண்டனம்",
+      "source_id": "maalai_malar"
     }
   }
 }

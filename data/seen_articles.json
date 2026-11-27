@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T00:57:11.878742+00:00",
-  "count": 745,
+  "last_updated": "2026-11-27T02:17:14.984500+00:00",
+  "count": 746,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4472,6 +4472,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/%E0%AE%9C%E0%AE%A9%E0%AE%BE%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AE%BF-%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%B5%E0%AF%81%E0%AE%AA%E0%AE%A4%E0%AE%BF-%E0%AE%AE%E0%AF%81%E0%AE%B0%E0%AF%8D%E0%AE%AE%E0%AF%81-%E0%AE%87%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81-%E0%AE%95%E0%AF%87%E0%AE%B0%E0%AE%B3%E0%AE%BE-%E0%AE%B5%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%88",
       "title": "ஜனாதிபதி திரவுபதி முர்மு இன்று கேரளா வருகை",
       "source_id": "daily_thanthi"
+    },
+    "8e7c905e3b40e5908ecbac66f6a429128a755bbc76041367babe29c3cd755974": {
+      "timestamp": "2026-11-27T02:17:14.984485+00:00",
+      "url": "https://www.maalaimalar.com/sports/cricket/new-zealand-reach-77-for-one-at-lunch-on-day-one-of-second-test-against-india",
+      "title": "2-ஆவது டெஸ்ட் போட்டி: முதல் நாளை உணவு இடைவேளையில் நியூசிலாந்து 77 ரன்களுக்கு 1 விக்கெட் இழப்பு",
+      "source_id": "maalai_malar"
     }
   }
 }

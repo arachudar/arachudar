@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T07:00:48.830663+00:00",
-  "count": 750,
+  "last_updated": "2026-11-27T08:32:44.213499+00:00",
+  "count": 751,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4502,6 +4502,12 @@
       "url": "https://www.maalaimalar.com/news/tamilnadu/manickam-thakur-condemns-ashwini-vaishnaw",
       "title": "முருக பக்தர்களின் மனதைப் புண்படுத்தாதீர்கள்..!- மத்திய அமைச்சருக்கு மாணிக்கம் தாகூர் கண்டனம்",
       "source_id": "maalai_malar"
+    },
+    "98289ca721bef74670c115b301f7ec4634276da98a7e1010c6c5056a409b8f79": {
+      "timestamp": "2026-11-27T08:32:44.213477+00:00",
+      "url": "https://www.dailythanthi.com/ampstories/photo-story/actress-mrunal-thakur-latest-clicks-3",
+      "title": "நடிகை மிருணாள் தாகூரின் லேட்டஸ்ட் கிளிக்ஸ்!",
+      "source_id": "daily_thanthi"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T03:21:19.349459+00:00",
-  "count": 747,
+  "last_updated": "2026-11-27T04:41:39.313282+00:00",
+  "count": 748,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4484,6 +4484,12 @@
       "url": "https://www.bbc.com/tamil/articles/cx24ez3400q2o?at_medium=RSS&at_campaign=rss",
       "title": "இந்தியாவில் உணவுப் பொருட்களின் விலை தொடர்ந்து உயர்வது ஏன்? ஏழைக் குடும்பங்களை அதிகம் பாதிக்கும் பணவீக்கம்",
       "source_id": "bbc_tamil"
+    },
+    "213788afcc12bc1c4816627888b41c8d2d5a67772c2ffba6d854eaa90a46698e": {
+      "timestamp": "2026-11-27T04:41:39.313262+00:00",
+      "url": "https://www.dinamani.com/tamilnadu/2026/Nov/27/udhayanidhi-received-birthday-wishes-from-his-parents",
+      "title": "‘அன்பும் - முத்தங்களும்’.. பிறந்த நாளையொட்டி பெற்றோரிடம் வாழ்த்து பெற்ற உதயநிதி!",
+      "source_id": "dinamani"
     }
   }
 }

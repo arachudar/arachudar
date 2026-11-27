@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T14:18:37.311758+00:00",
-  "count": 756,
+  "last_updated": "2026-11-27T15:20:01.030800+00:00",
+  "count": 757,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4538,6 +4538,12 @@
       "url": "https://www.dailythanthi.com/cinema/cinemanews/when-will-the-first-song-from-the-film-pocket-novel-be-released-announcement-by-gv-prakash",
       "title": "‘பாக்கெட் நாவல்’ படத்தின் முதல் பாடல் எப்போது? - ஜி.வி.பிரகாஷ் வெளியிட்ட அறிவிப்பு",
       "source_id": "daily_thanthi"
+    },
+    "98538330cfc38ee2335d546de384bcfae5f6c992ff3c54fa68b32571d8c49c77": {
+      "timestamp": "2026-11-27T15:20:01.030772+00:00",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/seven-missing-fishermen-reunited-with-their-families-after-eight-daysat-sea/article71751345.ece",
+      "title": "Seven missing fishermen  reunited with their families after eight days at sea",
+      "source_id": "the_hindu"
     }
   }
 }

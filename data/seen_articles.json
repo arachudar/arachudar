@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T20:31:59.857340+00:00",
-  "count": 762,
+  "last_updated": "2026-11-27T21:32:14.936773+00:00",
+  "count": 763,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4573,6 +4573,12 @@
       "timestamp": "2026-11-27T20:31:59.857319+00:00",
       "url": "https://www.dailythanthi.com/astrology/today-rasi-palan/todays-horoscope-november-28-2026",
       "title": "முக்கியமான சந்திப்பு ஒன்று எதிர்கால முன்னேற்றத்திற்கு வழிவகுக்கும் -இன்றைய ராசிபலன்;நவம்பர் 28, 2026",
+      "source_id": "daily_thanthi"
+    },
+    "2f62d93516ae4b89ae81eee7eb25ae65a3e2983a7f5d980067977de6e4aafcb8": {
+      "timestamp": "2026-11-27T21:32:14.936757+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/anbil-mahesh-case-judge-recuses-himself-from-case-seeking-transfer-to-cbi-probe",
+      "title": "அன்பில் மகேஷ் மீதான வழக்கு: சி.பி.ஐ. விசாரணைக்கு மாற்றக்கோரிய வழக்கில் இருந்து நீதிபதி விலகல்",
       "source_id": "daily_thanthi"
     }
   }

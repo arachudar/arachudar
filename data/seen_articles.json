@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T10:48:04.251524+00:00",
-  "count": 753,
+  "last_updated": "2026-11-27T11:49:02.009627+00:00",
+  "count": 754,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4519,6 +4519,12 @@
       "timestamp": "2026-11-27T10:48:04.251503+00:00",
       "url": "https://www.dailythanthi.com/sports/cricket/dhruv-jurel-india-dream-cricket-opportunity",
       "title": "'இந்திய அணிக்காக விளையாடுவது கனவு... வாய்ப்புகளை வீணாக்க மாட்டேன்' - துருவ் ஜுரெல்",
+      "source_id": "daily_thanthi"
+    },
+    "a63fcad67d91cb45b19d0c7d7c7cc36ef6df8945b37abb61d4bf0fb1360413bc": {
+      "timestamp": "2026-11-27T11:49:02.009605+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tamil-nadu-cm-vijay-reviews-rainfall-impact",
+      "title": "பருவமழை குறைவால் ஏற்படும் பாதிப்புகள் குறித்து முதல்-அமைச்சர் விஜய் ஆய்வு",
       "source_id": "daily_thanthi"
     }
   }

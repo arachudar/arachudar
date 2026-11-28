@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T06:56:35.543305+00:00",
-  "count": 772,
+  "last_updated": "2026-11-28T08:10:08.508306+00:00",
+  "count": 773,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4634,6 +4634,12 @@
       "url": "https://www.dailythanthi.com/sports/cricket/rohit-sharma-seeks-support-during-tough-times",
       "title": "கடினமான நேரத்தில் உங்களுடைய ஆதரவு தேவை: ரோகித் சர்மா வேண்டுகோள்",
       "source_id": "daily_thanthi"
+    },
+    "a926bbff3919039f379e76e8213941392a8af0506ae5b5537528f5b60e78b627": {
+      "timestamp": "2026-11-28T08:10:08.508282+00:00",
+      "url": "https://tamil.asianetnews.com/gallery/cinema/rajinikanth-wants-to-play-a-full-length-villain-role-director-karthik-subbaraj-reveals-001150p",
+      "title": "Rajinikanth : மதுரை கதைகளத்தில் வில்லனாக ரஜினி! 'டோரதி' இயக்குநர் கார்த்திக் சுப்புராஜ் சொன்ன சீக்ரெட்",
+      "source_id": "asianet_tamil"
     }
   }
 }

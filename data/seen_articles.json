@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T10:09:43.650901+00:00",
-  "count": 775,
+  "last_updated": "2026-11-28T11:06:31.435891+00:00",
+  "count": 776,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4651,6 +4651,12 @@
       "timestamp": "2026-11-28T10:09:43.650880+00:00",
       "url": "https://www.dailythanthi.com/news/tamilnadu/happy-that-dmk-has-expressed-support-for-the-constituency-redelineation-bill-tamilisai",
       "title": "தொகுதி மறுவரையறை மசோதாவுக்கு தி.மு.க. ஆதரவு தெரிவித்திருப்பது மகிழ்ச்சி அளிக்கிறது - தமிழிசை",
+      "source_id": "daily_thanthi"
+    },
+    "4098cef5af50c4e4a32c839edfd17dbb5fb925ce63722f539e5391bd525ace57": {
+      "timestamp": "2026-11-28T11:06:31.435873+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/singappen-loan-scheme-for-women-to-start-self-employment-applications-welcome",
+      "title": "பெண்கள் சுயதொழில் தொடங்க ‘சிங்கப்பெண் கடன்’ திட்டம்: விண்ணப்பங்கள் வரவேற்பு",
       "source_id": "daily_thanthi"
     }
   }

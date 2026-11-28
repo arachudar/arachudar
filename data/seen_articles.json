@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T05:50:16.007889+00:00",
-  "count": 771,
+  "last_updated": "2026-11-28T06:56:35.543305+00:00",
+  "count": 772,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4628,6 +4628,12 @@
       "url": "https://www.vikatan.com/government-and-politics/thiruparankundram-deepam-issue-hindu-organizations-welcome-crpf-personnel-by-showering-them-with-flowers",
       "title": "திருப்பரங்குன்றம் தீப விவகாரம்: CRPF வீரர்களை மலர் தூவி வரவேற்ற இந்து அமைப்பினர்!",
       "source_id": "vikatan"
+    },
+    "f974c3a8f2b04bad2140e164dbb892226e324035ca80d1aebbbed4dcf3820898": {
+      "timestamp": "2026-11-28T06:56:35.543286+00:00",
+      "url": "https://www.dailythanthi.com/sports/cricket/rohit-sharma-seeks-support-during-tough-times",
+      "title": "கடினமான நேரத்தில் உங்களுடைய ஆதரவு தேவை: ரோகித் சர்மா வேண்டுகோள்",
+      "source_id": "daily_thanthi"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T00:28:44.073278+00:00",
-  "count": 766,
+  "last_updated": "2026-11-28T01:56:25.040177+00:00",
+  "count": 767,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4598,6 +4598,12 @@
       "url": "https://www.dailythanthi.com/news/world/switzerland-forced-to-close-office-in-north-korea-over-sanctions-feud",
       "title": "பொருளாதார தடைக்கு பதிலடியாக சுவிட்சர்லாந்து தூதரகத்தை மூடியது வடகொரியா",
       "source_id": "daily_thanthi"
+    },
+    "4c5c6afea4126b06db27d604ce12079c26f3e22d095d2c4dd56e0a10a1888afe": {
+      "timestamp": "2026-11-28T01:56:25.040163+00:00",
+      "url": "https://www.maalaimalar.com/sports/cricket/new-zealand-reach-330-for-8-at-lunch-on-day-2-of-the-second-test-against-india",
+      "title": "2-ஆவது டெஸ்ட் போட்டி: இரண்டாம் நாள் உணவு இடைவேளை வரை நியூசிலாந்து அணி 330/8",
+      "source_id": "maalai_malar"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T12:02:52.625428+00:00",
-  "count": 777,
+  "last_updated": "2026-11-28T13:22:01.777957+00:00",
+  "count": 778,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4664,6 +4664,12 @@
       "url": "https://www.dailythanthi.com/news/tamilnadu/additional-coaches-added-to-trichy-srikanganagar-train",
       "title": "திருச்சி-ஸ்ரீகங்காநகர் ரெயிலில் கூடுதல் பெட்டிகள் இணைப்பு",
       "source_id": "daily_thanthi"
+    },
+    "81c2c0358571bf96cc8efaf15cb90625ef9b7eb1d9a2bc0b1ace5a3515665ab4": {
+      "timestamp": "2026-11-28T13:22:01.777934+00:00",
+      "url": "https://www.maalaimalar.com/news/national/air-india-22000-crore-loss-restructuring-continues",
+      "title": "ரூ.22,000 கோடி நஷ்டம்: ஆனாலும் ஏர் இந்தியா சீரமைப்பு தொடரும்- இயக்குநர் குழு உறுதி",
+      "source_id": "maalai_malar"
     }
   }
 }

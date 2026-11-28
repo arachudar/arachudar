@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T01:56:25.040177+00:00",
-  "count": 767,
+  "last_updated": "2026-11-28T02:46:10.645415+00:00",
+  "count": 768,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4604,6 +4604,12 @@
       "url": "https://www.maalaimalar.com/sports/cricket/new-zealand-reach-330-for-8-at-lunch-on-day-2-of-the-second-test-against-india",
       "title": "2-ஆவது டெஸ்ட் போட்டி: இரண்டாம் நாள் உணவு இடைவேளை வரை நியூசிலாந்து அணி 330/8",
       "source_id": "maalai_malar"
+    },
+    "0ae65aabe3f5aa26df457ce6e4c746bbd0ae615218599ab02c34fd3115f8a5fa": {
+      "timestamp": "2026-11-28T02:46:10.645390+00:00",
+      "url": "https://www.bbc.com/tamil/articles/cmewvyqvp728o?at_medium=RSS&at_campaign=rss",
+      "title": "திருப்பரங்குன்றம்: உச்ச நீதிமன்ற உத்தரவைச் செயல்படுத்தாவிட்டால் தமிழக அரசுக்கு சிக்கலாகுமா?",
+      "source_id": "bbc_tamil"
     }
   }
 }

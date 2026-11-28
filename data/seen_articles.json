@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T09:10:15.605359+00:00",
-  "count": 774,
+  "last_updated": "2026-11-28T10:09:43.650901+00:00",
+  "count": 775,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4645,6 +4645,12 @@
       "timestamp": "2026-11-28T09:10:15.605335+00:00",
       "url": "https://www.dailythanthi.com/news/world/egypt-2200-year-old-underground-tunnel-discovered",
       "title": "எகிப்து: 2,200 ஆண்டுகள் பழமையான நிலத்தடி சுரங்கப்பாதை கண்டுபிடிப்பு!",
+      "source_id": "daily_thanthi"
+    },
+    "da793447110b5401aec3a2b02aaa268fb6cead60b4d05cf9750405e87a3e2d05": {
+      "timestamp": "2026-11-28T10:09:43.650880+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/happy-that-dmk-has-expressed-support-for-the-constituency-redelineation-bill-tamilisai",
+      "title": "தொகுதி மறுவரையறை மசோதாவுக்கு தி.மு.க. ஆதரவு தெரிவித்திருப்பது மகிழ்ச்சி அளிக்கிறது - தமிழிசை",
       "source_id": "daily_thanthi"
     }
   }

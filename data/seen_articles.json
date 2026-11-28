@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T14:26:27.927730+00:00",
-  "count": 779,
+  "last_updated": "2026-11-28T15:25:24.349440+00:00",
+  "count": 780,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4676,6 +4676,12 @@
       "url": "https://www.bbc.com/tamil/articles/cr62pl9q61gno?at_medium=RSS&at_campaign=rss",
       "title": "திருப்பரங்குன்றம் மலை உச்சியில் தீபம் ஏற்றப்பட்டது -  என்ன நடக்கிறது?",
       "source_id": "bbc_tamil"
+    },
+    "b9ce99a9de70da923a8a408af60287acd63e9635cfbbd66a954c99f19cda0f5b": {
+      "timestamp": "2026-11-28T15:25:24.349420+00:00",
+      "url": "https://www.vikatan.com/government-and-politics/mp-kanimozhi-has-stated-that-the-tvk-government-has-reduced-state-rights-to-ashes-today",
+      "title": "``மாநில உரிமைகளை இன்று எரித்துச் சாம்பலாக்கி இருக்கிறது தவெக\" - எம்.பி கனிமொழி",
+      "source_id": "vikatan"
     }
   }
 }

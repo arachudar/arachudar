@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-28T03:47:39.176062+00:00",
-  "count": 769,
+  "last_updated": "2026-11-28T04:52:45.924292+00:00",
+  "count": 770,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4616,6 +4616,12 @@
       "url": "https://www.maalaimalar.com/news/tamilnadu/ttv-dhinakaran-says-when-will-action-be-taken-against-everyone-including-the-chief-minister-who-covered-up-and-shielded-the-crime",
       "title": "குற்றத்தை மூடி மறைத்துப் பாதுகாத்த முதலமைச்சர் உட்பட அனைவரின் மீதான நடவடிக்கை எப்போது?- தினகரன் கேள்வி",
       "source_id": "maalai_malar"
+    },
+    "da629f9796ca8e7ada70b71d7406836ae1457059319fb473c6f92a9f87e97dcc": {
+      "timestamp": "2026-11-28T04:52:45.924269+00:00",
+      "url": "https://www.dailythanthi.com/news/tamilnadu/tirupparankundram-deepathoon-lighting-supreme-court-order",
+      "title": "திருப்பரங்குன்றம் தீபத்தூணில் இன்று தீபம் ஏற்றம்",
+      "source_id": "daily_thanthi"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-27T23:30:11.456509+00:00",
-  "count": 765,
+  "last_updated": "2026-11-28T00:28:44.073278+00:00",
+  "count": 766,
   "hashes": {
     "bd085f467a1a31a8da04636537a2f50ace627c24ce7435f2f0f6e21c08dbeb61": {
       "timestamp": "2026-11-11T00:20:27.894289+00:00",
@@ -4592,6 +4592,12 @@
       "url": "https://www.dinamalar.com/news/latest-tamil-news/5-security-flaws-in-whatsapp-governments-computer-action-committee-warns/4388189",
       "title": "வாட்ஸாப்பில் 5 பாதுகாப்பு குறைபாடுகள்: அரசின் கணினி நடவடிக்கை குழு எச்சரிக்கை",
       "source_id": "dinamalar"
+    },
+    "0b87e603f55c83966c2d2af82527f69f6f160e00f3394dc90dc9f97fa42a8332": {
+      "timestamp": "2026-11-28T00:28:44.073262+00:00",
+      "url": "https://www.dailythanthi.com/news/world/switzerland-forced-to-close-office-in-north-korea-over-sanctions-feud",
+      "title": "பொருளாதார தடைக்கு பதிலடியாக சுவிட்சர்லாந்து தூதரகத்தை மூடியது வடகொரியா",
+      "source_id": "daily_thanthi"
     }
   }
 }
